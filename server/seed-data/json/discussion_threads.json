@@ -1,0 +1,1522 @@
+[
+ {
+  "id": "THR-FY101-1",
+  "subjectCode": "FY101",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2026IT006",
+  "authorRole": "student",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "THR-FY101-2",
+  "subjectCode": "FY101",
+  "title": "Important topics for midsem?",
+  "authorId": "2026ECE004",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-FY102-1",
+  "subjectCode": "FY102",
+  "title": "Important topics for midsem?",
+  "authorId": "2026ECE007",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ },
+ {
+  "id": "THR-FY102-2",
+  "subjectCode": "FY102",
+  "title": "Can someone share worked examples?",
+  "authorId": "2026CSE004",
+  "authorRole": "student",
+  "createdAt": "2026-10-06"
+ },
+ {
+  "id": "THR-FY103-1",
+  "subjectCode": "FY103",
+  "title": "Can someone share worked examples?",
+  "authorId": "2026ECE002",
+  "authorRole": "student",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "THR-FY103-2",
+  "subjectCode": "FY103",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2026ME003",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-FY104-1",
+  "subjectCode": "FY104",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2026AIML004",
+  "authorRole": "student",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "THR-FY104-2",
+  "subjectCode": "FY104",
+  "title": "Best reference book for this subject?",
+  "authorId": "2026CE002",
+  "authorRole": "student",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "THR-FY105-1",
+  "subjectCode": "FY105",
+  "title": "Best reference book for this subject?",
+  "authorId": "2026CE001",
+  "authorRole": "student",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "THR-FY105-2",
+  "subjectCode": "FY105",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2026CSE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "THR-CSE301-1",
+  "subjectCode": "CSE301",
+  "title": "Can someone share worked examples?",
+  "authorId": "2025CSE012",
+  "authorRole": "student",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "THR-CSE301-2",
+  "subjectCode": "CSE301",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2025CSE001",
+  "authorRole": "student",
+  "createdAt": "2026-10-07"
+ },
+ {
+  "id": "THR-CSE302-1",
+  "subjectCode": "CSE302",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2025CSE010",
+  "authorRole": "student",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "THR-CSE302-2",
+  "subjectCode": "CSE302",
+  "title": "Best reference book for this subject?",
+  "authorId": "2025CSE008",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-CSE303-1",
+  "subjectCode": "CSE303",
+  "title": "Best reference book for this subject?",
+  "authorId": "2025CSE008",
+  "authorRole": "student",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "THR-CSE303-2",
+  "subjectCode": "CSE303",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2025CSE001",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ },
+ {
+  "id": "THR-CSE304-1",
+  "subjectCode": "CSE304",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2025CSE011",
+  "authorRole": "student",
+  "createdAt": "2026-10-07"
+ },
+ {
+  "id": "THR-CSE304-2",
+  "subjectCode": "CSE304",
+  "title": "Important topics for midsem?",
+  "authorId": "2025CSE008",
+  "authorRole": "student",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "THR-CSE305-1",
+  "subjectCode": "CSE305",
+  "title": "Important topics for midsem?",
+  "authorId": "2025CSE004",
+  "authorRole": "student",
+  "createdAt": "2026-10-05"
+ },
+ {
+  "id": "THR-CSE305-2",
+  "subjectCode": "CSE305",
+  "title": "Can someone share worked examples?",
+  "authorId": "2025CSE008",
+  "authorRole": "student",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "THR-AIML301-1",
+  "subjectCode": "AIML301",
+  "title": "Best reference book for this subject?",
+  "authorId": "2025AIML009",
+  "authorRole": "student",
+  "createdAt": "2026-10-03"
+ },
+ {
+  "id": "THR-AIML301-2",
+  "subjectCode": "AIML301",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2025AIML004",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-AIML302-1",
+  "subjectCode": "AIML302",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2025AIML004",
+  "authorRole": "student",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "THR-AIML302-2",
+  "subjectCode": "AIML302",
+  "title": "Important topics for midsem?",
+  "authorId": "2025AIML007",
+  "authorRole": "student",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "THR-AIML303-1",
+  "subjectCode": "AIML303",
+  "title": "Important topics for midsem?",
+  "authorId": "2025AIML009",
+  "authorRole": "student",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "THR-AIML303-2",
+  "subjectCode": "AIML303",
+  "title": "Can someone share worked examples?",
+  "authorId": "2025AIML001",
+  "authorRole": "student",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "THR-AIML304-1",
+  "subjectCode": "AIML304",
+  "title": "Can someone share worked examples?",
+  "authorId": "2025AIML007",
+  "authorRole": "student",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "THR-AIML304-2",
+  "subjectCode": "AIML304",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2025AIML004",
+  "authorRole": "student",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "THR-AIML305-1",
+  "subjectCode": "AIML305",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2025AIML006",
+  "authorRole": "student",
+  "createdAt": "2026-10-06"
+ },
+ {
+  "id": "THR-AIML305-2",
+  "subjectCode": "AIML305",
+  "title": "Best reference book for this subject?",
+  "authorId": "2025AIML004",
+  "authorRole": "student",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "THR-IT301-1",
+  "subjectCode": "IT301",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2025IT005",
+  "authorRole": "student",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "THR-IT301-2",
+  "subjectCode": "IT301",
+  "title": "Important topics for midsem?",
+  "authorId": "2025IT007",
+  "authorRole": "student",
+  "createdAt": "2026-10-04"
+ },
+ {
+  "id": "THR-IT302-1",
+  "subjectCode": "IT302",
+  "title": "Important topics for midsem?",
+  "authorId": "2025IT008",
+  "authorRole": "student",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "THR-IT302-2",
+  "subjectCode": "IT302",
+  "title": "Can someone share worked examples?",
+  "authorId": "2025IT008",
+  "authorRole": "student",
+  "createdAt": "2026-10-04"
+ },
+ {
+  "id": "THR-IT303-1",
+  "subjectCode": "IT303",
+  "title": "Can someone share worked examples?",
+  "authorId": "2025IT006",
+  "authorRole": "student",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "THR-IT303-2",
+  "subjectCode": "IT303",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2025IT002",
+  "authorRole": "student",
+  "createdAt": "2026-10-06"
+ },
+ {
+  "id": "THR-IT304-1",
+  "subjectCode": "IT304",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2025IT005",
+  "authorRole": "student",
+  "createdAt": "2026-10-06"
+ },
+ {
+  "id": "THR-IT304-2",
+  "subjectCode": "IT304",
+  "title": "Best reference book for this subject?",
+  "authorId": "2025IT001",
+  "authorRole": "student",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "THR-IT305-1",
+  "subjectCode": "IT305",
+  "title": "Best reference book for this subject?",
+  "authorId": "2025IT003",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-IT305-2",
+  "subjectCode": "IT305",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2025IT007",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ },
+ {
+  "id": "THR-ECE301-1",
+  "subjectCode": "ECE301",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2025ECE008",
+  "authorRole": "student",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "THR-ECE301-2",
+  "subjectCode": "ECE301",
+  "title": "Best reference book for this subject?",
+  "authorId": "2025ECE008",
+  "authorRole": "student",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "THR-ECE302-1",
+  "subjectCode": "ECE302",
+  "title": "Best reference book for this subject?",
+  "authorId": "2025ECE005",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ },
+ {
+  "id": "THR-ECE302-2",
+  "subjectCode": "ECE302",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2025ECE006",
+  "authorRole": "student",
+  "createdAt": "2026-10-07"
+ },
+ {
+  "id": "THR-ECE303-1",
+  "subjectCode": "ECE303",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2025ECE002",
+  "authorRole": "student",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "THR-ECE303-2",
+  "subjectCode": "ECE303",
+  "title": "Important topics for midsem?",
+  "authorId": "2025ECE008",
+  "authorRole": "student",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "THR-ECE304-1",
+  "subjectCode": "ECE304",
+  "title": "Important topics for midsem?",
+  "authorId": "2025ECE008",
+  "authorRole": "student",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "THR-ECE304-2",
+  "subjectCode": "ECE304",
+  "title": "Can someone share worked examples?",
+  "authorId": "2025ECE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "THR-ECE305-1",
+  "subjectCode": "ECE305",
+  "title": "Can someone share worked examples?",
+  "authorId": "2025ECE001",
+  "authorRole": "student",
+  "createdAt": "2026-10-05"
+ },
+ {
+  "id": "THR-ECE305-2",
+  "subjectCode": "ECE305",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2025ECE007",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ },
+ {
+  "id": "THR-ME301-1",
+  "subjectCode": "ME301",
+  "title": "Best reference book for this subject?",
+  "authorId": "2025ME006",
+  "authorRole": "student",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "THR-ME301-2",
+  "subjectCode": "ME301",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2025ME003",
+  "authorRole": "student",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "THR-ME302-1",
+  "subjectCode": "ME302",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2025ME006",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ },
+ {
+  "id": "THR-ME302-2",
+  "subjectCode": "ME302",
+  "title": "Important topics for midsem?",
+  "authorId": "2025ME003",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ },
+ {
+  "id": "THR-ME303-1",
+  "subjectCode": "ME303",
+  "title": "Important topics for midsem?",
+  "authorId": "2025ME007",
+  "authorRole": "student",
+  "createdAt": "2026-10-03"
+ },
+ {
+  "id": "THR-ME303-2",
+  "subjectCode": "ME303",
+  "title": "Can someone share worked examples?",
+  "authorId": "2025ME005",
+  "authorRole": "student",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "THR-ME304-1",
+  "subjectCode": "ME304",
+  "title": "Can someone share worked examples?",
+  "authorId": "2025ME005",
+  "authorRole": "student",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "THR-ME304-2",
+  "subjectCode": "ME304",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2025ME006",
+  "authorRole": "student",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "THR-ME305-1",
+  "subjectCode": "ME305",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2025ME003",
+  "authorRole": "student",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "THR-ME305-2",
+  "subjectCode": "ME305",
+  "title": "Best reference book for this subject?",
+  "authorId": "2025ME007",
+  "authorRole": "student",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "THR-CE301-1",
+  "subjectCode": "CE301",
+  "title": "Best reference book for this subject?",
+  "authorId": "2025CE004",
+  "authorRole": "student",
+  "createdAt": "2026-10-04"
+ },
+ {
+  "id": "THR-CE301-2",
+  "subjectCode": "CE301",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2025CE002",
+  "authorRole": "student",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "THR-CE302-1",
+  "subjectCode": "CE302",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2025CE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "THR-CE302-2",
+  "subjectCode": "CE302",
+  "title": "Important topics for midsem?",
+  "authorId": "2025CE004",
+  "authorRole": "student",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "THR-CE303-1",
+  "subjectCode": "CE303",
+  "title": "Important topics for midsem?",
+  "authorId": "2025CE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "THR-CE303-2",
+  "subjectCode": "CE303",
+  "title": "Can someone share worked examples?",
+  "authorId": "2025CE002",
+  "authorRole": "student",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "THR-CE304-1",
+  "subjectCode": "CE304",
+  "title": "Can someone share worked examples?",
+  "authorId": "2025CE005",
+  "authorRole": "student",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "THR-CE304-2",
+  "subjectCode": "CE304",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2025CE005",
+  "authorRole": "student",
+  "createdAt": "2026-10-07"
+ },
+ {
+  "id": "THR-CE305-1",
+  "subjectCode": "CE305",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2025CE005",
+  "authorRole": "student",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "THR-CE305-2",
+  "subjectCode": "CE305",
+  "title": "Best reference book for this subject?",
+  "authorId": "2025CE005",
+  "authorRole": "student",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "THR-CSE501-1",
+  "subjectCode": "CSE501",
+  "title": "Best reference book for this subject?",
+  "authorId": "2024CSE002",
+  "authorRole": "student",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "THR-CSE501-2",
+  "subjectCode": "CSE501",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2024CSE011",
+  "authorRole": "student",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "THR-CSE502-1",
+  "subjectCode": "CSE502",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2024CSE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-07"
+ },
+ {
+  "id": "THR-CSE502-2",
+  "subjectCode": "CSE502",
+  "title": "Important topics for midsem?",
+  "authorId": "2024CSE010",
+  "authorRole": "student",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "THR-CSE503-1",
+  "subjectCode": "CSE503",
+  "title": "Important topics for midsem?",
+  "authorId": "2024CSE005",
+  "authorRole": "student",
+  "createdAt": "2026-10-04"
+ },
+ {
+  "id": "THR-CSE503-2",
+  "subjectCode": "CSE503",
+  "title": "Can someone share worked examples?",
+  "authorId": "2024CSE010",
+  "authorRole": "student",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "THR-CSE504-1",
+  "subjectCode": "CSE504",
+  "title": "Can someone share worked examples?",
+  "authorId": "2024CSE009",
+  "authorRole": "student",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "THR-CSE504-2",
+  "subjectCode": "CSE504",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2024CSE001",
+  "authorRole": "student",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "THR-CSE505-1",
+  "subjectCode": "CSE505",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2024CSE009",
+  "authorRole": "student",
+  "createdAt": "2026-10-08"
+ },
+ {
+  "id": "THR-CSE505-2",
+  "subjectCode": "CSE505",
+  "title": "Best reference book for this subject?",
+  "authorId": "2024CSE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-08"
+ },
+ {
+  "id": "THR-AIML501-1",
+  "subjectCode": "AIML501",
+  "title": "Important topics for midsem?",
+  "authorId": "2024AIML005",
+  "authorRole": "student",
+  "createdAt": "2026-10-05"
+ },
+ {
+  "id": "THR-AIML501-2",
+  "subjectCode": "AIML501",
+  "title": "Can someone share worked examples?",
+  "authorId": "2024AIML008",
+  "authorRole": "student",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "THR-AIML502-1",
+  "subjectCode": "AIML502",
+  "title": "Can someone share worked examples?",
+  "authorId": "2024AIML004",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ },
+ {
+  "id": "THR-AIML502-2",
+  "subjectCode": "AIML502",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2024AIML003",
+  "authorRole": "student",
+  "createdAt": "2026-10-06"
+ },
+ {
+  "id": "THR-AIML503-1",
+  "subjectCode": "AIML503",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2024AIML006",
+  "authorRole": "student",
+  "createdAt": "2026-10-04"
+ },
+ {
+  "id": "THR-AIML503-2",
+  "subjectCode": "AIML503",
+  "title": "Best reference book for this subject?",
+  "authorId": "2024AIML002",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-AIML504-1",
+  "subjectCode": "AIML504",
+  "title": "Best reference book for this subject?",
+  "authorId": "2024AIML003",
+  "authorRole": "student",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "THR-AIML504-2",
+  "subjectCode": "AIML504",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2024AIML001",
+  "authorRole": "student",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "THR-AIML505-1",
+  "subjectCode": "AIML505",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2024AIML007",
+  "authorRole": "student",
+  "createdAt": "2026-10-05"
+ },
+ {
+  "id": "THR-AIML505-2",
+  "subjectCode": "AIML505",
+  "title": "Important topics for midsem?",
+  "authorId": "2024AIML001",
+  "authorRole": "student",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "THR-IT501-1",
+  "subjectCode": "IT501",
+  "title": "Can someone share worked examples?",
+  "authorId": "2024IT005",
+  "authorRole": "student",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "THR-IT501-2",
+  "subjectCode": "IT501",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2024IT002",
+  "authorRole": "student",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "THR-IT502-1",
+  "subjectCode": "IT502",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2024IT004",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-IT502-2",
+  "subjectCode": "IT502",
+  "title": "Best reference book for this subject?",
+  "authorId": "2024IT004",
+  "authorRole": "student",
+  "createdAt": "2026-10-03"
+ },
+ {
+  "id": "THR-IT503-1",
+  "subjectCode": "IT503",
+  "title": "Best reference book for this subject?",
+  "authorId": "2024IT008",
+  "authorRole": "student",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "THR-IT503-2",
+  "subjectCode": "IT503",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2024IT001",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-IT504-1",
+  "subjectCode": "IT504",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2024IT008",
+  "authorRole": "student",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "THR-IT504-2",
+  "subjectCode": "IT504",
+  "title": "Important topics for midsem?",
+  "authorId": "2024IT003",
+  "authorRole": "student",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "THR-IT505-1",
+  "subjectCode": "IT505",
+  "title": "Important topics for midsem?",
+  "authorId": "2024IT004",
+  "authorRole": "student",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "THR-IT505-2",
+  "subjectCode": "IT505",
+  "title": "Can someone share worked examples?",
+  "authorId": "2024IT008",
+  "authorRole": "student",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "THR-ECE501-1",
+  "subjectCode": "ECE501",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2024ECE005",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ },
+ {
+  "id": "THR-ECE501-2",
+  "subjectCode": "ECE501",
+  "title": "Important topics for midsem?",
+  "authorId": "2024ECE008",
+  "authorRole": "student",
+  "createdAt": "2026-10-06"
+ },
+ {
+  "id": "THR-ECE502-1",
+  "subjectCode": "ECE502",
+  "title": "Important topics for midsem?",
+  "authorId": "2024ECE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "THR-ECE502-2",
+  "subjectCode": "ECE502",
+  "title": "Can someone share worked examples?",
+  "authorId": "2024ECE002",
+  "authorRole": "student",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "THR-ECE503-1",
+  "subjectCode": "ECE503",
+  "title": "Can someone share worked examples?",
+  "authorId": "2024ECE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-04"
+ },
+ {
+  "id": "THR-ECE503-2",
+  "subjectCode": "ECE503",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2024ECE007",
+  "authorRole": "student",
+  "createdAt": "2026-10-06"
+ },
+ {
+  "id": "THR-ECE504-1",
+  "subjectCode": "ECE504",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2024ECE002",
+  "authorRole": "student",
+  "createdAt": "2026-10-07"
+ },
+ {
+  "id": "THR-ECE504-2",
+  "subjectCode": "ECE504",
+  "title": "Best reference book for this subject?",
+  "authorId": "2024ECE002",
+  "authorRole": "student",
+  "createdAt": "2026-10-04"
+ },
+ {
+  "id": "THR-ECE505-1",
+  "subjectCode": "ECE505",
+  "title": "Best reference book for this subject?",
+  "authorId": "2024ECE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-07"
+ },
+ {
+  "id": "THR-ECE505-2",
+  "subjectCode": "ECE505",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2024ECE005",
+  "authorRole": "student",
+  "createdAt": "2026-10-06"
+ },
+ {
+  "id": "THR-ME501-1",
+  "subjectCode": "ME501",
+  "title": "Important topics for midsem?",
+  "authorId": "2024ME007",
+  "authorRole": "student",
+  "createdAt": "2026-10-06"
+ },
+ {
+  "id": "THR-ME501-2",
+  "subjectCode": "ME501",
+  "title": "Can someone share worked examples?",
+  "authorId": "2024ME002",
+  "authorRole": "student",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "THR-ME502-1",
+  "subjectCode": "ME502",
+  "title": "Can someone share worked examples?",
+  "authorId": "2024ME003",
+  "authorRole": "student",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "THR-ME502-2",
+  "subjectCode": "ME502",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2024ME007",
+  "authorRole": "student",
+  "createdAt": "2026-10-04"
+ },
+ {
+  "id": "THR-ME503-1",
+  "subjectCode": "ME503",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2024ME003",
+  "authorRole": "student",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "THR-ME503-2",
+  "subjectCode": "ME503",
+  "title": "Best reference book for this subject?",
+  "authorId": "2024ME002",
+  "authorRole": "student",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "THR-ME504-1",
+  "subjectCode": "ME504",
+  "title": "Best reference book for this subject?",
+  "authorId": "2024ME002",
+  "authorRole": "student",
+  "createdAt": "2026-10-07"
+ },
+ {
+  "id": "THR-ME504-2",
+  "subjectCode": "ME504",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2024ME004",
+  "authorRole": "student",
+  "createdAt": "2026-10-05"
+ },
+ {
+  "id": "THR-ME505-1",
+  "subjectCode": "ME505",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2024ME005",
+  "authorRole": "student",
+  "createdAt": "2026-10-04"
+ },
+ {
+  "id": "THR-ME505-2",
+  "subjectCode": "ME505",
+  "title": "Important topics for midsem?",
+  "authorId": "2024ME003",
+  "authorRole": "student",
+  "createdAt": "2026-10-08"
+ },
+ {
+  "id": "THR-CE501-1",
+  "subjectCode": "CE501",
+  "title": "Important topics for midsem?",
+  "authorId": "2024CE005",
+  "authorRole": "student",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "THR-CE501-2",
+  "subjectCode": "CE501",
+  "title": "Can someone share worked examples?",
+  "authorId": "2024CE001",
+  "authorRole": "student",
+  "createdAt": "2026-10-08"
+ },
+ {
+  "id": "THR-CE502-1",
+  "subjectCode": "CE502",
+  "title": "Can someone share worked examples?",
+  "authorId": "2024CE001",
+  "authorRole": "student",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "THR-CE502-2",
+  "subjectCode": "CE502",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2024CE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-06"
+ },
+ {
+  "id": "THR-CE503-1",
+  "subjectCode": "CE503",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2024CE004",
+  "authorRole": "student",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "THR-CE503-2",
+  "subjectCode": "CE503",
+  "title": "Best reference book for this subject?",
+  "authorId": "2024CE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "THR-CE504-1",
+  "subjectCode": "CE504",
+  "title": "Best reference book for this subject?",
+  "authorId": "2024CE004",
+  "authorRole": "student",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "THR-CE504-2",
+  "subjectCode": "CE504",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2024CE005",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ },
+ {
+  "id": "THR-CE505-1",
+  "subjectCode": "CE505",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2024CE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-CE505-2",
+  "subjectCode": "CE505",
+  "title": "Important topics for midsem?",
+  "authorId": "2024CE004",
+  "authorRole": "student",
+  "createdAt": "2026-10-08"
+ },
+ {
+  "id": "THR-CSE701-1",
+  "subjectCode": "CSE701",
+  "title": "Important topics for midsem?",
+  "authorId": "2023CSE013",
+  "authorRole": "student",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "THR-CSE701-2",
+  "subjectCode": "CSE701",
+  "title": "Can someone share worked examples?",
+  "authorId": "2023CSE007",
+  "authorRole": "student",
+  "createdAt": "2026-10-03"
+ },
+ {
+  "id": "THR-CSE702-1",
+  "subjectCode": "CSE702",
+  "title": "Can someone share worked examples?",
+  "authorId": "2023CSE008",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ },
+ {
+  "id": "THR-CSE702-2",
+  "subjectCode": "CSE702",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2023CSE011",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-CSE703-1",
+  "subjectCode": "CSE703",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2023CSE011",
+  "authorRole": "student",
+  "createdAt": "2026-10-08"
+ },
+ {
+  "id": "THR-CSE703-2",
+  "subjectCode": "CSE703",
+  "title": "Best reference book for this subject?",
+  "authorId": "2023CSE009",
+  "authorRole": "student",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "THR-CSE704-1",
+  "subjectCode": "CSE704",
+  "title": "Best reference book for this subject?",
+  "authorId": "2023CSE004",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ },
+ {
+  "id": "THR-CSE704-2",
+  "subjectCode": "CSE704",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2023CSE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-03"
+ },
+ {
+  "id": "THR-CSE705-1",
+  "subjectCode": "CSE705",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2023CSE004",
+  "authorRole": "student",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "THR-CSE705-2",
+  "subjectCode": "CSE705",
+  "title": "Important topics for midsem?",
+  "authorId": "2023CSE009",
+  "authorRole": "student",
+  "createdAt": "2026-10-07"
+ },
+ {
+  "id": "THR-AIML701-1",
+  "subjectCode": "AIML701",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2023AIML005",
+  "authorRole": "student",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "THR-AIML701-2",
+  "subjectCode": "AIML701",
+  "title": "Best reference book for this subject?",
+  "authorId": "2023AIML006",
+  "authorRole": "student",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "THR-AIML702-1",
+  "subjectCode": "AIML702",
+  "title": "Best reference book for this subject?",
+  "authorId": "2023AIML002",
+  "authorRole": "student",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "THR-AIML702-2",
+  "subjectCode": "AIML702",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2023AIML007",
+  "authorRole": "student",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "THR-AIML703-1",
+  "subjectCode": "AIML703",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2023AIML002",
+  "authorRole": "student",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "THR-AIML703-2",
+  "subjectCode": "AIML703",
+  "title": "Important topics for midsem?",
+  "authorId": "2023AIML007",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-AIML704-1",
+  "subjectCode": "AIML704",
+  "title": "Important topics for midsem?",
+  "authorId": "2023AIML006",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-AIML704-2",
+  "subjectCode": "AIML704",
+  "title": "Can someone share worked examples?",
+  "authorId": "2023AIML006",
+  "authorRole": "student",
+  "createdAt": "2026-10-05"
+ },
+ {
+  "id": "THR-AIML705-1",
+  "subjectCode": "AIML705",
+  "title": "Can someone share worked examples?",
+  "authorId": "2023AIML002",
+  "authorRole": "student",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "THR-AIML705-2",
+  "subjectCode": "AIML705",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2023AIML002",
+  "authorRole": "student",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "THR-IT701-1",
+  "subjectCode": "IT701",
+  "title": "Best reference book for this subject?",
+  "authorId": "2023IT006",
+  "authorRole": "student",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "THR-IT701-2",
+  "subjectCode": "IT701",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2023IT006",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-IT702-1",
+  "subjectCode": "IT702",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2023IT006",
+  "authorRole": "student",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "THR-IT702-2",
+  "subjectCode": "IT702",
+  "title": "Important topics for midsem?",
+  "authorId": "2023IT008",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-IT703-1",
+  "subjectCode": "IT703",
+  "title": "Important topics for midsem?",
+  "authorId": "2023IT006",
+  "authorRole": "student",
+  "createdAt": "2026-10-05"
+ },
+ {
+  "id": "THR-IT703-2",
+  "subjectCode": "IT703",
+  "title": "Can someone share worked examples?",
+  "authorId": "2023IT005",
+  "authorRole": "student",
+  "createdAt": "2026-10-08"
+ },
+ {
+  "id": "THR-IT704-1",
+  "subjectCode": "IT704",
+  "title": "Can someone share worked examples?",
+  "authorId": "2023IT005",
+  "authorRole": "student",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "THR-IT704-2",
+  "subjectCode": "IT704",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2023IT005",
+  "authorRole": "student",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "THR-IT705-1",
+  "subjectCode": "IT705",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2023IT006",
+  "authorRole": "student",
+  "createdAt": "2026-10-04"
+ },
+ {
+  "id": "THR-IT705-2",
+  "subjectCode": "IT705",
+  "title": "Best reference book for this subject?",
+  "authorId": "2023IT007",
+  "authorRole": "student",
+  "createdAt": "2026-10-06"
+ },
+ {
+  "id": "THR-ECE701-1",
+  "subjectCode": "ECE701",
+  "title": "Can someone share worked examples?",
+  "authorId": "2023ECE002",
+  "authorRole": "student",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "THR-ECE701-2",
+  "subjectCode": "ECE701",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2023ECE002",
+  "authorRole": "student",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "THR-ECE702-1",
+  "subjectCode": "ECE702",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2023ECE008",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-ECE702-2",
+  "subjectCode": "ECE702",
+  "title": "Best reference book for this subject?",
+  "authorId": "2023ECE005",
+  "authorRole": "student",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "THR-ECE703-1",
+  "subjectCode": "ECE703",
+  "title": "Best reference book for this subject?",
+  "authorId": "2023ECE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "THR-ECE703-2",
+  "subjectCode": "ECE703",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2023ECE001",
+  "authorRole": "student",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "THR-ECE704-1",
+  "subjectCode": "ECE704",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2023ECE006",
+  "authorRole": "student",
+  "createdAt": "2026-10-07"
+ },
+ {
+  "id": "THR-ECE704-2",
+  "subjectCode": "ECE704",
+  "title": "Important topics for midsem?",
+  "authorId": "2023ECE006",
+  "authorRole": "student",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "THR-ECE705-1",
+  "subjectCode": "ECE705",
+  "title": "Important topics for midsem?",
+  "authorId": "2023ECE008",
+  "authorRole": "student",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "THR-ECE705-2",
+  "subjectCode": "ECE705",
+  "title": "Can someone share worked examples?",
+  "authorId": "2023ECE001",
+  "authorRole": "student",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "THR-ME701-1",
+  "subjectCode": "ME701",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2023ME003",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ },
+ {
+  "id": "THR-ME701-2",
+  "subjectCode": "ME701",
+  "title": "Best reference book for this subject?",
+  "authorId": "2023ME003",
+  "authorRole": "student",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "THR-ME702-1",
+  "subjectCode": "ME702",
+  "title": "Best reference book for this subject?",
+  "authorId": "2023ME007",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ },
+ {
+  "id": "THR-ME702-2",
+  "subjectCode": "ME702",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2023ME002",
+  "authorRole": "student",
+  "createdAt": "2026-10-05"
+ },
+ {
+  "id": "THR-ME703-1",
+  "subjectCode": "ME703",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2023ME007",
+  "authorRole": "student",
+  "createdAt": "2026-10-06"
+ },
+ {
+  "id": "THR-ME703-2",
+  "subjectCode": "ME703",
+  "title": "Important topics for midsem?",
+  "authorId": "2023ME005",
+  "authorRole": "student",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "THR-ME704-1",
+  "subjectCode": "ME704",
+  "title": "Important topics for midsem?",
+  "authorId": "2023ME006",
+  "authorRole": "student",
+  "createdAt": "2026-10-06"
+ },
+ {
+  "id": "THR-ME704-2",
+  "subjectCode": "ME704",
+  "title": "Can someone share worked examples?",
+  "authorId": "2023ME003",
+  "authorRole": "student",
+  "createdAt": "2026-10-03"
+ },
+ {
+  "id": "THR-ME705-1",
+  "subjectCode": "ME705",
+  "title": "Can someone share worked examples?",
+  "authorId": "2023ME002",
+  "authorRole": "student",
+  "createdAt": "2026-10-03"
+ },
+ {
+  "id": "THR-ME705-2",
+  "subjectCode": "ME705",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2023ME002",
+  "authorRole": "student",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "THR-CE701-1",
+  "subjectCode": "CE701",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2023CE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-08"
+ },
+ {
+  "id": "THR-CE701-2",
+  "subjectCode": "CE701",
+  "title": "Best reference book for this subject?",
+  "authorId": "2023CE004",
+  "authorRole": "student",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "THR-CE702-1",
+  "subjectCode": "CE702",
+  "title": "Best reference book for this subject?",
+  "authorId": "2023CE004",
+  "authorRole": "student",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "THR-CE702-2",
+  "subjectCode": "CE702",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2023CE002",
+  "authorRole": "student",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "THR-CE703-1",
+  "subjectCode": "CE703",
+  "title": "Doubt regarding Unit 2 concepts",
+  "authorId": "2023CE001",
+  "authorRole": "student",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "THR-CE703-2",
+  "subjectCode": "CE703",
+  "title": "Important topics for midsem?",
+  "authorId": "2023CE005",
+  "authorRole": "student",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "THR-CE704-1",
+  "subjectCode": "CE704",
+  "title": "Important topics for midsem?",
+  "authorId": "2023CE004",
+  "authorRole": "student",
+  "createdAt": "2026-10-05"
+ },
+ {
+  "id": "THR-CE704-2",
+  "subjectCode": "CE704",
+  "title": "Can someone share worked examples?",
+  "authorId": "2023CE005",
+  "authorRole": "student",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "THR-CE705-1",
+  "subjectCode": "CE705",
+  "title": "Can someone share worked examples?",
+  "authorId": "2023CE003",
+  "authorRole": "student",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "THR-CE705-2",
+  "subjectCode": "CE705",
+  "title": "Clarification on assignment question 3",
+  "authorId": "2023CE004",
+  "authorRole": "student",
+  "createdAt": "2026-10-09"
+ }
+]

@@ -1,0 +1,191 @@
+id,subjectCode,title,description,maxMarks,assignedDate,dueDate,createdBy
+ASG-FY101-1,FY101,Assignment 1: Engineering Mathematics I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-APS-001
+ASG-FY101-2,FY101,Assignment 2: Engineering Mathematics I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-APS-001
+ASG-FY102-1,FY102,Assignment 1: Engineering Physics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-APS-002
+ASG-FY102-2,FY102,Assignment 2: Engineering Physics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-APS-002
+ASG-FY103-1,FY103,Assignment 1: Programming for Problem Solving,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-APS-003
+ASG-FY103-2,FY103,Assignment 2: Programming for Problem Solving,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-APS-003
+ASG-FY104-1,FY104,Assignment 1: Basic Electrical Engineering,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-APS-001
+ASG-FY104-2,FY104,Assignment 2: Basic Electrical Engineering,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-APS-001
+ASG-FY105-1,FY105,Assignment 1: Communication Skills,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-APS-002
+ASG-FY105-2,FY105,Assignment 2: Communication Skills,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-APS-002
+ASG-CSE301-1,CSE301,Assignment 1: Data Structures,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-001
+ASG-CSE301-2,CSE301,Assignment 2: Data Structures,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-001
+ASG-CSE302-1,CSE302,Assignment 1: Discrete Mathematics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-002
+ASG-CSE302-2,CSE302,Assignment 2: Discrete Mathematics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-002
+ASG-CSE303-1,CSE303,Assignment 1: Digital Logic Design,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-003
+ASG-CSE303-2,CSE303,Assignment 2: Digital Logic Design,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-003
+ASG-CSE304-1,CSE304,Assignment 1: Computer Organization,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-004
+ASG-CSE304-2,CSE304,Assignment 2: Computer Organization,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-004
+ASG-CSE305-1,CSE305,Assignment 1: Python Programming,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-005
+ASG-CSE305-2,CSE305,Assignment 2: Python Programming,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-005
+ASG-AIML301-1,AIML301,Assignment 1: Data Structures,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-001
+ASG-AIML301-2,AIML301,Assignment 2: Data Structures,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-001
+ASG-AIML302-1,AIML302,Assignment 1: Probability and Statistics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-002
+ASG-AIML302-2,AIML302,Assignment 2: Probability and Statistics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-002
+ASG-AIML303-1,AIML303,Assignment 1: Linear Algebra for ML,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-003
+ASG-AIML303-2,AIML303,Assignment 2: Linear Algebra for ML,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-003
+ASG-AIML304-1,AIML304,Assignment 1: Digital Logic Design,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-004
+ASG-AIML304-2,AIML304,Assignment 2: Digital Logic Design,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-004
+ASG-AIML305-1,AIML305,Assignment 1: Python for Data Science,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-005
+ASG-AIML305-2,AIML305,Assignment 2: Python for Data Science,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-005
+ASG-IT301-1,IT301,Assignment 1: Data Structures,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-001
+ASG-IT301-2,IT301,Assignment 2: Data Structures,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-001
+ASG-IT302-1,IT302,Assignment 1: Discrete Mathematics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-002
+ASG-IT302-2,IT302,Assignment 2: Discrete Mathematics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-002
+ASG-IT303-1,IT303,Assignment 1: Computer Organization,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-003
+ASG-IT303-2,IT303,Assignment 2: Computer Organization,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-003
+ASG-IT304-1,IT304,Assignment 1: Object Oriented Programming,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-004
+ASG-IT304-2,IT304,Assignment 2: Object Oriented Programming,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-004
+ASG-IT305-1,IT305,Assignment 1: Digital Electronics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-001
+ASG-IT305-2,IT305,Assignment 2: Digital Electronics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-001
+ASG-ECE301-1,ECE301,Assignment 1: Network Analysis,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-001
+ASG-ECE301-2,ECE301,Assignment 2: Network Analysis,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-001
+ASG-ECE302-1,ECE302,Assignment 1: Electronic Devices and Circuits,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-002
+ASG-ECE302-2,ECE302,Assignment 2: Electronic Devices and Circuits,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-002
+ASG-ECE303-1,ECE303,Assignment 1: Signals and Systems,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-003
+ASG-ECE303-2,ECE303,Assignment 2: Signals and Systems,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-003
+ASG-ECE304-1,ECE304,Assignment 1: Digital Electronics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-004
+ASG-ECE304-2,ECE304,Assignment 2: Digital Electronics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-004
+ASG-ECE305-1,ECE305,Assignment 1: Electromagnetic Theory,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-005
+ASG-ECE305-2,ECE305,Assignment 2: Electromagnetic Theory,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-005
+ASG-ME301-1,ME301,Assignment 1: Engineering Thermodynamics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-001
+ASG-ME301-2,ME301,Assignment 2: Engineering Thermodynamics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-001
+ASG-ME302-1,ME302,Assignment 1: Fluid Mechanics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-002
+ASG-ME302-2,ME302,Assignment 2: Fluid Mechanics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-002
+ASG-ME303-1,ME303,Assignment 1: Strength of Materials,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-003
+ASG-ME303-2,ME303,Assignment 2: Strength of Materials,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-003
+ASG-ME304-1,ME304,Assignment 1: Manufacturing Processes,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-004
+ASG-ME304-2,ME304,Assignment 2: Manufacturing Processes,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-004
+ASG-ME305-1,ME305,Assignment 1: Materials Science,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-001
+ASG-ME305-2,ME305,Assignment 2: Materials Science,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-001
+ASG-CE301-1,CE301,Assignment 1: Surveying,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-001
+ASG-CE301-2,CE301,Assignment 2: Surveying,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-001
+ASG-CE302-1,CE302,Assignment 1: Building Materials and Construction,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-002
+ASG-CE302-2,CE302,Assignment 2: Building Materials and Construction,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-002
+ASG-CE303-1,CE303,Assignment 1: Strength of Materials,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-003
+ASG-CE303-2,CE303,Assignment 2: Strength of Materials,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-003
+ASG-CE304-1,CE304,Assignment 1: Fluid Mechanics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-001
+ASG-CE304-2,CE304,Assignment 2: Fluid Mechanics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-001
+ASG-CE305-1,CE305,Assignment 1: Engineering Geology,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-002
+ASG-CE305-2,CE305,Assignment 2: Engineering Geology,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-002
+ASG-CSE501-1,CSE501,Assignment 1: Computer Networks,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-005
+ASG-CSE501-2,CSE501,Assignment 2: Computer Networks,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-005
+ASG-CSE502-1,CSE502,Assignment 1: Compiler Design,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-006
+ASG-CSE502-2,CSE502,Assignment 2: Compiler Design,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-006
+ASG-CSE503-1,CSE503,Assignment 1: Web Technologies,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-001
+ASG-CSE503-2,CSE503,Assignment 2: Web Technologies,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-001
+ASG-CSE504-1,CSE504,Assignment 1: Artificial Intelligence,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-002
+ASG-CSE504-2,CSE504,Assignment 2: Artificial Intelligence,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-002
+ASG-CSE505-1,CSE505,Assignment 1: Professional Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-003
+ASG-CSE505-2,CSE505,Assignment 2: Professional Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-003
+ASG-AIML501-1,AIML501,Assignment 1: Deep Learning,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-001
+ASG-AIML501-2,AIML501,Assignment 2: Deep Learning,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-001
+ASG-AIML502-1,AIML502,Assignment 1: Natural Language Processing,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-002
+ASG-AIML502-2,AIML502,Assignment 2: Natural Language Processing,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-002
+ASG-AIML503-1,AIML503,Assignment 1: Computer Networks,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-003
+ASG-AIML503-2,AIML503,Assignment 2: Computer Networks,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-003
+ASG-AIML504-1,AIML504,Assignment 1: Data Visualization,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-004
+ASG-AIML504-2,AIML504,Assignment 2: Data Visualization,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-004
+ASG-AIML505-1,AIML505,Assignment 1: Professional Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-005
+ASG-AIML505-2,AIML505,Assignment 2: Professional Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-005
+ASG-IT501-1,IT501,Assignment 1: Web Technologies,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-003
+ASG-IT501-2,IT501,Assignment 2: Web Technologies,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-003
+ASG-IT502-1,IT502,Assignment 1: Information Security,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-004
+ASG-IT502-2,IT502,Assignment 2: Information Security,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-004
+ASG-IT503-1,IT503,Assignment 1: Mobile Application Development,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-001
+ASG-IT503-2,IT503,Assignment 2: Mobile Application Development,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-001
+ASG-IT504-1,IT504,Assignment 1: Data Warehousing,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-002
+ASG-IT504-2,IT504,Assignment 2: Data Warehousing,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-002
+ASG-IT505-1,IT505,Assignment 1: Professional Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-003
+ASG-IT505-2,IT505,Assignment 2: Professional Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-003
+ASG-ECE501-1,ECE501,Assignment 1: Digital Communication,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-001
+ASG-ECE501-2,ECE501,Assignment 2: Digital Communication,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-001
+ASG-ECE502-1,ECE502,Assignment 1: Digital Signal Processing,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-002
+ASG-ECE502-2,ECE502,Assignment 2: Digital Signal Processing,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-002
+ASG-ECE503-1,ECE503,Assignment 1: VLSI Design,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-003
+ASG-ECE503-2,ECE503,Assignment 2: VLSI Design,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-003
+ASG-ECE504-1,ECE504,Assignment 1: Antenna and Wave Propagation,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-004
+ASG-ECE504-2,ECE504,Assignment 2: Antenna and Wave Propagation,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-004
+ASG-ECE505-1,ECE505,Assignment 1: Professional Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-005
+ASG-ECE505-2,ECE505,Assignment 2: Professional Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-005
+ASG-ME501-1,ME501,Assignment 1: Dynamics of Machinery,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-003
+ASG-ME501-2,ME501,Assignment 2: Dynamics of Machinery,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-003
+ASG-ME502-1,ME502,Assignment 1: Design of Machine Elements,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-004
+ASG-ME502-2,ME502,Assignment 2: Design of Machine Elements,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-004
+ASG-ME503-1,ME503,Assignment 1: Metrology and Measurements,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-001
+ASG-ME503-2,ME503,Assignment 2: Metrology and Measurements,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-001
+ASG-ME504-1,ME504,Assignment 1: Industrial Engineering,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-002
+ASG-ME504-2,ME504,Assignment 2: Industrial Engineering,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-002
+ASG-ME505-1,ME505,Assignment 1: Professional Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-003
+ASG-ME505-2,ME505,Assignment 2: Professional Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-003
+ASG-CE501-1,CE501,Assignment 1: Design of RC Structures,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-002
+ASG-CE501-2,CE501,Assignment 2: Design of RC Structures,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-002
+ASG-CE502-1,CE502,Assignment 1: Environmental Engineering,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-003
+ASG-CE502-2,CE502,Assignment 2: Environmental Engineering,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-003
+ASG-CE503-1,CE503,Assignment 1: Water Resources Engineering,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-001
+ASG-CE503-2,CE503,Assignment 2: Water Resources Engineering,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-001
+ASG-CE504-1,CE504,Assignment 1: Transportation Engineering II,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-002
+ASG-CE504-2,CE504,Assignment 2: Transportation Engineering II,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-002
+ASG-CE505-1,CE505,Assignment 1: Professional Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-003
+ASG-CE505-2,CE505,Assignment 2: Professional Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-003
+ASG-CSE701-1,CSE701,Assignment 1: Big Data Analytics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-003
+ASG-CSE701-2,CSE701,Assignment 2: Big Data Analytics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-003
+ASG-CSE702-1,CSE702,Assignment 1: Distributed Systems,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-004
+ASG-CSE702-2,CSE702,Assignment 2: Distributed Systems,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-004
+ASG-CSE703-1,CSE703,Assignment 1: Deep Learning,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-005
+ASG-CSE703-2,CSE703,Assignment 2: Deep Learning,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-005
+ASG-CSE704-1,CSE704,Assignment 1: Open Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-006
+ASG-CSE704-2,CSE704,Assignment 2: Open Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-006
+ASG-CSE705-1,CSE705,Assignment 1: Project Phase I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CSE-001
+ASG-CSE705-2,CSE705,Assignment 2: Project Phase I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CSE-001
+ASG-AIML701-1,AIML701,Assignment 1: Generative AI,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-001
+ASG-AIML701-2,AIML701,Assignment 2: Generative AI,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-001
+ASG-AIML702-1,AIML702,Assignment 1: MLOps,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-002
+ASG-AIML702-2,AIML702,Assignment 2: MLOps,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-002
+ASG-AIML703-1,AIML703,Assignment 1: AI Ethics and Governance,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-003
+ASG-AIML703-2,AIML703,Assignment 2: AI Ethics and Governance,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-003
+ASG-AIML704-1,AIML704,Assignment 1: Open Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-004
+ASG-AIML704-2,AIML704,Assignment 2: Open Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-004
+ASG-AIML705-1,AIML705,Assignment 1: Project Phase I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-AIML-005
+ASG-AIML705-2,AIML705,Assignment 2: Project Phase I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-AIML-005
+ASG-IT701-1,IT701,Assignment 1: Big Data Analytics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-001
+ASG-IT701-2,IT701,Assignment 2: Big Data Analytics,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-001
+ASG-IT702-1,IT702,Assignment 1: DevOps,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-002
+ASG-IT702-2,IT702,Assignment 2: DevOps,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-002
+ASG-IT703-1,IT703,Assignment 1: Blockchain Technology,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-003
+ASG-IT703-2,IT703,Assignment 2: Blockchain Technology,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-003
+ASG-IT704-1,IT704,Assignment 1: Open Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-004
+ASG-IT704-2,IT704,Assignment 2: Open Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-004
+ASG-IT705-1,IT705,Assignment 1: Project Phase I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-IT-001
+ASG-IT705-2,IT705,Assignment 2: Project Phase I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-IT-001
+ASG-ECE701-1,ECE701,Assignment 1: Optical Communication,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-001
+ASG-ECE701-2,ECE701,Assignment 2: Optical Communication,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-001
+ASG-ECE702-1,ECE702,Assignment 1: Satellite Communication,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-002
+ASG-ECE702-2,ECE702,Assignment 2: Satellite Communication,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-002
+ASG-ECE703-1,ECE703,Assignment 1: IoT and Sensor Networks,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-003
+ASG-ECE703-2,ECE703,Assignment 2: IoT and Sensor Networks,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-003
+ASG-ECE704-1,ECE704,Assignment 1: Open Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-004
+ASG-ECE704-2,ECE704,Assignment 2: Open Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-004
+ASG-ECE705-1,ECE705,Assignment 1: Project Phase I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ECE-005
+ASG-ECE705-2,ECE705,Assignment 2: Project Phase I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ECE-005
+ASG-ME701-1,ME701,Assignment 1: Power Plant Engineering,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-001
+ASG-ME701-2,ME701,Assignment 2: Power Plant Engineering,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-001
+ASG-ME702-1,ME702,Assignment 1: Automobile Engineering,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-002
+ASG-ME702-2,ME702,Assignment 2: Automobile Engineering,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-002
+ASG-ME703-1,ME703,Assignment 1: Robotics and Automation,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-003
+ASG-ME703-2,ME703,Assignment 2: Robotics and Automation,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-003
+ASG-ME704-1,ME704,Assignment 1: Open Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-004
+ASG-ME704-2,ME704,Assignment 2: Open Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-004
+ASG-ME705-1,ME705,Assignment 1: Project Phase I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-ME-001
+ASG-ME705-2,ME705,Assignment 2: Project Phase I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-ME-001
+ASG-CE701-1,CE701,Assignment 1: Advanced Structural Design,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-003
+ASG-CE701-2,CE701,Assignment 2: Advanced Structural Design,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-003
+ASG-CE702-1,CE702,Assignment 1: Remote Sensing and GIS,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-001
+ASG-CE702-2,CE702,Assignment 2: Remote Sensing and GIS,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-001
+ASG-CE703-1,CE703,Assignment 1: Earthquake Engineering,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-002
+ASG-CE703-2,CE703,Assignment 2: Earthquake Engineering,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-002
+ASG-CE704-1,CE704,Assignment 1: Open Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-003
+ASG-CE704-2,CE704,Assignment 2: Open Elective I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-003
+ASG-CE705-1,CE705,Assignment 1: Project Phase I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,10,2026-09-06,2026-09-20,FAC-CE-001
+ASG-CE705-2,CE705,Assignment 2: Project Phase I,Solve all questions from the set shared in class. Submit a PDF before the deadline.,20,2026-10-19,2026-11-02,FAC-CE-001

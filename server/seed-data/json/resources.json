@@ -1,0 +1,2852 @@
+[
+ {
+  "id": "RES-FY101-1",
+  "subjectCode": "FY101",
+  "title": "Engineering Mathematics I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2569,
+  "uploadedBy": "FAC-APS-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/FY101/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-FY101-2",
+  "subjectCode": "FY101",
+  "title": "Engineering Mathematics I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1227,
+  "uploadedBy": "FAC-APS-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/FY101/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-FY101-3",
+  "subjectCode": "FY101",
+  "title": "Engineering Mathematics I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1365,
+  "uploadedBy": "FAC-APS-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/FY101/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-FY102-1",
+  "subjectCode": "FY102",
+  "title": "Engineering Physics - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 447,
+  "uploadedBy": "FAC-APS-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/FY102/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-FY102-2",
+  "subjectCode": "FY102",
+  "title": "Engineering Physics - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1211,
+  "uploadedBy": "FAC-APS-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/FY102/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-FY102-3",
+  "subjectCode": "FY102",
+  "title": "Engineering Physics - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2970,
+  "uploadedBy": "FAC-APS-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/FY102/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-FY103-1",
+  "subjectCode": "FY103",
+  "title": "Programming for Problem Solving - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 730,
+  "uploadedBy": "FAC-APS-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/FY103/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-FY103-2",
+  "subjectCode": "FY103",
+  "title": "Programming for Problem Solving - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3782,
+  "uploadedBy": "FAC-APS-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/FY103/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-FY103-3",
+  "subjectCode": "FY103",
+  "title": "Programming for Problem Solving - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3628,
+  "uploadedBy": "FAC-APS-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/FY103/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-FY104-1",
+  "subjectCode": "FY104",
+  "title": "Basic Electrical Engineering - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2902,
+  "uploadedBy": "FAC-APS-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/FY104/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-FY104-2",
+  "subjectCode": "FY104",
+  "title": "Basic Electrical Engineering - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 882,
+  "uploadedBy": "FAC-APS-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/FY104/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-FY104-3",
+  "subjectCode": "FY104",
+  "title": "Basic Electrical Engineering - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1497,
+  "uploadedBy": "FAC-APS-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/FY104/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-FY105-1",
+  "subjectCode": "FY105",
+  "title": "Communication Skills - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 191,
+  "uploadedBy": "FAC-APS-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/FY105/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-FY105-2",
+  "subjectCode": "FY105",
+  "title": "Communication Skills - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 380,
+  "uploadedBy": "FAC-APS-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/FY105/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-FY105-3",
+  "subjectCode": "FY105",
+  "title": "Communication Skills - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2683,
+  "uploadedBy": "FAC-APS-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/FY105/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE301-1",
+  "subjectCode": "CSE301",
+  "title": "Data Structures - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2327,
+  "uploadedBy": "FAC-CSE-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE301/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE301-2",
+  "subjectCode": "CSE301",
+  "title": "Data Structures - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1816,
+  "uploadedBy": "FAC-CSE-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE301/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE301-3",
+  "subjectCode": "CSE301",
+  "title": "Data Structures - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3270,
+  "uploadedBy": "FAC-CSE-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE301/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE302-1",
+  "subjectCode": "CSE302",
+  "title": "Discrete Mathematics - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1784,
+  "uploadedBy": "FAC-CSE-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE302/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE302-2",
+  "subjectCode": "CSE302",
+  "title": "Discrete Mathematics - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2011,
+  "uploadedBy": "FAC-CSE-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE302/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE302-3",
+  "subjectCode": "CSE302",
+  "title": "Discrete Mathematics - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2101,
+  "uploadedBy": "FAC-CSE-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE302/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE303-1",
+  "subjectCode": "CSE303",
+  "title": "Digital Logic Design - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2559,
+  "uploadedBy": "FAC-CSE-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE303/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE303-2",
+  "subjectCode": "CSE303",
+  "title": "Digital Logic Design - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3542,
+  "uploadedBy": "FAC-CSE-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE303/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE303-3",
+  "subjectCode": "CSE303",
+  "title": "Digital Logic Design - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1993,
+  "uploadedBy": "FAC-CSE-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE303/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE304-1",
+  "subjectCode": "CSE304",
+  "title": "Computer Organization - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3237,
+  "uploadedBy": "FAC-CSE-004",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE304/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE304-2",
+  "subjectCode": "CSE304",
+  "title": "Computer Organization - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 954,
+  "uploadedBy": "FAC-CSE-004",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE304/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE304-3",
+  "subjectCode": "CSE304",
+  "title": "Computer Organization - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 721,
+  "uploadedBy": "FAC-CSE-004",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE304/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE305-1",
+  "subjectCode": "CSE305",
+  "title": "Python Programming - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3932,
+  "uploadedBy": "FAC-CSE-005",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE305/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE305-2",
+  "subjectCode": "CSE305",
+  "title": "Python Programming - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3189,
+  "uploadedBy": "FAC-CSE-005",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE305/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE305-3",
+  "subjectCode": "CSE305",
+  "title": "Python Programming - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2135,
+  "uploadedBy": "FAC-CSE-005",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE305/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML301-1",
+  "subjectCode": "AIML301",
+  "title": "Data Structures - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2762,
+  "uploadedBy": "FAC-AIML-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML301/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML301-2",
+  "subjectCode": "AIML301",
+  "title": "Data Structures - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3908,
+  "uploadedBy": "FAC-AIML-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML301/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML301-3",
+  "subjectCode": "AIML301",
+  "title": "Data Structures - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1045,
+  "uploadedBy": "FAC-AIML-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML301/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML302-1",
+  "subjectCode": "AIML302",
+  "title": "Probability and Statistics - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1346,
+  "uploadedBy": "FAC-AIML-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML302/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML302-2",
+  "subjectCode": "AIML302",
+  "title": "Probability and Statistics - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 947,
+  "uploadedBy": "FAC-AIML-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML302/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML302-3",
+  "subjectCode": "AIML302",
+  "title": "Probability and Statistics - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2352,
+  "uploadedBy": "FAC-AIML-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML302/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML303-1",
+  "subjectCode": "AIML303",
+  "title": "Linear Algebra for ML - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 254,
+  "uploadedBy": "FAC-AIML-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML303/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML303-2",
+  "subjectCode": "AIML303",
+  "title": "Linear Algebra for ML - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2327,
+  "uploadedBy": "FAC-AIML-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML303/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML303-3",
+  "subjectCode": "AIML303",
+  "title": "Linear Algebra for ML - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2369,
+  "uploadedBy": "FAC-AIML-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML303/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML304-1",
+  "subjectCode": "AIML304",
+  "title": "Digital Logic Design - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3861,
+  "uploadedBy": "FAC-AIML-004",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML304/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML304-2",
+  "subjectCode": "AIML304",
+  "title": "Digital Logic Design - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 4024,
+  "uploadedBy": "FAC-AIML-004",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML304/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML304-3",
+  "subjectCode": "AIML304",
+  "title": "Digital Logic Design - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2033,
+  "uploadedBy": "FAC-AIML-004",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML304/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML305-1",
+  "subjectCode": "AIML305",
+  "title": "Python for Data Science - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 804,
+  "uploadedBy": "FAC-AIML-005",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML305/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML305-2",
+  "subjectCode": "AIML305",
+  "title": "Python for Data Science - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1529,
+  "uploadedBy": "FAC-AIML-005",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML305/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML305-3",
+  "subjectCode": "AIML305",
+  "title": "Python for Data Science - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 230,
+  "uploadedBy": "FAC-AIML-005",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML305/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT301-1",
+  "subjectCode": "IT301",
+  "title": "Data Structures - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 4193,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT301/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT301-2",
+  "subjectCode": "IT301",
+  "title": "Data Structures - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3471,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT301/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT301-3",
+  "subjectCode": "IT301",
+  "title": "Data Structures - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 234,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT301/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT302-1",
+  "subjectCode": "IT302",
+  "title": "Discrete Mathematics - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1847,
+  "uploadedBy": "FAC-IT-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT302/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT302-2",
+  "subjectCode": "IT302",
+  "title": "Discrete Mathematics - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3039,
+  "uploadedBy": "FAC-IT-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT302/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT302-3",
+  "subjectCode": "IT302",
+  "title": "Discrete Mathematics - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 818,
+  "uploadedBy": "FAC-IT-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT302/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT303-1",
+  "subjectCode": "IT303",
+  "title": "Computer Organization - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2518,
+  "uploadedBy": "FAC-IT-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT303/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT303-2",
+  "subjectCode": "IT303",
+  "title": "Computer Organization - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3675,
+  "uploadedBy": "FAC-IT-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT303/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT303-3",
+  "subjectCode": "IT303",
+  "title": "Computer Organization - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3574,
+  "uploadedBy": "FAC-IT-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT303/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT304-1",
+  "subjectCode": "IT304",
+  "title": "Object Oriented Programming - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1904,
+  "uploadedBy": "FAC-IT-004",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT304/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT304-2",
+  "subjectCode": "IT304",
+  "title": "Object Oriented Programming - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 942,
+  "uploadedBy": "FAC-IT-004",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT304/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT304-3",
+  "subjectCode": "IT304",
+  "title": "Object Oriented Programming - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2532,
+  "uploadedBy": "FAC-IT-004",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT304/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT305-1",
+  "subjectCode": "IT305",
+  "title": "Digital Electronics - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2563,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT305/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT305-2",
+  "subjectCode": "IT305",
+  "title": "Digital Electronics - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1673,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT305/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT305-3",
+  "subjectCode": "IT305",
+  "title": "Digital Electronics - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3021,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT305/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE301-1",
+  "subjectCode": "ECE301",
+  "title": "Network Analysis - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3594,
+  "uploadedBy": "FAC-ECE-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE301/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE301-2",
+  "subjectCode": "ECE301",
+  "title": "Network Analysis - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1344,
+  "uploadedBy": "FAC-ECE-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE301/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE301-3",
+  "subjectCode": "ECE301",
+  "title": "Network Analysis - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3612,
+  "uploadedBy": "FAC-ECE-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE301/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE302-1",
+  "subjectCode": "ECE302",
+  "title": "Electronic Devices and Circuits - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 454,
+  "uploadedBy": "FAC-ECE-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE302/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE302-2",
+  "subjectCode": "ECE302",
+  "title": "Electronic Devices and Circuits - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 350,
+  "uploadedBy": "FAC-ECE-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE302/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE302-3",
+  "subjectCode": "ECE302",
+  "title": "Electronic Devices and Circuits - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 635,
+  "uploadedBy": "FAC-ECE-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE302/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE303-1",
+  "subjectCode": "ECE303",
+  "title": "Signals and Systems - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3103,
+  "uploadedBy": "FAC-ECE-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE303/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE303-2",
+  "subjectCode": "ECE303",
+  "title": "Signals and Systems - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2955,
+  "uploadedBy": "FAC-ECE-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE303/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE303-3",
+  "subjectCode": "ECE303",
+  "title": "Signals and Systems - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1731,
+  "uploadedBy": "FAC-ECE-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE303/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE304-1",
+  "subjectCode": "ECE304",
+  "title": "Digital Electronics - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2713,
+  "uploadedBy": "FAC-ECE-004",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE304/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE304-2",
+  "subjectCode": "ECE304",
+  "title": "Digital Electronics - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2108,
+  "uploadedBy": "FAC-ECE-004",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE304/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE304-3",
+  "subjectCode": "ECE304",
+  "title": "Digital Electronics - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2171,
+  "uploadedBy": "FAC-ECE-004",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE304/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE305-1",
+  "subjectCode": "ECE305",
+  "title": "Electromagnetic Theory - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3818,
+  "uploadedBy": "FAC-ECE-005",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE305/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE305-2",
+  "subjectCode": "ECE305",
+  "title": "Electromagnetic Theory - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3179,
+  "uploadedBy": "FAC-ECE-005",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE305/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE305-3",
+  "subjectCode": "ECE305",
+  "title": "Electromagnetic Theory - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1321,
+  "uploadedBy": "FAC-ECE-005",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE305/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME301-1",
+  "subjectCode": "ME301",
+  "title": "Engineering Thermodynamics - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2797,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME301/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME301-2",
+  "subjectCode": "ME301",
+  "title": "Engineering Thermodynamics - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 346,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME301/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME301-3",
+  "subjectCode": "ME301",
+  "title": "Engineering Thermodynamics - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3941,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME301/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME302-1",
+  "subjectCode": "ME302",
+  "title": "Fluid Mechanics - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2943,
+  "uploadedBy": "FAC-ME-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME302/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME302-2",
+  "subjectCode": "ME302",
+  "title": "Fluid Mechanics - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3536,
+  "uploadedBy": "FAC-ME-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME302/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME302-3",
+  "subjectCode": "ME302",
+  "title": "Fluid Mechanics - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2445,
+  "uploadedBy": "FAC-ME-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME302/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME303-1",
+  "subjectCode": "ME303",
+  "title": "Strength of Materials - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3629,
+  "uploadedBy": "FAC-ME-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME303/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME303-2",
+  "subjectCode": "ME303",
+  "title": "Strength of Materials - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3705,
+  "uploadedBy": "FAC-ME-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME303/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME303-3",
+  "subjectCode": "ME303",
+  "title": "Strength of Materials - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2004,
+  "uploadedBy": "FAC-ME-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME303/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME304-1",
+  "subjectCode": "ME304",
+  "title": "Manufacturing Processes - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2935,
+  "uploadedBy": "FAC-ME-004",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME304/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME304-2",
+  "subjectCode": "ME304",
+  "title": "Manufacturing Processes - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 940,
+  "uploadedBy": "FAC-ME-004",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME304/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME304-3",
+  "subjectCode": "ME304",
+  "title": "Manufacturing Processes - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3595,
+  "uploadedBy": "FAC-ME-004",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME304/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME305-1",
+  "subjectCode": "ME305",
+  "title": "Materials Science - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2447,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME305/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME305-2",
+  "subjectCode": "ME305",
+  "title": "Materials Science - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 354,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME305/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME305-3",
+  "subjectCode": "ME305",
+  "title": "Materials Science - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2360,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME305/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE301-1",
+  "subjectCode": "CE301",
+  "title": "Surveying - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3612,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE301/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE301-2",
+  "subjectCode": "CE301",
+  "title": "Surveying - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2652,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE301/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE301-3",
+  "subjectCode": "CE301",
+  "title": "Surveying - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1310,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE301/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE302-1",
+  "subjectCode": "CE302",
+  "title": "Building Materials and Construction - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3285,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE302/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE302-2",
+  "subjectCode": "CE302",
+  "title": "Building Materials and Construction - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2602,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE302/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE302-3",
+  "subjectCode": "CE302",
+  "title": "Building Materials and Construction - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1296,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE302/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE303-1",
+  "subjectCode": "CE303",
+  "title": "Strength of Materials - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2865,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE303/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE303-2",
+  "subjectCode": "CE303",
+  "title": "Strength of Materials - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 371,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE303/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE303-3",
+  "subjectCode": "CE303",
+  "title": "Strength of Materials - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2887,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE303/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE304-1",
+  "subjectCode": "CE304",
+  "title": "Fluid Mechanics - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 4055,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE304/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE304-2",
+  "subjectCode": "CE304",
+  "title": "Fluid Mechanics - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2159,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE304/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE304-3",
+  "subjectCode": "CE304",
+  "title": "Fluid Mechanics - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3901,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE304/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE305-1",
+  "subjectCode": "CE305",
+  "title": "Engineering Geology - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3939,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE305/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE305-2",
+  "subjectCode": "CE305",
+  "title": "Engineering Geology - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3164,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE305/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE305-3",
+  "subjectCode": "CE305",
+  "title": "Engineering Geology - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 442,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE305/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE501-1",
+  "subjectCode": "CSE501",
+  "title": "Computer Networks - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3757,
+  "uploadedBy": "FAC-CSE-005",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE501/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE501-2",
+  "subjectCode": "CSE501",
+  "title": "Computer Networks - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 896,
+  "uploadedBy": "FAC-CSE-005",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE501/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE501-3",
+  "subjectCode": "CSE501",
+  "title": "Computer Networks - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2186,
+  "uploadedBy": "FAC-CSE-005",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE501/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE502-1",
+  "subjectCode": "CSE502",
+  "title": "Compiler Design - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2040,
+  "uploadedBy": "FAC-CSE-006",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE502/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE502-2",
+  "subjectCode": "CSE502",
+  "title": "Compiler Design - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1549,
+  "uploadedBy": "FAC-CSE-006",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE502/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE502-3",
+  "subjectCode": "CSE502",
+  "title": "Compiler Design - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 623,
+  "uploadedBy": "FAC-CSE-006",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE502/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE503-1",
+  "subjectCode": "CSE503",
+  "title": "Web Technologies - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 932,
+  "uploadedBy": "FAC-CSE-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE503/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE503-2",
+  "subjectCode": "CSE503",
+  "title": "Web Technologies - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1712,
+  "uploadedBy": "FAC-CSE-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE503/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE503-3",
+  "subjectCode": "CSE503",
+  "title": "Web Technologies - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2744,
+  "uploadedBy": "FAC-CSE-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE503/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE504-1",
+  "subjectCode": "CSE504",
+  "title": "Artificial Intelligence - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3656,
+  "uploadedBy": "FAC-CSE-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE504/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE504-2",
+  "subjectCode": "CSE504",
+  "title": "Artificial Intelligence - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 650,
+  "uploadedBy": "FAC-CSE-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE504/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE504-3",
+  "subjectCode": "CSE504",
+  "title": "Artificial Intelligence - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3500,
+  "uploadedBy": "FAC-CSE-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE504/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE505-1",
+  "subjectCode": "CSE505",
+  "title": "Professional Elective I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1833,
+  "uploadedBy": "FAC-CSE-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE505/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE505-2",
+  "subjectCode": "CSE505",
+  "title": "Professional Elective I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2694,
+  "uploadedBy": "FAC-CSE-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE505/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE505-3",
+  "subjectCode": "CSE505",
+  "title": "Professional Elective I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1326,
+  "uploadedBy": "FAC-CSE-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE505/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML501-1",
+  "subjectCode": "AIML501",
+  "title": "Deep Learning - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1921,
+  "uploadedBy": "FAC-AIML-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML501/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML501-2",
+  "subjectCode": "AIML501",
+  "title": "Deep Learning - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2124,
+  "uploadedBy": "FAC-AIML-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML501/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML501-3",
+  "subjectCode": "AIML501",
+  "title": "Deep Learning - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2125,
+  "uploadedBy": "FAC-AIML-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML501/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML502-1",
+  "subjectCode": "AIML502",
+  "title": "Natural Language Processing - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3052,
+  "uploadedBy": "FAC-AIML-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML502/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML502-2",
+  "subjectCode": "AIML502",
+  "title": "Natural Language Processing - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2922,
+  "uploadedBy": "FAC-AIML-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML502/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML502-3",
+  "subjectCode": "AIML502",
+  "title": "Natural Language Processing - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2512,
+  "uploadedBy": "FAC-AIML-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML502/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML503-1",
+  "subjectCode": "AIML503",
+  "title": "Computer Networks - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 583,
+  "uploadedBy": "FAC-AIML-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML503/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML503-2",
+  "subjectCode": "AIML503",
+  "title": "Computer Networks - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2225,
+  "uploadedBy": "FAC-AIML-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML503/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML503-3",
+  "subjectCode": "AIML503",
+  "title": "Computer Networks - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3565,
+  "uploadedBy": "FAC-AIML-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML503/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML504-1",
+  "subjectCode": "AIML504",
+  "title": "Data Visualization - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3911,
+  "uploadedBy": "FAC-AIML-004",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML504/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML504-2",
+  "subjectCode": "AIML504",
+  "title": "Data Visualization - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1462,
+  "uploadedBy": "FAC-AIML-004",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML504/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML504-3",
+  "subjectCode": "AIML504",
+  "title": "Data Visualization - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3091,
+  "uploadedBy": "FAC-AIML-004",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML504/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML505-1",
+  "subjectCode": "AIML505",
+  "title": "Professional Elective I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1418,
+  "uploadedBy": "FAC-AIML-005",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML505/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML505-2",
+  "subjectCode": "AIML505",
+  "title": "Professional Elective I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3592,
+  "uploadedBy": "FAC-AIML-005",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML505/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML505-3",
+  "subjectCode": "AIML505",
+  "title": "Professional Elective I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1634,
+  "uploadedBy": "FAC-AIML-005",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML505/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT501-1",
+  "subjectCode": "IT501",
+  "title": "Web Technologies - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1270,
+  "uploadedBy": "FAC-IT-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT501/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT501-2",
+  "subjectCode": "IT501",
+  "title": "Web Technologies - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 4011,
+  "uploadedBy": "FAC-IT-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT501/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT501-3",
+  "subjectCode": "IT501",
+  "title": "Web Technologies - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 272,
+  "uploadedBy": "FAC-IT-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT501/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT502-1",
+  "subjectCode": "IT502",
+  "title": "Information Security - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 736,
+  "uploadedBy": "FAC-IT-004",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT502/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT502-2",
+  "subjectCode": "IT502",
+  "title": "Information Security - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1973,
+  "uploadedBy": "FAC-IT-004",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT502/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT502-3",
+  "subjectCode": "IT502",
+  "title": "Information Security - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2108,
+  "uploadedBy": "FAC-IT-004",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT502/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT503-1",
+  "subjectCode": "IT503",
+  "title": "Mobile Application Development - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2588,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT503/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT503-2",
+  "subjectCode": "IT503",
+  "title": "Mobile Application Development - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3905,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT503/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT503-3",
+  "subjectCode": "IT503",
+  "title": "Mobile Application Development - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 311,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT503/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT504-1",
+  "subjectCode": "IT504",
+  "title": "Data Warehousing - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2431,
+  "uploadedBy": "FAC-IT-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT504/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT504-2",
+  "subjectCode": "IT504",
+  "title": "Data Warehousing - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1487,
+  "uploadedBy": "FAC-IT-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT504/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT504-3",
+  "subjectCode": "IT504",
+  "title": "Data Warehousing - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3823,
+  "uploadedBy": "FAC-IT-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT504/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT505-1",
+  "subjectCode": "IT505",
+  "title": "Professional Elective I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3710,
+  "uploadedBy": "FAC-IT-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT505/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT505-2",
+  "subjectCode": "IT505",
+  "title": "Professional Elective I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 991,
+  "uploadedBy": "FAC-IT-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT505/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT505-3",
+  "subjectCode": "IT505",
+  "title": "Professional Elective I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3164,
+  "uploadedBy": "FAC-IT-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT505/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE501-1",
+  "subjectCode": "ECE501",
+  "title": "Digital Communication - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3199,
+  "uploadedBy": "FAC-ECE-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE501/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE501-2",
+  "subjectCode": "ECE501",
+  "title": "Digital Communication - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 608,
+  "uploadedBy": "FAC-ECE-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE501/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE501-3",
+  "subjectCode": "ECE501",
+  "title": "Digital Communication - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3089,
+  "uploadedBy": "FAC-ECE-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE501/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE502-1",
+  "subjectCode": "ECE502",
+  "title": "Digital Signal Processing - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2135,
+  "uploadedBy": "FAC-ECE-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE502/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE502-2",
+  "subjectCode": "ECE502",
+  "title": "Digital Signal Processing - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2027,
+  "uploadedBy": "FAC-ECE-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE502/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE502-3",
+  "subjectCode": "ECE502",
+  "title": "Digital Signal Processing - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1510,
+  "uploadedBy": "FAC-ECE-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE502/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE503-1",
+  "subjectCode": "ECE503",
+  "title": "VLSI Design - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2770,
+  "uploadedBy": "FAC-ECE-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE503/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE503-2",
+  "subjectCode": "ECE503",
+  "title": "VLSI Design - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1266,
+  "uploadedBy": "FAC-ECE-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE503/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE503-3",
+  "subjectCode": "ECE503",
+  "title": "VLSI Design - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3459,
+  "uploadedBy": "FAC-ECE-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE503/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE504-1",
+  "subjectCode": "ECE504",
+  "title": "Antenna and Wave Propagation - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 697,
+  "uploadedBy": "FAC-ECE-004",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE504/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE504-2",
+  "subjectCode": "ECE504",
+  "title": "Antenna and Wave Propagation - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3777,
+  "uploadedBy": "FAC-ECE-004",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE504/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE504-3",
+  "subjectCode": "ECE504",
+  "title": "Antenna and Wave Propagation - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 211,
+  "uploadedBy": "FAC-ECE-004",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE504/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE505-1",
+  "subjectCode": "ECE505",
+  "title": "Professional Elective I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3818,
+  "uploadedBy": "FAC-ECE-005",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE505/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE505-2",
+  "subjectCode": "ECE505",
+  "title": "Professional Elective I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 4125,
+  "uploadedBy": "FAC-ECE-005",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE505/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE505-3",
+  "subjectCode": "ECE505",
+  "title": "Professional Elective I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 511,
+  "uploadedBy": "FAC-ECE-005",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE505/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME501-1",
+  "subjectCode": "ME501",
+  "title": "Dynamics of Machinery - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 4130,
+  "uploadedBy": "FAC-ME-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME501/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME501-2",
+  "subjectCode": "ME501",
+  "title": "Dynamics of Machinery - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 4026,
+  "uploadedBy": "FAC-ME-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME501/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME501-3",
+  "subjectCode": "ME501",
+  "title": "Dynamics of Machinery - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3834,
+  "uploadedBy": "FAC-ME-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME501/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME502-1",
+  "subjectCode": "ME502",
+  "title": "Design of Machine Elements - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3597,
+  "uploadedBy": "FAC-ME-004",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME502/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME502-2",
+  "subjectCode": "ME502",
+  "title": "Design of Machine Elements - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1352,
+  "uploadedBy": "FAC-ME-004",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME502/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME502-3",
+  "subjectCode": "ME502",
+  "title": "Design of Machine Elements - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 4087,
+  "uploadedBy": "FAC-ME-004",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME502/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME503-1",
+  "subjectCode": "ME503",
+  "title": "Metrology and Measurements - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3117,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME503/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME503-2",
+  "subjectCode": "ME503",
+  "title": "Metrology and Measurements - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2804,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME503/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME503-3",
+  "subjectCode": "ME503",
+  "title": "Metrology and Measurements - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2975,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME503/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME504-1",
+  "subjectCode": "ME504",
+  "title": "Industrial Engineering - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 893,
+  "uploadedBy": "FAC-ME-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME504/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME504-2",
+  "subjectCode": "ME504",
+  "title": "Industrial Engineering - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2588,
+  "uploadedBy": "FAC-ME-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME504/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME504-3",
+  "subjectCode": "ME504",
+  "title": "Industrial Engineering - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1912,
+  "uploadedBy": "FAC-ME-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME504/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME505-1",
+  "subjectCode": "ME505",
+  "title": "Professional Elective I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3010,
+  "uploadedBy": "FAC-ME-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME505/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME505-2",
+  "subjectCode": "ME505",
+  "title": "Professional Elective I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2013,
+  "uploadedBy": "FAC-ME-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME505/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME505-3",
+  "subjectCode": "ME505",
+  "title": "Professional Elective I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1582,
+  "uploadedBy": "FAC-ME-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME505/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE501-1",
+  "subjectCode": "CE501",
+  "title": "Design of RC Structures - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3071,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE501/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE501-2",
+  "subjectCode": "CE501",
+  "title": "Design of RC Structures - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2333,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE501/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE501-3",
+  "subjectCode": "CE501",
+  "title": "Design of RC Structures - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 4159,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE501/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE502-1",
+  "subjectCode": "CE502",
+  "title": "Environmental Engineering - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 851,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE502/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE502-2",
+  "subjectCode": "CE502",
+  "title": "Environmental Engineering - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1485,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE502/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE502-3",
+  "subjectCode": "CE502",
+  "title": "Environmental Engineering - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 342,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE502/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE503-1",
+  "subjectCode": "CE503",
+  "title": "Water Resources Engineering - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2616,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE503/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE503-2",
+  "subjectCode": "CE503",
+  "title": "Water Resources Engineering - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3992,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE503/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE503-3",
+  "subjectCode": "CE503",
+  "title": "Water Resources Engineering - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1678,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE503/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE504-1",
+  "subjectCode": "CE504",
+  "title": "Transportation Engineering II - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 413,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE504/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE504-2",
+  "subjectCode": "CE504",
+  "title": "Transportation Engineering II - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 870,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE504/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE504-3",
+  "subjectCode": "CE504",
+  "title": "Transportation Engineering II - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1876,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE504/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE505-1",
+  "subjectCode": "CE505",
+  "title": "Professional Elective I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2124,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE505/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE505-2",
+  "subjectCode": "CE505",
+  "title": "Professional Elective I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 267,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE505/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE505-3",
+  "subjectCode": "CE505",
+  "title": "Professional Elective I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1955,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE505/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE701-1",
+  "subjectCode": "CSE701",
+  "title": "Big Data Analytics - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2071,
+  "uploadedBy": "FAC-CSE-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE701/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE701-2",
+  "subjectCode": "CSE701",
+  "title": "Big Data Analytics - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3111,
+  "uploadedBy": "FAC-CSE-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE701/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE701-3",
+  "subjectCode": "CSE701",
+  "title": "Big Data Analytics - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 696,
+  "uploadedBy": "FAC-CSE-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE701/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE702-1",
+  "subjectCode": "CSE702",
+  "title": "Distributed Systems - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1074,
+  "uploadedBy": "FAC-CSE-004",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE702/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE702-2",
+  "subjectCode": "CSE702",
+  "title": "Distributed Systems - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3919,
+  "uploadedBy": "FAC-CSE-004",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE702/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE702-3",
+  "subjectCode": "CSE702",
+  "title": "Distributed Systems - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1028,
+  "uploadedBy": "FAC-CSE-004",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE702/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE703-1",
+  "subjectCode": "CSE703",
+  "title": "Deep Learning - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3000,
+  "uploadedBy": "FAC-CSE-005",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE703/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE703-2",
+  "subjectCode": "CSE703",
+  "title": "Deep Learning - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2618,
+  "uploadedBy": "FAC-CSE-005",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE703/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE703-3",
+  "subjectCode": "CSE703",
+  "title": "Deep Learning - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 465,
+  "uploadedBy": "FAC-CSE-005",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE703/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE704-1",
+  "subjectCode": "CSE704",
+  "title": "Open Elective I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3993,
+  "uploadedBy": "FAC-CSE-006",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE704/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE704-2",
+  "subjectCode": "CSE704",
+  "title": "Open Elective I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2105,
+  "uploadedBy": "FAC-CSE-006",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE704/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE704-3",
+  "subjectCode": "CSE704",
+  "title": "Open Elective I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2128,
+  "uploadedBy": "FAC-CSE-006",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE704/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CSE705-1",
+  "subjectCode": "CSE705",
+  "title": "Project Phase I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1989,
+  "uploadedBy": "FAC-CSE-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CSE705/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CSE705-2",
+  "subjectCode": "CSE705",
+  "title": "Project Phase I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 243,
+  "uploadedBy": "FAC-CSE-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CSE705/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CSE705-3",
+  "subjectCode": "CSE705",
+  "title": "Project Phase I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3762,
+  "uploadedBy": "FAC-CSE-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CSE705/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML701-1",
+  "subjectCode": "AIML701",
+  "title": "Generative AI - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1910,
+  "uploadedBy": "FAC-AIML-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML701/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML701-2",
+  "subjectCode": "AIML701",
+  "title": "Generative AI - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1730,
+  "uploadedBy": "FAC-AIML-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML701/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML701-3",
+  "subjectCode": "AIML701",
+  "title": "Generative AI - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1811,
+  "uploadedBy": "FAC-AIML-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML701/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML702-1",
+  "subjectCode": "AIML702",
+  "title": "MLOps - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2231,
+  "uploadedBy": "FAC-AIML-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML702/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML702-2",
+  "subjectCode": "AIML702",
+  "title": "MLOps - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1331,
+  "uploadedBy": "FAC-AIML-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML702/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML702-3",
+  "subjectCode": "AIML702",
+  "title": "MLOps - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2533,
+  "uploadedBy": "FAC-AIML-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML702/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML703-1",
+  "subjectCode": "AIML703",
+  "title": "AI Ethics and Governance - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1858,
+  "uploadedBy": "FAC-AIML-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML703/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML703-2",
+  "subjectCode": "AIML703",
+  "title": "AI Ethics and Governance - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3582,
+  "uploadedBy": "FAC-AIML-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML703/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML703-3",
+  "subjectCode": "AIML703",
+  "title": "AI Ethics and Governance - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2039,
+  "uploadedBy": "FAC-AIML-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML703/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML704-1",
+  "subjectCode": "AIML704",
+  "title": "Open Elective I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3462,
+  "uploadedBy": "FAC-AIML-004",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML704/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML704-2",
+  "subjectCode": "AIML704",
+  "title": "Open Elective I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3583,
+  "uploadedBy": "FAC-AIML-004",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML704/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML704-3",
+  "subjectCode": "AIML704",
+  "title": "Open Elective I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2897,
+  "uploadedBy": "FAC-AIML-004",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML704/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-AIML705-1",
+  "subjectCode": "AIML705",
+  "title": "Project Phase I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3374,
+  "uploadedBy": "FAC-AIML-005",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/AIML705/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-AIML705-2",
+  "subjectCode": "AIML705",
+  "title": "Project Phase I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1089,
+  "uploadedBy": "FAC-AIML-005",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/AIML705/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-AIML705-3",
+  "subjectCode": "AIML705",
+  "title": "Project Phase I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1309,
+  "uploadedBy": "FAC-AIML-005",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/AIML705/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT701-1",
+  "subjectCode": "IT701",
+  "title": "Big Data Analytics - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1814,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT701/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT701-2",
+  "subjectCode": "IT701",
+  "title": "Big Data Analytics - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3287,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT701/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT701-3",
+  "subjectCode": "IT701",
+  "title": "Big Data Analytics - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1117,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT701/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT702-1",
+  "subjectCode": "IT702",
+  "title": "DevOps - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1607,
+  "uploadedBy": "FAC-IT-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT702/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT702-2",
+  "subjectCode": "IT702",
+  "title": "DevOps - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 1746,
+  "uploadedBy": "FAC-IT-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT702/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT702-3",
+  "subjectCode": "IT702",
+  "title": "DevOps - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 4176,
+  "uploadedBy": "FAC-IT-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT702/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT703-1",
+  "subjectCode": "IT703",
+  "title": "Blockchain Technology - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3035,
+  "uploadedBy": "FAC-IT-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT703/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT703-2",
+  "subjectCode": "IT703",
+  "title": "Blockchain Technology - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 227,
+  "uploadedBy": "FAC-IT-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT703/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT703-3",
+  "subjectCode": "IT703",
+  "title": "Blockchain Technology - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 441,
+  "uploadedBy": "FAC-IT-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT703/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT704-1",
+  "subjectCode": "IT704",
+  "title": "Open Elective I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 706,
+  "uploadedBy": "FAC-IT-004",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT704/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT704-2",
+  "subjectCode": "IT704",
+  "title": "Open Elective I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3725,
+  "uploadedBy": "FAC-IT-004",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT704/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT704-3",
+  "subjectCode": "IT704",
+  "title": "Open Elective I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1674,
+  "uploadedBy": "FAC-IT-004",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT704/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-IT705-1",
+  "subjectCode": "IT705",
+  "title": "Project Phase I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2356,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/IT705/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-IT705-2",
+  "subjectCode": "IT705",
+  "title": "Project Phase I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3703,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/IT705/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-IT705-3",
+  "subjectCode": "IT705",
+  "title": "Project Phase I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2615,
+  "uploadedBy": "FAC-IT-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/IT705/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE701-1",
+  "subjectCode": "ECE701",
+  "title": "Optical Communication - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 323,
+  "uploadedBy": "FAC-ECE-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE701/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE701-2",
+  "subjectCode": "ECE701",
+  "title": "Optical Communication - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 450,
+  "uploadedBy": "FAC-ECE-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE701/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE701-3",
+  "subjectCode": "ECE701",
+  "title": "Optical Communication - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 4044,
+  "uploadedBy": "FAC-ECE-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE701/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE702-1",
+  "subjectCode": "ECE702",
+  "title": "Satellite Communication - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3834,
+  "uploadedBy": "FAC-ECE-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE702/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE702-2",
+  "subjectCode": "ECE702",
+  "title": "Satellite Communication - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 482,
+  "uploadedBy": "FAC-ECE-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE702/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE702-3",
+  "subjectCode": "ECE702",
+  "title": "Satellite Communication - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 311,
+  "uploadedBy": "FAC-ECE-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE702/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE703-1",
+  "subjectCode": "ECE703",
+  "title": "IoT and Sensor Networks - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 563,
+  "uploadedBy": "FAC-ECE-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE703/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE703-2",
+  "subjectCode": "ECE703",
+  "title": "IoT and Sensor Networks - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3605,
+  "uploadedBy": "FAC-ECE-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE703/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE703-3",
+  "subjectCode": "ECE703",
+  "title": "IoT and Sensor Networks - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 935,
+  "uploadedBy": "FAC-ECE-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE703/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE704-1",
+  "subjectCode": "ECE704",
+  "title": "Open Elective I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1835,
+  "uploadedBy": "FAC-ECE-004",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE704/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE704-2",
+  "subjectCode": "ECE704",
+  "title": "Open Elective I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3161,
+  "uploadedBy": "FAC-ECE-004",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE704/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE704-3",
+  "subjectCode": "ECE704",
+  "title": "Open Elective I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1218,
+  "uploadedBy": "FAC-ECE-004",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE704/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ECE705-1",
+  "subjectCode": "ECE705",
+  "title": "Project Phase I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 2980,
+  "uploadedBy": "FAC-ECE-005",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ECE705/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ECE705-2",
+  "subjectCode": "ECE705",
+  "title": "Project Phase I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3397,
+  "uploadedBy": "FAC-ECE-005",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ECE705/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ECE705-3",
+  "subjectCode": "ECE705",
+  "title": "Project Phase I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 1509,
+  "uploadedBy": "FAC-ECE-005",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ECE705/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME701-1",
+  "subjectCode": "ME701",
+  "title": "Power Plant Engineering - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1058,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME701/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME701-2",
+  "subjectCode": "ME701",
+  "title": "Power Plant Engineering - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2830,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME701/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME701-3",
+  "subjectCode": "ME701",
+  "title": "Power Plant Engineering - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3496,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME701/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME702-1",
+  "subjectCode": "ME702",
+  "title": "Automobile Engineering - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3232,
+  "uploadedBy": "FAC-ME-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME702/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME702-2",
+  "subjectCode": "ME702",
+  "title": "Automobile Engineering - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 496,
+  "uploadedBy": "FAC-ME-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME702/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME702-3",
+  "subjectCode": "ME702",
+  "title": "Automobile Engineering - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 4022,
+  "uploadedBy": "FAC-ME-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME702/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME703-1",
+  "subjectCode": "ME703",
+  "title": "Robotics and Automation - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 4113,
+  "uploadedBy": "FAC-ME-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME703/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME703-2",
+  "subjectCode": "ME703",
+  "title": "Robotics and Automation - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3811,
+  "uploadedBy": "FAC-ME-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME703/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME703-3",
+  "subjectCode": "ME703",
+  "title": "Robotics and Automation - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 4067,
+  "uploadedBy": "FAC-ME-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME703/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME704-1",
+  "subjectCode": "ME704",
+  "title": "Open Elective I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1460,
+  "uploadedBy": "FAC-ME-004",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME704/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME704-2",
+  "subjectCode": "ME704",
+  "title": "Open Elective I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 230,
+  "uploadedBy": "FAC-ME-004",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME704/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME704-3",
+  "subjectCode": "ME704",
+  "title": "Open Elective I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2427,
+  "uploadedBy": "FAC-ME-004",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME704/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-ME705-1",
+  "subjectCode": "ME705",
+  "title": "Project Phase I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 1456,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/ME705/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-ME705-2",
+  "subjectCode": "ME705",
+  "title": "Project Phase I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 3884,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/ME705/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-ME705-3",
+  "subjectCode": "ME705",
+  "title": "Project Phase I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3945,
+  "uploadedBy": "FAC-ME-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/ME705/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE701-1",
+  "subjectCode": "CE701",
+  "title": "Advanced Structural Design - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 492,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE701/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE701-2",
+  "subjectCode": "CE701",
+  "title": "Advanced Structural Design - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 4116,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE701/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE701-3",
+  "subjectCode": "CE701",
+  "title": "Advanced Structural Design - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 517,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE701/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE702-1",
+  "subjectCode": "CE702",
+  "title": "Remote Sensing and GIS - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 866,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE702/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE702-2",
+  "subjectCode": "CE702",
+  "title": "Remote Sensing and GIS - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2657,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE702/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE702-3",
+  "subjectCode": "CE702",
+  "title": "Remote Sensing and GIS - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3195,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE702/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE703-1",
+  "subjectCode": "CE703",
+  "title": "Earthquake Engineering - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 4095,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE703/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE703-2",
+  "subjectCode": "CE703",
+  "title": "Earthquake Engineering - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2941,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE703/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE703-3",
+  "subjectCode": "CE703",
+  "title": "Earthquake Engineering - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 2311,
+  "uploadedBy": "FAC-CE-002",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE703/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE704-1",
+  "subjectCode": "CE704",
+  "title": "Open Elective I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3746,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE704/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE704-2",
+  "subjectCode": "CE704",
+  "title": "Open Elective I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 2579,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE704/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE704-3",
+  "subjectCode": "CE704",
+  "title": "Open Elective I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3037,
+  "uploadedBy": "FAC-CE-003",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE704/previous-year-questions.pdf"
+ },
+ {
+  "id": "RES-CE705-1",
+  "subjectCode": "CE705",
+  "title": "Project Phase I - Unit 1 Notes",
+  "fileType": "PDF",
+  "sizeKB": 3693,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-08-10",
+  "url": "/files/CE705/unit-1-notes.pdf"
+ },
+ {
+  "id": "RES-CE705-2",
+  "subjectCode": "CE705",
+  "title": "Project Phase I - Unit 2 Slides",
+  "fileType": "PPTX",
+  "sizeKB": 4197,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-08-24",
+  "url": "/files/CE705/unit-2-slides.pptx"
+ },
+ {
+  "id": "RES-CE705-3",
+  "subjectCode": "CE705",
+  "title": "Project Phase I - Previous Year Questions",
+  "fileType": "PDF",
+  "sizeKB": 3739,
+  "uploadedBy": "FAC-CE-001",
+  "uploadedAt": "2026-09-07",
+  "url": "/files/CE705/previous-year-questions.pdf"
+ }
+]

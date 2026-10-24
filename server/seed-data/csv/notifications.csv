@@ -1,0 +1,585 @@
+id,userId,type,title,message,isRead,createdAt
+NTF-00001,2026CSE001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00002,2026CSE001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00003,2026CSE002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-21
+NTF-00004,2026CSE002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-22
+NTF-00005,2026CSE003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-21
+NTF-00006,2026CSE003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-17
+NTF-00007,2026CSE004,attendance,Low attendance alert,"Your overall attendance is 74%, below the 75% requirement.",False,2026-10-16
+NTF-00008,2026CSE004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-18
+NTF-00009,2026CSE004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-14
+NTF-00010,2026CSE005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-16
+NTF-00011,2026CSE005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-22
+NTF-00012,2026CSE005,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-17
+NTF-00013,2026CSE006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-12
+NTF-00014,2026CSE006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-16
+NTF-00015,2026CSE007,attendance,Low attendance alert,"Your overall attendance is 73%, below the 75% requirement.",False,2026-10-22
+NTF-00016,2026CSE007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-23
+NTF-00017,2026CSE007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00018,2026CSE008,attendance,Low attendance alert,"Your overall attendance is 70%, below the 75% requirement.",False,2026-10-18
+NTF-00019,2026CSE008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-17
+NTF-00020,2026CSE008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-16
+NTF-00021,2026CSE008,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",False,2026-10-12
+NTF-00022,2026CSE009,attendance,Low attendance alert,"Your overall attendance is 39%, below the 75% requirement.",False,2026-10-19
+NTF-00023,2026CSE009,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-18
+NTF-00024,2026CSE009,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-15
+NTF-00025,2026CSE009,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",False,2026-10-22
+NTF-00026,2026CSE010,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-12
+NTF-00027,2026CSE010,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-14
+NTF-00028,2026CSE010,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-17
+NTF-00029,2026CSE011,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-21
+NTF-00030,2026CSE011,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-15
+NTF-00031,2026CSE011,fees,Fee payment reminder,"Rs. 34,250 is pending for the current semester.",False,2026-10-17
+NTF-00032,2026CSE012,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-12
+NTF-00033,2026CSE012,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-22
+NTF-00034,2026CSE012,fees,Fee payment reminder,"Rs. 34,250 is pending for the current semester.",False,2026-10-17
+NTF-00035,2026CSE013,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-18
+NTF-00036,2026CSE013,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-12
+NTF-00037,2026AIML001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-20
+NTF-00038,2026AIML001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-17
+NTF-00039,2026AIML002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-12
+NTF-00040,2026AIML002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-22
+NTF-00041,2026AIML002,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",False,2026-10-20
+NTF-00042,2026AIML003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-15
+NTF-00043,2026AIML003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-15
+NTF-00044,2026AIML003,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",True,2026-10-16
+NTF-00045,2026AIML004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-13
+NTF-00046,2026AIML004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-23
+NTF-00047,2026AIML005,attendance,Low attendance alert,"Your overall attendance is 67%, below the 75% requirement.",False,2026-10-19
+NTF-00048,2026AIML005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-16
+NTF-00049,2026AIML005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-22
+NTF-00050,2026AIML005,fees,Fee payment reminder,"Rs. 34,250 is pending for the current semester.",True,2026-10-12
+NTF-00051,2026AIML006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-13
+NTF-00052,2026AIML006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00053,2026AIML007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-20
+NTF-00054,2026AIML007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-13
+NTF-00055,2026AIML007,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-21
+NTF-00056,2026AIML008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-20
+NTF-00057,2026AIML008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00058,2026AIML008,fees,Fee payment reminder,"Rs. 34,250 is pending for the current semester.",False,2026-10-13
+NTF-00059,2026AIML009,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00060,2026AIML009,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-21
+NTF-00061,2026IT001,attendance,Low attendance alert,"Your overall attendance is 74%, below the 75% requirement.",True,2026-10-18
+NTF-00062,2026IT001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-16
+NTF-00063,2026IT001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-21
+NTF-00064,2026IT001,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",False,2026-10-20
+NTF-00065,2026IT002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00066,2026IT002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-13
+NTF-00067,2026IT003,attendance,Low attendance alert,"Your overall attendance is 64%, below the 75% requirement.",True,2026-10-20
+NTF-00068,2026IT003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00069,2026IT003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-23
+NTF-00070,2026IT004,attendance,Low attendance alert,"Your overall attendance is 47%, below the 75% requirement.",False,2026-10-13
+NTF-00071,2026IT004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-17
+NTF-00072,2026IT004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-21
+NTF-00073,2026IT004,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-18
+NTF-00074,2026IT005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-18
+NTF-00075,2026IT005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-22
+NTF-00076,2026IT005,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",True,2026-10-17
+NTF-00077,2026IT006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-19
+NTF-00078,2026IT006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-14
+NTF-00079,2026IT006,fees,Fee payment reminder,"Rs. 34,250 is pending for the current semester.",False,2026-10-23
+NTF-00080,2026IT007,attendance,Low attendance alert,"Your overall attendance is 72%, below the 75% requirement.",False,2026-10-20
+NTF-00081,2026IT007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-14
+NTF-00082,2026IT007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00083,2026IT008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-17
+NTF-00084,2026IT008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-21
+NTF-00085,2026IT008,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",False,2026-10-22
+NTF-00086,2026ECE001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-17
+NTF-00087,2026ECE001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-18
+NTF-00088,2026ECE001,fees,Fee payment reminder,"Rs. 64,000 is pending for the current semester.",True,2026-10-12
+NTF-00089,2026ECE002,attendance,Low attendance alert,"Your overall attendance is 57%, below the 75% requirement.",False,2026-10-13
+NTF-00090,2026ECE002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-21
+NTF-00091,2026ECE002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-13
+NTF-00092,2026ECE002,fees,Fee payment reminder,"Rs. 32,000 is pending for the current semester.",True,2026-10-12
+NTF-00093,2026ECE003,attendance,Low attendance alert,"Your overall attendance is 68%, below the 75% requirement.",True,2026-10-12
+NTF-00094,2026ECE003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-17
+NTF-00095,2026ECE003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00096,2026ECE004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00097,2026ECE004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-22
+NTF-00098,2026ECE005,attendance,Low attendance alert,"Your overall attendance is 57%, below the 75% requirement.",True,2026-10-15
+NTF-00099,2026ECE005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-19
+NTF-00100,2026ECE005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-18
+NTF-00101,2026ECE005,fees,Fee payment reminder,"Rs. 32,000 is pending for the current semester.",True,2026-10-21
+NTF-00102,2026ECE006,attendance,Low attendance alert,"Your overall attendance is 67%, below the 75% requirement.",False,2026-10-16
+NTF-00103,2026ECE006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-16
+NTF-00104,2026ECE006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00105,2026ECE006,fees,Fee payment reminder,"Rs. 32,000 is pending for the current semester.",True,2026-10-15
+NTF-00106,2026ECE007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00107,2026ECE007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-22
+NTF-00108,2026ECE007,fees,Fee payment reminder,"Rs. 64,000 is pending for the current semester.",False,2026-10-12
+NTF-00109,2026ECE008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-18
+NTF-00110,2026ECE008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-22
+NTF-00111,2026ECE008,fees,Fee payment reminder,"Rs. 64,000 is pending for the current semester.",False,2026-10-16
+NTF-00112,2026ME001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00113,2026ME001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-13
+NTF-00114,2026ME001,fees,Fee payment reminder,"Rs. 58,000 is pending for the current semester.",True,2026-10-12
+NTF-00115,2026ME002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00116,2026ME002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-19
+NTF-00117,2026ME002,fees,Fee payment reminder,"Rs. 58,000 is pending for the current semester.",True,2026-10-23
+NTF-00118,2026ME003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-12
+NTF-00119,2026ME003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-17
+NTF-00120,2026ME003,fees,Fee payment reminder,"Rs. 23,200 is pending for the current semester.",False,2026-10-22
+NTF-00121,2026ME004,attendance,Low attendance alert,"Your overall attendance is 42%, below the 75% requirement.",False,2026-10-12
+NTF-00122,2026ME004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00123,2026ME004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-13
+NTF-00124,2026ME004,fees,Fee payment reminder,"Rs. 23,200 is pending for the current semester.",False,2026-10-21
+NTF-00125,2026ME005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-23
+NTF-00126,2026ME005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-16
+NTF-00127,2026ME005,fees,Fee payment reminder,"Rs. 14,500 is pending for the current semester.",True,2026-10-18
+NTF-00128,2026ME006,attendance,Low attendance alert,"Your overall attendance is 55%, below the 75% requirement.",False,2026-10-16
+NTF-00129,2026ME006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-16
+NTF-00130,2026ME006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00131,2026ME006,fees,Fee payment reminder,"Rs. 14,500 is pending for the current semester.",False,2026-10-18
+NTF-00132,2026ME007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-20
+NTF-00133,2026ME007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-13
+NTF-00134,2026ME007,fees,Fee payment reminder,"Rs. 29,000 is pending for the current semester.",False,2026-10-22
+NTF-00135,2026CE001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-16
+NTF-00136,2026CE001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-21
+NTF-00137,2026CE001,fees,Fee payment reminder,"Rs. 29,000 is pending for the current semester.",False,2026-10-18
+NTF-00138,2026CE002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00139,2026CE002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-12
+NTF-00140,2026CE002,fees,Fee payment reminder,"Rs. 58,000 is pending for the current semester.",False,2026-10-14
+NTF-00141,2026CE003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00142,2026CE003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-17
+NTF-00143,2026CE004,attendance,Low attendance alert,"Your overall attendance is 55%, below the 75% requirement.",False,2026-10-17
+NTF-00144,2026CE004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-15
+NTF-00145,2026CE004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-19
+NTF-00146,2026CE005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-22
+NTF-00147,2026CE005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-23
+NTF-00148,2025CSE001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-13
+NTF-00149,2025CSE001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00150,2025CSE001,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",True,2026-10-21
+NTF-00151,2025CSE002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-13
+NTF-00152,2025CSE002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-22
+NTF-00153,2025CSE002,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",True,2026-10-18
+NTF-00154,2025CSE003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-14
+NTF-00155,2025CSE003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00156,2025CSE003,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",False,2026-10-12
+NTF-00157,2025CSE004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00158,2025CSE004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-13
+NTF-00159,2025CSE005,attendance,Low attendance alert,"Your overall attendance is 74%, below the 75% requirement.",False,2026-10-23
+NTF-00160,2025CSE005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-19
+NTF-00161,2025CSE005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-21
+NTF-00162,2025CSE006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-19
+NTF-00163,2025CSE006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-13
+NTF-00164,2025CSE007,attendance,Low attendance alert,"Your overall attendance is 65%, below the 75% requirement.",False,2026-10-15
+NTF-00165,2025CSE007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-15
+NTF-00166,2025CSE007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-22
+NTF-00167,2025CSE008,attendance,Low attendance alert,"Your overall attendance is 51%, below the 75% requirement.",False,2026-10-22
+NTF-00168,2025CSE008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00169,2025CSE008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-19
+NTF-00170,2025CSE008,fees,Fee payment reminder,"Rs. 34,250 is pending for the current semester.",False,2026-10-17
+NTF-00171,2025CSE009,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-22
+NTF-00172,2025CSE009,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-20
+NTF-00173,2025CSE009,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",False,2026-10-12
+NTF-00174,2025CSE010,attendance,Low attendance alert,"Your overall attendance is 69%, below the 75% requirement.",False,2026-10-17
+NTF-00175,2025CSE010,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-17
+NTF-00176,2025CSE010,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-13
+NTF-00177,2025CSE011,attendance,Low attendance alert,"Your overall attendance is 69%, below the 75% requirement.",False,2026-10-21
+NTF-00178,2025CSE011,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-20
+NTF-00179,2025CSE011,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00180,2025CSE012,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-23
+NTF-00181,2025CSE012,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-15
+NTF-00182,2025CSE013,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-12
+NTF-00183,2025CSE013,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-15
+NTF-00184,2025CSE013,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",False,2026-10-22
+NTF-00185,2025AIML001,attendance,Low attendance alert,"Your overall attendance is 63%, below the 75% requirement.",False,2026-10-17
+NTF-00186,2025AIML001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-17
+NTF-00187,2025AIML001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-21
+NTF-00188,2025AIML001,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",True,2026-10-17
+NTF-00189,2025AIML002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00190,2025AIML002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-16
+NTF-00191,2025AIML002,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",True,2026-10-21
+NTF-00192,2025AIML003,attendance,Low attendance alert,"Your overall attendance is 43%, below the 75% requirement.",False,2026-10-14
+NTF-00193,2025AIML003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-14
+NTF-00194,2025AIML003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-13
+NTF-00195,2025AIML004,attendance,Low attendance alert,"Your overall attendance is 50%, below the 75% requirement.",False,2026-10-18
+NTF-00196,2025AIML004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-20
+NTF-00197,2025AIML004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-23
+NTF-00198,2025AIML004,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",True,2026-10-18
+NTF-00199,2025AIML005,attendance,Low attendance alert,"Your overall attendance is 57%, below the 75% requirement.",True,2026-10-19
+NTF-00200,2025AIML005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-13
+NTF-00201,2025AIML005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-22
+NTF-00202,2025AIML005,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",False,2026-10-22
+NTF-00203,2025AIML006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-18
+NTF-00204,2025AIML006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-23
+NTF-00205,2025AIML007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-13
+NTF-00206,2025AIML007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-21
+NTF-00207,2025AIML007,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-14
+NTF-00208,2025AIML008,attendance,Low attendance alert,"Your overall attendance is 61%, below the 75% requirement.",True,2026-10-21
+NTF-00209,2025AIML008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-23
+NTF-00210,2025AIML008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-13
+NTF-00211,2025AIML009,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-16
+NTF-00212,2025AIML009,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-13
+NTF-00213,2025AIML009,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",False,2026-10-12
+NTF-00214,2025IT001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-12
+NTF-00215,2025IT001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-21
+NTF-00216,2025IT002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-15
+NTF-00217,2025IT002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-20
+NTF-00218,2025IT002,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-23
+NTF-00219,2025IT003,attendance,Low attendance alert,"Your overall attendance is 66%, below the 75% requirement.",True,2026-10-14
+NTF-00220,2025IT003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-16
+NTF-00221,2025IT003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-21
+NTF-00222,2025IT004,attendance,Low attendance alert,"Your overall attendance is 54%, below the 75% requirement.",True,2026-10-21
+NTF-00223,2025IT004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-13
+NTF-00224,2025IT004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00225,2025IT004,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-19
+NTF-00226,2025IT005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-13
+NTF-00227,2025IT005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00228,2025IT005,fees,Fee payment reminder,"Rs. 34,250 is pending for the current semester.",True,2026-10-13
+NTF-00229,2025IT006,attendance,Low attendance alert,"Your overall attendance is 73%, below the 75% requirement.",True,2026-10-13
+NTF-00230,2025IT006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-18
+NTF-00231,2025IT006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-14
+NTF-00232,2025IT006,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",False,2026-10-12
+NTF-00233,2025IT007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-23
+NTF-00234,2025IT007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-15
+NTF-00235,2025IT008,attendance,Low attendance alert,"Your overall attendance is 71%, below the 75% requirement.",False,2026-10-14
+NTF-00236,2025IT008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-16
+NTF-00237,2025IT008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-17
+NTF-00238,2025ECE001,attendance,Low attendance alert,"Your overall attendance is 70%, below the 75% requirement.",True,2026-10-19
+NTF-00239,2025ECE001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00240,2025ECE001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-17
+NTF-00241,2025ECE001,fees,Fee payment reminder,"Rs. 32,000 is pending for the current semester.",False,2026-10-13
+NTF-00242,2025ECE002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-18
+NTF-00243,2025ECE002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-12
+NTF-00244,2025ECE003,attendance,Low attendance alert,"Your overall attendance is 57%, below the 75% requirement.",False,2026-10-22
+NTF-00245,2025ECE003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-18
+NTF-00246,2025ECE003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-16
+NTF-00247,2025ECE004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00248,2025ECE004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-22
+NTF-00249,2025ECE004,fees,Fee payment reminder,"Rs. 32,000 is pending for the current semester.",False,2026-10-19
+NTF-00250,2025ECE005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-17
+NTF-00251,2025ECE005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-15
+NTF-00252,2025ECE006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-22
+NTF-00253,2025ECE006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-18
+NTF-00254,2025ECE007,attendance,Low attendance alert,"Your overall attendance is 54%, below the 75% requirement.",True,2026-10-15
+NTF-00255,2025ECE007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-16
+NTF-00256,2025ECE007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-21
+NTF-00257,2025ECE007,fees,Fee payment reminder,"Rs. 64,000 is pending for the current semester.",False,2026-10-19
+NTF-00258,2025ECE008,attendance,Low attendance alert,"Your overall attendance is 68%, below the 75% requirement.",False,2026-10-16
+NTF-00259,2025ECE008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-20
+NTF-00260,2025ECE008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-18
+NTF-00261,2025ECE008,fees,Fee payment reminder,"Rs. 64,000 is pending for the current semester.",False,2026-10-23
+NTF-00262,2025ME001,attendance,Low attendance alert,"Your overall attendance is 74%, below the 75% requirement.",False,2026-10-13
+NTF-00263,2025ME001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-23
+NTF-00264,2025ME001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-21
+NTF-00265,2025ME002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-20
+NTF-00266,2025ME002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-18
+NTF-00267,2025ME003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-23
+NTF-00268,2025ME003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-23
+NTF-00269,2025ME003,fees,Fee payment reminder,"Rs. 58,000 is pending for the current semester.",False,2026-10-18
+NTF-00270,2025ME004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-12
+NTF-00271,2025ME004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-19
+NTF-00272,2025ME004,fees,Fee payment reminder,"Rs. 58,000 is pending for the current semester.",False,2026-10-13
+NTF-00273,2025ME005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00274,2025ME005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-20
+NTF-00275,2025ME005,fees,Fee payment reminder,"Rs. 14,500 is pending for the current semester.",False,2026-10-13
+NTF-00276,2025ME006,attendance,Low attendance alert,"Your overall attendance is 72%, below the 75% requirement.",True,2026-10-17
+NTF-00277,2025ME006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00278,2025ME006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00279,2025ME007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-15
+NTF-00280,2025ME007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00281,2025ME007,fees,Fee payment reminder,"Rs. 23,200 is pending for the current semester.",True,2026-10-17
+NTF-00282,2025CE001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-19
+NTF-00283,2025CE001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-14
+NTF-00284,2025CE002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-17
+NTF-00285,2025CE002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-17
+NTF-00286,2025CE003,attendance,Low attendance alert,"Your overall attendance is 64%, below the 75% requirement.",True,2026-10-19
+NTF-00287,2025CE003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00288,2025CE003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00289,2025CE003,fees,Fee payment reminder,"Rs. 58,000 is pending for the current semester.",False,2026-10-17
+NTF-00290,2025CE004,attendance,Low attendance alert,"Your overall attendance is 62%, below the 75% requirement.",False,2026-10-16
+NTF-00291,2025CE004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-14
+NTF-00292,2025CE004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-23
+NTF-00293,2025CE005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00294,2025CE005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-20
+NTF-00295,2024CSE001,attendance,Low attendance alert,"Your overall attendance is 75%, below the 75% requirement.",True,2026-10-17
+NTF-00296,2024CSE001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-22
+NTF-00297,2024CSE001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-21
+NTF-00298,2024CSE002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-16
+NTF-00299,2024CSE002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-23
+NTF-00300,2024CSE002,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-23
+NTF-00301,2024CSE003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-16
+NTF-00302,2024CSE003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-13
+NTF-00303,2024CSE003,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",True,2026-10-16
+NTF-00304,2024CSE004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-17
+NTF-00305,2024CSE004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00306,2024CSE004,fees,Fee payment reminder,"Rs. 34,250 is pending for the current semester.",True,2026-10-14
+NTF-00307,2024CSE005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-17
+NTF-00308,2024CSE005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-17
+NTF-00309,2024CSE006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-21
+NTF-00310,2024CSE006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-19
+NTF-00311,2024CSE006,fees,Fee payment reminder,"Rs. 34,250 is pending for the current semester.",False,2026-10-23
+NTF-00312,2024CSE007,attendance,Low attendance alert,"Your overall attendance is 55%, below the 75% requirement.",True,2026-10-23
+NTF-00313,2024CSE007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-13
+NTF-00314,2024CSE007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-18
+NTF-00315,2024CSE008,attendance,Low attendance alert,"Your overall attendance is 55%, below the 75% requirement.",False,2026-10-16
+NTF-00316,2024CSE008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00317,2024CSE008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-21
+NTF-00318,2024CSE009,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-17
+NTF-00319,2024CSE009,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-19
+NTF-00320,2024CSE009,fees,Fee payment reminder,"Rs. 34,250 is pending for the current semester.",True,2026-10-23
+NTF-00321,2024CSE010,attendance,Low attendance alert,"Your overall attendance is 59%, below the 75% requirement.",False,2026-10-19
+NTF-00322,2024CSE010,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-13
+NTF-00323,2024CSE010,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00324,2024CSE010,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",True,2026-10-21
+NTF-00325,2024CSE011,attendance,Low attendance alert,"Your overall attendance is 71%, below the 75% requirement.",False,2026-10-17
+NTF-00326,2024CSE011,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00327,2024CSE011,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00328,2024CSE011,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",False,2026-10-13
+NTF-00329,2024CSE012,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-22
+NTF-00330,2024CSE012,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-14
+NTF-00331,2024CSE013,attendance,Low attendance alert,"Your overall attendance is 69%, below the 75% requirement.",False,2026-10-17
+NTF-00332,2024CSE013,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-17
+NTF-00333,2024CSE013,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-19
+NTF-00334,2024AIML001,attendance,Low attendance alert,"Your overall attendance is 63%, below the 75% requirement.",True,2026-10-15
+NTF-00335,2024AIML001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-16
+NTF-00336,2024AIML001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-12
+NTF-00337,2024AIML001,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-14
+NTF-00338,2024AIML002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-15
+NTF-00339,2024AIML002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-21
+NTF-00340,2024AIML003,attendance,Low attendance alert,"Your overall attendance is 75%, below the 75% requirement.",True,2026-10-15
+NTF-00341,2024AIML003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-12
+NTF-00342,2024AIML003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-21
+NTF-00343,2024AIML003,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-18
+NTF-00344,2024AIML004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-20
+NTF-00345,2024AIML004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-14
+NTF-00346,2024AIML004,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-21
+NTF-00347,2024AIML005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-19
+NTF-00348,2024AIML005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-23
+NTF-00349,2024AIML005,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",False,2026-10-12
+NTF-00350,2024AIML006,attendance,Low attendance alert,"Your overall attendance is 74%, below the 75% requirement.",False,2026-10-18
+NTF-00351,2024AIML006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-18
+NTF-00352,2024AIML006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-21
+NTF-00353,2024AIML006,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",True,2026-10-16
+NTF-00354,2024AIML007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-16
+NTF-00355,2024AIML007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-18
+NTF-00356,2024AIML008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-19
+NTF-00357,2024AIML008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-16
+NTF-00358,2024AIML009,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-21
+NTF-00359,2024AIML009,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-12
+NTF-00360,2024IT001,attendance,Low attendance alert,"Your overall attendance is 60%, below the 75% requirement.",True,2026-10-15
+NTF-00361,2024IT001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-14
+NTF-00362,2024IT001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-15
+NTF-00363,2024IT001,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",False,2026-10-17
+NTF-00364,2024IT002,attendance,Low attendance alert,"Your overall attendance is 69%, below the 75% requirement.",False,2026-10-17
+NTF-00365,2024IT002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-19
+NTF-00366,2024IT002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-16
+NTF-00367,2024IT003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-15
+NTF-00368,2024IT003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-14
+NTF-00369,2024IT004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00370,2024IT004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-17
+NTF-00371,2024IT004,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-19
+NTF-00372,2024IT005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-15
+NTF-00373,2024IT005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-19
+NTF-00374,2024IT006,attendance,Low attendance alert,"Your overall attendance is 70%, below the 75% requirement.",False,2026-10-15
+NTF-00375,2024IT006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-12
+NTF-00376,2024IT006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-12
+NTF-00377,2024IT007,attendance,Low attendance alert,"Your overall attendance is 72%, below the 75% requirement.",False,2026-10-14
+NTF-00378,2024IT007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-14
+NTF-00379,2024IT007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-13
+NTF-00380,2024IT008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-15
+NTF-00381,2024IT008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-19
+NTF-00382,2024ECE001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-20
+NTF-00383,2024ECE001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-12
+NTF-00384,2024ECE001,fees,Fee payment reminder,"Rs. 32,000 is pending for the current semester.",False,2026-10-23
+NTF-00385,2024ECE002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-19
+NTF-00386,2024ECE002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00387,2024ECE002,fees,Fee payment reminder,"Rs. 32,000 is pending for the current semester.",False,2026-10-15
+NTF-00388,2024ECE003,attendance,Low attendance alert,"Your overall attendance is 72%, below the 75% requirement.",True,2026-10-21
+NTF-00389,2024ECE003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-17
+NTF-00390,2024ECE003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-14
+NTF-00391,2024ECE004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-16
+NTF-00392,2024ECE004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00393,2024ECE004,fees,Fee payment reminder,"Rs. 64,000 is pending for the current semester.",False,2026-10-19
+NTF-00394,2024ECE005,attendance,Low attendance alert,"Your overall attendance is 71%, below the 75% requirement.",True,2026-10-22
+NTF-00395,2024ECE005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-20
+NTF-00396,2024ECE005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-13
+NTF-00397,2024ECE006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00398,2024ECE006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-20
+NTF-00399,2024ECE007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-23
+NTF-00400,2024ECE007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-22
+NTF-00401,2024ECE007,fees,Fee payment reminder,"Rs. 32,000 is pending for the current semester.",True,2026-10-22
+NTF-00402,2024ECE008,attendance,Low attendance alert,"Your overall attendance is 67%, below the 75% requirement.",False,2026-10-18
+NTF-00403,2024ECE008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-15
+NTF-00404,2024ECE008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-18
+NTF-00405,2024ECE008,fees,Fee payment reminder,"Rs. 64,000 is pending for the current semester.",False,2026-10-19
+NTF-00406,2024ME001,attendance,Low attendance alert,"Your overall attendance is 55%, below the 75% requirement.",True,2026-10-17
+NTF-00407,2024ME001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-18
+NTF-00408,2024ME001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-17
+NTF-00409,2024ME002,attendance,Low attendance alert,"Your overall attendance is 55%, below the 75% requirement.",False,2026-10-23
+NTF-00410,2024ME002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00411,2024ME002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-18
+NTF-00412,2024ME002,fees,Fee payment reminder,"Rs. 23,200 is pending for the current semester.",False,2026-10-15
+NTF-00413,2024ME003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-18
+NTF-00414,2024ME003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-12
+NTF-00415,2024ME004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-13
+NTF-00416,2024ME004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-22
+NTF-00417,2024ME004,fees,Fee payment reminder,"Rs. 14,500 is pending for the current semester.",True,2026-10-14
+NTF-00418,2024ME005,attendance,Low attendance alert,"Your overall attendance is 56%, below the 75% requirement.",False,2026-10-18
+NTF-00419,2024ME005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00420,2024ME005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-16
+NTF-00421,2024ME005,fees,Fee payment reminder,"Rs. 58,000 is pending for the current semester.",True,2026-10-15
+NTF-00422,2024ME006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-16
+NTF-00423,2024ME006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-21
+NTF-00424,2024ME006,fees,Fee payment reminder,"Rs. 14,500 is pending for the current semester.",False,2026-10-22
+NTF-00425,2024ME007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-13
+NTF-00426,2024ME007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00427,2024CE001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-12
+NTF-00428,2024CE001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00429,2024CE002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-19
+NTF-00430,2024CE002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-12
+NTF-00431,2024CE002,fees,Fee payment reminder,"Rs. 58,000 is pending for the current semester.",True,2026-10-18
+NTF-00432,2024CE003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-14
+NTF-00433,2024CE003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-23
+NTF-00434,2024CE004,attendance,Low attendance alert,"Your overall attendance is 73%, below the 75% requirement.",False,2026-10-21
+NTF-00435,2024CE004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-17
+NTF-00436,2024CE004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-17
+NTF-00437,2024CE005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-12
+NTF-00438,2024CE005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-22
+NTF-00439,2023CSE001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00440,2023CSE001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-14
+NTF-00441,2023CSE002,attendance,Low attendance alert,"Your overall attendance is 53%, below the 75% requirement.",True,2026-10-13
+NTF-00442,2023CSE002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-18
+NTF-00443,2023CSE002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-16
+NTF-00444,2023CSE002,fees,Fee payment reminder,"Rs. 34,250 is pending for the current semester.",False,2026-10-19
+NTF-00445,2023CSE003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-15
+NTF-00446,2023CSE003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-14
+NTF-00447,2023CSE003,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",True,2026-10-12
+NTF-00448,2023CSE004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-20
+NTF-00449,2023CSE004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-13
+NTF-00450,2023CSE004,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",False,2026-10-15
+NTF-00451,2023CSE005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-18
+NTF-00452,2023CSE005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-18
+NTF-00453,2023CSE006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-12
+NTF-00454,2023CSE006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-18
+NTF-00455,2023CSE007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-23
+NTF-00456,2023CSE007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00457,2023CSE008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-12
+NTF-00458,2023CSE008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-18
+NTF-00459,2023CSE009,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-15
+NTF-00460,2023CSE009,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-16
+NTF-00461,2023CSE009,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",False,2026-10-17
+NTF-00462,2023CSE010,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-13
+NTF-00463,2023CSE010,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-22
+NTF-00464,2023CSE011,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-23
+NTF-00465,2023CSE011,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-14
+NTF-00466,2023CSE011,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",True,2026-10-17
+NTF-00467,2023CSE012,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00468,2023CSE012,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-20
+NTF-00469,2023CSE012,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-23
+NTF-00470,2023CSE013,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-22
+NTF-00471,2023CSE013,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-13
+NTF-00472,2023AIML001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-15
+NTF-00473,2023AIML001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-12
+NTF-00474,2023AIML001,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-13
+NTF-00475,2023AIML002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-15
+NTF-00476,2023AIML002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-16
+NTF-00477,2023AIML002,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",True,2026-10-14
+NTF-00478,2023AIML003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-14
+NTF-00479,2023AIML003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00480,2023AIML003,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-14
+NTF-00481,2023AIML004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-16
+NTF-00482,2023AIML004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-23
+NTF-00483,2023AIML005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-12
+NTF-00484,2023AIML005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-22
+NTF-00485,2023AIML006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-17
+NTF-00486,2023AIML006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00487,2023AIML006,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",True,2026-10-17
+NTF-00488,2023AIML007,attendance,Low attendance alert,"Your overall attendance is 60%, below the 75% requirement.",True,2026-10-22
+NTF-00489,2023AIML007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-13
+NTF-00490,2023AIML007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-12
+NTF-00491,2023AIML007,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",True,2026-10-18
+NTF-00492,2023AIML008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-19
+NTF-00493,2023AIML008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-18
+NTF-00494,2023AIML009,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-14
+NTF-00495,2023AIML009,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-13
+NTF-00496,2023AIML009,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",False,2026-10-21
+NTF-00497,2023IT001,attendance,Low attendance alert,"Your overall attendance is 69%, below the 75% requirement.",False,2026-10-23
+NTF-00498,2023IT001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00499,2023IT001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00500,2023IT001,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",True,2026-10-20
+NTF-00501,2023IT002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00502,2023IT002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-15
+NTF-00503,2023IT002,fees,Fee payment reminder,"Rs. 34,250 is pending for the current semester.",False,2026-10-22
+NTF-00504,2023IT003,attendance,Low attendance alert,"Your overall attendance is 74%, below the 75% requirement.",False,2026-10-16
+NTF-00505,2023IT003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-14
+NTF-00506,2023IT003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-13
+NTF-00507,2023IT003,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",False,2026-10-14
+NTF-00508,2023IT004,attendance,Low attendance alert,"Your overall attendance is 70%, below the 75% requirement.",False,2026-10-21
+NTF-00509,2023IT004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-22
+NTF-00510,2023IT004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00511,2023IT004,fees,Fee payment reminder,"Rs. 68,500 is pending for the current semester.",False,2026-10-19
+NTF-00512,2023IT005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-18
+NTF-00513,2023IT005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-12
+NTF-00514,2023IT006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-12
+NTF-00515,2023IT006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-13
+NTF-00516,2023IT006,fees,Fee payment reminder,"Rs. 27,400 is pending for the current semester.",True,2026-10-13
+NTF-00517,2023IT007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-19
+NTF-00518,2023IT007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-21
+NTF-00519,2023IT008,attendance,Low attendance alert,"Your overall attendance is 75%, below the 75% requirement.",True,2026-10-13
+NTF-00520,2023IT008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-12
+NTF-00521,2023IT008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-19
+NTF-00522,2023IT008,fees,Fee payment reminder,"Rs. 17,125 is pending for the current semester.",False,2026-10-16
+NTF-00523,2023ECE001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-23
+NTF-00524,2023ECE001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-22
+NTF-00525,2023ECE002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-14
+NTF-00526,2023ECE002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-21
+NTF-00527,2023ECE003,attendance,Low attendance alert,"Your overall attendance is 74%, below the 75% requirement.",False,2026-10-20
+NTF-00528,2023ECE003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-14
+NTF-00529,2023ECE003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-14
+NTF-00530,2023ECE003,fees,Fee payment reminder,"Rs. 32,000 is pending for the current semester.",False,2026-10-12
+NTF-00531,2023ECE004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00532,2023ECE004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00533,2023ECE004,fees,Fee payment reminder,"Rs. 25,600 is pending for the current semester.",False,2026-10-22
+NTF-00534,2023ECE005,attendance,Low attendance alert,"Your overall attendance is 59%, below the 75% requirement.",False,2026-10-14
+NTF-00535,2023ECE005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-12
+NTF-00536,2023ECE005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-21
+NTF-00537,2023ECE005,fees,Fee payment reminder,"Rs. 16,000 is pending for the current semester.",False,2026-10-13
+NTF-00538,2023ECE006,attendance,Low attendance alert,"Your overall attendance is 61%, below the 75% requirement.",True,2026-10-14
+NTF-00539,2023ECE006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00540,2023ECE006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-16
+NTF-00541,2023ECE006,fees,Fee payment reminder,"Rs. 64,000 is pending for the current semester.",False,2026-10-15
+NTF-00542,2023ECE007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00543,2023ECE007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-16
+NTF-00544,2023ECE008,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-20
+NTF-00545,2023ECE008,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00546,2023ECE008,fees,Fee payment reminder,"Rs. 25,600 is pending for the current semester.",False,2026-10-22
+NTF-00547,2023ME001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-14
+NTF-00548,2023ME001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-18
+NTF-00549,2023ME001,fees,Fee payment reminder,"Rs. 14,500 is pending for the current semester.",False,2026-10-23
+NTF-00550,2023ME002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-14
+NTF-00551,2023ME002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-22
+NTF-00552,2023ME003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-19
+NTF-00553,2023ME003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-19
+NTF-00554,2023ME003,fees,Fee payment reminder,"Rs. 23,200 is pending for the current semester.",False,2026-10-14
+NTF-00555,2023ME004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-13
+NTF-00556,2023ME004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-13
+NTF-00557,2023ME004,fees,Fee payment reminder,"Rs. 14,500 is pending for the current semester.",False,2026-10-22
+NTF-00558,2023ME005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-16
+NTF-00559,2023ME005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-16
+NTF-00560,2023ME005,fees,Fee payment reminder,"Rs. 23,200 is pending for the current semester.",True,2026-10-16
+NTF-00561,2023ME006,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-20
+NTF-00562,2023ME006,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-22
+NTF-00563,2023ME006,fees,Fee payment reminder,"Rs. 58,000 is pending for the current semester.",True,2026-10-14
+NTF-00564,2023ME007,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-16
+NTF-00565,2023ME007,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-12
+NTF-00566,2023ME007,fees,Fee payment reminder,"Rs. 23,200 is pending for the current semester.",False,2026-10-19
+NTF-00567,2023CE001,attendance,Low attendance alert,"Your overall attendance is 64%, below the 75% requirement.",False,2026-10-20
+NTF-00568,2023CE001,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-17
+NTF-00569,2023CE001,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-15
+NTF-00570,2023CE001,fees,Fee payment reminder,"Rs. 58,000 is pending for the current semester.",True,2026-10-19
+NTF-00571,2023CE002,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-18
+NTF-00572,2023CE002,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-20
+NTF-00573,2023CE002,fees,Fee payment reminder,"Rs. 58,000 is pending for the current semester.",False,2026-10-15
+NTF-00574,2023CE003,attendance,Low attendance alert,"Your overall attendance is 62%, below the 75% requirement.",True,2026-10-21
+NTF-00575,2023CE003,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-21
+NTF-00576,2023CE003,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-14
+NTF-00577,2023CE003,fees,Fee payment reminder,"Rs. 58,000 is pending for the current semester.",False,2026-10-12
+NTF-00578,2023CE004,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,True,2026-10-20
+NTF-00579,2023CE004,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,False,2026-10-23
+NTF-00580,2023CE004,fees,Fee payment reminder,"Rs. 29,000 is pending for the current semester.",False,2026-10-13
+NTF-00581,2023CE005,attendance,Low attendance alert,"Your overall attendance is 69%, below the 75% requirement.",True,2026-10-13
+NTF-00582,2023CE005,assignment,Assignment due soon,Assignment 2 is due on 2 Nov 2026.,False,2026-10-22
+NTF-00583,2023CE005,announcement,Midsem results published,Internal and midsem marks are now visible in Performance.,True,2026-10-13
+NTF-00584,2023CE005,fees,Fee payment reminder,"Rs. 58,000 is pending for the current semester.",False,2026-10-13

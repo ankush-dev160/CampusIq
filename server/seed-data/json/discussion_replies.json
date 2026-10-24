@@ -1,0 +1,2826 @@
+[
+ {
+  "id": "REP-THR-FY101-1-1",
+  "threadId": "THR-FY101-1",
+  "authorId": "FAC-APS-001",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-FY101-1-2",
+  "threadId": "THR-FY101-1",
+  "authorId": "2026ME003",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-FY101-2-1",
+  "threadId": "THR-FY101-2",
+  "authorId": "2026ECE004",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-FY102-1-1",
+  "threadId": "THR-FY102-1",
+  "authorId": "2026CSE004",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-FY102-1-2",
+  "threadId": "THR-FY102-1",
+  "authorId": "2026AIML004",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-FY102-2-1",
+  "threadId": "THR-FY102-2",
+  "authorId": "FAC-APS-002",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-FY102-2-2",
+  "threadId": "THR-FY102-2",
+  "authorId": "2026CSE013",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-FY103-1-1",
+  "threadId": "THR-FY103-1",
+  "authorId": "FAC-APS-003",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-FY103-2-1",
+  "threadId": "THR-FY103-2",
+  "authorId": "FAC-APS-003",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-FY104-1-1",
+  "threadId": "THR-FY104-1",
+  "authorId": "2026CE002",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-FY104-2-1",
+  "threadId": "THR-FY104-2",
+  "authorId": "FAC-APS-001",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-FY104-2-2",
+  "threadId": "THR-FY104-2",
+  "authorId": "2026AIML009",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-FY105-1-1",
+  "threadId": "THR-FY105-1",
+  "authorId": "FAC-APS-002",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-FY105-1-2",
+  "threadId": "THR-FY105-1",
+  "authorId": "2026CSE004",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-FY105-1-3",
+  "threadId": "THR-FY105-1",
+  "authorId": "2026CSE006",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-FY105-2-1",
+  "threadId": "THR-FY105-2",
+  "authorId": "2026IT008",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-FY105-2-2",
+  "threadId": "THR-FY105-2",
+  "authorId": "2026CSE006",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-FY105-2-3",
+  "threadId": "THR-FY105-2",
+  "authorId": "2026AIML002",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-CSE301-1-1",
+  "threadId": "THR-CSE301-1",
+  "authorId": "FAC-CSE-001",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-CSE301-1-2",
+  "threadId": "THR-CSE301-1",
+  "authorId": "2025CSE004",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-CSE301-2-1",
+  "threadId": "THR-CSE301-2",
+  "authorId": "2025CSE011",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-CSE302-1-1",
+  "threadId": "THR-CSE302-1",
+  "authorId": "2025CSE004",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-CSE302-1-2",
+  "threadId": "THR-CSE302-1",
+  "authorId": "2025CSE009",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-CSE302-2-1",
+  "threadId": "THR-CSE302-2",
+  "authorId": "FAC-CSE-002",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-CSE302-2-2",
+  "threadId": "THR-CSE302-2",
+  "authorId": "2025CSE006",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-CSE303-1-1",
+  "threadId": "THR-CSE303-1",
+  "authorId": "FAC-CSE-003",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-CSE303-1-2",
+  "threadId": "THR-CSE303-1",
+  "authorId": "2025CSE007",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-CSE303-1-3",
+  "threadId": "THR-CSE303-1",
+  "authorId": "2025CSE006",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-CSE303-2-1",
+  "threadId": "THR-CSE303-2",
+  "authorId": "FAC-CSE-003",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-CSE304-1-1",
+  "threadId": "THR-CSE304-1",
+  "authorId": "FAC-CSE-004",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-CSE304-2-1",
+  "threadId": "THR-CSE304-2",
+  "authorId": "2025CSE013",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-CSE305-1-1",
+  "threadId": "THR-CSE305-1",
+  "authorId": "2025CSE001",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-CSE305-1-2",
+  "threadId": "THR-CSE305-1",
+  "authorId": "2025CSE004",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-CSE305-1-3",
+  "threadId": "THR-CSE305-1",
+  "authorId": "2025CSE011",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-CSE305-2-1",
+  "threadId": "THR-CSE305-2",
+  "authorId": "FAC-CSE-005",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-CSE305-2-2",
+  "threadId": "THR-CSE305-2",
+  "authorId": "2025CSE012",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-AIML301-1-1",
+  "threadId": "THR-AIML301-1",
+  "authorId": "FAC-AIML-001",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-AIML301-1-2",
+  "threadId": "THR-AIML301-1",
+  "authorId": "2025AIML005",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-AIML301-1-3",
+  "threadId": "THR-AIML301-1",
+  "authorId": "2025AIML003",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-AIML301-2-1",
+  "threadId": "THR-AIML301-2",
+  "authorId": "2025AIML003",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-AIML301-2-2",
+  "threadId": "THR-AIML301-2",
+  "authorId": "2025AIML002",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-AIML301-2-3",
+  "threadId": "THR-AIML301-2",
+  "authorId": "2025AIML003",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-AIML302-1-1",
+  "threadId": "THR-AIML302-1",
+  "authorId": "FAC-AIML-002",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-AIML302-2-1",
+  "threadId": "THR-AIML302-2",
+  "authorId": "FAC-AIML-002",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-AIML302-2-2",
+  "threadId": "THR-AIML302-2",
+  "authorId": "2025AIML008",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-AIML303-1-1",
+  "threadId": "THR-AIML303-1",
+  "authorId": "2025AIML002",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-AIML303-2-1",
+  "threadId": "THR-AIML303-2",
+  "authorId": "FAC-AIML-003",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-AIML303-2-2",
+  "threadId": "THR-AIML303-2",
+  "authorId": "2025AIML005",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-AIML303-2-3",
+  "threadId": "THR-AIML303-2",
+  "authorId": "2025AIML007",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-AIML304-1-1",
+  "threadId": "THR-AIML304-1",
+  "authorId": "FAC-AIML-004",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-AIML304-2-1",
+  "threadId": "THR-AIML304-2",
+  "authorId": "2025AIML008",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-AIML304-2-2",
+  "threadId": "THR-AIML304-2",
+  "authorId": "2025AIML002",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-AIML305-1-1",
+  "threadId": "THR-AIML305-1",
+  "authorId": "FAC-AIML-005",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-AIML305-1-2",
+  "threadId": "THR-AIML305-1",
+  "authorId": "2025AIML003",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-AIML305-2-1",
+  "threadId": "THR-AIML305-2",
+  "authorId": "2025AIML001",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-IT301-1-1",
+  "threadId": "THR-IT301-1",
+  "authorId": "2025IT003",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-IT301-1-2",
+  "threadId": "THR-IT301-1",
+  "authorId": "2025IT002",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-IT301-1-3",
+  "threadId": "THR-IT301-1",
+  "authorId": "2025IT006",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-IT301-2-1",
+  "threadId": "THR-IT301-2",
+  "authorId": "FAC-IT-001",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-IT301-2-2",
+  "threadId": "THR-IT301-2",
+  "authorId": "2025IT001",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-IT302-1-1",
+  "threadId": "THR-IT302-1",
+  "authorId": "2025IT008",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-IT302-1-2",
+  "threadId": "THR-IT302-1",
+  "authorId": "2025IT004",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-IT302-2-1",
+  "threadId": "THR-IT302-2",
+  "authorId": "2025IT005",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-IT303-1-1",
+  "threadId": "THR-IT303-1",
+  "authorId": "FAC-IT-003",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-IT303-1-2",
+  "threadId": "THR-IT303-1",
+  "authorId": "2025IT002",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-IT303-1-3",
+  "threadId": "THR-IT303-1",
+  "authorId": "2025IT008",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-IT303-2-1",
+  "threadId": "THR-IT303-2",
+  "authorId": "FAC-IT-003",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-IT303-2-2",
+  "threadId": "THR-IT303-2",
+  "authorId": "2025IT001",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-IT303-2-3",
+  "threadId": "THR-IT303-2",
+  "authorId": "2025IT004",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-IT304-1-1",
+  "threadId": "THR-IT304-1",
+  "authorId": "FAC-IT-004",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-IT304-2-1",
+  "threadId": "THR-IT304-2",
+  "authorId": "2025IT004",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-IT304-2-2",
+  "threadId": "THR-IT304-2",
+  "authorId": "2025IT001",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-IT304-2-3",
+  "threadId": "THR-IT304-2",
+  "authorId": "2025IT006",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-IT305-1-1",
+  "threadId": "THR-IT305-1",
+  "authorId": "FAC-IT-001",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-IT305-2-1",
+  "threadId": "THR-IT305-2",
+  "authorId": "FAC-IT-001",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-ECE301-1-1",
+  "threadId": "THR-ECE301-1",
+  "authorId": "FAC-ECE-001",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-ECE301-1-2",
+  "threadId": "THR-ECE301-1",
+  "authorId": "2025ECE006",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-ECE301-2-1",
+  "threadId": "THR-ECE301-2",
+  "authorId": "FAC-ECE-001",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-ECE301-2-2",
+  "threadId": "THR-ECE301-2",
+  "authorId": "2025ECE001",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-ECE302-1-1",
+  "threadId": "THR-ECE302-1",
+  "authorId": "FAC-ECE-002",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-ECE302-1-2",
+  "threadId": "THR-ECE302-1",
+  "authorId": "2025ECE003",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-ECE302-1-3",
+  "threadId": "THR-ECE302-1",
+  "authorId": "2025ECE007",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-ECE302-2-1",
+  "threadId": "THR-ECE302-2",
+  "authorId": "2025ECE007",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-ECE302-2-2",
+  "threadId": "THR-ECE302-2",
+  "authorId": "2025ECE008",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-ECE303-1-1",
+  "threadId": "THR-ECE303-1",
+  "authorId": "FAC-ECE-003",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-ECE303-2-1",
+  "threadId": "THR-ECE303-2",
+  "authorId": "FAC-ECE-003",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-ECE303-2-2",
+  "threadId": "THR-ECE303-2",
+  "authorId": "2025ECE003",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-ECE304-1-1",
+  "threadId": "THR-ECE304-1",
+  "authorId": "2025ECE002",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-ECE304-1-2",
+  "threadId": "THR-ECE304-1",
+  "authorId": "2025ECE003",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-ECE304-2-1",
+  "threadId": "THR-ECE304-2",
+  "authorId": "2025ECE003",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-ECE305-1-1",
+  "threadId": "THR-ECE305-1",
+  "authorId": "FAC-ECE-005",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-ECE305-1-2",
+  "threadId": "THR-ECE305-1",
+  "authorId": "2025ECE006",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-ECE305-2-1",
+  "threadId": "THR-ECE305-2",
+  "authorId": "2025ECE002",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-ECE305-2-2",
+  "threadId": "THR-ECE305-2",
+  "authorId": "2025ECE002",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-ME301-1-1",
+  "threadId": "THR-ME301-1",
+  "authorId": "FAC-ME-001",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-ME301-2-1",
+  "threadId": "THR-ME301-2",
+  "authorId": "FAC-ME-001",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-ME301-2-2",
+  "threadId": "THR-ME301-2",
+  "authorId": "2025ME005",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-ME302-1-1",
+  "threadId": "THR-ME302-1",
+  "authorId": "2025ME007",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-ME302-1-2",
+  "threadId": "THR-ME302-1",
+  "authorId": "2025ME004",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-ME302-1-3",
+  "threadId": "THR-ME302-1",
+  "authorId": "2025ME007",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-ME302-2-1",
+  "threadId": "THR-ME302-2",
+  "authorId": "2025ME004",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-ME303-1-1",
+  "threadId": "THR-ME303-1",
+  "authorId": "2025ME001",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-ME303-2-1",
+  "threadId": "THR-ME303-2",
+  "authorId": "FAC-ME-003",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-ME304-1-1",
+  "threadId": "THR-ME304-1",
+  "authorId": "2025ME007",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-ME304-2-1",
+  "threadId": "THR-ME304-2",
+  "authorId": "2025ME004",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-ME305-1-1",
+  "threadId": "THR-ME305-1",
+  "authorId": "2025ME002",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-ME305-1-2",
+  "threadId": "THR-ME305-1",
+  "authorId": "2025ME002",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-ME305-2-1",
+  "threadId": "THR-ME305-2",
+  "authorId": "FAC-ME-001",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-CE301-1-1",
+  "threadId": "THR-CE301-1",
+  "authorId": "2025CE004",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-CE301-1-2",
+  "threadId": "THR-CE301-1",
+  "authorId": "2025CE001",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-CE301-2-1",
+  "threadId": "THR-CE301-2",
+  "authorId": "2025CE001",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-CE301-2-2",
+  "threadId": "THR-CE301-2",
+  "authorId": "2025CE004",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-CE302-1-1",
+  "threadId": "THR-CE302-1",
+  "authorId": "FAC-CE-002",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-CE302-1-2",
+  "threadId": "THR-CE302-1",
+  "authorId": "2025CE001",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-CE302-1-3",
+  "threadId": "THR-CE302-1",
+  "authorId": "2025CE005",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-CE302-2-1",
+  "threadId": "THR-CE302-2",
+  "authorId": "FAC-CE-002",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-CE302-2-2",
+  "threadId": "THR-CE302-2",
+  "authorId": "2025CE003",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-CE303-1-1",
+  "threadId": "THR-CE303-1",
+  "authorId": "FAC-CE-003",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-CE303-1-2",
+  "threadId": "THR-CE303-1",
+  "authorId": "2025CE001",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-CE303-2-1",
+  "threadId": "THR-CE303-2",
+  "authorId": "FAC-CE-003",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-CE304-1-1",
+  "threadId": "THR-CE304-1",
+  "authorId": "2025CE005",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-CE304-1-2",
+  "threadId": "THR-CE304-1",
+  "authorId": "2025CE001",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-CE304-2-1",
+  "threadId": "THR-CE304-2",
+  "authorId": "FAC-CE-001",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-CE304-2-2",
+  "threadId": "THR-CE304-2",
+  "authorId": "2025CE001",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-CE305-1-1",
+  "threadId": "THR-CE305-1",
+  "authorId": "2025CE002",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-CE305-2-1",
+  "threadId": "THR-CE305-2",
+  "authorId": "FAC-CE-002",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-CE305-2-2",
+  "threadId": "THR-CE305-2",
+  "authorId": "2025CE005",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-CSE501-1-1",
+  "threadId": "THR-CSE501-1",
+  "authorId": "2024CSE004",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-CSE501-1-2",
+  "threadId": "THR-CSE501-1",
+  "authorId": "2024CSE012",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-CSE501-2-1",
+  "threadId": "THR-CSE501-2",
+  "authorId": "2024CSE013",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-CSE502-1-1",
+  "threadId": "THR-CSE502-1",
+  "authorId": "2024CSE006",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-CSE502-1-2",
+  "threadId": "THR-CSE502-1",
+  "authorId": "2024CSE006",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-CSE502-1-3",
+  "threadId": "THR-CSE502-1",
+  "authorId": "2024CSE002",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-CSE502-2-1",
+  "threadId": "THR-CSE502-2",
+  "authorId": "2024CSE011",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-CSE502-2-2",
+  "threadId": "THR-CSE502-2",
+  "authorId": "2024CSE010",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-CSE503-1-1",
+  "threadId": "THR-CSE503-1",
+  "authorId": "FAC-CSE-001",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-CSE503-1-2",
+  "threadId": "THR-CSE503-1",
+  "authorId": "2024CSE009",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-CSE503-2-1",
+  "threadId": "THR-CSE503-2",
+  "authorId": "FAC-CSE-001",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-CSE504-1-1",
+  "threadId": "THR-CSE504-1",
+  "authorId": "2024CSE009",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-CSE504-2-1",
+  "threadId": "THR-CSE504-2",
+  "authorId": "2024CSE007",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-CSE504-2-2",
+  "threadId": "THR-CSE504-2",
+  "authorId": "2024CSE002",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-CSE505-1-1",
+  "threadId": "THR-CSE505-1",
+  "authorId": "2024CSE010",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-CSE505-1-2",
+  "threadId": "THR-CSE505-1",
+  "authorId": "2024CSE013",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-CSE505-2-1",
+  "threadId": "THR-CSE505-2",
+  "authorId": "2024CSE009",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-AIML501-1-1",
+  "threadId": "THR-AIML501-1",
+  "authorId": "2024AIML006",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-AIML501-1-2",
+  "threadId": "THR-AIML501-1",
+  "authorId": "2024AIML005",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-AIML501-2-1",
+  "threadId": "THR-AIML501-2",
+  "authorId": "FAC-AIML-001",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-AIML502-1-1",
+  "threadId": "THR-AIML502-1",
+  "authorId": "FAC-AIML-002",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-AIML502-1-2",
+  "threadId": "THR-AIML502-1",
+  "authorId": "2024AIML001",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-AIML502-2-1",
+  "threadId": "THR-AIML502-2",
+  "authorId": "FAC-AIML-002",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-AIML502-2-2",
+  "threadId": "THR-AIML502-2",
+  "authorId": "2024AIML007",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-AIML503-1-1",
+  "threadId": "THR-AIML503-1",
+  "authorId": "FAC-AIML-003",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-AIML503-2-1",
+  "threadId": "THR-AIML503-2",
+  "authorId": "FAC-AIML-003",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-AIML504-1-1",
+  "threadId": "THR-AIML504-1",
+  "authorId": "2024AIML007",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-AIML504-1-2",
+  "threadId": "THR-AIML504-1",
+  "authorId": "2024AIML003",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-AIML504-1-3",
+  "threadId": "THR-AIML504-1",
+  "authorId": "2024AIML002",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-AIML504-2-1",
+  "threadId": "THR-AIML504-2",
+  "authorId": "2024AIML007",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-AIML504-2-2",
+  "threadId": "THR-AIML504-2",
+  "authorId": "2024AIML006",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-AIML505-1-1",
+  "threadId": "THR-AIML505-1",
+  "authorId": "FAC-AIML-005",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-AIML505-1-2",
+  "threadId": "THR-AIML505-1",
+  "authorId": "2024AIML002",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-AIML505-2-1",
+  "threadId": "THR-AIML505-2",
+  "authorId": "2024AIML008",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-AIML505-2-2",
+  "threadId": "THR-AIML505-2",
+  "authorId": "2024AIML001",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-IT501-1-1",
+  "threadId": "THR-IT501-1",
+  "authorId": "FAC-IT-003",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-IT501-2-1",
+  "threadId": "THR-IT501-2",
+  "authorId": "2024IT005",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-IT502-1-1",
+  "threadId": "THR-IT502-1",
+  "authorId": "FAC-IT-004",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-IT502-2-1",
+  "threadId": "THR-IT502-2",
+  "authorId": "FAC-IT-004",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-IT502-2-2",
+  "threadId": "THR-IT502-2",
+  "authorId": "2024IT006",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-IT502-2-3",
+  "threadId": "THR-IT502-2",
+  "authorId": "2024IT004",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-IT503-1-1",
+  "threadId": "THR-IT503-1",
+  "authorId": "FAC-IT-001",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-IT503-1-2",
+  "threadId": "THR-IT503-1",
+  "authorId": "2024IT007",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-IT503-2-1",
+  "threadId": "THR-IT503-2",
+  "authorId": "FAC-IT-001",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-IT503-2-2",
+  "threadId": "THR-IT503-2",
+  "authorId": "2024IT004",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-IT504-1-1",
+  "threadId": "THR-IT504-1",
+  "authorId": "FAC-IT-002",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-IT504-1-2",
+  "threadId": "THR-IT504-1",
+  "authorId": "2024IT008",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-IT504-2-1",
+  "threadId": "THR-IT504-2",
+  "authorId": "FAC-IT-002",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-IT505-1-1",
+  "threadId": "THR-IT505-1",
+  "authorId": "FAC-IT-003",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-IT505-1-2",
+  "threadId": "THR-IT505-1",
+  "authorId": "2024IT007",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-IT505-1-3",
+  "threadId": "THR-IT505-1",
+  "authorId": "2024IT008",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-IT505-2-1",
+  "threadId": "THR-IT505-2",
+  "authorId": "2024IT007",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-ECE501-1-1",
+  "threadId": "THR-ECE501-1",
+  "authorId": "FAC-ECE-001",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-ECE501-2-1",
+  "threadId": "THR-ECE501-2",
+  "authorId": "FAC-ECE-001",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-ECE502-1-1",
+  "threadId": "THR-ECE502-1",
+  "authorId": "2024ECE002",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-ECE502-1-2",
+  "threadId": "THR-ECE502-1",
+  "authorId": "2024ECE008",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-ECE502-1-3",
+  "threadId": "THR-ECE502-1",
+  "authorId": "2024ECE007",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-ECE502-2-1",
+  "threadId": "THR-ECE502-2",
+  "authorId": "FAC-ECE-002",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-ECE502-2-2",
+  "threadId": "THR-ECE502-2",
+  "authorId": "2024ECE006",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-ECE503-1-1",
+  "threadId": "THR-ECE503-1",
+  "authorId": "2024ECE007",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-ECE503-1-2",
+  "threadId": "THR-ECE503-1",
+  "authorId": "2024ECE008",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-ECE503-2-1",
+  "threadId": "THR-ECE503-2",
+  "authorId": "2024ECE005",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-ECE503-2-2",
+  "threadId": "THR-ECE503-2",
+  "authorId": "2024ECE006",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-ECE504-1-1",
+  "threadId": "THR-ECE504-1",
+  "authorId": "FAC-ECE-004",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-ECE504-1-2",
+  "threadId": "THR-ECE504-1",
+  "authorId": "2024ECE007",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-ECE504-2-1",
+  "threadId": "THR-ECE504-2",
+  "authorId": "2024ECE005",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-ECE505-1-1",
+  "threadId": "THR-ECE505-1",
+  "authorId": "2024ECE006",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-ECE505-2-1",
+  "threadId": "THR-ECE505-2",
+  "authorId": "FAC-ECE-005",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-ECE505-2-2",
+  "threadId": "THR-ECE505-2",
+  "authorId": "2024ECE006",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-ME501-1-1",
+  "threadId": "THR-ME501-1",
+  "authorId": "2024ME004",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-ME501-1-2",
+  "threadId": "THR-ME501-1",
+  "authorId": "2024ME006",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-ME501-1-3",
+  "threadId": "THR-ME501-1",
+  "authorId": "2024ME001",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-ME501-2-1",
+  "threadId": "THR-ME501-2",
+  "authorId": "FAC-ME-003",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-ME502-1-1",
+  "threadId": "THR-ME502-1",
+  "authorId": "FAC-ME-004",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-ME502-2-1",
+  "threadId": "THR-ME502-2",
+  "authorId": "FAC-ME-004",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-ME503-1-1",
+  "threadId": "THR-ME503-1",
+  "authorId": "FAC-ME-001",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-ME503-2-1",
+  "threadId": "THR-ME503-2",
+  "authorId": "2024ME006",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-ME504-1-1",
+  "threadId": "THR-ME504-1",
+  "authorId": "2024ME003",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-ME504-2-1",
+  "threadId": "THR-ME504-2",
+  "authorId": "FAC-ME-002",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-ME504-2-2",
+  "threadId": "THR-ME504-2",
+  "authorId": "2024ME003",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-ME504-2-3",
+  "threadId": "THR-ME504-2",
+  "authorId": "2024ME005",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-ME505-1-1",
+  "threadId": "THR-ME505-1",
+  "authorId": "FAC-ME-003",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-ME505-1-2",
+  "threadId": "THR-ME505-1",
+  "authorId": "2024ME001",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-ME505-1-3",
+  "threadId": "THR-ME505-1",
+  "authorId": "2024ME006",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-ME505-2-1",
+  "threadId": "THR-ME505-2",
+  "authorId": "2024ME004",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-ME505-2-2",
+  "threadId": "THR-ME505-2",
+  "authorId": "2024ME006",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-CE501-1-1",
+  "threadId": "THR-CE501-1",
+  "authorId": "FAC-CE-002",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-CE501-1-2",
+  "threadId": "THR-CE501-1",
+  "authorId": "2024CE003",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-CE501-1-3",
+  "threadId": "THR-CE501-1",
+  "authorId": "2024CE002",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-CE501-2-1",
+  "threadId": "THR-CE501-2",
+  "authorId": "FAC-CE-002",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-CE501-2-2",
+  "threadId": "THR-CE501-2",
+  "authorId": "2024CE003",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-CE502-1-1",
+  "threadId": "THR-CE502-1",
+  "authorId": "2024CE003",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-CE502-1-2",
+  "threadId": "THR-CE502-1",
+  "authorId": "2024CE004",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-CE502-1-3",
+  "threadId": "THR-CE502-1",
+  "authorId": "2024CE001",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-CE502-2-1",
+  "threadId": "THR-CE502-2",
+  "authorId": "FAC-CE-003",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-CE503-1-1",
+  "threadId": "THR-CE503-1",
+  "authorId": "2024CE002",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-CE503-2-1",
+  "threadId": "THR-CE503-2",
+  "authorId": "FAC-CE-001",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-CE503-2-2",
+  "threadId": "THR-CE503-2",
+  "authorId": "2024CE001",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-CE503-2-3",
+  "threadId": "THR-CE503-2",
+  "authorId": "2024CE005",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-CE504-1-1",
+  "threadId": "THR-CE504-1",
+  "authorId": "FAC-CE-002",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-CE504-1-2",
+  "threadId": "THR-CE504-1",
+  "authorId": "2024CE003",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-CE504-2-1",
+  "threadId": "THR-CE504-2",
+  "authorId": "2024CE004",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-CE504-2-2",
+  "threadId": "THR-CE504-2",
+  "authorId": "2024CE004",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-CE504-2-3",
+  "threadId": "THR-CE504-2",
+  "authorId": "2024CE004",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-CE505-1-1",
+  "threadId": "THR-CE505-1",
+  "authorId": "FAC-CE-003",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-CE505-1-2",
+  "threadId": "THR-CE505-1",
+  "authorId": "2024CE004",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-CE505-2-1",
+  "threadId": "THR-CE505-2",
+  "authorId": "2024CE003",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-CE505-2-2",
+  "threadId": "THR-CE505-2",
+  "authorId": "2024CE002",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-CSE701-1-1",
+  "threadId": "THR-CSE701-1",
+  "authorId": "FAC-CSE-003",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-CSE701-1-2",
+  "threadId": "THR-CSE701-1",
+  "authorId": "2023CSE013",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-CSE701-1-3",
+  "threadId": "THR-CSE701-1",
+  "authorId": "2023CSE003",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-CSE701-2-1",
+  "threadId": "THR-CSE701-2",
+  "authorId": "2023CSE008",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-CSE702-1-1",
+  "threadId": "THR-CSE702-1",
+  "authorId": "2023CSE003",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-CSE702-1-2",
+  "threadId": "THR-CSE702-1",
+  "authorId": "2023CSE005",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-CSE702-2-1",
+  "threadId": "THR-CSE702-2",
+  "authorId": "FAC-CSE-004",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-CSE703-1-1",
+  "threadId": "THR-CSE703-1",
+  "authorId": "FAC-CSE-005",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-CSE703-1-2",
+  "threadId": "THR-CSE703-1",
+  "authorId": "2023CSE012",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-CSE703-1-3",
+  "threadId": "THR-CSE703-1",
+  "authorId": "2023CSE012",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-CSE703-2-1",
+  "threadId": "THR-CSE703-2",
+  "authorId": "FAC-CSE-005",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-CSE703-2-2",
+  "threadId": "THR-CSE703-2",
+  "authorId": "2023CSE003",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-CSE704-1-1",
+  "threadId": "THR-CSE704-1",
+  "authorId": "2023CSE006",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-CSE704-1-2",
+  "threadId": "THR-CSE704-1",
+  "authorId": "2023CSE002",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-CSE704-1-3",
+  "threadId": "THR-CSE704-1",
+  "authorId": "2023CSE008",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-CSE704-2-1",
+  "threadId": "THR-CSE704-2",
+  "authorId": "FAC-CSE-006",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-CSE705-1-1",
+  "threadId": "THR-CSE705-1",
+  "authorId": "FAC-CSE-001",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-CSE705-1-2",
+  "threadId": "THR-CSE705-1",
+  "authorId": "2023CSE011",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-CSE705-2-1",
+  "threadId": "THR-CSE705-2",
+  "authorId": "2023CSE013",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-CSE705-2-2",
+  "threadId": "THR-CSE705-2",
+  "authorId": "2023CSE004",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-AIML701-1-1",
+  "threadId": "THR-AIML701-1",
+  "authorId": "FAC-AIML-001",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-AIML701-2-1",
+  "threadId": "THR-AIML701-2",
+  "authorId": "2023AIML003",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-AIML701-2-2",
+  "threadId": "THR-AIML701-2",
+  "authorId": "2023AIML004",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-AIML701-2-3",
+  "threadId": "THR-AIML701-2",
+  "authorId": "2023AIML008",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-AIML702-1-1",
+  "threadId": "THR-AIML702-1",
+  "authorId": "2023AIML001",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-AIML702-1-2",
+  "threadId": "THR-AIML702-1",
+  "authorId": "2023AIML007",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-AIML702-1-3",
+  "threadId": "THR-AIML702-1",
+  "authorId": "2023AIML005",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-AIML702-2-1",
+  "threadId": "THR-AIML702-2",
+  "authorId": "FAC-AIML-002",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-AIML702-2-2",
+  "threadId": "THR-AIML702-2",
+  "authorId": "2023AIML003",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-AIML703-1-1",
+  "threadId": "THR-AIML703-1",
+  "authorId": "2023AIML003",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-AIML703-2-1",
+  "threadId": "THR-AIML703-2",
+  "authorId": "FAC-AIML-003",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-AIML704-1-1",
+  "threadId": "THR-AIML704-1",
+  "authorId": "2023AIML004",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-AIML704-1-2",
+  "threadId": "THR-AIML704-1",
+  "authorId": "2023AIML006",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-AIML704-2-1",
+  "threadId": "THR-AIML704-2",
+  "authorId": "2023AIML004",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-AIML704-2-2",
+  "threadId": "THR-AIML704-2",
+  "authorId": "2023AIML009",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-AIML704-2-3",
+  "threadId": "THR-AIML704-2",
+  "authorId": "2023AIML004",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-AIML705-1-1",
+  "threadId": "THR-AIML705-1",
+  "authorId": "FAC-AIML-005",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-AIML705-1-2",
+  "threadId": "THR-AIML705-1",
+  "authorId": "2023AIML003",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-AIML705-1-3",
+  "threadId": "THR-AIML705-1",
+  "authorId": "2023AIML006",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-AIML705-2-1",
+  "threadId": "THR-AIML705-2",
+  "authorId": "FAC-AIML-005",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-IT701-1-1",
+  "threadId": "THR-IT701-1",
+  "authorId": "FAC-IT-001",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-IT701-1-2",
+  "threadId": "THR-IT701-1",
+  "authorId": "2023IT002",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-IT701-1-3",
+  "threadId": "THR-IT701-1",
+  "authorId": "2023IT001",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-IT701-2-1",
+  "threadId": "THR-IT701-2",
+  "authorId": "FAC-IT-001",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-IT701-2-2",
+  "threadId": "THR-IT701-2",
+  "authorId": "2023IT007",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-IT701-2-3",
+  "threadId": "THR-IT701-2",
+  "authorId": "2023IT001",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-IT702-1-1",
+  "threadId": "THR-IT702-1",
+  "authorId": "FAC-IT-002",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-IT702-2-1",
+  "threadId": "THR-IT702-2",
+  "authorId": "FAC-IT-002",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-IT703-1-1",
+  "threadId": "THR-IT703-1",
+  "authorId": "2023IT008",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-IT703-1-2",
+  "threadId": "THR-IT703-1",
+  "authorId": "2023IT007",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-IT703-2-1",
+  "threadId": "THR-IT703-2",
+  "authorId": "FAC-IT-003",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-IT704-1-1",
+  "threadId": "THR-IT704-1",
+  "authorId": "FAC-IT-004",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-IT704-1-2",
+  "threadId": "THR-IT704-1",
+  "authorId": "2023IT006",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-IT704-1-3",
+  "threadId": "THR-IT704-1",
+  "authorId": "2023IT006",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-IT704-2-1",
+  "threadId": "THR-IT704-2",
+  "authorId": "FAC-IT-004",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-IT704-2-2",
+  "threadId": "THR-IT704-2",
+  "authorId": "2023IT001",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-IT705-1-1",
+  "threadId": "THR-IT705-1",
+  "authorId": "2023IT003",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-IT705-1-2",
+  "threadId": "THR-IT705-1",
+  "authorId": "2023IT007",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-IT705-1-3",
+  "threadId": "THR-IT705-1",
+  "authorId": "2023IT001",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-10"
+ },
+ {
+  "id": "REP-THR-IT705-2-1",
+  "threadId": "THR-IT705-2",
+  "authorId": "FAC-IT-001",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-IT705-2-2",
+  "threadId": "THR-IT705-2",
+  "authorId": "2023IT008",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-IT705-2-3",
+  "threadId": "THR-IT705-2",
+  "authorId": "2023IT002",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-ECE701-1-1",
+  "threadId": "THR-ECE701-1",
+  "authorId": "FAC-ECE-001",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-ECE701-2-1",
+  "threadId": "THR-ECE701-2",
+  "authorId": "FAC-ECE-001",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-ECE701-2-2",
+  "threadId": "THR-ECE701-2",
+  "authorId": "2023ECE007",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-ECE701-2-3",
+  "threadId": "THR-ECE701-2",
+  "authorId": "2023ECE004",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-ECE702-1-1",
+  "threadId": "THR-ECE702-1",
+  "authorId": "2023ECE005",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-ECE702-1-2",
+  "threadId": "THR-ECE702-1",
+  "authorId": "2023ECE007",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-ECE702-2-1",
+  "threadId": "THR-ECE702-2",
+  "authorId": "2023ECE004",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-ECE703-1-1",
+  "threadId": "THR-ECE703-1",
+  "authorId": "FAC-ECE-003",
+  "authorRole": "faculty",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-ECE703-1-2",
+  "threadId": "THR-ECE703-1",
+  "authorId": "2023ECE005",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-ECE703-2-1",
+  "threadId": "THR-ECE703-2",
+  "authorId": "2023ECE003",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-ECE704-1-1",
+  "threadId": "THR-ECE704-1",
+  "authorId": "2023ECE002",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-ECE704-1-2",
+  "threadId": "THR-ECE704-1",
+  "authorId": "2023ECE001",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-ECE704-1-3",
+  "threadId": "THR-ECE704-1",
+  "authorId": "2023ECE008",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-ECE704-2-1",
+  "threadId": "THR-ECE704-2",
+  "authorId": "2023ECE007",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-ECE705-1-1",
+  "threadId": "THR-ECE705-1",
+  "authorId": "2023ECE005",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-ECE705-1-2",
+  "threadId": "THR-ECE705-1",
+  "authorId": "2023ECE002",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-ECE705-2-1",
+  "threadId": "THR-ECE705-2",
+  "authorId": "FAC-ECE-005",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-ECE705-2-2",
+  "threadId": "THR-ECE705-2",
+  "authorId": "2023ECE002",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-ECE705-2-3",
+  "threadId": "THR-ECE705-2",
+  "authorId": "2023ECE003",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-ME701-1-1",
+  "threadId": "THR-ME701-1",
+  "authorId": "FAC-ME-001",
+  "authorRole": "faculty",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-ME701-1-2",
+  "threadId": "THR-ME701-1",
+  "authorId": "2023ME003",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-ME701-1-3",
+  "threadId": "THR-ME701-1",
+  "authorId": "2023ME003",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-ME701-2-1",
+  "threadId": "THR-ME701-2",
+  "authorId": "2023ME006",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-ME702-1-1",
+  "threadId": "THR-ME702-1",
+  "authorId": "2023ME006",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-ME702-1-2",
+  "threadId": "THR-ME702-1",
+  "authorId": "2023ME004",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-ME702-2-1",
+  "threadId": "THR-ME702-2",
+  "authorId": "2023ME007",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-15"
+ },
+ {
+  "id": "REP-THR-ME703-1-1",
+  "threadId": "THR-ME703-1",
+  "authorId": "2023ME003",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-ME703-1-2",
+  "threadId": "THR-ME703-1",
+  "authorId": "2023ME007",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-ME703-2-1",
+  "threadId": "THR-ME703-2",
+  "authorId": "2023ME003",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-ME703-2-2",
+  "threadId": "THR-ME703-2",
+  "authorId": "2023ME004",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-ME703-2-3",
+  "threadId": "THR-ME703-2",
+  "authorId": "2023ME007",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-20"
+ },
+ {
+  "id": "REP-THR-ME704-1-1",
+  "threadId": "THR-ME704-1",
+  "authorId": "FAC-ME-004",
+  "authorRole": "faculty",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-23"
+ },
+ {
+  "id": "REP-THR-ME704-1-2",
+  "threadId": "THR-ME704-1",
+  "authorId": "2023ME003",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-21"
+ },
+ {
+  "id": "REP-THR-ME704-2-1",
+  "threadId": "THR-ME704-2",
+  "authorId": "2023ME001",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-ME705-1-1",
+  "threadId": "THR-ME705-1",
+  "authorId": "FAC-ME-001",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-ME705-2-1",
+  "threadId": "THR-ME705-2",
+  "authorId": "FAC-ME-001",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-16"
+ },
+ {
+  "id": "REP-THR-ME705-2-2",
+  "threadId": "THR-ME705-2",
+  "authorId": "2023ME003",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-ME705-2-3",
+  "threadId": "THR-ME705-2",
+  "authorId": "2023ME004",
+  "authorRole": "student",
+  "message": "I solved a similar example, will upload the steps.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-CE701-1-1",
+  "threadId": "THR-CE701-1",
+  "authorId": "2023CE004",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-CE701-1-2",
+  "threadId": "THR-CE701-1",
+  "authorId": "2023CE002",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-17"
+ },
+ {
+  "id": "REP-THR-CE701-1-3",
+  "threadId": "THR-CE701-1",
+  "authorId": "2023CE003",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-CE701-2-1",
+  "threadId": "THR-CE701-2",
+  "authorId": "FAC-CE-003",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-CE701-2-2",
+  "threadId": "THR-CE701-2",
+  "authorId": "2023CE003",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-CE701-2-3",
+  "threadId": "THR-CE701-2",
+  "authorId": "2023CE001",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-CE702-1-1",
+  "threadId": "THR-CE702-1",
+  "authorId": "2023CE004",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-CE702-2-1",
+  "threadId": "THR-CE702-2",
+  "authorId": "2023CE002",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-CE702-2-2",
+  "threadId": "THR-CE702-2",
+  "authorId": "2023CE003",
+  "authorRole": "student",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-CE703-1-1",
+  "threadId": "THR-CE703-1",
+  "authorId": "2023CE003",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-18"
+ },
+ {
+  "id": "REP-THR-CE703-1-2",
+  "threadId": "THR-CE703-1",
+  "authorId": "2023CE005",
+  "authorRole": "student",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-CE703-2-1",
+  "threadId": "THR-CE703-2",
+  "authorId": "FAC-CE-002",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-19"
+ },
+ {
+  "id": "REP-THR-CE704-1-1",
+  "threadId": "THR-CE704-1",
+  "authorId": "FAC-CE-003",
+  "authorRole": "faculty",
+  "message": "Sir mentioned this will be covered in the next class.",
+  "createdAt": "2026-10-13"
+ },
+ {
+  "id": "REP-THR-CE704-2-1",
+  "threadId": "THR-CE704-2",
+  "authorId": "2023CE001",
+  "authorRole": "student",
+  "message": "Refer to the previous year paper, same pattern repeats.",
+  "createdAt": "2026-10-12"
+ },
+ {
+  "id": "REP-THR-CE705-1-1",
+  "threadId": "THR-CE705-1",
+  "authorId": "FAC-CE-001",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-11"
+ },
+ {
+  "id": "REP-THR-CE705-2-1",
+  "threadId": "THR-CE705-2",
+  "authorId": "FAC-CE-001",
+  "authorRole": "faculty",
+  "message": "Check page 45 of the notes, it explains this step by step.",
+  "createdAt": "2026-10-22"
+ },
+ {
+  "id": "REP-THR-CE705-2-2",
+  "threadId": "THR-CE705-2",
+  "authorId": "2023CE001",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-14"
+ },
+ {
+  "id": "REP-THR-CE705-2-3",
+  "threadId": "THR-CE705-2",
+  "authorId": "2023CE005",
+  "authorRole": "student",
+  "message": "Good question, discussed in the doubt session. Please revise Unit 2.",
+  "createdAt": "2026-10-13"
+ }
+]

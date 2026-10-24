@@ -1,0 +1,11 @@
+id,employeeId,name,email,phone,gender,title,branchScope,permissions,status
+ADM-001,ADM-001,Sneha Lal,sneha.lal@ustu.edu.in,6438581762,Female,Principal,ALL,"[""all""]",Active
+ADM-002,ADM-002,Hema Agarwal,hema.agarwal@ustu.edu.in,6700159450,Female,Registrar,ALL,"[""all""]",Active
+ADM-003,ADM-003,Mohit Pillai,mohit.pillai@ustu.edu.in,9632337352,Male,Exam Controller,ALL,"[""all""]",Active
+ADM-004,ADM-004,Tarun Jha,tarun.jha@ustu.edu.in,9534789713,Male,Accounts Officer,ALL,"[""all""]",Active
+ADM-005,ADM-005,Disha Menon,disha.menon@ustu.edu.in,8921236360,Female,Placement Officer,ALL,"[""all""]",Active
+ADM-006,ADM-006,Saurabh Rathore,saurabh.rathore@ustu.edu.in,8560787457,Male,Student Affairs Officer,ALL,"[""all""]",Active
+ADM-007,ADM-007,Charvi Sen,charvi.sen@ustu.edu.in,7576990854,Female,Head of Department - CSE,CSE,"[""branch:CSE""]",Active
+ADM-008,ADM-008,Aditi Siddiqui,aditi.siddiqui@ustu.edu.in,9588814401,Female,Head of Department - AIML,AIML,"[""branch:AIML""]",Active
+ADM-009,ADM-009,Siddharth Goyal,siddharth.goyal@ustu.edu.in,9916979780,Male,Head of Department - ECE,ECE,"[""branch:ECE""]",Active
+ADM-010,ADM-010,Vedant Mukherjee,vedant.mukherjee@ustu.edu.in,6161284001,Male,Head of Department - ME,ME,"[""branch:ME""]",Active

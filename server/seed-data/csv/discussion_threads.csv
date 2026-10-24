@@ -1,0 +1,191 @@
+id,subjectCode,title,authorId,authorRole,createdAt
+THR-FY101-1,FY101,Doubt regarding Unit 2 concepts,2026IT006,student,2026-10-15
+THR-FY101-2,FY101,Important topics for midsem?,2026ECE004,student,2026-10-18
+THR-FY102-1,FY102,Important topics for midsem?,2026ECE007,student,2026-10-09
+THR-FY102-2,FY102,Can someone share worked examples?,2026CSE004,student,2026-10-06
+THR-FY103-1,FY103,Can someone share worked examples?,2026ECE002,student,2026-10-16
+THR-FY103-2,FY103,Clarification on assignment question 3,2026ME003,student,2026-10-18
+THR-FY104-1,FY104,Clarification on assignment question 3,2026AIML004,student,2026-10-16
+THR-FY104-2,FY104,Best reference book for this subject?,2026CE002,student,2026-10-11
+THR-FY105-1,FY105,Best reference book for this subject?,2026CE001,student,2026-10-11
+THR-FY105-2,FY105,Doubt regarding Unit 2 concepts,2026CSE003,student,2026-10-20
+THR-CSE301-1,CSE301,Can someone share worked examples?,2025CSE012,student,2026-10-20
+THR-CSE301-2,CSE301,Clarification on assignment question 3,2025CSE001,student,2026-10-07
+THR-CSE302-1,CSE302,Clarification on assignment question 3,2025CSE010,student,2026-10-20
+THR-CSE302-2,CSE302,Best reference book for this subject?,2025CSE008,student,2026-10-18
+THR-CSE303-1,CSE303,Best reference book for this subject?,2025CSE008,student,2026-10-11
+THR-CSE303-2,CSE303,Doubt regarding Unit 2 concepts,2025CSE001,student,2026-10-09
+THR-CSE304-1,CSE304,Doubt regarding Unit 2 concepts,2025CSE011,student,2026-10-07
+THR-CSE304-2,CSE304,Important topics for midsem?,2025CSE008,student,2026-10-12
+THR-CSE305-1,CSE305,Important topics for midsem?,2025CSE004,student,2026-10-05
+THR-CSE305-2,CSE305,Can someone share worked examples?,2025CSE008,student,2026-10-19
+THR-AIML301-1,AIML301,Best reference book for this subject?,2025AIML009,student,2026-10-03
+THR-AIML301-2,AIML301,Doubt regarding Unit 2 concepts,2025AIML004,student,2026-10-18
+THR-AIML302-1,AIML302,Doubt regarding Unit 2 concepts,2025AIML004,student,2026-10-10
+THR-AIML302-2,AIML302,Important topics for midsem?,2025AIML007,student,2026-10-13
+THR-AIML303-1,AIML303,Important topics for midsem?,2025AIML009,student,2026-10-15
+THR-AIML303-2,AIML303,Can someone share worked examples?,2025AIML001,student,2026-10-12
+THR-AIML304-1,AIML304,Can someone share worked examples?,2025AIML007,student,2026-10-16
+THR-AIML304-2,AIML304,Clarification on assignment question 3,2025AIML004,student,2026-10-16
+THR-AIML305-1,AIML305,Clarification on assignment question 3,2025AIML006,student,2026-10-06
+THR-AIML305-2,AIML305,Best reference book for this subject?,2025AIML004,student,2026-10-10
+THR-IT301-1,IT301,Doubt regarding Unit 2 concepts,2025IT005,student,2026-10-17
+THR-IT301-2,IT301,Important topics for midsem?,2025IT007,student,2026-10-04
+THR-IT302-1,IT302,Important topics for midsem?,2025IT008,student,2026-10-17
+THR-IT302-2,IT302,Can someone share worked examples?,2025IT008,student,2026-10-04
+THR-IT303-1,IT303,Can someone share worked examples?,2025IT006,student,2026-10-17
+THR-IT303-2,IT303,Clarification on assignment question 3,2025IT002,student,2026-10-06
+THR-IT304-1,IT304,Clarification on assignment question 3,2025IT005,student,2026-10-06
+THR-IT304-2,IT304,Best reference book for this subject?,2025IT001,student,2026-10-12
+THR-IT305-1,IT305,Best reference book for this subject?,2025IT003,student,2026-10-18
+THR-IT305-2,IT305,Doubt regarding Unit 2 concepts,2025IT007,student,2026-10-09
+THR-ECE301-1,ECE301,Clarification on assignment question 3,2025ECE008,student,2026-10-10
+THR-ECE301-2,ECE301,Best reference book for this subject?,2025ECE008,student,2026-10-20
+THR-ECE302-1,ECE302,Best reference book for this subject?,2025ECE005,student,2026-10-09
+THR-ECE302-2,ECE302,Doubt regarding Unit 2 concepts,2025ECE006,student,2026-10-07
+THR-ECE303-1,ECE303,Doubt regarding Unit 2 concepts,2025ECE002,student,2026-10-12
+THR-ECE303-2,ECE303,Important topics for midsem?,2025ECE008,student,2026-10-11
+THR-ECE304-1,ECE304,Important topics for midsem?,2025ECE008,student,2026-10-16
+THR-ECE304-2,ECE304,Can someone share worked examples?,2025ECE003,student,2026-10-15
+THR-ECE305-1,ECE305,Can someone share worked examples?,2025ECE001,student,2026-10-05
+THR-ECE305-2,ECE305,Clarification on assignment question 3,2025ECE007,student,2026-10-09
+THR-ME301-1,ME301,Best reference book for this subject?,2025ME006,student,2026-10-11
+THR-ME301-2,ME301,Doubt regarding Unit 2 concepts,2025ME003,student,2026-10-15
+THR-ME302-1,ME302,Doubt regarding Unit 2 concepts,2025ME006,student,2026-10-09
+THR-ME302-2,ME302,Important topics for midsem?,2025ME003,student,2026-10-09
+THR-ME303-1,ME303,Important topics for midsem?,2025ME007,student,2026-10-03
+THR-ME303-2,ME303,Can someone share worked examples?,2025ME005,student,2026-10-11
+THR-ME304-1,ME304,Can someone share worked examples?,2025ME005,student,2026-10-10
+THR-ME304-2,ME304,Clarification on assignment question 3,2025ME006,student,2026-10-20
+THR-ME305-1,ME305,Clarification on assignment question 3,2025ME003,student,2026-10-12
+THR-ME305-2,ME305,Best reference book for this subject?,2025ME007,student,2026-10-13
+THR-CE301-1,CE301,Best reference book for this subject?,2025CE004,student,2026-10-04
+THR-CE301-2,CE301,Doubt regarding Unit 2 concepts,2025CE002,student,2026-10-17
+THR-CE302-1,CE302,Doubt regarding Unit 2 concepts,2025CE003,student,2026-10-14
+THR-CE302-2,CE302,Important topics for midsem?,2025CE004,student,2026-10-19
+THR-CE303-1,CE303,Important topics for midsem?,2025CE003,student,2026-10-16
+THR-CE303-2,CE303,Can someone share worked examples?,2025CE002,student,2026-10-14
+THR-CE304-1,CE304,Can someone share worked examples?,2025CE005,student,2026-10-20
+THR-CE304-2,CE304,Clarification on assignment question 3,2025CE005,student,2026-10-07
+THR-CE305-1,CE305,Clarification on assignment question 3,2025CE005,student,2026-10-11
+THR-CE305-2,CE305,Best reference book for this subject?,2025CE005,student,2026-10-17
+THR-CSE501-1,CSE501,Best reference book for this subject?,2024CSE002,student,2026-10-19
+THR-CSE501-2,CSE501,Doubt regarding Unit 2 concepts,2024CSE011,student,2026-10-14
+THR-CSE502-1,CSE502,Doubt regarding Unit 2 concepts,2024CSE003,student,2026-10-07
+THR-CSE502-2,CSE502,Important topics for midsem?,2024CSE010,student,2026-10-16
+THR-CSE503-1,CSE503,Important topics for midsem?,2024CSE005,student,2026-10-04
+THR-CSE503-2,CSE503,Can someone share worked examples?,2024CSE010,student,2026-10-16
+THR-CSE504-1,CSE504,Can someone share worked examples?,2024CSE009,student,2026-10-11
+THR-CSE504-2,CSE504,Clarification on assignment question 3,2024CSE001,student,2026-10-10
+THR-CSE505-1,CSE505,Clarification on assignment question 3,2024CSE009,student,2026-10-08
+THR-CSE505-2,CSE505,Best reference book for this subject?,2024CSE003,student,2026-10-08
+THR-AIML501-1,AIML501,Important topics for midsem?,2024AIML005,student,2026-10-05
+THR-AIML501-2,AIML501,Can someone share worked examples?,2024AIML008,student,2026-10-16
+THR-AIML502-1,AIML502,Can someone share worked examples?,2024AIML004,student,2026-10-09
+THR-AIML502-2,AIML502,Clarification on assignment question 3,2024AIML003,student,2026-10-06
+THR-AIML503-1,AIML503,Clarification on assignment question 3,2024AIML006,student,2026-10-04
+THR-AIML503-2,AIML503,Best reference book for this subject?,2024AIML002,student,2026-10-18
+THR-AIML504-1,AIML504,Best reference book for this subject?,2024AIML003,student,2026-10-14
+THR-AIML504-2,AIML504,Doubt regarding Unit 2 concepts,2024AIML001,student,2026-10-14
+THR-AIML505-1,AIML505,Doubt regarding Unit 2 concepts,2024AIML007,student,2026-10-05
+THR-AIML505-2,AIML505,Important topics for midsem?,2024AIML001,student,2026-10-14
+THR-IT501-1,IT501,Can someone share worked examples?,2024IT005,student,2026-10-12
+THR-IT501-2,IT501,Clarification on assignment question 3,2024IT002,student,2026-10-20
+THR-IT502-1,IT502,Clarification on assignment question 3,2024IT004,student,2026-10-18
+THR-IT502-2,IT502,Best reference book for this subject?,2024IT004,student,2026-10-03
+THR-IT503-1,IT503,Best reference book for this subject?,2024IT008,student,2026-10-13
+THR-IT503-2,IT503,Doubt regarding Unit 2 concepts,2024IT001,student,2026-10-18
+THR-IT504-1,IT504,Doubt regarding Unit 2 concepts,2024IT008,student,2026-10-20
+THR-IT504-2,IT504,Important topics for midsem?,2024IT003,student,2026-10-15
+THR-IT505-1,IT505,Important topics for midsem?,2024IT004,student,2026-10-12
+THR-IT505-2,IT505,Can someone share worked examples?,2024IT008,student,2026-10-10
+THR-ECE501-1,ECE501,Doubt regarding Unit 2 concepts,2024ECE005,student,2026-10-09
+THR-ECE501-2,ECE501,Important topics for midsem?,2024ECE008,student,2026-10-06
+THR-ECE502-1,ECE502,Important topics for midsem?,2024ECE003,student,2026-10-12
+THR-ECE502-2,ECE502,Can someone share worked examples?,2024ECE002,student,2026-10-17
+THR-ECE503-1,ECE503,Can someone share worked examples?,2024ECE003,student,2026-10-04
+THR-ECE503-2,ECE503,Clarification on assignment question 3,2024ECE007,student,2026-10-06
+THR-ECE504-1,ECE504,Clarification on assignment question 3,2024ECE002,student,2026-10-07
+THR-ECE504-2,ECE504,Best reference book for this subject?,2024ECE002,student,2026-10-04
+THR-ECE505-1,ECE505,Best reference book for this subject?,2024ECE003,student,2026-10-07
+THR-ECE505-2,ECE505,Doubt regarding Unit 2 concepts,2024ECE005,student,2026-10-06
+THR-ME501-1,ME501,Important topics for midsem?,2024ME007,student,2026-10-06
+THR-ME501-2,ME501,Can someone share worked examples?,2024ME002,student,2026-10-11
+THR-ME502-1,ME502,Can someone share worked examples?,2024ME003,student,2026-10-17
+THR-ME502-2,ME502,Clarification on assignment question 3,2024ME007,student,2026-10-04
+THR-ME503-1,ME503,Clarification on assignment question 3,2024ME003,student,2026-10-11
+THR-ME503-2,ME503,Best reference book for this subject?,2024ME002,student,2026-10-14
+THR-ME504-1,ME504,Best reference book for this subject?,2024ME002,student,2026-10-07
+THR-ME504-2,ME504,Doubt regarding Unit 2 concepts,2024ME004,student,2026-10-05
+THR-ME505-1,ME505,Doubt regarding Unit 2 concepts,2024ME005,student,2026-10-04
+THR-ME505-2,ME505,Important topics for midsem?,2024ME003,student,2026-10-08
+THR-CE501-1,CE501,Important topics for midsem?,2024CE005,student,2026-10-13
+THR-CE501-2,CE501,Can someone share worked examples?,2024CE001,student,2026-10-08
+THR-CE502-1,CE502,Can someone share worked examples?,2024CE001,student,2026-10-10
+THR-CE502-2,CE502,Clarification on assignment question 3,2024CE003,student,2026-10-06
+THR-CE503-1,CE503,Clarification on assignment question 3,2024CE004,student,2026-10-12
+THR-CE503-2,CE503,Best reference book for this subject?,2024CE003,student,2026-10-15
+THR-CE504-1,CE504,Best reference book for this subject?,2024CE004,student,2026-10-15
+THR-CE504-2,CE504,Doubt regarding Unit 2 concepts,2024CE005,student,2026-10-09
+THR-CE505-1,CE505,Doubt regarding Unit 2 concepts,2024CE003,student,2026-10-18
+THR-CE505-2,CE505,Important topics for midsem?,2024CE004,student,2026-10-08
+THR-CSE701-1,CSE701,Important topics for midsem?,2023CSE013,student,2026-10-10
+THR-CSE701-2,CSE701,Can someone share worked examples?,2023CSE007,student,2026-10-03
+THR-CSE702-1,CSE702,Can someone share worked examples?,2023CSE008,student,2026-10-09
+THR-CSE702-2,CSE702,Clarification on assignment question 3,2023CSE011,student,2026-10-18
+THR-CSE703-1,CSE703,Clarification on assignment question 3,2023CSE011,student,2026-10-08
+THR-CSE703-2,CSE703,Best reference book for this subject?,2023CSE009,student,2026-10-15
+THR-CSE704-1,CSE704,Best reference book for this subject?,2023CSE004,student,2026-10-09
+THR-CSE704-2,CSE704,Doubt regarding Unit 2 concepts,2023CSE003,student,2026-10-03
+THR-CSE705-1,CSE705,Doubt regarding Unit 2 concepts,2023CSE004,student,2026-10-13
+THR-CSE705-2,CSE705,Important topics for midsem?,2023CSE009,student,2026-10-07
+THR-AIML701-1,AIML701,Clarification on assignment question 3,2023AIML005,student,2026-10-10
+THR-AIML701-2,AIML701,Best reference book for this subject?,2023AIML006,student,2026-10-19
+THR-AIML702-1,AIML702,Best reference book for this subject?,2023AIML002,student,2026-10-11
+THR-AIML702-2,AIML702,Doubt regarding Unit 2 concepts,2023AIML007,student,2026-10-15
+THR-AIML703-1,AIML703,Doubt regarding Unit 2 concepts,2023AIML002,student,2026-10-13
+THR-AIML703-2,AIML703,Important topics for midsem?,2023AIML007,student,2026-10-18
+THR-AIML704-1,AIML704,Important topics for midsem?,2023AIML006,student,2026-10-18
+THR-AIML704-2,AIML704,Can someone share worked examples?,2023AIML006,student,2026-10-05
+THR-AIML705-1,AIML705,Can someone share worked examples?,2023AIML002,student,2026-10-19
+THR-AIML705-2,AIML705,Clarification on assignment question 3,2023AIML002,student,2026-10-10
+THR-IT701-1,IT701,Best reference book for this subject?,2023IT006,student,2026-10-15
+THR-IT701-2,IT701,Doubt regarding Unit 2 concepts,2023IT006,student,2026-10-18
+THR-IT702-1,IT702,Doubt regarding Unit 2 concepts,2023IT006,student,2026-10-16
+THR-IT702-2,IT702,Important topics for midsem?,2023IT008,student,2026-10-18
+THR-IT703-1,IT703,Important topics for midsem?,2023IT006,student,2026-10-05
+THR-IT703-2,IT703,Can someone share worked examples?,2023IT005,student,2026-10-08
+THR-IT704-1,IT704,Can someone share worked examples?,2023IT005,student,2026-10-19
+THR-IT704-2,IT704,Clarification on assignment question 3,2023IT005,student,2026-10-20
+THR-IT705-1,IT705,Clarification on assignment question 3,2023IT006,student,2026-10-04
+THR-IT705-2,IT705,Best reference book for this subject?,2023IT007,student,2026-10-06
+THR-ECE701-1,ECE701,Can someone share worked examples?,2023ECE002,student,2026-10-11
+THR-ECE701-2,ECE701,Clarification on assignment question 3,2023ECE002,student,2026-10-16
+THR-ECE702-1,ECE702,Clarification on assignment question 3,2023ECE008,student,2026-10-18
+THR-ECE702-2,ECE702,Best reference book for this subject?,2023ECE005,student,2026-10-19
+THR-ECE703-1,ECE703,Best reference book for this subject?,2023ECE003,student,2026-10-14
+THR-ECE703-2,ECE703,Doubt regarding Unit 2 concepts,2023ECE001,student,2026-10-15
+THR-ECE704-1,ECE704,Doubt regarding Unit 2 concepts,2023ECE006,student,2026-10-07
+THR-ECE704-2,ECE704,Important topics for midsem?,2023ECE006,student,2026-10-13
+THR-ECE705-1,ECE705,Important topics for midsem?,2023ECE008,student,2026-10-12
+THR-ECE705-2,ECE705,Can someone share worked examples?,2023ECE001,student,2026-10-19
+THR-ME701-1,ME701,Clarification on assignment question 3,2023ME003,student,2026-10-09
+THR-ME701-2,ME701,Best reference book for this subject?,2023ME003,student,2026-10-15
+THR-ME702-1,ME702,Best reference book for this subject?,2023ME007,student,2026-10-09
+THR-ME702-2,ME702,Doubt regarding Unit 2 concepts,2023ME002,student,2026-10-05
+THR-ME703-1,ME703,Doubt regarding Unit 2 concepts,2023ME007,student,2026-10-06
+THR-ME703-2,ME703,Important topics for midsem?,2023ME005,student,2026-10-14
+THR-ME704-1,ME704,Important topics for midsem?,2023ME006,student,2026-10-06
+THR-ME704-2,ME704,Can someone share worked examples?,2023ME003,student,2026-10-03
+THR-ME705-1,ME705,Can someone share worked examples?,2023ME002,student,2026-10-03
+THR-ME705-2,ME705,Clarification on assignment question 3,2023ME002,student,2026-10-19
+THR-CE701-1,CE701,Clarification on assignment question 3,2023CE003,student,2026-10-08
+THR-CE701-2,CE701,Best reference book for this subject?,2023CE004,student,2026-10-16
+THR-CE702-1,CE702,Best reference book for this subject?,2023CE004,student,2026-10-15
+THR-CE702-2,CE702,Doubt regarding Unit 2 concepts,2023CE002,student,2026-10-19
+THR-CE703-1,CE703,Doubt regarding Unit 2 concepts,2023CE001,student,2026-10-15
+THR-CE703-2,CE703,Important topics for midsem?,2023CE005,student,2026-10-16
+THR-CE704-1,CE704,Important topics for midsem?,2023CE004,student,2026-10-05
+THR-CE704-2,CE704,Can someone share worked examples?,2023CE005,student,2026-10-20
+THR-CE705-1,CE705,Can someone share worked examples?,2023CE003,student,2026-10-18
+THR-CE705-2,CE705,Clarification on assignment question 3,2023CE004,student,2026-10-09

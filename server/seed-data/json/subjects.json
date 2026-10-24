@@ -1,0 +1,1602 @@
+[
+ {
+  "code": "FY101",
+  "name": "Engineering Mathematics I",
+  "branch": "COMMON",
+  "semester": 1,
+  "credits": 4,
+  "type": "Theory",
+  "department": "APS",
+  "facultyId": "FAC-APS-001"
+ },
+ {
+  "code": "FY102",
+  "name": "Engineering Physics",
+  "branch": "COMMON",
+  "semester": 1,
+  "credits": 4,
+  "type": "Theory+Lab",
+  "department": "APS",
+  "facultyId": "FAC-APS-002"
+ },
+ {
+  "code": "FY103",
+  "name": "Programming for Problem Solving",
+  "branch": "COMMON",
+  "semester": 1,
+  "credits": 4,
+  "type": "Theory+Lab",
+  "department": "APS",
+  "facultyId": "FAC-APS-003"
+ },
+ {
+  "code": "FY104",
+  "name": "Basic Electrical Engineering",
+  "branch": "COMMON",
+  "semester": 1,
+  "credits": 4,
+  "type": "Theory",
+  "department": "APS",
+  "facultyId": "FAC-APS-001"
+ },
+ {
+  "code": "FY105",
+  "name": "Communication Skills",
+  "branch": "COMMON",
+  "semester": 1,
+  "credits": 3,
+  "type": "Theory",
+  "department": "APS",
+  "facultyId": "FAC-APS-002"
+ },
+ {
+  "code": "FY201",
+  "name": "Engineering Mathematics II",
+  "branch": "COMMON",
+  "semester": 2,
+  "credits": 4,
+  "type": "Theory",
+  "department": "APS",
+  "facultyId": "FAC-APS-003"
+ },
+ {
+  "code": "FY202",
+  "name": "Engineering Chemistry",
+  "branch": "COMMON",
+  "semester": 2,
+  "credits": 4,
+  "type": "Theory+Lab",
+  "department": "APS",
+  "facultyId": "FAC-APS-001"
+ },
+ {
+  "code": "FY203",
+  "name": "Engineering Graphics",
+  "branch": "COMMON",
+  "semester": 2,
+  "credits": 4,
+  "type": "Theory+Lab",
+  "department": "APS",
+  "facultyId": "FAC-APS-002"
+ },
+ {
+  "code": "FY204",
+  "name": "Object Oriented Programming",
+  "branch": "COMMON",
+  "semester": 2,
+  "credits": 4,
+  "type": "Theory+Lab",
+  "department": "APS",
+  "facultyId": "FAC-APS-003"
+ },
+ {
+  "code": "FY205",
+  "name": "Environmental Science",
+  "branch": "COMMON",
+  "semester": 2,
+  "credits": 4,
+  "type": "Theory",
+  "department": "APS",
+  "facultyId": "FAC-APS-001"
+ },
+ {
+  "code": "CSE301",
+  "name": "Data Structures",
+  "branch": "CSE",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-001"
+ },
+ {
+  "code": "CSE302",
+  "name": "Discrete Mathematics",
+  "branch": "CSE",
+  "semester": 3,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-002"
+ },
+ {
+  "code": "CSE303",
+  "name": "Digital Logic Design",
+  "branch": "CSE",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-003"
+ },
+ {
+  "code": "CSE304",
+  "name": "Computer Organization",
+  "branch": "CSE",
+  "semester": 3,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-004"
+ },
+ {
+  "code": "CSE305",
+  "name": "Python Programming",
+  "branch": "CSE",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory+Lab",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-005"
+ },
+ {
+  "code": "CSE401",
+  "name": "Design and Analysis of Algorithms",
+  "branch": "CSE",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-006"
+ },
+ {
+  "code": "CSE402",
+  "name": "Operating Systems",
+  "branch": "CSE",
+  "semester": 4,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-001"
+ },
+ {
+  "code": "CSE403",
+  "name": "Database Management Systems",
+  "branch": "CSE",
+  "semester": 4,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-002"
+ },
+ {
+  "code": "CSE404",
+  "name": "Theory of Computation",
+  "branch": "CSE",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-003"
+ },
+ {
+  "code": "CSE405",
+  "name": "Software Engineering",
+  "branch": "CSE",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-004"
+ },
+ {
+  "code": "CSE501",
+  "name": "Computer Networks",
+  "branch": "CSE",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-005"
+ },
+ {
+  "code": "CSE502",
+  "name": "Compiler Design",
+  "branch": "CSE",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-006"
+ },
+ {
+  "code": "CSE503",
+  "name": "Web Technologies",
+  "branch": "CSE",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-001"
+ },
+ {
+  "code": "CSE504",
+  "name": "Artificial Intelligence",
+  "branch": "CSE",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-002"
+ },
+ {
+  "code": "CSE505",
+  "name": "Professional Elective I",
+  "branch": "CSE",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-003"
+ },
+ {
+  "code": "CSE601",
+  "name": "Machine Learning",
+  "branch": "CSE",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-004"
+ },
+ {
+  "code": "CSE602",
+  "name": "Cloud Computing",
+  "branch": "CSE",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-005"
+ },
+ {
+  "code": "CSE603",
+  "name": "Information Security",
+  "branch": "CSE",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-006"
+ },
+ {
+  "code": "CSE604",
+  "name": "Data Mining",
+  "branch": "CSE",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-001"
+ },
+ {
+  "code": "CSE605",
+  "name": "Professional Elective II",
+  "branch": "CSE",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-002"
+ },
+ {
+  "code": "CSE701",
+  "name": "Big Data Analytics",
+  "branch": "CSE",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-003"
+ },
+ {
+  "code": "CSE702",
+  "name": "Distributed Systems",
+  "branch": "CSE",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-004"
+ },
+ {
+  "code": "CSE703",
+  "name": "Deep Learning",
+  "branch": "CSE",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-005"
+ },
+ {
+  "code": "CSE704",
+  "name": "Open Elective I",
+  "branch": "CSE",
+  "semester": 7,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-006"
+ },
+ {
+  "code": "CSE705",
+  "name": "Project Phase I",
+  "branch": "CSE",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CSE",
+  "facultyId": "FAC-CSE-001"
+ },
+ {
+  "code": "AIML301",
+  "name": "Data Structures",
+  "branch": "AIML",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-001"
+ },
+ {
+  "code": "AIML302",
+  "name": "Probability and Statistics",
+  "branch": "AIML",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-002"
+ },
+ {
+  "code": "AIML303",
+  "name": "Linear Algebra for ML",
+  "branch": "AIML",
+  "semester": 3,
+  "credits": 3,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-003"
+ },
+ {
+  "code": "AIML304",
+  "name": "Digital Logic Design",
+  "branch": "AIML",
+  "semester": 3,
+  "credits": 3,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-004"
+ },
+ {
+  "code": "AIML305",
+  "name": "Python for Data Science",
+  "branch": "AIML",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-005"
+ },
+ {
+  "code": "AIML401",
+  "name": "Design and Analysis of Algorithms",
+  "branch": "AIML",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-001"
+ },
+ {
+  "code": "AIML402",
+  "name": "Database Management Systems",
+  "branch": "AIML",
+  "semester": 4,
+  "credits": 3,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-002"
+ },
+ {
+  "code": "AIML403",
+  "name": "Machine Learning Fundamentals",
+  "branch": "AIML",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-003"
+ },
+ {
+  "code": "AIML404",
+  "name": "Operating Systems",
+  "branch": "AIML",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-004"
+ },
+ {
+  "code": "AIML405",
+  "name": "Optimization Techniques",
+  "branch": "AIML",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-005"
+ },
+ {
+  "code": "AIML501",
+  "name": "Deep Learning",
+  "branch": "AIML",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-001"
+ },
+ {
+  "code": "AIML502",
+  "name": "Natural Language Processing",
+  "branch": "AIML",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-002"
+ },
+ {
+  "code": "AIML503",
+  "name": "Computer Networks",
+  "branch": "AIML",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-003"
+ },
+ {
+  "code": "AIML504",
+  "name": "Data Visualization",
+  "branch": "AIML",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-004"
+ },
+ {
+  "code": "AIML505",
+  "name": "Professional Elective I",
+  "branch": "AIML",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-005"
+ },
+ {
+  "code": "AIML601",
+  "name": "Computer Vision",
+  "branch": "AIML",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-001"
+ },
+ {
+  "code": "AIML602",
+  "name": "Reinforcement Learning",
+  "branch": "AIML",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-002"
+ },
+ {
+  "code": "AIML603",
+  "name": "Big Data Analytics",
+  "branch": "AIML",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-003"
+ },
+ {
+  "code": "AIML604",
+  "name": "Cloud Computing",
+  "branch": "AIML",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-004"
+ },
+ {
+  "code": "AIML605",
+  "name": "Professional Elective II",
+  "branch": "AIML",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-005"
+ },
+ {
+  "code": "AIML701",
+  "name": "Generative AI",
+  "branch": "AIML",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-001"
+ },
+ {
+  "code": "AIML702",
+  "name": "MLOps",
+  "branch": "AIML",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-002"
+ },
+ {
+  "code": "AIML703",
+  "name": "AI Ethics and Governance",
+  "branch": "AIML",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-003"
+ },
+ {
+  "code": "AIML704",
+  "name": "Open Elective I",
+  "branch": "AIML",
+  "semester": 7,
+  "credits": 3,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-004"
+ },
+ {
+  "code": "AIML705",
+  "name": "Project Phase I",
+  "branch": "AIML",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "AIML",
+  "facultyId": "FAC-AIML-005"
+ },
+ {
+  "code": "IT301",
+  "name": "Data Structures",
+  "branch": "IT",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-001"
+ },
+ {
+  "code": "IT302",
+  "name": "Discrete Mathematics",
+  "branch": "IT",
+  "semester": 3,
+  "credits": 3,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-002"
+ },
+ {
+  "code": "IT303",
+  "name": "Computer Organization",
+  "branch": "IT",
+  "semester": 3,
+  "credits": 3,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-003"
+ },
+ {
+  "code": "IT304",
+  "name": "Object Oriented Programming",
+  "branch": "IT",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory+Lab",
+  "department": "IT",
+  "facultyId": "FAC-IT-004"
+ },
+ {
+  "code": "IT305",
+  "name": "Digital Electronics",
+  "branch": "IT",
+  "semester": 3,
+  "credits": 3,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-001"
+ },
+ {
+  "code": "IT401",
+  "name": "Database Management Systems",
+  "branch": "IT",
+  "semester": 4,
+  "credits": 3,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-002"
+ },
+ {
+  "code": "IT402",
+  "name": "Operating Systems",
+  "branch": "IT",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-003"
+ },
+ {
+  "code": "IT403",
+  "name": "Design and Analysis of Algorithms",
+  "branch": "IT",
+  "semester": 4,
+  "credits": 3,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-004"
+ },
+ {
+  "code": "IT404",
+  "name": "Computer Networks",
+  "branch": "IT",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-001"
+ },
+ {
+  "code": "IT405",
+  "name": "Software Engineering",
+  "branch": "IT",
+  "semester": 4,
+  "credits": 3,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-002"
+ },
+ {
+  "code": "IT501",
+  "name": "Web Technologies",
+  "branch": "IT",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-003"
+ },
+ {
+  "code": "IT502",
+  "name": "Information Security",
+  "branch": "IT",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-004"
+ },
+ {
+  "code": "IT503",
+  "name": "Mobile Application Development",
+  "branch": "IT",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-001"
+ },
+ {
+  "code": "IT504",
+  "name": "Data Warehousing",
+  "branch": "IT",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-002"
+ },
+ {
+  "code": "IT505",
+  "name": "Professional Elective I",
+  "branch": "IT",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-003"
+ },
+ {
+  "code": "IT601",
+  "name": "Cloud Computing",
+  "branch": "IT",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-004"
+ },
+ {
+  "code": "IT602",
+  "name": "Internet of Things",
+  "branch": "IT",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-001"
+ },
+ {
+  "code": "IT603",
+  "name": "Machine Learning",
+  "branch": "IT",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-002"
+ },
+ {
+  "code": "IT604",
+  "name": "Human Computer Interaction",
+  "branch": "IT",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-003"
+ },
+ {
+  "code": "IT605",
+  "name": "Professional Elective II",
+  "branch": "IT",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-004"
+ },
+ {
+  "code": "IT701",
+  "name": "Big Data Analytics",
+  "branch": "IT",
+  "semester": 7,
+  "credits": 3,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-001"
+ },
+ {
+  "code": "IT702",
+  "name": "DevOps",
+  "branch": "IT",
+  "semester": 7,
+  "credits": 3,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-002"
+ },
+ {
+  "code": "IT703",
+  "name": "Blockchain Technology",
+  "branch": "IT",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-003"
+ },
+ {
+  "code": "IT704",
+  "name": "Open Elective I",
+  "branch": "IT",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-004"
+ },
+ {
+  "code": "IT705",
+  "name": "Project Phase I",
+  "branch": "IT",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "IT",
+  "facultyId": "FAC-IT-001"
+ },
+ {
+  "code": "ECE301",
+  "name": "Network Analysis",
+  "branch": "ECE",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-001"
+ },
+ {
+  "code": "ECE302",
+  "name": "Electronic Devices and Circuits",
+  "branch": "ECE",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-002"
+ },
+ {
+  "code": "ECE303",
+  "name": "Signals and Systems",
+  "branch": "ECE",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-003"
+ },
+ {
+  "code": "ECE304",
+  "name": "Digital Electronics",
+  "branch": "ECE",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-004"
+ },
+ {
+  "code": "ECE305",
+  "name": "Electromagnetic Theory",
+  "branch": "ECE",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-005"
+ },
+ {
+  "code": "ECE401",
+  "name": "Analog Circuits",
+  "branch": "ECE",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-001"
+ },
+ {
+  "code": "ECE402",
+  "name": "Analog Communication",
+  "branch": "ECE",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-002"
+ },
+ {
+  "code": "ECE403",
+  "name": "Microprocessors and Microcontrollers",
+  "branch": "ECE",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-003"
+ },
+ {
+  "code": "ECE404",
+  "name": "Control Systems",
+  "branch": "ECE",
+  "semester": 4,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-004"
+ },
+ {
+  "code": "ECE405",
+  "name": "Linear Integrated Circuits",
+  "branch": "ECE",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-005"
+ },
+ {
+  "code": "ECE501",
+  "name": "Digital Communication",
+  "branch": "ECE",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-001"
+ },
+ {
+  "code": "ECE502",
+  "name": "Digital Signal Processing",
+  "branch": "ECE",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-002"
+ },
+ {
+  "code": "ECE503",
+  "name": "VLSI Design",
+  "branch": "ECE",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-003"
+ },
+ {
+  "code": "ECE504",
+  "name": "Antenna and Wave Propagation",
+  "branch": "ECE",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-004"
+ },
+ {
+  "code": "ECE505",
+  "name": "Professional Elective I",
+  "branch": "ECE",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-005"
+ },
+ {
+  "code": "ECE601",
+  "name": "Embedded Systems",
+  "branch": "ECE",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-001"
+ },
+ {
+  "code": "ECE602",
+  "name": "Microwave Engineering",
+  "branch": "ECE",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-002"
+ },
+ {
+  "code": "ECE603",
+  "name": "Wireless Communication",
+  "branch": "ECE",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-003"
+ },
+ {
+  "code": "ECE604",
+  "name": "Information Theory and Coding",
+  "branch": "ECE",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-004"
+ },
+ {
+  "code": "ECE605",
+  "name": "Professional Elective II",
+  "branch": "ECE",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-005"
+ },
+ {
+  "code": "ECE701",
+  "name": "Optical Communication",
+  "branch": "ECE",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-001"
+ },
+ {
+  "code": "ECE702",
+  "name": "Satellite Communication",
+  "branch": "ECE",
+  "semester": 7,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-002"
+ },
+ {
+  "code": "ECE703",
+  "name": "IoT and Sensor Networks",
+  "branch": "ECE",
+  "semester": 7,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-003"
+ },
+ {
+  "code": "ECE704",
+  "name": "Open Elective I",
+  "branch": "ECE",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-004"
+ },
+ {
+  "code": "ECE705",
+  "name": "Project Phase I",
+  "branch": "ECE",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ECE",
+  "facultyId": "FAC-ECE-005"
+ },
+ {
+  "code": "ME301",
+  "name": "Engineering Thermodynamics",
+  "branch": "ME",
+  "semester": 3,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-001"
+ },
+ {
+  "code": "ME302",
+  "name": "Fluid Mechanics",
+  "branch": "ME",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-002"
+ },
+ {
+  "code": "ME303",
+  "name": "Strength of Materials",
+  "branch": "ME",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-003"
+ },
+ {
+  "code": "ME304",
+  "name": "Manufacturing Processes",
+  "branch": "ME",
+  "semester": 3,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-004"
+ },
+ {
+  "code": "ME305",
+  "name": "Materials Science",
+  "branch": "ME",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-001"
+ },
+ {
+  "code": "ME401",
+  "name": "Kinematics of Machinery",
+  "branch": "ME",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-002"
+ },
+ {
+  "code": "ME402",
+  "name": "Heat and Mass Transfer",
+  "branch": "ME",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-003"
+ },
+ {
+  "code": "ME403",
+  "name": "Applied Thermodynamics",
+  "branch": "ME",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-004"
+ },
+ {
+  "code": "ME404",
+  "name": "Fluid Machinery",
+  "branch": "ME",
+  "semester": 4,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-001"
+ },
+ {
+  "code": "ME405",
+  "name": "Machine Drawing and CAD",
+  "branch": "ME",
+  "semester": 4,
+  "credits": 3,
+  "type": "Theory+Lab",
+  "department": "ME",
+  "facultyId": "FAC-ME-002"
+ },
+ {
+  "code": "ME501",
+  "name": "Dynamics of Machinery",
+  "branch": "ME",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-003"
+ },
+ {
+  "code": "ME502",
+  "name": "Design of Machine Elements",
+  "branch": "ME",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-004"
+ },
+ {
+  "code": "ME503",
+  "name": "Metrology and Measurements",
+  "branch": "ME",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-001"
+ },
+ {
+  "code": "ME504",
+  "name": "Industrial Engineering",
+  "branch": "ME",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-002"
+ },
+ {
+  "code": "ME505",
+  "name": "Professional Elective I",
+  "branch": "ME",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-003"
+ },
+ {
+  "code": "ME601",
+  "name": "Refrigeration and Air Conditioning",
+  "branch": "ME",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-004"
+ },
+ {
+  "code": "ME602",
+  "name": "Finite Element Analysis",
+  "branch": "ME",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-001"
+ },
+ {
+  "code": "ME603",
+  "name": "Mechatronics",
+  "branch": "ME",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-002"
+ },
+ {
+  "code": "ME604",
+  "name": "Operations Research",
+  "branch": "ME",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-003"
+ },
+ {
+  "code": "ME605",
+  "name": "Professional Elective II",
+  "branch": "ME",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-004"
+ },
+ {
+  "code": "ME701",
+  "name": "Power Plant Engineering",
+  "branch": "ME",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-001"
+ },
+ {
+  "code": "ME702",
+  "name": "Automobile Engineering",
+  "branch": "ME",
+  "semester": 7,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-002"
+ },
+ {
+  "code": "ME703",
+  "name": "Robotics and Automation",
+  "branch": "ME",
+  "semester": 7,
+  "credits": 3,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-003"
+ },
+ {
+  "code": "ME704",
+  "name": "Open Elective I",
+  "branch": "ME",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-004"
+ },
+ {
+  "code": "ME705",
+  "name": "Project Phase I",
+  "branch": "ME",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "ME",
+  "facultyId": "FAC-ME-001"
+ },
+ {
+  "code": "CE301",
+  "name": "Surveying",
+  "branch": "CE",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory+Lab",
+  "department": "CE",
+  "facultyId": "FAC-CE-001"
+ },
+ {
+  "code": "CE302",
+  "name": "Building Materials and Construction",
+  "branch": "CE",
+  "semester": 3,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-002"
+ },
+ {
+  "code": "CE303",
+  "name": "Strength of Materials",
+  "branch": "CE",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-003"
+ },
+ {
+  "code": "CE304",
+  "name": "Fluid Mechanics",
+  "branch": "CE",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-001"
+ },
+ {
+  "code": "CE305",
+  "name": "Engineering Geology",
+  "branch": "CE",
+  "semester": 3,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-002"
+ },
+ {
+  "code": "CE401",
+  "name": "Structural Analysis",
+  "branch": "CE",
+  "semester": 4,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-003"
+ },
+ {
+  "code": "CE402",
+  "name": "Hydraulics and Hydraulic Machines",
+  "branch": "CE",
+  "semester": 4,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-001"
+ },
+ {
+  "code": "CE403",
+  "name": "Geotechnical Engineering",
+  "branch": "CE",
+  "semester": 4,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-002"
+ },
+ {
+  "code": "CE404",
+  "name": "Concrete Technology",
+  "branch": "CE",
+  "semester": 4,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-003"
+ },
+ {
+  "code": "CE405",
+  "name": "Transportation Engineering I",
+  "branch": "CE",
+  "semester": 4,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-001"
+ },
+ {
+  "code": "CE501",
+  "name": "Design of RC Structures",
+  "branch": "CE",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-002"
+ },
+ {
+  "code": "CE502",
+  "name": "Environmental Engineering",
+  "branch": "CE",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-003"
+ },
+ {
+  "code": "CE503",
+  "name": "Water Resources Engineering",
+  "branch": "CE",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-001"
+ },
+ {
+  "code": "CE504",
+  "name": "Transportation Engineering II",
+  "branch": "CE",
+  "semester": 5,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-002"
+ },
+ {
+  "code": "CE505",
+  "name": "Professional Elective I",
+  "branch": "CE",
+  "semester": 5,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-003"
+ },
+ {
+  "code": "CE601",
+  "name": "Design of Steel Structures",
+  "branch": "CE",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-001"
+ },
+ {
+  "code": "CE602",
+  "name": "Foundation Engineering",
+  "branch": "CE",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-002"
+ },
+ {
+  "code": "CE603",
+  "name": "Construction Management",
+  "branch": "CE",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-003"
+ },
+ {
+  "code": "CE604",
+  "name": "Estimation and Costing",
+  "branch": "CE",
+  "semester": 6,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-001"
+ },
+ {
+  "code": "CE605",
+  "name": "Professional Elective II",
+  "branch": "CE",
+  "semester": 6,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-002"
+ },
+ {
+  "code": "CE701",
+  "name": "Advanced Structural Design",
+  "branch": "CE",
+  "semester": 7,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-003"
+ },
+ {
+  "code": "CE702",
+  "name": "Remote Sensing and GIS",
+  "branch": "CE",
+  "semester": 7,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-001"
+ },
+ {
+  "code": "CE703",
+  "name": "Earthquake Engineering",
+  "branch": "CE",
+  "semester": 7,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-002"
+ },
+ {
+  "code": "CE704",
+  "name": "Open Elective I",
+  "branch": "CE",
+  "semester": 7,
+  "credits": 3,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-003"
+ },
+ {
+  "code": "CE705",
+  "name": "Project Phase I",
+  "branch": "CE",
+  "semester": 7,
+  "credits": 4,
+  "type": "Theory",
+  "department": "CE",
+  "facultyId": "FAC-CE-001"
+ }
+]

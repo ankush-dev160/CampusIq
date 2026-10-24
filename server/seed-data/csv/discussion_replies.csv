@@ -1,0 +1,354 @@
+id,threadId,authorId,authorRole,message,createdAt
+REP-THR-FY101-1-1,THR-FY101-1,FAC-APS-001,faculty,"I solved a similar example, will upload the steps.",2026-10-16
+REP-THR-FY101-1-2,THR-FY101-1,2026ME003,student,Sir mentioned this will be covered in the next class.,2026-10-21
+REP-THR-FY101-2-1,THR-FY101-2,2026ECE004,student,"Check page 45 of the notes, it explains this step by step.",2026-10-23
+REP-THR-FY102-1-1,THR-FY102-1,2026CSE004,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-13
+REP-THR-FY102-1-2,THR-FY102-1,2026AIML004,student,"Check page 45 of the notes, it explains this step by step.",2026-10-21
+REP-THR-FY102-2-1,THR-FY102-2,FAC-APS-002,faculty,Sir mentioned this will be covered in the next class.,2026-10-12
+REP-THR-FY102-2-2,THR-FY102-2,2026CSE013,student,Sir mentioned this will be covered in the next class.,2026-10-11
+REP-THR-FY103-1-1,THR-FY103-1,FAC-APS-003,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-10
+REP-THR-FY103-2-1,THR-FY103-2,FAC-APS-003,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-15
+REP-THR-FY104-1-1,THR-FY104-1,2026CE002,student,"Refer to the previous year paper, same pattern repeats.",2026-10-13
+REP-THR-FY104-2-1,THR-FY104-2,FAC-APS-001,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-14
+REP-THR-FY104-2-2,THR-FY104-2,2026AIML009,student,"Check page 45 of the notes, it explains this step by step.",2026-10-10
+REP-THR-FY105-1-1,THR-FY105-1,FAC-APS-002,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-11
+REP-THR-FY105-1-2,THR-FY105-1,2026CSE004,student,"Refer to the previous year paper, same pattern repeats.",2026-10-21
+REP-THR-FY105-1-3,THR-FY105-1,2026CSE006,student,Sir mentioned this will be covered in the next class.,2026-10-11
+REP-THR-FY105-2-1,THR-FY105-2,2026IT008,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-18
+REP-THR-FY105-2-2,THR-FY105-2,2026CSE006,student,Sir mentioned this will be covered in the next class.,2026-10-14
+REP-THR-FY105-2-3,THR-FY105-2,2026AIML002,student,"Check page 45 of the notes, it explains this step by step.",2026-10-17
+REP-THR-CSE301-1-1,THR-CSE301-1,FAC-CSE-001,faculty,Sir mentioned this will be covered in the next class.,2026-10-12
+REP-THR-CSE301-1-2,THR-CSE301-1,2025CSE004,student,"Check page 45 of the notes, it explains this step by step.",2026-10-13
+REP-THR-CSE301-2-1,THR-CSE301-2,2025CSE011,student,"Check page 45 of the notes, it explains this step by step.",2026-10-15
+REP-THR-CSE302-1-1,THR-CSE302-1,2025CSE004,student,"Refer to the previous year paper, same pattern repeats.",2026-10-22
+REP-THR-CSE302-1-2,THR-CSE302-1,2025CSE009,student,"I solved a similar example, will upload the steps.",2026-10-13
+REP-THR-CSE302-2-1,THR-CSE302-2,FAC-CSE-002,faculty,Sir mentioned this will be covered in the next class.,2026-10-15
+REP-THR-CSE302-2-2,THR-CSE302-2,2025CSE006,student,"Refer to the previous year paper, same pattern repeats.",2026-10-12
+REP-THR-CSE303-1-1,THR-CSE303-1,FAC-CSE-003,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-12
+REP-THR-CSE303-1-2,THR-CSE303-1,2025CSE007,student,Sir mentioned this will be covered in the next class.,2026-10-20
+REP-THR-CSE303-1-3,THR-CSE303-1,2025CSE006,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-12
+REP-THR-CSE303-2-1,THR-CSE303-2,FAC-CSE-003,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-15
+REP-THR-CSE304-1-1,THR-CSE304-1,FAC-CSE-004,faculty,"I solved a similar example, will upload the steps.",2026-10-20
+REP-THR-CSE304-2-1,THR-CSE304-2,2025CSE013,student,Sir mentioned this will be covered in the next class.,2026-10-19
+REP-THR-CSE305-1-1,THR-CSE305-1,2025CSE001,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-12
+REP-THR-CSE305-1-2,THR-CSE305-1,2025CSE004,student,"Refer to the previous year paper, same pattern repeats.",2026-10-14
+REP-THR-CSE305-1-3,THR-CSE305-1,2025CSE011,student,Sir mentioned this will be covered in the next class.,2026-10-19
+REP-THR-CSE305-2-1,THR-CSE305-2,FAC-CSE-005,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-16
+REP-THR-CSE305-2-2,THR-CSE305-2,2025CSE012,student,"Refer to the previous year paper, same pattern repeats.",2026-10-11
+REP-THR-AIML301-1-1,THR-AIML301-1,FAC-AIML-001,faculty,"I solved a similar example, will upload the steps.",2026-10-19
+REP-THR-AIML301-1-2,THR-AIML301-1,2025AIML005,student,Sir mentioned this will be covered in the next class.,2026-10-11
+REP-THR-AIML301-1-3,THR-AIML301-1,2025AIML003,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-23
+REP-THR-AIML301-2-1,THR-AIML301-2,2025AIML003,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-11
+REP-THR-AIML301-2-2,THR-AIML301-2,2025AIML002,student,"I solved a similar example, will upload the steps.",2026-10-22
+REP-THR-AIML301-2-3,THR-AIML301-2,2025AIML003,student,"I solved a similar example, will upload the steps.",2026-10-13
+REP-THR-AIML302-1-1,THR-AIML302-1,FAC-AIML-002,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-18
+REP-THR-AIML302-2-1,THR-AIML302-2,FAC-AIML-002,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-21
+REP-THR-AIML302-2-2,THR-AIML302-2,2025AIML008,student,"I solved a similar example, will upload the steps.",2026-10-19
+REP-THR-AIML303-1-1,THR-AIML303-1,2025AIML002,student,"I solved a similar example, will upload the steps.",2026-10-10
+REP-THR-AIML303-2-1,THR-AIML303-2,FAC-AIML-003,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-11
+REP-THR-AIML303-2-2,THR-AIML303-2,2025AIML005,student,Sir mentioned this will be covered in the next class.,2026-10-18
+REP-THR-AIML303-2-3,THR-AIML303-2,2025AIML007,student,"Refer to the previous year paper, same pattern repeats.",2026-10-14
+REP-THR-AIML304-1-1,THR-AIML304-1,FAC-AIML-004,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-23
+REP-THR-AIML304-2-1,THR-AIML304-2,2025AIML008,student,Sir mentioned this will be covered in the next class.,2026-10-14
+REP-THR-AIML304-2-2,THR-AIML304-2,2025AIML002,student,"Refer to the previous year paper, same pattern repeats.",2026-10-22
+REP-THR-AIML305-1-1,THR-AIML305-1,FAC-AIML-005,faculty,Sir mentioned this will be covered in the next class.,2026-10-10
+REP-THR-AIML305-1-2,THR-AIML305-1,2025AIML003,student,Sir mentioned this will be covered in the next class.,2026-10-16
+REP-THR-AIML305-2-1,THR-AIML305-2,2025AIML001,student,"Check page 45 of the notes, it explains this step by step.",2026-10-11
+REP-THR-IT301-1-1,THR-IT301-1,2025IT003,student,"Check page 45 of the notes, it explains this step by step.",2026-10-19
+REP-THR-IT301-1-2,THR-IT301-1,2025IT002,student,"I solved a similar example, will upload the steps.",2026-10-11
+REP-THR-IT301-1-3,THR-IT301-1,2025IT006,student,"Check page 45 of the notes, it explains this step by step.",2026-10-15
+REP-THR-IT301-2-1,THR-IT301-2,FAC-IT-001,faculty,Sir mentioned this will be covered in the next class.,2026-10-17
+REP-THR-IT301-2-2,THR-IT301-2,2025IT001,student,Sir mentioned this will be covered in the next class.,2026-10-10
+REP-THR-IT302-1-1,THR-IT302-1,2025IT008,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-15
+REP-THR-IT302-1-2,THR-IT302-1,2025IT004,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-23
+REP-THR-IT302-2-1,THR-IT302-2,2025IT005,student,"Check page 45 of the notes, it explains this step by step.",2026-10-16
+REP-THR-IT303-1-1,THR-IT303-1,FAC-IT-003,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-13
+REP-THR-IT303-1-2,THR-IT303-1,2025IT002,student,"I solved a similar example, will upload the steps.",2026-10-11
+REP-THR-IT303-1-3,THR-IT303-1,2025IT008,student,"Refer to the previous year paper, same pattern repeats.",2026-10-23
+REP-THR-IT303-2-1,THR-IT303-2,FAC-IT-003,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-11
+REP-THR-IT303-2-2,THR-IT303-2,2025IT001,student,Sir mentioned this will be covered in the next class.,2026-10-22
+REP-THR-IT303-2-3,THR-IT303-2,2025IT004,student,"I solved a similar example, will upload the steps.",2026-10-21
+REP-THR-IT304-1-1,THR-IT304-1,FAC-IT-004,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-22
+REP-THR-IT304-2-1,THR-IT304-2,2025IT004,student,Sir mentioned this will be covered in the next class.,2026-10-15
+REP-THR-IT304-2-2,THR-IT304-2,2025IT001,student,Sir mentioned this will be covered in the next class.,2026-10-12
+REP-THR-IT304-2-3,THR-IT304-2,2025IT006,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-23
+REP-THR-IT305-1-1,THR-IT305-1,FAC-IT-001,faculty,Sir mentioned this will be covered in the next class.,2026-10-15
+REP-THR-IT305-2-1,THR-IT305-2,FAC-IT-001,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-12
+REP-THR-ECE301-1-1,THR-ECE301-1,FAC-ECE-001,faculty,Sir mentioned this will be covered in the next class.,2026-10-14
+REP-THR-ECE301-1-2,THR-ECE301-1,2025ECE006,student,Sir mentioned this will be covered in the next class.,2026-10-23
+REP-THR-ECE301-2-1,THR-ECE301-2,FAC-ECE-001,faculty,Sir mentioned this will be covered in the next class.,2026-10-23
+REP-THR-ECE301-2-2,THR-ECE301-2,2025ECE001,student,Sir mentioned this will be covered in the next class.,2026-10-23
+REP-THR-ECE302-1-1,THR-ECE302-1,FAC-ECE-002,faculty,Sir mentioned this will be covered in the next class.,2026-10-19
+REP-THR-ECE302-1-2,THR-ECE302-1,2025ECE003,student,Sir mentioned this will be covered in the next class.,2026-10-20
+REP-THR-ECE302-1-3,THR-ECE302-1,2025ECE007,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-17
+REP-THR-ECE302-2-1,THR-ECE302-2,2025ECE007,student,"Refer to the previous year paper, same pattern repeats.",2026-10-16
+REP-THR-ECE302-2-2,THR-ECE302-2,2025ECE008,student,"Check page 45 of the notes, it explains this step by step.",2026-10-16
+REP-THR-ECE303-1-1,THR-ECE303-1,FAC-ECE-003,faculty,"I solved a similar example, will upload the steps.",2026-10-15
+REP-THR-ECE303-2-1,THR-ECE303-2,FAC-ECE-003,faculty,"I solved a similar example, will upload the steps.",2026-10-18
+REP-THR-ECE303-2-2,THR-ECE303-2,2025ECE003,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-12
+REP-THR-ECE304-1-1,THR-ECE304-1,2025ECE002,student,"Check page 45 of the notes, it explains this step by step.",2026-10-14
+REP-THR-ECE304-1-2,THR-ECE304-1,2025ECE003,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-23
+REP-THR-ECE304-2-1,THR-ECE304-2,2025ECE003,student,Sir mentioned this will be covered in the next class.,2026-10-16
+REP-THR-ECE305-1-1,THR-ECE305-1,FAC-ECE-005,faculty,"I solved a similar example, will upload the steps.",2026-10-21
+REP-THR-ECE305-1-2,THR-ECE305-1,2025ECE006,student,"I solved a similar example, will upload the steps.",2026-10-17
+REP-THR-ECE305-2-1,THR-ECE305-2,2025ECE002,student,"Refer to the previous year paper, same pattern repeats.",2026-10-12
+REP-THR-ECE305-2-2,THR-ECE305-2,2025ECE002,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-23
+REP-THR-ME301-1-1,THR-ME301-1,FAC-ME-001,faculty,Sir mentioned this will be covered in the next class.,2026-10-14
+REP-THR-ME301-2-1,THR-ME301-2,FAC-ME-001,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-16
+REP-THR-ME301-2-2,THR-ME301-2,2025ME005,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-12
+REP-THR-ME302-1-1,THR-ME302-1,2025ME007,student,Sir mentioned this will be covered in the next class.,2026-10-22
+REP-THR-ME302-1-2,THR-ME302-1,2025ME004,student,Sir mentioned this will be covered in the next class.,2026-10-12
+REP-THR-ME302-1-3,THR-ME302-1,2025ME007,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-22
+REP-THR-ME302-2-1,THR-ME302-2,2025ME004,student,Sir mentioned this will be covered in the next class.,2026-10-10
+REP-THR-ME303-1-1,THR-ME303-1,2025ME001,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-10
+REP-THR-ME303-2-1,THR-ME303-2,FAC-ME-003,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-11
+REP-THR-ME304-1-1,THR-ME304-1,2025ME007,student,"Check page 45 of the notes, it explains this step by step.",2026-10-15
+REP-THR-ME304-2-1,THR-ME304-2,2025ME004,student,"I solved a similar example, will upload the steps.",2026-10-12
+REP-THR-ME305-1-1,THR-ME305-1,2025ME002,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-10
+REP-THR-ME305-1-2,THR-ME305-1,2025ME002,student,"Check page 45 of the notes, it explains this step by step.",2026-10-15
+REP-THR-ME305-2-1,THR-ME305-2,FAC-ME-001,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-14
+REP-THR-CE301-1-1,THR-CE301-1,2025CE004,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-19
+REP-THR-CE301-1-2,THR-CE301-1,2025CE001,student,Sir mentioned this will be covered in the next class.,2026-10-12
+REP-THR-CE301-2-1,THR-CE301-2,2025CE001,student,"Refer to the previous year paper, same pattern repeats.",2026-10-12
+REP-THR-CE301-2-2,THR-CE301-2,2025CE004,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-19
+REP-THR-CE302-1-1,THR-CE302-1,FAC-CE-002,faculty,"I solved a similar example, will upload the steps.",2026-10-13
+REP-THR-CE302-1-2,THR-CE302-1,2025CE001,student,"Refer to the previous year paper, same pattern repeats.",2026-10-20
+REP-THR-CE302-1-3,THR-CE302-1,2025CE005,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-18
+REP-THR-CE302-2-1,THR-CE302-2,FAC-CE-002,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-18
+REP-THR-CE302-2-2,THR-CE302-2,2025CE003,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-21
+REP-THR-CE303-1-1,THR-CE303-1,FAC-CE-003,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-16
+REP-THR-CE303-1-2,THR-CE303-1,2025CE001,student,Sir mentioned this will be covered in the next class.,2026-10-19
+REP-THR-CE303-2-1,THR-CE303-2,FAC-CE-003,faculty,"I solved a similar example, will upload the steps.",2026-10-10
+REP-THR-CE304-1-1,THR-CE304-1,2025CE005,student,"I solved a similar example, will upload the steps.",2026-10-16
+REP-THR-CE304-1-2,THR-CE304-1,2025CE001,student,"I solved a similar example, will upload the steps.",2026-10-10
+REP-THR-CE304-2-1,THR-CE304-2,FAC-CE-001,faculty,Sir mentioned this will be covered in the next class.,2026-10-21
+REP-THR-CE304-2-2,THR-CE304-2,2025CE001,student,Sir mentioned this will be covered in the next class.,2026-10-21
+REP-THR-CE305-1-1,THR-CE305-1,2025CE002,student,"Check page 45 of the notes, it explains this step by step.",2026-10-17
+REP-THR-CE305-2-1,THR-CE305-2,FAC-CE-002,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-14
+REP-THR-CE305-2-2,THR-CE305-2,2025CE005,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-17
+REP-THR-CSE501-1-1,THR-CSE501-1,2024CSE004,student,"Check page 45 of the notes, it explains this step by step.",2026-10-15
+REP-THR-CSE501-1-2,THR-CSE501-1,2024CSE012,student,"I solved a similar example, will upload the steps.",2026-10-23
+REP-THR-CSE501-2-1,THR-CSE501-2,2024CSE013,student,"I solved a similar example, will upload the steps.",2026-10-21
+REP-THR-CSE502-1-1,THR-CSE502-1,2024CSE006,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-22
+REP-THR-CSE502-1-2,THR-CSE502-1,2024CSE006,student,"Refer to the previous year paper, same pattern repeats.",2026-10-13
+REP-THR-CSE502-1-3,THR-CSE502-1,2024CSE002,student,"Check page 45 of the notes, it explains this step by step.",2026-10-10
+REP-THR-CSE502-2-1,THR-CSE502-2,2024CSE011,student,Sir mentioned this will be covered in the next class.,2026-10-13
+REP-THR-CSE502-2-2,THR-CSE502-2,2024CSE010,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-16
+REP-THR-CSE503-1-1,THR-CSE503-1,FAC-CSE-001,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-13
+REP-THR-CSE503-1-2,THR-CSE503-1,2024CSE009,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-10
+REP-THR-CSE503-2-1,THR-CSE503-2,FAC-CSE-001,faculty,"I solved a similar example, will upload the steps.",2026-10-14
+REP-THR-CSE504-1-1,THR-CSE504-1,2024CSE009,student,"Check page 45 of the notes, it explains this step by step.",2026-10-11
+REP-THR-CSE504-2-1,THR-CSE504-2,2024CSE007,student,"Check page 45 of the notes, it explains this step by step.",2026-10-23
+REP-THR-CSE504-2-2,THR-CSE504-2,2024CSE002,student,Sir mentioned this will be covered in the next class.,2026-10-12
+REP-THR-CSE505-1-1,THR-CSE505-1,2024CSE010,student,"Check page 45 of the notes, it explains this step by step.",2026-10-23
+REP-THR-CSE505-1-2,THR-CSE505-1,2024CSE013,student,"Check page 45 of the notes, it explains this step by step.",2026-10-15
+REP-THR-CSE505-2-1,THR-CSE505-2,2024CSE009,student,"Refer to the previous year paper, same pattern repeats.",2026-10-15
+REP-THR-AIML501-1-1,THR-AIML501-1,2024AIML006,student,"Refer to the previous year paper, same pattern repeats.",2026-10-22
+REP-THR-AIML501-1-2,THR-AIML501-1,2024AIML005,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-13
+REP-THR-AIML501-2-1,THR-AIML501-2,FAC-AIML-001,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-11
+REP-THR-AIML502-1-1,THR-AIML502-1,FAC-AIML-002,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-18
+REP-THR-AIML502-1-2,THR-AIML502-1,2024AIML001,student,"I solved a similar example, will upload the steps.",2026-10-20
+REP-THR-AIML502-2-1,THR-AIML502-2,FAC-AIML-002,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-14
+REP-THR-AIML502-2-2,THR-AIML502-2,2024AIML007,student,"Refer to the previous year paper, same pattern repeats.",2026-10-14
+REP-THR-AIML503-1-1,THR-AIML503-1,FAC-AIML-003,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-21
+REP-THR-AIML503-2-1,THR-AIML503-2,FAC-AIML-003,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-21
+REP-THR-AIML504-1-1,THR-AIML504-1,2024AIML007,student,"Refer to the previous year paper, same pattern repeats.",2026-10-20
+REP-THR-AIML504-1-2,THR-AIML504-1,2024AIML003,student,"Refer to the previous year paper, same pattern repeats.",2026-10-18
+REP-THR-AIML504-1-3,THR-AIML504-1,2024AIML002,student,"Refer to the previous year paper, same pattern repeats.",2026-10-22
+REP-THR-AIML504-2-1,THR-AIML504-2,2024AIML007,student,"Check page 45 of the notes, it explains this step by step.",2026-10-21
+REP-THR-AIML504-2-2,THR-AIML504-2,2024AIML006,student,"Check page 45 of the notes, it explains this step by step.",2026-10-23
+REP-THR-AIML505-1-1,THR-AIML505-1,FAC-AIML-005,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-19
+REP-THR-AIML505-1-2,THR-AIML505-1,2024AIML002,student,Sir mentioned this will be covered in the next class.,2026-10-14
+REP-THR-AIML505-2-1,THR-AIML505-2,2024AIML008,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-19
+REP-THR-AIML505-2-2,THR-AIML505-2,2024AIML001,student,Sir mentioned this will be covered in the next class.,2026-10-16
+REP-THR-IT501-1-1,THR-IT501-1,FAC-IT-003,faculty,"I solved a similar example, will upload the steps.",2026-10-17
+REP-THR-IT501-2-1,THR-IT501-2,2024IT005,student,"I solved a similar example, will upload the steps.",2026-10-16
+REP-THR-IT502-1-1,THR-IT502-1,FAC-IT-004,faculty,Sir mentioned this will be covered in the next class.,2026-10-22
+REP-THR-IT502-2-1,THR-IT502-2,FAC-IT-004,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-21
+REP-THR-IT502-2-2,THR-IT502-2,2024IT006,student,"Check page 45 of the notes, it explains this step by step.",2026-10-18
+REP-THR-IT502-2-3,THR-IT502-2,2024IT004,student,"Check page 45 of the notes, it explains this step by step.",2026-10-19
+REP-THR-IT503-1-1,THR-IT503-1,FAC-IT-001,faculty,Sir mentioned this will be covered in the next class.,2026-10-17
+REP-THR-IT503-1-2,THR-IT503-1,2024IT007,student,"Refer to the previous year paper, same pattern repeats.",2026-10-13
+REP-THR-IT503-2-1,THR-IT503-2,FAC-IT-001,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-14
+REP-THR-IT503-2-2,THR-IT503-2,2024IT004,student,"Check page 45 of the notes, it explains this step by step.",2026-10-17
+REP-THR-IT504-1-1,THR-IT504-1,FAC-IT-002,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-17
+REP-THR-IT504-1-2,THR-IT504-1,2024IT008,student,Sir mentioned this will be covered in the next class.,2026-10-22
+REP-THR-IT504-2-1,THR-IT504-2,FAC-IT-002,faculty,"I solved a similar example, will upload the steps.",2026-10-23
+REP-THR-IT505-1-1,THR-IT505-1,FAC-IT-003,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-14
+REP-THR-IT505-1-2,THR-IT505-1,2024IT007,student,Sir mentioned this will be covered in the next class.,2026-10-22
+REP-THR-IT505-1-3,THR-IT505-1,2024IT008,student,Sir mentioned this will be covered in the next class.,2026-10-18
+REP-THR-IT505-2-1,THR-IT505-2,2024IT007,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-23
+REP-THR-ECE501-1-1,THR-ECE501-1,FAC-ECE-001,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-10
+REP-THR-ECE501-2-1,THR-ECE501-2,FAC-ECE-001,faculty,"I solved a similar example, will upload the steps.",2026-10-20
+REP-THR-ECE502-1-1,THR-ECE502-1,2024ECE002,student,"Refer to the previous year paper, same pattern repeats.",2026-10-23
+REP-THR-ECE502-1-2,THR-ECE502-1,2024ECE008,student,"I solved a similar example, will upload the steps.",2026-10-13
+REP-THR-ECE502-1-3,THR-ECE502-1,2024ECE007,student,"I solved a similar example, will upload the steps.",2026-10-12
+REP-THR-ECE502-2-1,THR-ECE502-2,FAC-ECE-002,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-16
+REP-THR-ECE502-2-2,THR-ECE502-2,2024ECE006,student,"Refer to the previous year paper, same pattern repeats.",2026-10-15
+REP-THR-ECE503-1-1,THR-ECE503-1,2024ECE007,student,"I solved a similar example, will upload the steps.",2026-10-14
+REP-THR-ECE503-1-2,THR-ECE503-1,2024ECE008,student,Sir mentioned this will be covered in the next class.,2026-10-15
+REP-THR-ECE503-2-1,THR-ECE503-2,2024ECE005,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-15
+REP-THR-ECE503-2-2,THR-ECE503-2,2024ECE006,student,"Check page 45 of the notes, it explains this step by step.",2026-10-22
+REP-THR-ECE504-1-1,THR-ECE504-1,FAC-ECE-004,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-22
+REP-THR-ECE504-1-2,THR-ECE504-1,2024ECE007,student,"Refer to the previous year paper, same pattern repeats.",2026-10-13
+REP-THR-ECE504-2-1,THR-ECE504-2,2024ECE005,student,"Refer to the previous year paper, same pattern repeats.",2026-10-23
+REP-THR-ECE505-1-1,THR-ECE505-1,2024ECE006,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-12
+REP-THR-ECE505-2-1,THR-ECE505-2,FAC-ECE-005,faculty,Sir mentioned this will be covered in the next class.,2026-10-14
+REP-THR-ECE505-2-2,THR-ECE505-2,2024ECE006,student,"Refer to the previous year paper, same pattern repeats.",2026-10-18
+REP-THR-ME501-1-1,THR-ME501-1,2024ME004,student,Sir mentioned this will be covered in the next class.,2026-10-15
+REP-THR-ME501-1-2,THR-ME501-1,2024ME006,student,"I solved a similar example, will upload the steps.",2026-10-13
+REP-THR-ME501-1-3,THR-ME501-1,2024ME001,student,Sir mentioned this will be covered in the next class.,2026-10-21
+REP-THR-ME501-2-1,THR-ME501-2,FAC-ME-003,faculty,Sir mentioned this will be covered in the next class.,2026-10-18
+REP-THR-ME502-1-1,THR-ME502-1,FAC-ME-004,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-17
+REP-THR-ME502-2-1,THR-ME502-2,FAC-ME-004,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-21
+REP-THR-ME503-1-1,THR-ME503-1,FAC-ME-001,faculty,"I solved a similar example, will upload the steps.",2026-10-16
+REP-THR-ME503-2-1,THR-ME503-2,2024ME006,student,"I solved a similar example, will upload the steps.",2026-10-20
+REP-THR-ME504-1-1,THR-ME504-1,2024ME003,student,"Check page 45 of the notes, it explains this step by step.",2026-10-12
+REP-THR-ME504-2-1,THR-ME504-2,FAC-ME-002,faculty,"I solved a similar example, will upload the steps.",2026-10-13
+REP-THR-ME504-2-2,THR-ME504-2,2024ME003,student,Sir mentioned this will be covered in the next class.,2026-10-23
+REP-THR-ME504-2-3,THR-ME504-2,2024ME005,student,"Refer to the previous year paper, same pattern repeats.",2026-10-15
+REP-THR-ME505-1-1,THR-ME505-1,FAC-ME-003,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-22
+REP-THR-ME505-1-2,THR-ME505-1,2024ME001,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-16
+REP-THR-ME505-1-3,THR-ME505-1,2024ME006,student,"I solved a similar example, will upload the steps.",2026-10-13
+REP-THR-ME505-2-1,THR-ME505-2,2024ME004,student,"Check page 45 of the notes, it explains this step by step.",2026-10-18
+REP-THR-ME505-2-2,THR-ME505-2,2024ME006,student,"Refer to the previous year paper, same pattern repeats.",2026-10-19
+REP-THR-CE501-1-1,THR-CE501-1,FAC-CE-002,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-20
+REP-THR-CE501-1-2,THR-CE501-1,2024CE003,student,"Refer to the previous year paper, same pattern repeats.",2026-10-14
+REP-THR-CE501-1-3,THR-CE501-1,2024CE002,student,"Refer to the previous year paper, same pattern repeats.",2026-10-11
+REP-THR-CE501-2-1,THR-CE501-2,FAC-CE-002,faculty,"I solved a similar example, will upload the steps.",2026-10-18
+REP-THR-CE501-2-2,THR-CE501-2,2024CE003,student,Sir mentioned this will be covered in the next class.,2026-10-21
+REP-THR-CE502-1-1,THR-CE502-1,2024CE003,student,"I solved a similar example, will upload the steps.",2026-10-18
+REP-THR-CE502-1-2,THR-CE502-1,2024CE004,student,"I solved a similar example, will upload the steps.",2026-10-16
+REP-THR-CE502-1-3,THR-CE502-1,2024CE001,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-12
+REP-THR-CE502-2-1,THR-CE502-2,FAC-CE-003,faculty,"I solved a similar example, will upload the steps.",2026-10-19
+REP-THR-CE503-1-1,THR-CE503-1,2024CE002,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-15
+REP-THR-CE503-2-1,THR-CE503-2,FAC-CE-001,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-11
+REP-THR-CE503-2-2,THR-CE503-2,2024CE001,student,"I solved a similar example, will upload the steps.",2026-10-23
+REP-THR-CE503-2-3,THR-CE503-2,2024CE005,student,"Refer to the previous year paper, same pattern repeats.",2026-10-12
+REP-THR-CE504-1-1,THR-CE504-1,FAC-CE-002,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-21
+REP-THR-CE504-1-2,THR-CE504-1,2024CE003,student,"Refer to the previous year paper, same pattern repeats.",2026-10-16
+REP-THR-CE504-2-1,THR-CE504-2,2024CE004,student,"I solved a similar example, will upload the steps.",2026-10-10
+REP-THR-CE504-2-2,THR-CE504-2,2024CE004,student,"Check page 45 of the notes, it explains this step by step.",2026-10-13
+REP-THR-CE504-2-3,THR-CE504-2,2024CE004,student,"Check page 45 of the notes, it explains this step by step.",2026-10-11
+REP-THR-CE505-1-1,THR-CE505-1,FAC-CE-003,faculty,"I solved a similar example, will upload the steps.",2026-10-11
+REP-THR-CE505-1-2,THR-CE505-1,2024CE004,student,Sir mentioned this will be covered in the next class.,2026-10-20
+REP-THR-CE505-2-1,THR-CE505-2,2024CE003,student,"Check page 45 of the notes, it explains this step by step.",2026-10-15
+REP-THR-CE505-2-2,THR-CE505-2,2024CE002,student,"Refer to the previous year paper, same pattern repeats.",2026-10-11
+REP-THR-CSE701-1-1,THR-CSE701-1,FAC-CSE-003,faculty,Sir mentioned this will be covered in the next class.,2026-10-11
+REP-THR-CSE701-1-2,THR-CSE701-1,2023CSE013,student,Sir mentioned this will be covered in the next class.,2026-10-14
+REP-THR-CSE701-1-3,THR-CSE701-1,2023CSE003,student,Sir mentioned this will be covered in the next class.,2026-10-11
+REP-THR-CSE701-2-1,THR-CSE701-2,2023CSE008,student,Sir mentioned this will be covered in the next class.,2026-10-21
+REP-THR-CSE702-1-1,THR-CSE702-1,2023CSE003,student,Sir mentioned this will be covered in the next class.,2026-10-18
+REP-THR-CSE702-1-2,THR-CSE702-1,2023CSE005,student,"I solved a similar example, will upload the steps.",2026-10-21
+REP-THR-CSE702-2-1,THR-CSE702-2,FAC-CSE-004,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-10
+REP-THR-CSE703-1-1,THR-CSE703-1,FAC-CSE-005,faculty,Sir mentioned this will be covered in the next class.,2026-10-20
+REP-THR-CSE703-1-2,THR-CSE703-1,2023CSE012,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-23
+REP-THR-CSE703-1-3,THR-CSE703-1,2023CSE012,student,Sir mentioned this will be covered in the next class.,2026-10-19
+REP-THR-CSE703-2-1,THR-CSE703-2,FAC-CSE-005,faculty,"I solved a similar example, will upload the steps.",2026-10-22
+REP-THR-CSE703-2-2,THR-CSE703-2,2023CSE003,student,Sir mentioned this will be covered in the next class.,2026-10-21
+REP-THR-CSE704-1-1,THR-CSE704-1,2023CSE006,student,Sir mentioned this will be covered in the next class.,2026-10-13
+REP-THR-CSE704-1-2,THR-CSE704-1,2023CSE002,student,"I solved a similar example, will upload the steps.",2026-10-22
+REP-THR-CSE704-1-3,THR-CSE704-1,2023CSE008,student,"I solved a similar example, will upload the steps.",2026-10-15
+REP-THR-CSE704-2-1,THR-CSE704-2,FAC-CSE-006,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-16
+REP-THR-CSE705-1-1,THR-CSE705-1,FAC-CSE-001,faculty,Sir mentioned this will be covered in the next class.,2026-10-15
+REP-THR-CSE705-1-2,THR-CSE705-1,2023CSE011,student,"Check page 45 of the notes, it explains this step by step.",2026-10-12
+REP-THR-CSE705-2-1,THR-CSE705-2,2023CSE013,student,Sir mentioned this will be covered in the next class.,2026-10-12
+REP-THR-CSE705-2-2,THR-CSE705-2,2023CSE004,student,Sir mentioned this will be covered in the next class.,2026-10-21
+REP-THR-AIML701-1-1,THR-AIML701-1,FAC-AIML-001,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-21
+REP-THR-AIML701-2-1,THR-AIML701-2,2023AIML003,student,"Check page 45 of the notes, it explains this step by step.",2026-10-12
+REP-THR-AIML701-2-2,THR-AIML701-2,2023AIML004,student,"Refer to the previous year paper, same pattern repeats.",2026-10-10
+REP-THR-AIML701-2-3,THR-AIML701-2,2023AIML008,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-17
+REP-THR-AIML702-1-1,THR-AIML702-1,2023AIML001,student,Sir mentioned this will be covered in the next class.,2026-10-13
+REP-THR-AIML702-1-2,THR-AIML702-1,2023AIML007,student,"Refer to the previous year paper, same pattern repeats.",2026-10-13
+REP-THR-AIML702-1-3,THR-AIML702-1,2023AIML005,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-14
+REP-THR-AIML702-2-1,THR-AIML702-2,FAC-AIML-002,faculty,"I solved a similar example, will upload the steps.",2026-10-13
+REP-THR-AIML702-2-2,THR-AIML702-2,2023AIML003,student,"I solved a similar example, will upload the steps.",2026-10-16
+REP-THR-AIML703-1-1,THR-AIML703-1,2023AIML003,student,"Refer to the previous year paper, same pattern repeats.",2026-10-11
+REP-THR-AIML703-2-1,THR-AIML703-2,FAC-AIML-003,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-13
+REP-THR-AIML704-1-1,THR-AIML704-1,2023AIML004,student,"I solved a similar example, will upload the steps.",2026-10-19
+REP-THR-AIML704-1-2,THR-AIML704-1,2023AIML006,student,"Check page 45 of the notes, it explains this step by step.",2026-10-23
+REP-THR-AIML704-2-1,THR-AIML704-2,2023AIML004,student,"I solved a similar example, will upload the steps.",2026-10-23
+REP-THR-AIML704-2-2,THR-AIML704-2,2023AIML009,student,"I solved a similar example, will upload the steps.",2026-10-21
+REP-THR-AIML704-2-3,THR-AIML704-2,2023AIML004,student,"Check page 45 of the notes, it explains this step by step.",2026-10-14
+REP-THR-AIML705-1-1,THR-AIML705-1,FAC-AIML-005,faculty,Sir mentioned this will be covered in the next class.,2026-10-22
+REP-THR-AIML705-1-2,THR-AIML705-1,2023AIML003,student,"Refer to the previous year paper, same pattern repeats.",2026-10-17
+REP-THR-AIML705-1-3,THR-AIML705-1,2023AIML006,student,"I solved a similar example, will upload the steps.",2026-10-17
+REP-THR-AIML705-2-1,THR-AIML705-2,FAC-AIML-005,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-16
+REP-THR-IT701-1-1,THR-IT701-1,FAC-IT-001,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-11
+REP-THR-IT701-1-2,THR-IT701-1,2023IT002,student,"I solved a similar example, will upload the steps.",2026-10-22
+REP-THR-IT701-1-3,THR-IT701-1,2023IT001,student,"Refer to the previous year paper, same pattern repeats.",2026-10-18
+REP-THR-IT701-2-1,THR-IT701-2,FAC-IT-001,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-10
+REP-THR-IT701-2-2,THR-IT701-2,2023IT007,student,"I solved a similar example, will upload the steps.",2026-10-10
+REP-THR-IT701-2-3,THR-IT701-2,2023IT001,student,"Check page 45 of the notes, it explains this step by step.",2026-10-10
+REP-THR-IT702-1-1,THR-IT702-1,FAC-IT-002,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-16
+REP-THR-IT702-2-1,THR-IT702-2,FAC-IT-002,faculty,"I solved a similar example, will upload the steps.",2026-10-20
+REP-THR-IT703-1-1,THR-IT703-1,2023IT008,student,"Refer to the previous year paper, same pattern repeats.",2026-10-18
+REP-THR-IT703-1-2,THR-IT703-1,2023IT007,student,"Check page 45 of the notes, it explains this step by step.",2026-10-12
+REP-THR-IT703-2-1,THR-IT703-2,FAC-IT-003,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-19
+REP-THR-IT704-1-1,THR-IT704-1,FAC-IT-004,faculty,"I solved a similar example, will upload the steps.",2026-10-23
+REP-THR-IT704-1-2,THR-IT704-1,2023IT006,student,"Check page 45 of the notes, it explains this step by step.",2026-10-14
+REP-THR-IT704-1-3,THR-IT704-1,2023IT006,student,Sir mentioned this will be covered in the next class.,2026-10-16
+REP-THR-IT704-2-1,THR-IT704-2,FAC-IT-004,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-12
+REP-THR-IT704-2-2,THR-IT704-2,2023IT001,student,"Refer to the previous year paper, same pattern repeats.",2026-10-23
+REP-THR-IT705-1-1,THR-IT705-1,2023IT003,student,"Refer to the previous year paper, same pattern repeats.",2026-10-17
+REP-THR-IT705-1-2,THR-IT705-1,2023IT007,student,"Check page 45 of the notes, it explains this step by step.",2026-10-16
+REP-THR-IT705-1-3,THR-IT705-1,2023IT001,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-10
+REP-THR-IT705-2-1,THR-IT705-2,FAC-IT-001,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-21
+REP-THR-IT705-2-2,THR-IT705-2,2023IT008,student,Sir mentioned this will be covered in the next class.,2026-10-16
+REP-THR-IT705-2-3,THR-IT705-2,2023IT002,student,Sir mentioned this will be covered in the next class.,2026-10-13
+REP-THR-ECE701-1-1,THR-ECE701-1,FAC-ECE-001,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-21
+REP-THR-ECE701-2-1,THR-ECE701-2,FAC-ECE-001,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-15
+REP-THR-ECE701-2-2,THR-ECE701-2,2023ECE007,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-13
+REP-THR-ECE701-2-3,THR-ECE701-2,2023ECE004,student,"I solved a similar example, will upload the steps.",2026-10-11
+REP-THR-ECE702-1-1,THR-ECE702-1,2023ECE005,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-13
+REP-THR-ECE702-1-2,THR-ECE702-1,2023ECE007,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-16
+REP-THR-ECE702-2-1,THR-ECE702-2,2023ECE004,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-13
+REP-THR-ECE703-1-1,THR-ECE703-1,FAC-ECE-003,faculty,"I solved a similar example, will upload the steps.",2026-10-16
+REP-THR-ECE703-1-2,THR-ECE703-1,2023ECE005,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-11
+REP-THR-ECE703-2-1,THR-ECE703-2,2023ECE003,student,"Refer to the previous year paper, same pattern repeats.",2026-10-23
+REP-THR-ECE704-1-1,THR-ECE704-1,2023ECE002,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-19
+REP-THR-ECE704-1-2,THR-ECE704-1,2023ECE001,student,"Check page 45 of the notes, it explains this step by step.",2026-10-20
+REP-THR-ECE704-1-3,THR-ECE704-1,2023ECE008,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-20
+REP-THR-ECE704-2-1,THR-ECE704-2,2023ECE007,student,Sir mentioned this will be covered in the next class.,2026-10-20
+REP-THR-ECE705-1-1,THR-ECE705-1,2023ECE005,student,"Refer to the previous year paper, same pattern repeats.",2026-10-17
+REP-THR-ECE705-1-2,THR-ECE705-1,2023ECE002,student,"Refer to the previous year paper, same pattern repeats.",2026-10-18
+REP-THR-ECE705-2-1,THR-ECE705-2,FAC-ECE-005,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-11
+REP-THR-ECE705-2-2,THR-ECE705-2,2023ECE002,student,"Check page 45 of the notes, it explains this step by step.",2026-10-22
+REP-THR-ECE705-2-3,THR-ECE705-2,2023ECE003,student,"Refer to the previous year paper, same pattern repeats.",2026-10-20
+REP-THR-ME701-1-1,THR-ME701-1,FAC-ME-001,faculty,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-17
+REP-THR-ME701-1-2,THR-ME701-1,2023ME003,student,Sir mentioned this will be covered in the next class.,2026-10-15
+REP-THR-ME701-1-3,THR-ME701-1,2023ME003,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-12
+REP-THR-ME701-2-1,THR-ME701-2,2023ME006,student,Sir mentioned this will be covered in the next class.,2026-10-21
+REP-THR-ME702-1-1,THR-ME702-1,2023ME006,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-22
+REP-THR-ME702-1-2,THR-ME702-1,2023ME004,student,"Check page 45 of the notes, it explains this step by step.",2026-10-14
+REP-THR-ME702-2-1,THR-ME702-2,2023ME007,student,"Check page 45 of the notes, it explains this step by step.",2026-10-15
+REP-THR-ME703-1-1,THR-ME703-1,2023ME003,student,"Check page 45 of the notes, it explains this step by step.",2026-10-22
+REP-THR-ME703-1-2,THR-ME703-1,2023ME007,student,"Refer to the previous year paper, same pattern repeats.",2026-10-19
+REP-THR-ME703-2-1,THR-ME703-2,2023ME003,student,"Refer to the previous year paper, same pattern repeats.",2026-10-19
+REP-THR-ME703-2-2,THR-ME703-2,2023ME004,student,"I solved a similar example, will upload the steps.",2026-10-21
+REP-THR-ME703-2-3,THR-ME703-2,2023ME007,student,"Refer to the previous year paper, same pattern repeats.",2026-10-20
+REP-THR-ME704-1-1,THR-ME704-1,FAC-ME-004,faculty,"Refer to the previous year paper, same pattern repeats.",2026-10-23
+REP-THR-ME704-1-2,THR-ME704-1,2023ME003,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-21
+REP-THR-ME704-2-1,THR-ME704-2,2023ME001,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-18
+REP-THR-ME705-1-1,THR-ME705-1,FAC-ME-001,faculty,Sir mentioned this will be covered in the next class.,2026-10-16
+REP-THR-ME705-2-1,THR-ME705-2,FAC-ME-001,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-16
+REP-THR-ME705-2-2,THR-ME705-2,2023ME003,student,"Check page 45 of the notes, it explains this step by step.",2026-10-14
+REP-THR-ME705-2-3,THR-ME705-2,2023ME004,student,"I solved a similar example, will upload the steps.",2026-10-11
+REP-THR-CE701-1-1,THR-CE701-1,2023CE004,student,Sir mentioned this will be covered in the next class.,2026-10-19
+REP-THR-CE701-1-2,THR-CE701-1,2023CE002,student,"Refer to the previous year paper, same pattern repeats.",2026-10-17
+REP-THR-CE701-1-3,THR-CE701-1,2023CE003,student,Sir mentioned this will be covered in the next class.,2026-10-12
+REP-THR-CE701-2-1,THR-CE701-2,FAC-CE-003,faculty,Sir mentioned this will be covered in the next class.,2026-10-14
+REP-THR-CE701-2-2,THR-CE701-2,2023CE003,student,Sir mentioned this will be covered in the next class.,2026-10-22
+REP-THR-CE701-2-3,THR-CE701-2,2023CE001,student,"Check page 45 of the notes, it explains this step by step.",2026-10-11
+REP-THR-CE702-1-1,THR-CE702-1,2023CE004,student,"Check page 45 of the notes, it explains this step by step.",2026-10-14
+REP-THR-CE702-2-1,THR-CE702-2,2023CE002,student,Sir mentioned this will be covered in the next class.,2026-10-13
+REP-THR-CE702-2-2,THR-CE702-2,2023CE003,student,Sir mentioned this will be covered in the next class.,2026-10-14
+REP-THR-CE703-1-1,THR-CE703-1,2023CE003,student,"Check page 45 of the notes, it explains this step by step.",2026-10-18
+REP-THR-CE703-1-2,THR-CE703-1,2023CE005,student,"Check page 45 of the notes, it explains this step by step.",2026-10-14
+REP-THR-CE703-2-1,THR-CE703-2,FAC-CE-002,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-19
+REP-THR-CE704-1-1,THR-CE704-1,FAC-CE-003,faculty,Sir mentioned this will be covered in the next class.,2026-10-13
+REP-THR-CE704-2-1,THR-CE704-2,2023CE001,student,"Refer to the previous year paper, same pattern repeats.",2026-10-12
+REP-THR-CE705-1-1,THR-CE705-1,FAC-CE-001,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-11
+REP-THR-CE705-2-1,THR-CE705-2,FAC-CE-001,faculty,"Check page 45 of the notes, it explains this step by step.",2026-10-22
+REP-THR-CE705-2-2,THR-CE705-2,2023CE001,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-14
+REP-THR-CE705-2-3,THR-CE705-2,2023CE005,student,"Good question, discussed in the doubt session. Please revise Unit 2.",2026-10-13

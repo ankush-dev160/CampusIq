@@ -1,0 +1,12 @@
+[
+ {
+  "id": "AUDIT-1792848536601",
+  "action": "STUDENT_ADMISSION",
+  "performerId": "ADM-SYS-01",
+  "performerRole": "admin",
+  "targetId": "2026CSE016",
+  "targetName": "Kavya Verma",
+  "details": "Admitted student Kavya Verma (2026CSE016) into CSE Year 1 Division A",
+  "timestamp": "2026-10-24T13:28:56.601Z"
+ }
+]

@@ -1,0 +1,1902 @@
+[
+ {
+  "id": "ASG-FY101-1",
+  "subjectCode": "FY101",
+  "title": "Assignment 1: Engineering Mathematics I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-APS-001"
+ },
+ {
+  "id": "ASG-FY101-2",
+  "subjectCode": "FY101",
+  "title": "Assignment 2: Engineering Mathematics I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-APS-001"
+ },
+ {
+  "id": "ASG-FY102-1",
+  "subjectCode": "FY102",
+  "title": "Assignment 1: Engineering Physics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-APS-002"
+ },
+ {
+  "id": "ASG-FY102-2",
+  "subjectCode": "FY102",
+  "title": "Assignment 2: Engineering Physics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-APS-002"
+ },
+ {
+  "id": "ASG-FY103-1",
+  "subjectCode": "FY103",
+  "title": "Assignment 1: Programming for Problem Solving",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-APS-003"
+ },
+ {
+  "id": "ASG-FY103-2",
+  "subjectCode": "FY103",
+  "title": "Assignment 2: Programming for Problem Solving",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-APS-003"
+ },
+ {
+  "id": "ASG-FY104-1",
+  "subjectCode": "FY104",
+  "title": "Assignment 1: Basic Electrical Engineering",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-APS-001"
+ },
+ {
+  "id": "ASG-FY104-2",
+  "subjectCode": "FY104",
+  "title": "Assignment 2: Basic Electrical Engineering",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-APS-001"
+ },
+ {
+  "id": "ASG-FY105-1",
+  "subjectCode": "FY105",
+  "title": "Assignment 1: Communication Skills",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-APS-002"
+ },
+ {
+  "id": "ASG-FY105-2",
+  "subjectCode": "FY105",
+  "title": "Assignment 2: Communication Skills",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-APS-002"
+ },
+ {
+  "id": "ASG-CSE301-1",
+  "subjectCode": "CSE301",
+  "title": "Assignment 1: Data Structures",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-001"
+ },
+ {
+  "id": "ASG-CSE301-2",
+  "subjectCode": "CSE301",
+  "title": "Assignment 2: Data Structures",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-001"
+ },
+ {
+  "id": "ASG-CSE302-1",
+  "subjectCode": "CSE302",
+  "title": "Assignment 1: Discrete Mathematics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-002"
+ },
+ {
+  "id": "ASG-CSE302-2",
+  "subjectCode": "CSE302",
+  "title": "Assignment 2: Discrete Mathematics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-002"
+ },
+ {
+  "id": "ASG-CSE303-1",
+  "subjectCode": "CSE303",
+  "title": "Assignment 1: Digital Logic Design",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-003"
+ },
+ {
+  "id": "ASG-CSE303-2",
+  "subjectCode": "CSE303",
+  "title": "Assignment 2: Digital Logic Design",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-003"
+ },
+ {
+  "id": "ASG-CSE304-1",
+  "subjectCode": "CSE304",
+  "title": "Assignment 1: Computer Organization",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-004"
+ },
+ {
+  "id": "ASG-CSE304-2",
+  "subjectCode": "CSE304",
+  "title": "Assignment 2: Computer Organization",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-004"
+ },
+ {
+  "id": "ASG-CSE305-1",
+  "subjectCode": "CSE305",
+  "title": "Assignment 1: Python Programming",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-005"
+ },
+ {
+  "id": "ASG-CSE305-2",
+  "subjectCode": "CSE305",
+  "title": "Assignment 2: Python Programming",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-005"
+ },
+ {
+  "id": "ASG-AIML301-1",
+  "subjectCode": "AIML301",
+  "title": "Assignment 1: Data Structures",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-001"
+ },
+ {
+  "id": "ASG-AIML301-2",
+  "subjectCode": "AIML301",
+  "title": "Assignment 2: Data Structures",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-001"
+ },
+ {
+  "id": "ASG-AIML302-1",
+  "subjectCode": "AIML302",
+  "title": "Assignment 1: Probability and Statistics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-002"
+ },
+ {
+  "id": "ASG-AIML302-2",
+  "subjectCode": "AIML302",
+  "title": "Assignment 2: Probability and Statistics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-002"
+ },
+ {
+  "id": "ASG-AIML303-1",
+  "subjectCode": "AIML303",
+  "title": "Assignment 1: Linear Algebra for ML",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-003"
+ },
+ {
+  "id": "ASG-AIML303-2",
+  "subjectCode": "AIML303",
+  "title": "Assignment 2: Linear Algebra for ML",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-003"
+ },
+ {
+  "id": "ASG-AIML304-1",
+  "subjectCode": "AIML304",
+  "title": "Assignment 1: Digital Logic Design",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-004"
+ },
+ {
+  "id": "ASG-AIML304-2",
+  "subjectCode": "AIML304",
+  "title": "Assignment 2: Digital Logic Design",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-004"
+ },
+ {
+  "id": "ASG-AIML305-1",
+  "subjectCode": "AIML305",
+  "title": "Assignment 1: Python for Data Science",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-005"
+ },
+ {
+  "id": "ASG-AIML305-2",
+  "subjectCode": "AIML305",
+  "title": "Assignment 2: Python for Data Science",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-005"
+ },
+ {
+  "id": "ASG-IT301-1",
+  "subjectCode": "IT301",
+  "title": "Assignment 1: Data Structures",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-001"
+ },
+ {
+  "id": "ASG-IT301-2",
+  "subjectCode": "IT301",
+  "title": "Assignment 2: Data Structures",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-001"
+ },
+ {
+  "id": "ASG-IT302-1",
+  "subjectCode": "IT302",
+  "title": "Assignment 1: Discrete Mathematics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-002"
+ },
+ {
+  "id": "ASG-IT302-2",
+  "subjectCode": "IT302",
+  "title": "Assignment 2: Discrete Mathematics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-002"
+ },
+ {
+  "id": "ASG-IT303-1",
+  "subjectCode": "IT303",
+  "title": "Assignment 1: Computer Organization",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-003"
+ },
+ {
+  "id": "ASG-IT303-2",
+  "subjectCode": "IT303",
+  "title": "Assignment 2: Computer Organization",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-003"
+ },
+ {
+  "id": "ASG-IT304-1",
+  "subjectCode": "IT304",
+  "title": "Assignment 1: Object Oriented Programming",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-004"
+ },
+ {
+  "id": "ASG-IT304-2",
+  "subjectCode": "IT304",
+  "title": "Assignment 2: Object Oriented Programming",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-004"
+ },
+ {
+  "id": "ASG-IT305-1",
+  "subjectCode": "IT305",
+  "title": "Assignment 1: Digital Electronics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-001"
+ },
+ {
+  "id": "ASG-IT305-2",
+  "subjectCode": "IT305",
+  "title": "Assignment 2: Digital Electronics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-001"
+ },
+ {
+  "id": "ASG-ECE301-1",
+  "subjectCode": "ECE301",
+  "title": "Assignment 1: Network Analysis",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-001"
+ },
+ {
+  "id": "ASG-ECE301-2",
+  "subjectCode": "ECE301",
+  "title": "Assignment 2: Network Analysis",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-001"
+ },
+ {
+  "id": "ASG-ECE302-1",
+  "subjectCode": "ECE302",
+  "title": "Assignment 1: Electronic Devices and Circuits",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-002"
+ },
+ {
+  "id": "ASG-ECE302-2",
+  "subjectCode": "ECE302",
+  "title": "Assignment 2: Electronic Devices and Circuits",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-002"
+ },
+ {
+  "id": "ASG-ECE303-1",
+  "subjectCode": "ECE303",
+  "title": "Assignment 1: Signals and Systems",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-003"
+ },
+ {
+  "id": "ASG-ECE303-2",
+  "subjectCode": "ECE303",
+  "title": "Assignment 2: Signals and Systems",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-003"
+ },
+ {
+  "id": "ASG-ECE304-1",
+  "subjectCode": "ECE304",
+  "title": "Assignment 1: Digital Electronics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-004"
+ },
+ {
+  "id": "ASG-ECE304-2",
+  "subjectCode": "ECE304",
+  "title": "Assignment 2: Digital Electronics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-004"
+ },
+ {
+  "id": "ASG-ECE305-1",
+  "subjectCode": "ECE305",
+  "title": "Assignment 1: Electromagnetic Theory",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-005"
+ },
+ {
+  "id": "ASG-ECE305-2",
+  "subjectCode": "ECE305",
+  "title": "Assignment 2: Electromagnetic Theory",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-005"
+ },
+ {
+  "id": "ASG-ME301-1",
+  "subjectCode": "ME301",
+  "title": "Assignment 1: Engineering Thermodynamics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-001"
+ },
+ {
+  "id": "ASG-ME301-2",
+  "subjectCode": "ME301",
+  "title": "Assignment 2: Engineering Thermodynamics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-001"
+ },
+ {
+  "id": "ASG-ME302-1",
+  "subjectCode": "ME302",
+  "title": "Assignment 1: Fluid Mechanics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-002"
+ },
+ {
+  "id": "ASG-ME302-2",
+  "subjectCode": "ME302",
+  "title": "Assignment 2: Fluid Mechanics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-002"
+ },
+ {
+  "id": "ASG-ME303-1",
+  "subjectCode": "ME303",
+  "title": "Assignment 1: Strength of Materials",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-003"
+ },
+ {
+  "id": "ASG-ME303-2",
+  "subjectCode": "ME303",
+  "title": "Assignment 2: Strength of Materials",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-003"
+ },
+ {
+  "id": "ASG-ME304-1",
+  "subjectCode": "ME304",
+  "title": "Assignment 1: Manufacturing Processes",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-004"
+ },
+ {
+  "id": "ASG-ME304-2",
+  "subjectCode": "ME304",
+  "title": "Assignment 2: Manufacturing Processes",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-004"
+ },
+ {
+  "id": "ASG-ME305-1",
+  "subjectCode": "ME305",
+  "title": "Assignment 1: Materials Science",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-001"
+ },
+ {
+  "id": "ASG-ME305-2",
+  "subjectCode": "ME305",
+  "title": "Assignment 2: Materials Science",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-001"
+ },
+ {
+  "id": "ASG-CE301-1",
+  "subjectCode": "CE301",
+  "title": "Assignment 1: Surveying",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-001"
+ },
+ {
+  "id": "ASG-CE301-2",
+  "subjectCode": "CE301",
+  "title": "Assignment 2: Surveying",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-001"
+ },
+ {
+  "id": "ASG-CE302-1",
+  "subjectCode": "CE302",
+  "title": "Assignment 1: Building Materials and Construction",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-002"
+ },
+ {
+  "id": "ASG-CE302-2",
+  "subjectCode": "CE302",
+  "title": "Assignment 2: Building Materials and Construction",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-002"
+ },
+ {
+  "id": "ASG-CE303-1",
+  "subjectCode": "CE303",
+  "title": "Assignment 1: Strength of Materials",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-003"
+ },
+ {
+  "id": "ASG-CE303-2",
+  "subjectCode": "CE303",
+  "title": "Assignment 2: Strength of Materials",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-003"
+ },
+ {
+  "id": "ASG-CE304-1",
+  "subjectCode": "CE304",
+  "title": "Assignment 1: Fluid Mechanics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-001"
+ },
+ {
+  "id": "ASG-CE304-2",
+  "subjectCode": "CE304",
+  "title": "Assignment 2: Fluid Mechanics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-001"
+ },
+ {
+  "id": "ASG-CE305-1",
+  "subjectCode": "CE305",
+  "title": "Assignment 1: Engineering Geology",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-002"
+ },
+ {
+  "id": "ASG-CE305-2",
+  "subjectCode": "CE305",
+  "title": "Assignment 2: Engineering Geology",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-002"
+ },
+ {
+  "id": "ASG-CSE501-1",
+  "subjectCode": "CSE501",
+  "title": "Assignment 1: Computer Networks",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-005"
+ },
+ {
+  "id": "ASG-CSE501-2",
+  "subjectCode": "CSE501",
+  "title": "Assignment 2: Computer Networks",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-005"
+ },
+ {
+  "id": "ASG-CSE502-1",
+  "subjectCode": "CSE502",
+  "title": "Assignment 1: Compiler Design",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-006"
+ },
+ {
+  "id": "ASG-CSE502-2",
+  "subjectCode": "CSE502",
+  "title": "Assignment 2: Compiler Design",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-006"
+ },
+ {
+  "id": "ASG-CSE503-1",
+  "subjectCode": "CSE503",
+  "title": "Assignment 1: Web Technologies",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-001"
+ },
+ {
+  "id": "ASG-CSE503-2",
+  "subjectCode": "CSE503",
+  "title": "Assignment 2: Web Technologies",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-001"
+ },
+ {
+  "id": "ASG-CSE504-1",
+  "subjectCode": "CSE504",
+  "title": "Assignment 1: Artificial Intelligence",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-002"
+ },
+ {
+  "id": "ASG-CSE504-2",
+  "subjectCode": "CSE504",
+  "title": "Assignment 2: Artificial Intelligence",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-002"
+ },
+ {
+  "id": "ASG-CSE505-1",
+  "subjectCode": "CSE505",
+  "title": "Assignment 1: Professional Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-003"
+ },
+ {
+  "id": "ASG-CSE505-2",
+  "subjectCode": "CSE505",
+  "title": "Assignment 2: Professional Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-003"
+ },
+ {
+  "id": "ASG-AIML501-1",
+  "subjectCode": "AIML501",
+  "title": "Assignment 1: Deep Learning",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-001"
+ },
+ {
+  "id": "ASG-AIML501-2",
+  "subjectCode": "AIML501",
+  "title": "Assignment 2: Deep Learning",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-001"
+ },
+ {
+  "id": "ASG-AIML502-1",
+  "subjectCode": "AIML502",
+  "title": "Assignment 1: Natural Language Processing",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-002"
+ },
+ {
+  "id": "ASG-AIML502-2",
+  "subjectCode": "AIML502",
+  "title": "Assignment 2: Natural Language Processing",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-002"
+ },
+ {
+  "id": "ASG-AIML503-1",
+  "subjectCode": "AIML503",
+  "title": "Assignment 1: Computer Networks",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-003"
+ },
+ {
+  "id": "ASG-AIML503-2",
+  "subjectCode": "AIML503",
+  "title": "Assignment 2: Computer Networks",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-003"
+ },
+ {
+  "id": "ASG-AIML504-1",
+  "subjectCode": "AIML504",
+  "title": "Assignment 1: Data Visualization",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-004"
+ },
+ {
+  "id": "ASG-AIML504-2",
+  "subjectCode": "AIML504",
+  "title": "Assignment 2: Data Visualization",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-004"
+ },
+ {
+  "id": "ASG-AIML505-1",
+  "subjectCode": "AIML505",
+  "title": "Assignment 1: Professional Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-005"
+ },
+ {
+  "id": "ASG-AIML505-2",
+  "subjectCode": "AIML505",
+  "title": "Assignment 2: Professional Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-005"
+ },
+ {
+  "id": "ASG-IT501-1",
+  "subjectCode": "IT501",
+  "title": "Assignment 1: Web Technologies",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-003"
+ },
+ {
+  "id": "ASG-IT501-2",
+  "subjectCode": "IT501",
+  "title": "Assignment 2: Web Technologies",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-003"
+ },
+ {
+  "id": "ASG-IT502-1",
+  "subjectCode": "IT502",
+  "title": "Assignment 1: Information Security",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-004"
+ },
+ {
+  "id": "ASG-IT502-2",
+  "subjectCode": "IT502",
+  "title": "Assignment 2: Information Security",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-004"
+ },
+ {
+  "id": "ASG-IT503-1",
+  "subjectCode": "IT503",
+  "title": "Assignment 1: Mobile Application Development",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-001"
+ },
+ {
+  "id": "ASG-IT503-2",
+  "subjectCode": "IT503",
+  "title": "Assignment 2: Mobile Application Development",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-001"
+ },
+ {
+  "id": "ASG-IT504-1",
+  "subjectCode": "IT504",
+  "title": "Assignment 1: Data Warehousing",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-002"
+ },
+ {
+  "id": "ASG-IT504-2",
+  "subjectCode": "IT504",
+  "title": "Assignment 2: Data Warehousing",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-002"
+ },
+ {
+  "id": "ASG-IT505-1",
+  "subjectCode": "IT505",
+  "title": "Assignment 1: Professional Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-003"
+ },
+ {
+  "id": "ASG-IT505-2",
+  "subjectCode": "IT505",
+  "title": "Assignment 2: Professional Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-003"
+ },
+ {
+  "id": "ASG-ECE501-1",
+  "subjectCode": "ECE501",
+  "title": "Assignment 1: Digital Communication",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-001"
+ },
+ {
+  "id": "ASG-ECE501-2",
+  "subjectCode": "ECE501",
+  "title": "Assignment 2: Digital Communication",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-001"
+ },
+ {
+  "id": "ASG-ECE502-1",
+  "subjectCode": "ECE502",
+  "title": "Assignment 1: Digital Signal Processing",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-002"
+ },
+ {
+  "id": "ASG-ECE502-2",
+  "subjectCode": "ECE502",
+  "title": "Assignment 2: Digital Signal Processing",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-002"
+ },
+ {
+  "id": "ASG-ECE503-1",
+  "subjectCode": "ECE503",
+  "title": "Assignment 1: VLSI Design",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-003"
+ },
+ {
+  "id": "ASG-ECE503-2",
+  "subjectCode": "ECE503",
+  "title": "Assignment 2: VLSI Design",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-003"
+ },
+ {
+  "id": "ASG-ECE504-1",
+  "subjectCode": "ECE504",
+  "title": "Assignment 1: Antenna and Wave Propagation",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-004"
+ },
+ {
+  "id": "ASG-ECE504-2",
+  "subjectCode": "ECE504",
+  "title": "Assignment 2: Antenna and Wave Propagation",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-004"
+ },
+ {
+  "id": "ASG-ECE505-1",
+  "subjectCode": "ECE505",
+  "title": "Assignment 1: Professional Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-005"
+ },
+ {
+  "id": "ASG-ECE505-2",
+  "subjectCode": "ECE505",
+  "title": "Assignment 2: Professional Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-005"
+ },
+ {
+  "id": "ASG-ME501-1",
+  "subjectCode": "ME501",
+  "title": "Assignment 1: Dynamics of Machinery",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-003"
+ },
+ {
+  "id": "ASG-ME501-2",
+  "subjectCode": "ME501",
+  "title": "Assignment 2: Dynamics of Machinery",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-003"
+ },
+ {
+  "id": "ASG-ME502-1",
+  "subjectCode": "ME502",
+  "title": "Assignment 1: Design of Machine Elements",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-004"
+ },
+ {
+  "id": "ASG-ME502-2",
+  "subjectCode": "ME502",
+  "title": "Assignment 2: Design of Machine Elements",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-004"
+ },
+ {
+  "id": "ASG-ME503-1",
+  "subjectCode": "ME503",
+  "title": "Assignment 1: Metrology and Measurements",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-001"
+ },
+ {
+  "id": "ASG-ME503-2",
+  "subjectCode": "ME503",
+  "title": "Assignment 2: Metrology and Measurements",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-001"
+ },
+ {
+  "id": "ASG-ME504-1",
+  "subjectCode": "ME504",
+  "title": "Assignment 1: Industrial Engineering",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-002"
+ },
+ {
+  "id": "ASG-ME504-2",
+  "subjectCode": "ME504",
+  "title": "Assignment 2: Industrial Engineering",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-002"
+ },
+ {
+  "id": "ASG-ME505-1",
+  "subjectCode": "ME505",
+  "title": "Assignment 1: Professional Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-003"
+ },
+ {
+  "id": "ASG-ME505-2",
+  "subjectCode": "ME505",
+  "title": "Assignment 2: Professional Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-003"
+ },
+ {
+  "id": "ASG-CE501-1",
+  "subjectCode": "CE501",
+  "title": "Assignment 1: Design of RC Structures",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-002"
+ },
+ {
+  "id": "ASG-CE501-2",
+  "subjectCode": "CE501",
+  "title": "Assignment 2: Design of RC Structures",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-002"
+ },
+ {
+  "id": "ASG-CE502-1",
+  "subjectCode": "CE502",
+  "title": "Assignment 1: Environmental Engineering",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-003"
+ },
+ {
+  "id": "ASG-CE502-2",
+  "subjectCode": "CE502",
+  "title": "Assignment 2: Environmental Engineering",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-003"
+ },
+ {
+  "id": "ASG-CE503-1",
+  "subjectCode": "CE503",
+  "title": "Assignment 1: Water Resources Engineering",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-001"
+ },
+ {
+  "id": "ASG-CE503-2",
+  "subjectCode": "CE503",
+  "title": "Assignment 2: Water Resources Engineering",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-001"
+ },
+ {
+  "id": "ASG-CE504-1",
+  "subjectCode": "CE504",
+  "title": "Assignment 1: Transportation Engineering II",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-002"
+ },
+ {
+  "id": "ASG-CE504-2",
+  "subjectCode": "CE504",
+  "title": "Assignment 2: Transportation Engineering II",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-002"
+ },
+ {
+  "id": "ASG-CE505-1",
+  "subjectCode": "CE505",
+  "title": "Assignment 1: Professional Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-003"
+ },
+ {
+  "id": "ASG-CE505-2",
+  "subjectCode": "CE505",
+  "title": "Assignment 2: Professional Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-003"
+ },
+ {
+  "id": "ASG-CSE701-1",
+  "subjectCode": "CSE701",
+  "title": "Assignment 1: Big Data Analytics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-003"
+ },
+ {
+  "id": "ASG-CSE701-2",
+  "subjectCode": "CSE701",
+  "title": "Assignment 2: Big Data Analytics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-003"
+ },
+ {
+  "id": "ASG-CSE702-1",
+  "subjectCode": "CSE702",
+  "title": "Assignment 1: Distributed Systems",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-004"
+ },
+ {
+  "id": "ASG-CSE702-2",
+  "subjectCode": "CSE702",
+  "title": "Assignment 2: Distributed Systems",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-004"
+ },
+ {
+  "id": "ASG-CSE703-1",
+  "subjectCode": "CSE703",
+  "title": "Assignment 1: Deep Learning",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-005"
+ },
+ {
+  "id": "ASG-CSE703-2",
+  "subjectCode": "CSE703",
+  "title": "Assignment 2: Deep Learning",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-005"
+ },
+ {
+  "id": "ASG-CSE704-1",
+  "subjectCode": "CSE704",
+  "title": "Assignment 1: Open Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-006"
+ },
+ {
+  "id": "ASG-CSE704-2",
+  "subjectCode": "CSE704",
+  "title": "Assignment 2: Open Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-006"
+ },
+ {
+  "id": "ASG-CSE705-1",
+  "subjectCode": "CSE705",
+  "title": "Assignment 1: Project Phase I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CSE-001"
+ },
+ {
+  "id": "ASG-CSE705-2",
+  "subjectCode": "CSE705",
+  "title": "Assignment 2: Project Phase I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CSE-001"
+ },
+ {
+  "id": "ASG-AIML701-1",
+  "subjectCode": "AIML701",
+  "title": "Assignment 1: Generative AI",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-001"
+ },
+ {
+  "id": "ASG-AIML701-2",
+  "subjectCode": "AIML701",
+  "title": "Assignment 2: Generative AI",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-001"
+ },
+ {
+  "id": "ASG-AIML702-1",
+  "subjectCode": "AIML702",
+  "title": "Assignment 1: MLOps",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-002"
+ },
+ {
+  "id": "ASG-AIML702-2",
+  "subjectCode": "AIML702",
+  "title": "Assignment 2: MLOps",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-002"
+ },
+ {
+  "id": "ASG-AIML703-1",
+  "subjectCode": "AIML703",
+  "title": "Assignment 1: AI Ethics and Governance",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-003"
+ },
+ {
+  "id": "ASG-AIML703-2",
+  "subjectCode": "AIML703",
+  "title": "Assignment 2: AI Ethics and Governance",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-003"
+ },
+ {
+  "id": "ASG-AIML704-1",
+  "subjectCode": "AIML704",
+  "title": "Assignment 1: Open Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-004"
+ },
+ {
+  "id": "ASG-AIML704-2",
+  "subjectCode": "AIML704",
+  "title": "Assignment 2: Open Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-004"
+ },
+ {
+  "id": "ASG-AIML705-1",
+  "subjectCode": "AIML705",
+  "title": "Assignment 1: Project Phase I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-AIML-005"
+ },
+ {
+  "id": "ASG-AIML705-2",
+  "subjectCode": "AIML705",
+  "title": "Assignment 2: Project Phase I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-AIML-005"
+ },
+ {
+  "id": "ASG-IT701-1",
+  "subjectCode": "IT701",
+  "title": "Assignment 1: Big Data Analytics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-001"
+ },
+ {
+  "id": "ASG-IT701-2",
+  "subjectCode": "IT701",
+  "title": "Assignment 2: Big Data Analytics",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-001"
+ },
+ {
+  "id": "ASG-IT702-1",
+  "subjectCode": "IT702",
+  "title": "Assignment 1: DevOps",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-002"
+ },
+ {
+  "id": "ASG-IT702-2",
+  "subjectCode": "IT702",
+  "title": "Assignment 2: DevOps",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-002"
+ },
+ {
+  "id": "ASG-IT703-1",
+  "subjectCode": "IT703",
+  "title": "Assignment 1: Blockchain Technology",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-003"
+ },
+ {
+  "id": "ASG-IT703-2",
+  "subjectCode": "IT703",
+  "title": "Assignment 2: Blockchain Technology",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-003"
+ },
+ {
+  "id": "ASG-IT704-1",
+  "subjectCode": "IT704",
+  "title": "Assignment 1: Open Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-004"
+ },
+ {
+  "id": "ASG-IT704-2",
+  "subjectCode": "IT704",
+  "title": "Assignment 2: Open Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-004"
+ },
+ {
+  "id": "ASG-IT705-1",
+  "subjectCode": "IT705",
+  "title": "Assignment 1: Project Phase I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-IT-001"
+ },
+ {
+  "id": "ASG-IT705-2",
+  "subjectCode": "IT705",
+  "title": "Assignment 2: Project Phase I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-IT-001"
+ },
+ {
+  "id": "ASG-ECE701-1",
+  "subjectCode": "ECE701",
+  "title": "Assignment 1: Optical Communication",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-001"
+ },
+ {
+  "id": "ASG-ECE701-2",
+  "subjectCode": "ECE701",
+  "title": "Assignment 2: Optical Communication",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-001"
+ },
+ {
+  "id": "ASG-ECE702-1",
+  "subjectCode": "ECE702",
+  "title": "Assignment 1: Satellite Communication",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-002"
+ },
+ {
+  "id": "ASG-ECE702-2",
+  "subjectCode": "ECE702",
+  "title": "Assignment 2: Satellite Communication",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-002"
+ },
+ {
+  "id": "ASG-ECE703-1",
+  "subjectCode": "ECE703",
+  "title": "Assignment 1: IoT and Sensor Networks",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-003"
+ },
+ {
+  "id": "ASG-ECE703-2",
+  "subjectCode": "ECE703",
+  "title": "Assignment 2: IoT and Sensor Networks",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-003"
+ },
+ {
+  "id": "ASG-ECE704-1",
+  "subjectCode": "ECE704",
+  "title": "Assignment 1: Open Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-004"
+ },
+ {
+  "id": "ASG-ECE704-2",
+  "subjectCode": "ECE704",
+  "title": "Assignment 2: Open Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-004"
+ },
+ {
+  "id": "ASG-ECE705-1",
+  "subjectCode": "ECE705",
+  "title": "Assignment 1: Project Phase I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ECE-005"
+ },
+ {
+  "id": "ASG-ECE705-2",
+  "subjectCode": "ECE705",
+  "title": "Assignment 2: Project Phase I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ECE-005"
+ },
+ {
+  "id": "ASG-ME701-1",
+  "subjectCode": "ME701",
+  "title": "Assignment 1: Power Plant Engineering",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-001"
+ },
+ {
+  "id": "ASG-ME701-2",
+  "subjectCode": "ME701",
+  "title": "Assignment 2: Power Plant Engineering",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-001"
+ },
+ {
+  "id": "ASG-ME702-1",
+  "subjectCode": "ME702",
+  "title": "Assignment 1: Automobile Engineering",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-002"
+ },
+ {
+  "id": "ASG-ME702-2",
+  "subjectCode": "ME702",
+  "title": "Assignment 2: Automobile Engineering",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-002"
+ },
+ {
+  "id": "ASG-ME703-1",
+  "subjectCode": "ME703",
+  "title": "Assignment 1: Robotics and Automation",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-003"
+ },
+ {
+  "id": "ASG-ME703-2",
+  "subjectCode": "ME703",
+  "title": "Assignment 2: Robotics and Automation",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-003"
+ },
+ {
+  "id": "ASG-ME704-1",
+  "subjectCode": "ME704",
+  "title": "Assignment 1: Open Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-004"
+ },
+ {
+  "id": "ASG-ME704-2",
+  "subjectCode": "ME704",
+  "title": "Assignment 2: Open Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-004"
+ },
+ {
+  "id": "ASG-ME705-1",
+  "subjectCode": "ME705",
+  "title": "Assignment 1: Project Phase I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-ME-001"
+ },
+ {
+  "id": "ASG-ME705-2",
+  "subjectCode": "ME705",
+  "title": "Assignment 2: Project Phase I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-ME-001"
+ },
+ {
+  "id": "ASG-CE701-1",
+  "subjectCode": "CE701",
+  "title": "Assignment 1: Advanced Structural Design",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-003"
+ },
+ {
+  "id": "ASG-CE701-2",
+  "subjectCode": "CE701",
+  "title": "Assignment 2: Advanced Structural Design",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-003"
+ },
+ {
+  "id": "ASG-CE702-1",
+  "subjectCode": "CE702",
+  "title": "Assignment 1: Remote Sensing and GIS",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-001"
+ },
+ {
+  "id": "ASG-CE702-2",
+  "subjectCode": "CE702",
+  "title": "Assignment 2: Remote Sensing and GIS",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-001"
+ },
+ {
+  "id": "ASG-CE703-1",
+  "subjectCode": "CE703",
+  "title": "Assignment 1: Earthquake Engineering",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-002"
+ },
+ {
+  "id": "ASG-CE703-2",
+  "subjectCode": "CE703",
+  "title": "Assignment 2: Earthquake Engineering",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-002"
+ },
+ {
+  "id": "ASG-CE704-1",
+  "subjectCode": "CE704",
+  "title": "Assignment 1: Open Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-003"
+ },
+ {
+  "id": "ASG-CE704-2",
+  "subjectCode": "CE704",
+  "title": "Assignment 2: Open Elective I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-003"
+ },
+ {
+  "id": "ASG-CE705-1",
+  "subjectCode": "CE705",
+  "title": "Assignment 1: Project Phase I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 10,
+  "assignedDate": "2026-09-06",
+  "dueDate": "2026-09-20",
+  "createdBy": "FAC-CE-001"
+ },
+ {
+  "id": "ASG-CE705-2",
+  "subjectCode": "CE705",
+  "title": "Assignment 2: Project Phase I",
+  "description": "Solve all questions from the set shared in class. Submit a PDF before the deadline.",
+  "maxMarks": 20,
+  "assignedDate": "2026-10-19",
+  "dueDate": "2026-11-02",
+  "createdBy": "FAC-CE-001"
+ }
+]

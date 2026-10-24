@@ -1,0 +1,46 @@
+id,studentId,subjectCode,facultyId,title,description,status,response,createdAt,updatedAt
+PRB-001,2025CSE005,CSE301,FAC-CSE-001,Request for assignment deadline extension,I was unwell during the submission week. Requesting a short extension.,In Progress,Please meet me after Thursday's class.,2026-10-01,2026-10-01
+PRB-002,2024CSE002,CSE504,FAC-CSE-002,Request for assignment deadline extension,I was unwell during the submission week. Requesting a short extension.,Resolved,Please meet me after Thursday's class.,2026-10-20,2026-10-22
+PRB-003,2023ECE001,ECE704,FAC-ECE-004,Marks discrepancy in internal assessment,The internal marks shown differ from my answer sheet. Requesting a recheck.,Resolved,Noted. Will update within two days.,2026-10-02,2026-10-04
+PRB-004,2024IT002,IT503,FAC-IT-001,Need extra doubt-clearing session,Several of us are struggling with Unit 3. Can a doubt session be arranged?,Resolved,Noted. Will update within two days.,2026-10-01,2026-10-04
+PRB-005,2024ME001,ME501,FAC-ME-003,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,In Progress,Noted. Will update within two days.,2026-10-20,2026-10-22
+PRB-006,2025AIML001,AIML301,FAC-AIML-001,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,Open,,2026-10-06,2026-10-06
+PRB-007,2025ME004,ME303,FAC-ME-003,Unable to open resource file,The uploaded notes file does not open and shows an error.,In Progress,Noted. Will update within two days.,2026-10-05,2026-10-07
+PRB-008,2024AIML004,AIML504,FAC-AIML-004,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,Resolved,"Issue fixed, please check again.",2026-10-16,2026-10-17
+PRB-009,2026CSE004,FY104,FAC-APS-001,Marks discrepancy in internal assessment,The internal marks shown differ from my answer sheet. Requesting a recheck.,Resolved,Noted. Will update within two days.,2026-10-08,2026-10-10
+PRB-010,2023IT002,IT701,FAC-IT-001,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,Resolved,"Issue fixed, please check again.",2026-10-02,2026-10-02
+PRB-011,2025CSE005,CSE304,FAC-CSE-004,Marks discrepancy in internal assessment,The internal marks shown differ from my answer sheet. Requesting a recheck.,In Progress,Extra session scheduled for Saturday.,2026-10-04,2026-10-04
+PRB-012,2024AIML005,AIML505,FAC-AIML-005,Unable to open resource file,The uploaded notes file does not open and shows an error.,Open,,2026-10-10,2026-10-10
+PRB-013,2025IT004,IT301,FAC-IT-001,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,Open,,2026-10-16,2026-10-16
+PRB-014,2024IT006,IT501,FAC-IT-003,Request for assignment deadline extension,I was unwell during the submission week. Requesting a short extension.,In Progress,Extra session scheduled for Saturday.,2026-10-04,2026-10-05
+PRB-015,2024IT006,IT504,FAC-IT-002,Need extra doubt-clearing session,Several of us are struggling with Unit 3. Can a doubt session be arranged?,Resolved,Noted. Will update within two days.,2026-10-02,2026-10-03
+PRB-016,2026CSE012,FY104,FAC-APS-001,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,Open,,2026-10-14,2026-10-15
+PRB-017,2024IT007,IT504,FAC-IT-002,Need extra doubt-clearing session,Several of us are struggling with Unit 3. Can a doubt session be arranged?,Open,,2026-10-05,2026-10-05
+PRB-018,2024ME001,ME504,FAC-ME-002,Request for assignment deadline extension,I was unwell during the submission week. Requesting a short extension.,Open,,2026-10-04,2026-10-06
+PRB-019,2024AIML001,AIML501,FAC-AIML-001,Request for assignment deadline extension,I was unwell during the submission week. Requesting a short extension.,Open,,2026-10-06,2026-10-09
+PRB-020,2024ME002,ME502,FAC-ME-004,Request for assignment deadline extension,I was unwell during the submission week. Requesting a short extension.,Resolved,Please meet me after Thursday's class.,2026-10-14,2026-10-14
+PRB-021,2025AIML004,AIML304,FAC-AIML-004,Need extra doubt-clearing session,Several of us are struggling with Unit 3. Can a doubt session be arranged?,Open,,2026-10-05,2026-10-08
+PRB-022,2025ECE001,ECE303,FAC-ECE-003,Marks discrepancy in internal assessment,The internal marks shown differ from my answer sheet. Requesting a recheck.,Open,,2026-10-03,2026-10-03
+PRB-023,2026ME007,FY105,FAC-APS-002,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,Open,,2026-10-12,2026-10-13
+PRB-024,2025CE003,CE304,FAC-CE-001,Need extra doubt-clearing session,Several of us are struggling with Unit 3. Can a doubt session be arranged?,Resolved,Extra session scheduled for Saturday.,2026-10-14,2026-10-15
+PRB-025,2024CSE006,CSE504,FAC-CSE-002,Request for assignment deadline extension,I was unwell during the submission week. Requesting a short extension.,Open,,2026-10-18,2026-10-20
+PRB-026,2024ME003,ME504,FAC-ME-002,Unable to open resource file,The uploaded notes file does not open and shows an error.,Open,,2026-10-07,2026-10-08
+PRB-027,2024ECE007,ECE505,FAC-ECE-005,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,Open,,2026-10-06,2026-10-08
+PRB-028,2026CSE001,FY105,FAC-APS-002,Need extra doubt-clearing session,Several of us are struggling with Unit 3. Can a doubt session be arranged?,Open,,2026-10-10,2026-10-11
+PRB-029,2023AIML004,AIML704,FAC-AIML-004,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,Open,,2026-10-02,2026-10-05
+PRB-030,2025CSE007,CSE302,FAC-CSE-002,Marks discrepancy in internal assessment,The internal marks shown differ from my answer sheet. Requesting a recheck.,In Progress,Extra session scheduled for Saturday.,2026-10-19,2026-10-21
+PRB-031,2024IT002,IT504,FAC-IT-002,Unable to open resource file,The uploaded notes file does not open and shows an error.,In Progress,Extra session scheduled for Saturday.,2026-10-13,2026-10-15
+PRB-032,2023ME003,ME702,FAC-ME-002,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,In Progress,"Issue fixed, please check again.",2026-10-06,2026-10-08
+PRB-033,2025ME001,ME303,FAC-ME-003,Need extra doubt-clearing session,Several of us are struggling with Unit 3. Can a doubt session be arranged?,Resolved,Please meet me after Thursday's class.,2026-10-03,2026-10-05
+PRB-034,2023CSE005,CSE703,FAC-CSE-005,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,Resolved,"Issue fixed, please check again.",2026-10-11,2026-10-14
+PRB-035,2025AIML006,AIML304,FAC-AIML-004,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,Open,,2026-10-21,2026-10-24
+PRB-036,2024AIML009,AIML503,FAC-AIML-003,Unable to open resource file,The uploaded notes file does not open and shows an error.,Resolved,Please meet me after Thursday's class.,2026-10-08,2026-10-09
+PRB-037,2026AIML003,FY104,FAC-APS-001,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,Open,,2026-10-09,2026-10-09
+PRB-038,2023ME002,ME703,FAC-ME-003,Need extra doubt-clearing session,Several of us are struggling with Unit 3. Can a doubt session be arranged?,Resolved,Please meet me after Thursday's class.,2026-10-05,2026-10-05
+PRB-039,2025AIML008,AIML302,FAC-AIML-002,Unable to open resource file,The uploaded notes file does not open and shows an error.,Open,,2026-10-13,2026-10-16
+PRB-040,2026ECE006,FY103,FAC-APS-003,Request for assignment deadline extension,I was unwell during the submission week. Requesting a short extension.,Open,,2026-10-06,2026-10-07
+PRB-041,2024CE003,CE503,FAC-CE-001,Need extra doubt-clearing session,Several of us are struggling with Unit 3. Can a doubt session be arranged?,Open,,2026-10-06,2026-10-07
+PRB-042,2023IT004,IT702,FAC-IT-002,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,In Progress,Please meet me after Thursday's class.,2026-10-04,2026-10-05
+PRB-043,2023CSE009,CSE701,FAC-CSE-003,Attendance not updated,My attendance for last week is not reflected in the portal. Please verify the register.,Open,,2026-10-06,2026-10-07
+PRB-044,2023CSE003,CSE704,FAC-CSE-006,Marks discrepancy in internal assessment,The internal marks shown differ from my answer sheet. Requesting a recheck.,Open,,2026-10-15,2026-10-16
+PRB-045,2026ME002,FY102,FAC-APS-002,Unable to open resource file,The uploaded notes file does not open and shows an error.,Resolved,Extra session scheduled for Saturday.,2026-10-10,2026-10-13

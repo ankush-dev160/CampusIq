@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root, .dark {
+  /* Theme A: Dark — Professional Blue/Slate + Green Accents (Landing Page Alignment) */
+  --bg-primary: #0B1220;
+  --bg-surface: #0F1A2E;
+  --bg-elevated: #142038;
+  --bg-secondary: #1A2A47;
+  
+  --accent-primary: #3B82F6;          /* Royal Blue Lifted */
+  --accent-primary-hover: #2563EB;
+  --accent-primary-muted: rgba(59, 130, 246, 0.15);
+  --accent-primary-border: rgba(59, 130, 246, 0.35);
+  --accent-text: #ffffff;
+  
+  --accent-secondary: #10B981;        /* Emerald / Green */
+  --accent-secondary-hover: #059669;
+  --accent-highlight: #2AF5C8;        /* Electric Mint (subtle micro-highlight) */
+  
+  --accent-cyan: #0EA5E9;             /* Sky Blue */
+  --accent-cyan-hover: #0284C7;
+  --accent-cyan-muted: rgba(14, 165, 233, 0.15);
+  --accent-cyan-border: rgba(14, 165, 233, 0.35);
+
+  --text-primary: #E6EDF7;
+  --text-secondary: #8FA3BF;
+  --text-muted: #64748B;
+  
+  --border-subtle: rgba(148, 163, 184, 0.14);
+  --border-glass: rgba(148, 163, 184, 0.18);
+  --border-hover: rgba(59, 130, 246, 0.4);
+  
+  --shadow-spatial: 0 10px 30px -5px rgba(0, 0, 0, 0.5), 0 4px 12px -2px rgba(0, 0, 0, 0.3);
+  --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.35);
+  --glass-bg: rgba(15, 26, 46, 0.75);
+  --glass-border: rgba(148, 163, 184, 0.14);
+  
+  --status-success: #16A34A;
+  --status-success-bg: rgba(22, 163, 74, 0.15);
+  --status-success-border: rgba(22, 163, 74, 0.35);
+  --status-warning: #F59E0B;
+  --status-warning-bg: rgba(245, 158, 11, 0.15);
+  --status-warning-border: rgba(245, 158, 11, 0.35);
+  --status-error: #EF4444;            /* Pure Risk Red (Dark) */
+  --status-error-bg: rgba(239, 68, 68, 0.15);
+  --status-error-border: rgba(239, 68, 68, 0.35);
+  --status-info: #0EA5E9;
+  --status-info-bg: rgba(14, 165, 233, 0.15);
+  --status-info-border: rgba(14, 165, 233, 0.35);
+
+  /* Approved 5-Series Chart Palette */
+  --chart-1: #2563EB; /* Blue */
+  --chart-2: #0EA5E9; /* Sky */
+  --chart-3: #10B981; /* Green */
+  --chart-4: #64748B; /* Slate */
+  --chart-5: #14B8A6; /* Teal */
+  --chart-6: #F59E0B; /* Amber (warnings only) */
+  --chart-danger: #EF4444; /* Danger/Risk */
+
+  --scrollbar-thumb: #1E2A47;
+  --scrollbar-thumb-hover: #334155;
+  --scrollbar-track: #0B1220;
+
+  /* Spatial Glassmorphism Sidebar Tokens — Dark */
+  --sidebar-glass-bg: rgba(15, 26, 46, 0.85);
+  --sidebar-glass-border: rgba(148, 163, 184, 0.14);
+  --sidebar-glass-shadow: 0 20px 48px -12px rgba(0, 0, 0, 0.65), 0 1px 1px 0 rgba(255, 255, 255, 0.05) inset;
+  --sidebar-item-active-bg: rgba(59, 130, 246, 0.15);
+  --sidebar-item-active-text: #E6EDF7;
+  --sidebar-item-active-icon: #60A5FA;
+  --sidebar-indicator: #3B82F6;
+  --sidebar-indicator-glow: rgba(59, 130, 246, 0.4);
+  --sidebar-item-hover-bg: rgba(255, 255, 255, 0.04);
+}
+
+.light {
+  /* Theme B: Light — Clean Blue & Slate (Corporate Academic) */
+  --bg-primary: #F4F7FB;
+  --bg-surface: #FFFFFF;
+  --bg-elevated: #F8FAFC;
+  --bg-secondary: #EDF2F7;
+  
+  --accent-primary: #014BAA;          /* Royal Blue */
+  --accent-primary-hover: #0B5CD5;
+  --accent-primary-muted: rgba(1, 75, 170, 0.1);
+  --accent-primary-border: rgba(1, 75, 170, 0.25);
+  --accent-text: #ffffff;
+  
+  --accent-secondary: #059669;        /* Forest / Deep Green */
+  --accent-secondary-hover: #047857;
+  --accent-highlight: #10B981;
+  
+  --accent-cyan: #0284C7;             /* Clean Sky/Cyan */
+  --accent-cyan-hover: #0369A1;
+  --accent-cyan-muted: rgba(2, 132, 199, 0.1);
+  --accent-cyan-border: rgba(2, 132, 199, 0.25);
+
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+  
+  --border-subtle: #DDE5F0;
+  --border-glass: #DDE5F0;
+  --border-hover: rgba(1, 75, 170, 0.35);
+  
+  --shadow-spatial: 0 10px 30px -5px rgba(15, 23, 42, 0.08), 0 4px 12px -2px rgba(15, 23, 42, 0.04);
+  --card-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06);
+  --glass-bg: rgba(255, 255, 255, 0.95);
+  --glass-border: #DDE5F0;
+  
+  --status-success: #16A34A;
+  --status-success-bg: rgba(22, 163, 74, 0.1);
+  --status-success-border: rgba(22, 163, 74, 0.25);
+  --status-warning: #F59E0B;
+  --status-warning-bg: rgba(245, 158, 11, 0.1);
+  --status-warning-border: rgba(245, 158, 11, 0.25);
+  --status-error: #DC2626;            /* Pure Risk Red (Light) */
+  --status-error-bg: rgba(220, 38, 38, 0.1);
+  --status-error-border: rgba(220, 38, 38, 0.25);
+  --status-info: #0EA5E9;
+  --status-info-bg: rgba(14, 165, 233, 0.1);
+  --status-info-border: rgba(14, 165, 233, 0.25);
+
+  --chart-1: #2563EB; /* Blue */
+  --chart-2: #0EA5E9; /* Sky */
+  --chart-3: #10B981; /* Green */
+  --chart-4: #64748B; /* Slate */
+  --chart-5: #14B8A6; /* Teal */
+  --chart-6: #F59E0B; /* Amber (warnings only) */
+  --chart-danger: #DC2626; /* Danger/Risk */
+
+  --scrollbar-thumb: #CBD5E1;
+  --scrollbar-thumb-hover: #94A3BF;
+  --scrollbar-track: #F4F7FB;
+
+  /* Spatial Glassmorphism Sidebar Tokens — Light */
+  --sidebar-glass-bg: rgba(255, 255, 255, 0.92);
+  --sidebar-glass-border: #DDE5F0;
+  --sidebar-glass-shadow: 0 16px 40px -12px rgba(15, 23, 42, 0.07), 0 1px 1px 0 rgba(255, 255, 255, 0.9) inset;
+  --sidebar-item-active-bg: rgba(1, 75, 170, 0.08);
+  --sidebar-item-active-text: #014BAA;
+  --sidebar-item-active-icon: #014BAA;
+  --sidebar-indicator: #014BAA;
+  --sidebar-indicator-glow: rgba(1, 75, 170, 0.25);
+  --sidebar-item-hover-bg: rgba(15, 23, 42, 0.04);
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+    transition: background-color 200ms ease, color 200ms ease;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* Spatial UI & Glassmorphism Panels */
+.panel {
+  background: var(--bg-surface);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-subtle);
+  border-radius: 1.25rem;
+  box-shadow: var(--card-shadow);
+  transition: border-color 200ms ease, box-shadow 200ms ease, transform 200ms ease;
+}
+
+.panel:hover {
+  border-color: var(--border-hover);
+}
+
+.panel-raised {
+  background: var(--bg-elevated);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-subtle);
+  border-radius: 0.875rem;
+}
+
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--card-shadow);
+}
+
+/* Refined Glow card effect without excessive neon */
+.glow-card {
+  position: relative;
+  transition: transform 160ms cubic-bezier(0.16, 1, 0.3, 1), border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.glow-card:hover {
+  border-color: var(--accent-primary-border) !important;
+  box-shadow: var(--shadow-spatial);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glow-card:hover {
+    transform: none;
+  }
+}
+
+/* Gradient text for page titles */
+.gradient-title {
+  background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-primary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Primary button - Unified Professional Blue Palette */
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent-primary) 0%, #0B5CD5 60%, var(--accent-secondary) 100%);
+  color: #ffffff !important;
+  font-weight: 700;
+  border-radius: 0.75rem;
+  transition: all 200ms ease;
+  box-shadow: 0 4px 14px rgba(1, 75, 170, 0.25);
+}
+
+.btn-primary:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(1, 75, 170, 0.35);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+/* Spatial Glassmorphism Sidebar */
+.floating-glass-sidebar {
+  background: var(--sidebar-glass-bg);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--sidebar-glass-border);
+  box-shadow: var(--sidebar-glass-shadow);
+}
+
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .floating-glass-sidebar {
+    background: var(--bg-surface);
+  }
+}
+
+.sidebar-item-active {
+  background: var(--sidebar-item-active-bg);
+  color: var(--sidebar-item-active-text) !important;
+  font-weight: 600;
+}
+
+.sidebar-item-active svg {
+  color: var(--sidebar-item-active-icon) !important;
+}
+
+.sidebar-indicator {
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 16px;
+  border-radius: 9999px;
+  background-color: var(--sidebar-indicator);
+  box-shadow: 0 0 8px var(--sidebar-indicator-glow);
+}
+
+/* Active sidebar item fallback */
+.nav-active {
+  background: var(--sidebar-item-active-bg);
+  color: var(--sidebar-item-active-text) !important;
+  font-weight: 600;
+}
+
+/* Metric card top accent line */
+.metric-accent-top {
+  position: relative;
+  overflow: hidden;
+}
+
+.metric-accent-top::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-primary), transparent);
+}
+
+/* Gentle floating animation for 3D character companion */
+@keyframes gentle-float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(0.4deg);
+  }
+}
+
+.animate-float {
+  animation: gentle-float 4.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float {
+    animation: none;
+  }
+}
+
+/* Compact Rounded-Square Cards for Spatial Minimalism */
+.compact-square-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 1.125rem;
+  box-shadow: var(--card-shadow);
+  transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1), border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.compact-square-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-primary-border);
+  box-shadow: var(--shadow-spatial);
+}
+
+/* ─── Bento Grid Utilities & Spatial Hover Physics ────────────────────────── */
+@keyframes bentoFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.99);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-bento-in {
+  animation: bentoFadeIn 420ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.bento-card {
+  position: relative;
+  border-radius: 1.35rem; /* ~22px */
+  transition: transform 260ms cubic-bezier(0.16, 1, 0.3, 1), 
+              box-shadow 260ms cubic-bezier(0.16, 1, 0.3, 1), 
+              border-color 260ms ease, 
+              background-color 260ms ease;
+  will-change: transform, box-shadow;
+}
+
+.bento-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 45px -12px rgba(0, 0, 0, 0.45), 
+              0 0 28px -4px rgba(59, 130, 246, 0.2),
+              0 0 16px -2px rgba(16, 185, 129, 0.15);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-bento-in {
+    animation: none !important;
+  }
+  .bento-card:hover {
+    transform: none !important;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print { display: none !important; }
+  .print-only { display: block !important; }
+  body { background: white !important; color: black !important; }
+}

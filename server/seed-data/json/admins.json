@@ -1,0 +1,142 @@
+[
+ {
+  "id": "ADM-001",
+  "employeeId": "ADM-001",
+  "name": "Sneha Lal",
+  "email": "sneha.lal@ustu.edu.in",
+  "phone": "6438581762",
+  "gender": "Female",
+  "title": "Principal",
+  "branchScope": "ALL",
+  "permissions": [
+   "all"
+  ],
+  "status": "Active"
+ },
+ {
+  "id": "ADM-002",
+  "employeeId": "ADM-002",
+  "name": "Hema Agarwal",
+  "email": "hema.agarwal@ustu.edu.in",
+  "phone": "6700159450",
+  "gender": "Female",
+  "title": "Registrar",
+  "branchScope": "ALL",
+  "permissions": [
+   "all"
+  ],
+  "status": "Active"
+ },
+ {
+  "id": "ADM-003",
+  "employeeId": "ADM-003",
+  "name": "Mohit Pillai",
+  "email": "mohit.pillai@ustu.edu.in",
+  "phone": "9632337352",
+  "gender": "Male",
+  "title": "Exam Controller",
+  "branchScope": "ALL",
+  "permissions": [
+   "all"
+  ],
+  "status": "Active"
+ },
+ {
+  "id": "ADM-004",
+  "employeeId": "ADM-004",
+  "name": "Tarun Jha",
+  "email": "tarun.jha@ustu.edu.in",
+  "phone": "9534789713",
+  "gender": "Male",
+  "title": "Accounts Officer",
+  "branchScope": "ALL",
+  "permissions": [
+   "all"
+  ],
+  "status": "Active"
+ },
+ {
+  "id": "ADM-005",
+  "employeeId": "ADM-005",
+  "name": "Disha Menon",
+  "email": "disha.menon@ustu.edu.in",
+  "phone": "8921236360",
+  "gender": "Female",
+  "title": "Placement Officer",
+  "branchScope": "ALL",
+  "permissions": [
+   "all"
+  ],
+  "status": "Active"
+ },
+ {
+  "id": "ADM-006",
+  "employeeId": "ADM-006",
+  "name": "Saurabh Rathore",
+  "email": "saurabh.rathore@ustu.edu.in",
+  "phone": "8560787457",
+  "gender": "Male",
+  "title": "Student Affairs Officer",
+  "branchScope": "ALL",
+  "permissions": [
+   "all"
+  ],
+  "status": "Active"
+ },
+ {
+  "id": "ADM-007",
+  "employeeId": "ADM-007",
+  "name": "Charvi Sen",
+  "email": "charvi.sen@ustu.edu.in",
+  "phone": "7576990854",
+  "gender": "Female",
+  "title": "Head of Department - CSE",
+  "branchScope": "CSE",
+  "permissions": [
+   "branch:CSE"
+  ],
+  "status": "Active"
+ },
+ {
+  "id": "ADM-008",
+  "employeeId": "ADM-008",
+  "name": "Aditi Siddiqui",
+  "email": "aditi.siddiqui@ustu.edu.in",
+  "phone": "9588814401",
+  "gender": "Female",
+  "title": "Head of Department - AIML",
+  "branchScope": "AIML",
+  "permissions": [
+   "branch:AIML"
+  ],
+  "status": "Active"
+ },
+ {
+  "id": "ADM-009",
+  "employeeId": "ADM-009",
+  "name": "Siddharth Goyal",
+  "email": "siddharth.goyal@ustu.edu.in",
+  "phone": "9916979780",
+  "gender": "Male",
+  "title": "Head of Department - ECE",
+  "branchScope": "ECE",
+  "permissions": [
+   "branch:ECE"
+  ],
+  "status": "Active"
+ },
+ {
+  "id": "ADM-010",
+  "employeeId": "ADM-010",
+  "name": "Vedant Mukherjee",
+  "email": "vedant.mukherjee@ustu.edu.in",
+  "phone": "6161284001",
+  "gender": "Male",
+  "title": "Head of Department - ME",
+  "branchScope": "ME",
+  "permissions": [
+   "branch:ME"
+  ],
+  "status": "Active"
+ }
+]
