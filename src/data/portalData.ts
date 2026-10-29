@@ -314,7 +314,7 @@ export interface ProblemRequest {
   topic: string;
   faculty: string;
   description: string;
-  priority: 'Normal' | 'Important';
+  priority: 'Normal' | 'Important' | 'Urgent';
   status: 'Pending' | 'In Progress' | 'Resolved';
   submitted: string;
   reply: string;

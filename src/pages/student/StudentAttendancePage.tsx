@@ -8,7 +8,7 @@ import {
   CartesianGrid, ReferenceLine
 } from 'recharts';
 import {
-  MONTHLY_ATTENDANCE, ATTENDANCE_CALENDAR_OCT, DAY_LECTURES
+  MONTHLY_ATTENDANCE, ATTENDANCE_CALENDAR_OCT, DAY_LECTURES, DEMO_STUDENT
 } from '../../data/portalData';
 import { useStudentRecord } from '../../context/CurrentUserContext';
 import { useTheme } from '../../context/ThemeContext';

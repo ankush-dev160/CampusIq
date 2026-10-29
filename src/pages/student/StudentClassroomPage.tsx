@@ -710,7 +710,7 @@ export const StudentClassroomPage: React.FC<StudentClassroomPageProps> = ({
   const [forumThreads, setForumThreads] = useState<ProblemRequest[]>([]);
   const [newThreadTopic, setNewThreadTopic] = useState('');
   const [newThreadDescription, setNewThreadDescription] = useState('');
-  const [newThreadPriority, setNewThreadPriority] = useState<'Normal' | 'Urgent'>('Normal');
+  const [newThreadPriority, setNewThreadPriority] = useState<'Normal' | 'Important' | 'Urgent'>('Normal');
   const [replyInput, setReplyInput] = useState<Record<string, string>>({});
   const [isPostingThread, setIsPostingThread] = useState(false);
 
@@ -1756,11 +1756,12 @@ export const StudentClassroomPage: React.FC<StudentClassroomPageProps> = ({
                     <span className="text-xs text-theme-muted">Priority:</span>
                     <select
                       value={newThreadPriority}
-                      onChange={e => setNewThreadPriority(e.target.value as 'Normal' | 'Important')}
+                      onChange={e => setNewThreadPriority(e.target.value as 'Normal' | 'Important' | 'Urgent')}
                       className="bg-theme-elevated border border-theme-border rounded-lg px-2.5 py-1 text-xs text-theme-text"
                     >
                       <option value="Normal">Normal</option>
                       <option value="Important">Important</option>
+                      <option value="Urgent">Urgent</option>
                     </select>
                   </div>
 
@@ -1796,7 +1797,7 @@ export const StudentClassroomPage: React.FC<StudentClassroomPageProps> = ({
                         <h3 className="text-sm font-extrabold text-theme-text">{thread.topic}</h3>
                         <span
                           className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${
-                            thread.priority === 'Important'
+                            thread.priority === 'Important' || thread.priority === 'Urgent'
                               ? 'bg-red-500/15 text-red-400 border-red-500/30'
                               : 'bg-theme-elevated text-theme-muted border-theme-border'
                           }`}

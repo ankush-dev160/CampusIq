@@ -18,7 +18,7 @@ export function StudentMyProblemPage() {
   const [topic, setTopic] = useState('');
   const [faculty, setFaculty] = useState(subjects[0]?.faculty || 'Dr. Priya Menon');
   const [description, setDescription] = useState('');
-  const [priority, setPriority] = useState<'Normal' | 'Important'>('Normal');
+  const [priority, setPriority] = useState<'Normal' | 'Important' | 'Urgent'>('Normal');
   const [submittedAlert, setSubmittedAlert] = useState<string | null>(null);
 
   // Sync faculty when subject changes
@@ -117,7 +117,7 @@ export function StudentMyProblemPage() {
             <div>
               <label className="text-xs font-semibold text-theme-text block mb-1">Priority Level</label>
               <div className="flex gap-4">
-                {(['Normal', 'Important'] as const).map(p => (
+                {(['Normal', 'Important', 'Urgent'] as const).map(p => (
                   <label key={p} className="flex items-center gap-1.5 text-xs text-theme-text cursor-pointer">
                     <input
                       type="radio"
@@ -177,9 +177,9 @@ export function StudentMyProblemPage() {
                   </div>
 
                   <div className="flex items-center gap-2">
-                    {req.priority === 'Important' && (
+                    {(req.priority === 'Important' || req.priority === 'Urgent') && (
                       <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-red-500/15 text-red-400 border border-red-500/30">
-                        Important
+                        {req.priority}
                       </span>
                     )}
                     <span className={`text-[10px] font-bold px-2.5 py-0.5 rounded-full ${

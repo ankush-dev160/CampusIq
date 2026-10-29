@@ -12,7 +12,8 @@ import {
 } from 'recharts';
 import {
   MONTHLY_MARKS, MONTHLY_ATTENDANCE,
-  ASSESSMENT_HISTORY, ATTENDANCE_CALENDAR_OCT, DAY_LECTURES
+  ASSESSMENT_HISTORY, ATTENDANCE_CALENDAR_OCT, DAY_LECTURES,
+  DEMO_STUDENT
 } from '../../data/portalData';
 import { useStudentRecord } from '../../context/CurrentUserContext';
 import { useTheme } from '../../context/ThemeContext';
