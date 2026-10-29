@@ -1,10 +1,12 @@
 {
-  "name": "edupulse-ai",
+  "name": "campusiq",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently -k -n \"server,client\" -c \"cyan,magenta\" \"node server/src/standaloneServer.js\" \"vite\"",
+    "server": "node server/src/standaloneServer.js",
+    "client": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "test": "vitest run",

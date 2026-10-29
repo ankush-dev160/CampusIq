@@ -1,17 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import {
   Brain, Target, TrendingUp, AlertTriangle, CheckCircle2,
-  Calendar, Mail, ShieldAlert, Award, ArrowUpRight
+  Calendar, Mail, ShieldAlert, Award, ArrowUpRight,
+  Sparkles, Send, Zap, RefreshCw, Volume2, VolumeX,
+  ShieldCheck, User, Bot, HelpCircle, StopCircle
 } from 'lucide-react';
 import { RECOMMENDATIONS } from '../../data/portalData';
 import { useStudentRecord } from '../../context/CurrentUserContext';
+import { useTheme } from '../../context/ThemeContext';
+import OrbBot3D from '../../components/ai/OrbBot3D';
 
 export function StudentProgressTrackerPage() {
-  const [activeTab, setActiveTab] = useState<'weekly' | 'monthly' | 'recommendations' | 'history' | 'email'>('weekly');
+  const [activeTab, setActiveTab] = useState<'live-copilot' | 'weekly' | 'monthly' | 'recommendations' | 'history' | 'email'>('live-copilot');
   const [weeklyEmailEnabled, setWeeklyEmailEnabled] = useState(true);
   const [monthlyEmailEnabled, setMonthlyEmailEnabled] = useState(false);
 
   const s = useStudentRecord();
+
+
 
   // Breakdown weights (UI_SPEC): Academic 30%, Attendance 20%, LMS 15%, Placement 20%, Skills 10%, Engagement 5%
   const scoreBreakdown = [
@@ -27,14 +33,32 @@ export function StudentProgressTrackerPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-extrabold text-theme-text">AI Progress Tracker</h1>
-        <p className="text-sm text-theme-muted mt-0.5">Automated progress synthesis, explainable success score breakdowns, and prescriptive next steps</p>
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div>
+          <h1 className="text-2xl font-extrabold text-theme-text flex items-center gap-2">
+            <span>AI Progress Tracker</span>
+            <span className="text-xs px-2.5 py-0.5 rounded-full font-bold bg-blue-500/15 text-blue-500 dark:text-cyan-400 border border-blue-500/30">
+              Live Copilot
+            </span>
+          </h1>
+          <p className="text-sm text-theme-muted mt-0.5">
+            Automated progress synthesis, real-time telemetry Q&A, and explainable success score breakdowns
+          </p>
+        </div>
+
+        {/* Live Status Indicator */}
+        <div className="flex items-center gap-2 self-start sm:self-auto">
+          <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-theme-surface border border-theme-border text-xs font-semibold text-theme-text shadow-xs">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+            <span>Telemetry Live</span>
+          </div>
+        </div>
       </div>
 
       {/* Tabs */}
       <div className="flex flex-wrap gap-2 border-b border-theme-border pb-3">
         {[
+          { id: 'live-copilot', label: '⚡ Ask Elara AI (Live Copilot)' },
           { id: 'weekly', label: 'Weekly Report' },
           { id: 'monthly', label: 'Monthly Report' },
           { id: 'recommendations', label: 'Actionable Recommendations' },
@@ -54,6 +78,79 @@ export function StudentProgressTrackerPage() {
           </button>
         ))}
       </div>
+
+      {/* TAB 0: LIVE ELARA AI COPILOT (ChatGPT & Claude Interactive Mode) */}
+      {activeTab === 'live-copilot' && (
+        <div className="space-y-6 animate-fade-in">
+          {/* Top Live Telemetry Quick Bar */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div className="p-3.5 rounded-2xl bg-theme-surface border border-theme-border flex items-center justify-between shadow-xs">
+              <div>
+                <span className="text-[10px] font-bold text-theme-muted uppercase tracking-wider block">
+                  Overall Attendance
+                </span>
+                <span className="text-xl font-black text-theme-text mt-0.5 block">
+                  {s.overall_attendance ?? (s as any).attendance?.overall_attendance ?? 78}%
+                </span>
+                <span className="text-[10px] text-blue-500 font-semibold">Min 75% Threshold</span>
+              </div>
+              <div className="w-8 h-8 rounded-xl bg-blue-500/15 text-blue-500 border border-blue-500/30 flex items-center justify-center">
+                <Calendar className="w-4 h-4" />
+              </div>
+            </div>
+
+            <div className="p-3.5 rounded-2xl bg-theme-surface border border-theme-border flex items-center justify-between shadow-xs">
+              <div>
+                <span className="text-[10px] font-bold text-theme-muted uppercase tracking-wider block">
+                  Current CGPA
+                </span>
+                <span className="text-xl font-black text-theme-text mt-0.5 block">
+                  {(s.cgpa ?? (s as any).academic?.cgpa ?? 7.85).toFixed(2)}
+                </span>
+                <span className="text-[10px] text-emerald-500 font-semibold">Top 18% Department</span>
+              </div>
+              <div className="w-8 h-8 rounded-xl bg-emerald-500/15 text-emerald-500 border border-emerald-500/30 flex items-center justify-center">
+                <Award className="w-4 h-4" />
+              </div>
+            </div>
+
+            <div className="p-3.5 rounded-2xl bg-theme-surface border border-theme-border flex items-center justify-between shadow-xs">
+              <div>
+                <span className="text-[10px] font-bold text-theme-muted uppercase tracking-wider block">
+                  Exam Standing
+                </span>
+                <span className="text-xl font-black text-emerald-500 mt-0.5 block">
+                  Good Standing
+                </span>
+                <span className="text-[10px] text-theme-muted font-semibold">0 Backlogs Active</span>
+              </div>
+              <div className="w-8 h-8 rounded-xl bg-emerald-500/15 text-emerald-500 border border-emerald-500/30 flex items-center justify-center">
+                <CheckCircle2 className="w-4 h-4" />
+              </div>
+            </div>
+
+            <div className="p-3.5 rounded-2xl bg-theme-surface border border-theme-border flex items-center justify-between shadow-xs">
+              <div>
+                <span className="text-[10px] font-bold text-theme-muted uppercase tracking-wider block">
+                  Placement Readiness
+                </span>
+                <span className="text-xl font-black text-cyan-500 mt-0.5 block">
+                  65% (Active)
+                </span>
+                <span className="text-[10px] text-cyan-500 font-semibold">Tier-1 Qualified</span>
+              </div>
+              <div className="w-8 h-8 rounded-xl bg-cyan-500/15 text-cyan-500 border border-cyan-500/30 flex items-center justify-center">
+                <Target className="w-4 h-4" />
+              </div>
+            </div>
+          </div>
+
+          {/* Main 3D AI Assistant Companion Model (WebGL Procedural Orb & Neural Copilot) */}
+          <div className="bento-card p-4 sm:p-6 rounded-[24px] border border-theme-border/80 dark:border-white/10 bg-theme-surface/90 dark:bg-slate-900/60 backdrop-blur-xl shadow-2xl">
+            <OrbBot3D />
+          </div>
+          </div>
+      )}
 
       {/* TAB 1: WEEKLY REPORT */}
       {activeTab === 'weekly' && (

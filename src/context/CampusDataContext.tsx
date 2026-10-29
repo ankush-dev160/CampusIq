@@ -47,7 +47,7 @@ interface CampusDataContextType {
 const CampusDataContext = createContext<CampusDataContextType | undefined>(undefined);
 
 const STORAGE_KEYS = {
-  STUDENTS: 'edupulse_students_v2',
+  STUDENTS: 'edupulse_students_v3',
   INTERVENTIONS: 'edupulse_interventions_v1',
   WEIGHTS: 'edupulse_weights_v1',
   ACAD_THRESH: 'edupulse_acad_thresh_v1',

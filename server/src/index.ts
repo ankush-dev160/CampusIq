@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 app.get('/api/health', (_req, res) => {
   res.json({
     status: 'ok',
-    service: 'EduPulse Server',
+    service: 'CampusIQ Server',
     timestamp: new Date().toISOString()
   });
 });
@@ -29,6 +29,6 @@ app.get('/api/health', (_req, res) => {
 app.use('/api/placement', placementRoutes);
 
 app.listen(PORT, () => {
-  console.log(`EduPulse Express API Server running on http://localhost:${PORT}`);
+  console.log(`CampusIQ Express API Server running on http://localhost:${PORT}`);
   console.log(`Placement routes available at http://localhost:${PORT}/api/placement`);
 });

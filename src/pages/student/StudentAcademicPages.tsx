@@ -148,21 +148,26 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
   const [placementAttempts, setPlacementAttempts] = useState<StudentAttemptsSummary | null>(null);
 
-  const s = useStudentRecord();
+  const sRecord = useStudentRecord();
+  const s = sRecord || DEMO_STUDENT;
 
   useEffect(() => {
     let active = true;
-    const studentId = s.roll_no || s.id;
+    const studentId = s?.roll_no || s?.id || DEMO_STUDENT.id;
     fetchStudentAttempts(studentId)
       .then(res => { if (active) setPlacementAttempts(res); })
       .catch(() => {});
     return () => { active = false; };
   }, [s]);
 
-  const bestSem  = s.sgpa_history.reduce((a, b) => a.sgpa > b.sgpa ? a : b);
-  const worstSem = s.sgpa_history.reduce((a, b) => a.sgpa < b.sgpa ? a : b);
-  const strongSub = [...s.subjects].sort((a, b) => b.internal_pct - a.internal_pct)[0];
-  const weakSub   = [...s.subjects].sort((a, b) => a.internal_pct - b.internal_pct)[0];
+  const sgpaHistory = Array.isArray(s?.sgpa_history) && s.sgpa_history.length > 0 ? s.sgpa_history : DEMO_STUDENT.sgpa_history;
+  const subjectsList = Array.isArray(s?.subjects) && s.subjects.length > 0 ? s.subjects : DEMO_STUDENT.subjects;
+  const bestSem  = sgpaHistory.reduce((a, b) => (a?.sgpa ?? 0) > (b?.sgpa ?? 0) ? a : b, sgpaHistory[0]);
+  const worstSem = sgpaHistory.reduce((a, b) => (a?.sgpa ?? 0) < (b?.sgpa ?? 0) ? a : b, sgpaHistory[0]);
+  const strongSub = [...subjectsList].sort((a, b) => (b?.internal_pct ?? 0) - (a?.internal_pct ?? 0))[0] || DEMO_STUDENT.subjects[0];
+  const weakSub   = [...subjectsList].sort((a, b) => (a?.internal_pct ?? 0) - (b?.internal_pct ?? 0))[0] || DEMO_STUDENT.subjects[1];
+  const overallAtt = s?.overall_attendance ?? (s as any)?.attendance?.overall_attendance ?? 82;
+  const lowestSubject = [...(s?.subject_attendance || [])].sort((a, b) => (a?.pct ?? 0) - (b?.pct ?? 0))[0];
 
   // Build calendar grid for Oct 2025 (starts Wednesday = col 3)
   const daysInOct = 31;
@@ -190,16 +195,20 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
       {/* ─── Editorial Header ─────────────────────────────────────────────────── */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 animate-bento-in">
         <div>
-          <div className="flex items-center gap-2.5">
-            <h1 className="text-2xl sm:text-3xl font-extrabold text-theme-text tracking-tight">
-              Student Cockpit
+          <div className="flex items-center gap-2.5 flex-wrap">
+            <h1 className="text-2xl sm:text-3xl font-extrabold text-theme-text tracking-tight flex items-center gap-2 flex-wrap">
+              <span>Student Cockpit</span>
+              <span className="text-theme-muted font-light">·</span>
+              <span className="bg-gradient-to-r from-blue-500 via-cyan-400 to-indigo-400 bg-clip-text text-transparent">
+                Hello {(s?.name || 'STUDENT').toUpperCase()}
+              </span>
             </h1>
             <span className="text-[10px] font-bold px-2.5 py-0.5 rounded-full bg-blue-500/15 text-blue-400 border border-blue-500/30 shadow-[0_0_12px_rgba(59,130,246,0.2)]">
-              {s.semester}
+              {s?.semester || 'Sem 1'}
             </span>
           </div>
           <p className="text-xs text-theme-muted mt-1">
-            Welcome back, <strong className="text-theme-text font-semibold">{s.name}</strong> · {s.department} · Roll {s.roll_no}
+            Welcome back, <strong className="text-theme-text font-semibold">{s?.name || 'Student'}</strong> · {s?.department || 'Engineering'} · Roll {s?.roll_no || 'N/A'}
           </p>
         </div>
 
@@ -266,13 +275,13 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
                 </defs>
               </svg>
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <span className="text-sm font-extrabold text-theme-text">{s.success_score}</span>
+                <span className="text-sm font-extrabold text-theme-text">{s?.success_score ?? 85}</span>
               </div>
             </div>
 
             <div>
               <div className="text-2xl font-black text-theme-text tracking-tight group-hover:text-blue-400 transition-colors">
-                {s.success_score}<span className="text-xs font-semibold text-theme-muted">/100</span>
+                {s?.success_score ?? 85}<span className="text-xs font-semibold text-theme-muted">/100</span>
               </div>
               <div className="text-[11px] font-bold text-emerald-400 flex items-center gap-1 mt-0.5">
                 <TrendingUp className="w-3 h-3" /> +3 pts vs Sem 4
@@ -311,7 +320,7 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
           <div className="my-2 z-10">
             <div className="flex items-baseline gap-1.5">
               <span className="text-3xl font-black text-theme-text tracking-tight group-hover:text-cyan-400 transition-colors">
-                {s.cgpa.toFixed(2)}
+                {(Number(s?.cgpa) || 7.5).toFixed(2)}
               </span>
               <span className="text-xs text-theme-muted font-bold">/ 10.0</span>
             </div>
@@ -321,7 +330,7 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
               <div className="h-1.5 w-full bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden flex">
                 <div
                   className="h-full bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full transition-all duration-1000"
-                  style={{ width: `${(s.cgpa / 10) * 100}%` }}
+                  style={{ width: `${((Number(s?.cgpa) || 7.5) / 10) * 100}%` }}
                 />
               </div>
               <div className="flex justify-between text-[9px] text-theme-muted font-medium pt-0.5">
@@ -355,12 +364,12 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
             </div>
             <span
               className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${
-                s.overall_attendance >= 75
+                overallAtt >= 75
                   ? 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30'
                   : 'bg-red-500/15 text-red-400 border-red-500/30'
               }`}
             >
-              {s.overall_attendance >= 75 ? 'Safe Standing' : 'Review Required'}
+              {overallAtt >= 75 ? 'Safe Standing' : 'Review Required'}
             </span>
           </div>
 
@@ -380,27 +389,29 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
                   cx="32"
                   cy="32"
                   r="26"
-                  stroke={s.overall_attendance >= 75 ? '#10b981' : '#ef4444'}
+                  stroke={overallAtt >= 75 ? '#10b981' : '#ef4444'}
                   strokeWidth="5"
                   strokeDasharray={163.36}
-                  strokeDashoffset={163.36 * (1 - s.overall_attendance / 100)}
+                  strokeDashoffset={163.36 * (1 - overallAtt / 100)}
                   strokeLinecap="round"
                   fill="none"
                 />
               </svg>
               <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <span className={`text-sm font-extrabold ${s.overall_attendance >= 75 ? 'text-emerald-400' : 'text-red-400'}`}>
-                  {s.overall_attendance}%
+                <span className={`text-sm font-extrabold ${overallAtt >= 75 ? 'text-emerald-400' : 'text-red-400'}`}>
+                  {overallAtt}%
                 </span>
               </div>
             </div>
 
             <div>
               <div className="text-xs font-bold text-theme-text">
-                {s.classes_attended} / {s.classes_conducted} attended
+                {s?.classes_attended ?? 184} / {s?.classes_conducted ?? 220} attended
               </div>
               <p className="text-[10px] text-theme-muted mt-0.5 leading-relaxed">
-                4 classes to restore Networks to 75%
+                {lowestSubject && (lowestSubject.pct ?? 80) < 75 && lowestSubject.conducted && lowestSubject.attended
+                  ? `${Math.max(1, Math.ceil((0.75 * lowestSubject.conducted - lowestSubject.attended) / 0.25))} classes to restore ${lowestSubject.subject} to 75%`
+                  : 'All subjects safely above 75% cutoff'}
               </p>
             </div>
           </div>
@@ -543,7 +554,7 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
           <div className="h-56">
             {perfTab === 'semester' ? (
               <ResponsiveContainer width="100%" height="100%">
-                <LineChart data={s.sgpa_history}>
+                <LineChart data={sgpaHistory}>
                   <CartesianGrid strokeDasharray="3 3" stroke={chartPalette.grid} />
                   <XAxis dataKey="semester" tick={{ fill: chartPalette.text, fontSize: 11 }} />
                   <YAxis domain={[5, 10]} tick={{ fill: chartPalette.text, fontSize: 11 }} />
@@ -713,38 +724,38 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
             </div>
 
             {/* Selected day roster detail */}
-            {selectedDate && DAY_LECTURES[selectedDate] && (
+            {selectedDate && (
               <div className="mt-3 space-y-2 border-t border-theme-border/60 dark:border-white/10 pt-3">
                 <p className="text-xs font-bold text-theme-text flex items-center gap-1.5">
                   <Clock className="w-3.5 h-3.5 text-cyan-400" />
                   <span>Roster for {selectedDate}</span>
                 </p>
-                {DAY_LECTURES[selectedDate].map((lec, i) => (
-                  <div
-                    key={i}
-                    className="flex items-center justify-between text-xs p-2 rounded-xl bg-theme-secondary/40 border border-theme-border/60 dark:border-white/5"
-                  >
-                    <div>
-                      <span className="font-semibold text-theme-text block text-[11px]">{lec.subject}</span>
-                      <span className="text-[9.5px] text-theme-muted">{lec.time} · {lec.faculty}</span>
-                    </div>
-                    <span
-                      className={`text-[9.5px] font-bold px-2 py-0.5 rounded-full ${
-                        lec.status === 'Present'
-                          ? 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/30'
-                          : 'bg-red-500/15 text-red-400 border border-red-500/30'
-                      }`}
+                {(s?.subjects || DEMO_STUDENT.subjects).slice(0, 4).map((sub: any, i: number) => {
+                  const times = ['09:00–10:00', '10:15–11:15', '11:30–12:30', '14:00–15:00'];
+                  const dayNum = parseInt(selectedDate.split('-')[2], 10);
+                  const status = (i === 1 && dayStatus(dayNum) === 'absent') ? 'Absent' : 'Present';
+                  return (
+                    <div
+                      key={sub.code || i}
+                      className="flex items-center justify-between text-xs p-2 rounded-xl bg-theme-secondary/40 border border-theme-border/60 dark:border-white/5"
                     >
-                      {lec.status}
-                    </span>
-                  </div>
-                ))}
+                      <div>
+                        <span className="font-semibold text-theme-text block text-[11px]">{sub.name}</span>
+                        <span className="text-[9.5px] text-theme-muted">{times[i]} · {sub.faculty}</span>
+                      </div>
+                      <span
+                        className={`text-[9.5px] font-bold px-2 py-0.5 rounded-full ${
+                          status === 'Present'
+                            ? 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/30'
+                            : 'bg-red-500/15 text-red-400 border border-red-500/30'
+                        }`}
+                      >
+                        {status}
+                      </span>
+                    </div>
+                  );
+                })}
               </div>
-            )}
-            {selectedDate && !DAY_LECTURES[selectedDate] && (
-              <p className="text-xs text-theme-muted mt-3 border-t border-theme-border/60 dark:border-white/10 pt-2">
-                No lecture detail recorded for this date.
-              </p>
             )}
           </div>
         </div>
@@ -773,25 +784,25 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
-                {ASSESSMENT_HISTORY.slice(0, 5).map((a, i) => (
+                {(s?.subjects || DEMO_STUDENT.subjects).slice(0, 5).map((sub: any, i: number) => (
                   <div
-                    key={i}
+                    key={sub.code || i}
                     className="flex items-center justify-between gap-3 p-2.5 rounded-xl bg-theme-secondary/40 border border-theme-border/60 dark:border-white/5 hover:border-blue-500/30 transition-colors"
                   >
                     <div className="min-w-0">
-                      <p className="text-xs font-semibold text-theme-text truncate">{a.subject}</p>
-                      <p className="text-[10px] text-theme-muted">{a.type} · {a.date}</p>
+                      <p className="text-xs font-semibold text-theme-text truncate">{sub.name}</p>
+                      <p className="text-[10px] text-theme-muted">Internal Evaluation · {sub.faculty}</p>
                     </div>
                     <span
                       className={`text-[11px] font-bold px-2.5 py-1 rounded-full flex-shrink-0 ${
-                        a.pct >= 85
+                        sub.internal_pct >= 80
                           ? 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/30'
-                          : a.pct >= 70
+                          : sub.internal_pct >= 65
                           ? 'bg-cyan-500/15 text-cyan-400 border border-cyan-500/30'
                           : 'bg-amber-500/15 text-amber-400 border border-amber-500/30'
                       }`}
                     >
-                      {a.score}/{a.max} ({a.pct}%)
+                      {sub.internal_pct}% (Grade {sub.grade})
                     </span>
                   </div>
                 ))}
@@ -799,32 +810,66 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
             </div>
 
             {/* Right: Actionable Warning Banner */}
-            <div className="lg:w-80 flex-shrink-0 p-3.5 rounded-2xl bg-red-500/10 border border-red-500/20 flex flex-col justify-between">
-              <div className="flex items-start gap-2.5">
-                <AlertTriangle className="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" />
-                <div className="text-[11px] text-red-300 leading-relaxed">
-                  <strong className="text-red-400 font-bold block mb-0.5">Priority Attendance Action</strong>
-                  Computer Networks is at <strong>71% attendance</strong>. Attending the next 4 scheduled lectures restores safe eligibility.
+            {lowestSubject && lowestSubject.pct < 75 ? (
+              <div className="lg:w-80 flex-shrink-0 p-3.5 rounded-2xl bg-red-500/10 border border-red-500/20 flex flex-col justify-between">
+                <div className="flex items-start gap-2.5">
+                  <AlertTriangle className="w-4 h-4 text-red-400 flex-shrink-0 mt-0.5" />
+                  <div className="text-[11px] text-red-300 leading-relaxed">
+                    <strong className="text-red-400 font-bold block mb-0.5">Priority Attendance Action</strong>
+                    {lowestSubject.subject} is at <strong>{lowestSubject.pct}% attendance</strong>. Attending scheduled lectures restores safe eligibility.
+                  </div>
                 </div>
+                <button
+                  onClick={() => onNavigate?.('attendance')}
+                  className="mt-3 text-[11px] font-bold text-red-400 hover:text-red-300 transition-colors flex items-center justify-end gap-1"
+                >
+                  <span>View Attendance Details</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </button>
               </div>
-              <button
-                onClick={() => onNavigate?.('attendance')}
-                className="mt-3 text-[11px] font-bold text-red-400 hover:text-red-300 transition-colors flex items-center justify-end gap-1"
-              >
-                <span>View Attendance Details</span>
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
-            </div>
+            ) : (
+              <div className="lg:w-80 flex-shrink-0 p-3.5 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex flex-col justify-between">
+                <div className="flex items-start gap-2.5">
+                  <CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
+                  <div className="text-[11px] text-emerald-300 leading-relaxed">
+                    <strong className="text-emerald-400 font-bold block mb-0.5">Attendance Safe Standing</strong>
+                    All enrolled subjects are currently above the mandatory 75% attendance cutoff. Good consistency!
+                  </div>
+                </div>
+                <button
+                  onClick={() => onNavigate?.('attendance')}
+                  className="mt-3 text-[11px] font-bold text-emerald-400 hover:text-emerald-300 transition-colors flex items-center justify-end gap-1"
+                >
+                  <span>View Attendance Summary</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </button>
+              </div>
+            )}
           </div>
         </div>
 
 
-        {/* ── BOTTOM ROW: 4 x 1x1 SQUARE SNAPSHOT CARDS ─────────────────────────── */}
+        {/* ── QUICK STATS SECTION (Below Assessment Feed) ── */}
+        <div className="col-span-12 flex items-center justify-between pt-3 pb-1">
+          <div className="flex items-center gap-2">
+            <div className="w-1.5 h-4 rounded-full bg-blue-500" />
+            <h2 className="text-sm font-extrabold text-theme-text tracking-tight uppercase flex items-center gap-1.5">
+              <Zap className="w-3.5 h-3.5 text-amber-400" />
+              <span>Quick Stats</span>
+            </h2>
+            <span className="text-xs text-theme-muted hidden sm:inline">
+              · Real-time academic, attendance & milestone telemetry
+            </span>
+          </div>
+          <span className="text-[10px] font-semibold text-theme-muted bg-theme-surface/70 px-2.5 py-0.5 rounded-full border border-theme-border">
+            Instant Snapshot
+          </span>
+        </div>
 
-        {/* Square Snapshot 1: Top Course */}
+        {/* Quick Stat Box 1: Top Course */}
         <div
           style={{ animationDelay: '450ms' }}
-          className="col-span-12 sm:col-span-6 lg:col-span-3 bento-card p-5 bg-theme-surface/80 dark:bg-slate-900/60 backdrop-blur-xl border border-theme-border/80 dark:border-white/10 rounded-[22px] flex flex-col justify-between animate-bento-in"
+          className="col-span-12 sm:col-span-6 lg:col-span-3 bento-card p-5 bg-theme-surface/80 dark:bg-slate-900/60 backdrop-blur-xl border border-theme-border/80 dark:border-white/10 rounded-[22px] flex flex-col justify-between animate-bento-in hover:border-amber-500/40 transition-colors"
         >
           <div className="flex items-center justify-between">
             <div className="w-8 h-8 rounded-xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400">
@@ -844,10 +889,10 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
           </div>
         </div>
 
-        {/* Square Snapshot 2: Priority Focus */}
+        {/* Quick Stat Box 2: Priority Focus */}
         <div
           style={{ animationDelay: '500ms' }}
-          className="col-span-12 sm:col-span-6 lg:col-span-3 bento-card p-5 bg-theme-surface/80 dark:bg-slate-900/60 backdrop-blur-xl border border-theme-border/80 dark:border-white/10 rounded-[22px] flex flex-col justify-between animate-bento-in"
+          className="col-span-12 sm:col-span-6 lg:col-span-3 bento-card p-5 bg-theme-surface/80 dark:bg-slate-900/60 backdrop-blur-xl border border-theme-border/80 dark:border-white/10 rounded-[22px] flex flex-col justify-between animate-bento-in hover:border-red-500/40 transition-colors"
         >
           <div className="flex items-center justify-between">
             <div className="w-8 h-8 rounded-xl bg-red-500/15 border border-red-500/30 flex items-center justify-center text-red-400">
@@ -867,10 +912,10 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
           </div>
         </div>
 
-        {/* Square Snapshot 3: Peak SGPA Record */}
+        {/* Quick Stat Box 3: Peak SGPA Record */}
         <div
           style={{ animationDelay: '550ms' }}
-          className="col-span-12 sm:col-span-6 lg:col-span-3 bento-card p-5 bg-theme-surface/80 dark:bg-slate-900/60 backdrop-blur-xl border border-theme-border/80 dark:border-white/10 rounded-[22px] flex flex-col justify-between animate-bento-in"
+          className="col-span-12 sm:col-span-6 lg:col-span-3 bento-card p-5 bg-theme-surface/80 dark:bg-slate-900/60 backdrop-blur-xl border border-theme-border/80 dark:border-white/10 rounded-[22px] flex flex-col justify-between animate-bento-in hover:border-emerald-500/40 transition-colors"
         >
           <div className="flex items-center justify-between">
             <div className="w-8 h-8 rounded-xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
@@ -881,7 +926,7 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
             </span>
           </div>
           <div className="my-2">
-            <div className="text-3xl font-black text-emerald-400">{bestSem.sgpa.toFixed(2)}</div>
+            <div className="text-3xl font-black text-emerald-400">{(Number(bestSem?.sgpa) || 7.5).toFixed(2)}</div>
             <div className="text-xs font-semibold text-theme-text mt-0.5">Highest Semester Record</div>
             <div className="text-[10px] text-theme-muted mt-0.5">{bestSem.semester} Milestone</div>
           </div>
@@ -890,26 +935,36 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
           </div>
         </div>
 
-        {/* Square Snapshot 4: Lowest Semester Benchmark */}
+        {/* Quick Stat Box 4: Attendance Health & Standing */}
         <div
           style={{ animationDelay: '600ms' }}
-          className="col-span-12 sm:col-span-6 lg:col-span-3 bento-card p-5 bg-theme-surface/80 dark:bg-slate-900/60 backdrop-blur-xl border border-theme-border/80 dark:border-white/10 rounded-[22px] flex flex-col justify-between animate-bento-in"
+          className="col-span-12 sm:col-span-6 lg:col-span-3 bento-card p-5 bg-theme-surface/80 dark:bg-slate-900/60 backdrop-blur-xl border border-theme-border/80 dark:border-white/10 rounded-[22px] flex flex-col justify-between animate-bento-in hover:border-blue-500/40 transition-colors"
         >
           <div className="flex items-center justify-between">
-            <div className="w-8 h-8 rounded-xl bg-theme-secondary border border-theme-border flex items-center justify-center text-theme-muted">
-              <Compass className="w-4 h-4" />
+            <div className="w-8 h-8 rounded-xl bg-blue-500/15 border border-blue-500/30 flex items-center justify-center text-blue-400">
+              <CheckCircle2 className="w-4 h-4" />
             </div>
-            <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-theme-secondary text-theme-muted border border-theme-border">
-              Baseline Dip
+            <span
+              className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
+                overallAtt >= 75
+                  ? 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/30'
+                  : 'bg-amber-500/15 text-amber-400 border border-amber-500/30'
+              }`}
+            >
+              {overallAtt >= 75 ? 'Good Standing' : 'Attendance Alert'}
             </span>
           </div>
           <div className="my-2">
-            <div className="text-3xl font-black text-theme-text">{worstSem.sgpa.toFixed(2)}</div>
-            <div className="text-xs font-semibold text-theme-muted mt-0.5">Turnaround Starting Point</div>
-            <div className="text-[10px] text-theme-muted mt-0.5">{worstSem.semester} Milestone</div>
+            <div className="text-3xl font-black text-theme-text">{overallAtt}%</div>
+            <div className="text-xs font-semibold text-theme-text mt-0.5">
+              {overallAtt >= 75 ? 'Cleared for End-Sem Exams' : 'Watchlist (<75% min)'}
+            </div>
+            <div className="text-[10px] text-theme-muted mt-0.5">
+              Target: Maintain &ge; 75% in all courses
+            </div>
           </div>
-          <div className="text-[10px] text-cyan-400 font-semibold">
-            +1.30 SGPA turnaround since S1
+          <div className="text-[10px] text-blue-400 font-semibold flex items-center gap-1">
+            <ShieldCheck className="w-3 h-3" /> Biometric & LMS Synced
           </div>
         </div>
 
@@ -922,13 +977,19 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
 
 export function StudentAnalyticsPage() {
   const { chartPalette } = useTheme();
-  const s = useStudentRecord();
+  const sRecord = useStudentRecord();
+  const s = sRecord || DEMO_STUDENT;
+  const sgpaHist = s?.sgpa_history?.length ? s.sgpa_history : DEMO_STUDENT.sgpa_history;
   const [semFilter, setSemFilter] = useState('All');
 
-  const subjectComparison = s.subjects.map(sub => ({
-    subject: sub.name.split(' ').slice(-1)[0],
-    internals: sub.internal_pct,
-    attendance: s.subject_attendance.find(a => a.subject === sub.name)?.pct ?? 0,
+  // If a specific semester is chosen, get that semester's subjects
+  const filteredRecord = semFilter !== 'All' ? (s as any).semester_records?.[semFilter] : null;
+  const subjects: any[] = filteredRecord?.subjects ?? (s?.subjects?.length ? s.subjects : DEMO_STUDENT.subjects) ?? [];
+  const subAttendance = s?.subject_attendance?.length ? s.subject_attendance : DEMO_STUDENT.subject_attendance;
+  const subjectComparison = subjects.map((sub: any) => ({
+    subject: (sub?.name || '').length > 20 ? (sub?.code || sub?.name?.slice(0, 15) || 'Subject') : (sub?.name || 'Subject'),
+    internals: sub?.internal_pct ?? 75,
+    attendance: subAttendance.find(a => a?.subject === sub?.name)?.pct ?? (filteredRecord?.attendance || 82),
   }));
 
   const monthDelta = MONTHLY_MARKS.map((m, i) => ({
@@ -937,11 +998,33 @@ export function StudentAnalyticsPage() {
     delta: i === 0 ? 0 : m.marks - MONTHLY_MARKS[i - 1].marks,
   }));
 
+  // Dynamic risk indicators based on actual student data
+  const lowAttSubjects = (subAttendance || []).filter(a => a && typeof a.pct === 'number' && a.pct < 75);
+  const lowInternalSubjects = (subjects || []).filter((sub: any) => sub && typeof sub.internal_pct === 'number' && sub.internal_pct < 65);
   const riskIndicators = [
-    { label: 'Computer Networks attendance below 75%', level: 'High' as const, note: 'Currently 71%' },
-    { label: 'Software Engineering attendance below 75%', level: 'High' as const, note: 'Currently 71%' },
-    { label: 'Coding score (58/100) below placement threshold', level: 'Watch' as const, note: 'Target ≥65' },
+    ...(lowAttSubjects.map(a => ({
+      label: `${a.subject} attendance below 75%`,
+      level: 'High' as const,
+      note: `Currently ${a.pct}%`
+    }))),
+    ...(lowInternalSubjects.map((sub: any) => ({
+      label: `${sub.name} internal score needs attention`,
+      level: 'Watch' as const,
+      note: `Currently ${sub.internal_pct}%`
+    }))),
+    ...(s.coding_score < 65 ? [{
+      label: `Coding score (${s.coding_score}/100) below placement threshold`,
+      level: 'Watch' as const,
+      note: 'Target ≥65'
+    }] : []),
   ];
+  if (riskIndicators.length === 0) {
+    riskIndicators.push({
+      label: 'All registered courses meet institutional standards',
+      level: 'Safe' as any,
+      note: 'Nominal standing'
+    });
+  }
 
   return (
     <div className="space-y-6">
@@ -951,8 +1034,8 @@ export function StudentAnalyticsPage() {
       </div>
 
       {/* Filters */}
-      <div className="flex flex-wrap gap-3">
-        {['All','Sem 3','Sem 4','Sem 5'].map(v => (
+      <div className="flex flex-wrap gap-2">
+        {['All', ...sgpaHist.map(h => h.semester)].map(v => (
           <button key={v} onClick={() => setSemFilter(v)}
             className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all ${semFilter === v ? 'btn-primary' : 'bg-theme-secondary text-theme-muted border border-theme-border hover:text-theme-text'}`}>
             {v}
@@ -964,7 +1047,7 @@ export function StudentAnalyticsPage() {
         {/* SGPA trend */}
         <SectionCard title="SGPA Trend">
           <ResponsiveContainer width="100%" height={220}>
-            <LineChart data={s.sgpa_history}>
+            <LineChart data={sgpaHist}>
               <CartesianGrid strokeDasharray="3 3" stroke={chartPalette.grid} />
               <XAxis dataKey="semester" tick={{ fill: chartPalette.text, fontSize: 11 }} />
               <YAxis domain={[5, 10]} tick={{ fill: chartPalette.text, fontSize: 11 }} />
@@ -1049,9 +1132,40 @@ export function StudentAnalyticsPage() {
 
 export function StudentPerformancePage() {
   const { chartPalette } = useTheme();
-  const s = useStudentRecord();
-  const [selSem, setSelSem] = useState('Sem 5');
-  const curSgpa = s.sgpa_history.find(h => h.semester === selSem)?.sgpa ?? 0;
+  const sRecord = useStudentRecord();
+  const s = sRecord || DEMO_STUDENT;
+  const sgpaHist = Array.isArray(s?.sgpa_history) && s.sgpa_history.length > 0
+    ? s.sgpa_history
+    : DEMO_STUDENT.sgpa_history;
+  const defaultSem = s?.semester || sgpaHist[sgpaHist.length - 1]?.semester || 'Sem 1';
+  const [selSem, setSelSem] = useState(defaultSem);
+
+  useEffect(() => {
+    if (s?.semester) setSelSem(s.semester);
+  }, [s?.semester]);
+
+  const curRecord = (s as any)?.semester_records?.[selSem];
+  const curSgpaRaw = curRecord?.sgpa ?? sgpaHist.find(h => h.semester === selSem)?.sgpa ?? (sgpaHist[0]?.sgpa ?? 7.5);
+  const curSgpa = typeof curSgpaRaw === 'number' ? curSgpaRaw : Number(curSgpaRaw) || 7.5;
+  const curCredits = curRecord?.credits ?? 20;
+  const curBacklogs = curRecord?.backlogs ?? s?.backlogs ?? 0;
+  
+  const curSubjects: any[] = Array.isArray(curRecord?.subjects) && curRecord.subjects.length > 0
+    ? curRecord.subjects
+    : Array.isArray(s?.subjects) && s.subjects.length > 0
+    ? s.subjects
+    : (DEMO_STUDENT.subjects || []);
+
+  const cgpaVal = typeof s?.cgpa === 'number' ? s.cgpa : Number(s?.cgpa) || curSgpa || 7.5;
+  const internalVal = s?.internal_marks ?? 78;
+
+  const validHist = sgpaHist.filter(h => h && (typeof h.sgpa === 'number' || !isNaN(Number(h.sgpa))));
+  const bestRecord = validHist.length > 0
+    ? validHist.reduce((a, b) => ((Number(a.sgpa) || 0) > (Number(b.sgpa) || 0) ? a : b), validHist[0])
+    : { semester: selSem, sgpa: curSgpa };
+  const lowestRecord = validHist.length > 0
+    ? validHist.reduce((a, b) => ((Number(a.sgpa) || 0) < (Number(b.sgpa) || 0) ? a : b), validHist[0])
+    : { semester: selSem, sgpa: curSgpa };
 
   return (
     <div className="space-y-6">
@@ -1062,15 +1176,15 @@ export function StudentPerformancePage() {
 
       {/* Summary cards */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <MetricTile label="CGPA (Overall)" value={s.cgpa.toFixed(2)} accent="text-theme-accent" />
-        <MetricTile label={`SGPA (${selSem})`} value={curSgpa.toFixed(2)} accent="text-theme-accent" />
-        <MetricTile label="Internal Avg" value={`${s.internal_marks}%`} accent="text-emerald-400" />
-        <MetricTile label="Active Backlogs" value={s.backlogs} accent={s.backlogs > 0 ? 'text-red-400' : 'text-emerald-400'} sub={s.backlogs === 0 ? 'Clear!' : 'Subjects with backlog'} />
+        <MetricTile label="CGPA (Overall)" value={cgpaVal.toFixed(2)} accent="text-theme-accent" />
+        <MetricTile label={`SGPA (${selSem})`} value={curSgpa.toFixed(2)} accent="text-theme-accent" sub={`${curCredits} Credits`} />
+        <MetricTile label="Internal Avg" value={`${internalVal}%`} accent="text-emerald-400" />
+        <MetricTile label={`Active Backlogs (${selSem})`} value={curBacklogs} accent={curBacklogs > 0 ? 'text-red-400' : 'text-emerald-400'} sub={curBacklogs === 0 ? 'Clear!' : 'Subjects with backlog'} />
       </div>
 
       {/* Semester selector */}
       <div className="flex gap-2 flex-wrap">
-        {s.sgpa_history.map(h => (
+        {validHist.map(h => (
           <button key={h.semester} onClick={() => setSelSem(h.semester)}
             className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all ${selSem === h.semester ? 'btn-primary' : 'bg-theme-secondary text-theme-muted border border-theme-border hover:text-theme-text'}`}>
             {h.semester}
@@ -1079,55 +1193,66 @@ export function StudentPerformancePage() {
       </div>
 
       {/* SGPA bar chart */}
-      <SectionCard title="Semester SGPA">
+      <SectionCard title="Semester SGPA Progression">
         <div className="flex items-end gap-2 h-32">
-          {s.sgpa_history.map(h => {
-            const pct = ((h.sgpa - 5) / 5) * 100;
+          {validHist.map(h => {
+            const hSgpa = Number(h.sgpa) || 7.0;
+            const pct = ((hSgpa - 5) / 5) * 100;
             const isSelected = h.semester === selSem;
             return (
-              <div key={h.semester} className="flex flex-col items-center gap-1 flex-1">
-                <span className="text-xs font-bold text-theme-text">{h.sgpa.toFixed(1)}</span>
+              <div key={h.semester} onClick={() => setSelSem(h.semester)} className="flex flex-col items-center gap-1 flex-1 cursor-pointer group">
+                <span className={`text-xs font-bold transition-colors ${isSelected ? 'text-theme-accent' : 'text-theme-text group-hover:text-theme-accent'}`}>
+                  {hSgpa.toFixed(2)}
+                </span>
                 <div className="w-full relative" style={{ height: `${Math.max(pct, 10)}%` }}>
                   <div
-                    className={`absolute inset-0 rounded-t-lg transition-all ${isSelected ? 'opacity-100 ring-2 ring-theme-accent' : 'opacity-40'}`}
+                    className={`absolute inset-0 rounded-t-lg transition-all ${isSelected ? 'opacity-100 ring-2 ring-theme-accent shadow-[0_0_12px_rgba(59,130,246,0.5)]' : 'opacity-40 group-hover:opacity-75'}`}
                     style={{ backgroundColor: chartPalette.accent }}
                   />
                 </div>
-                <span className="text-[10px] text-theme-muted">{h.semester.replace('Sem ','S')}</span>
+                <span className={`text-[10px] ${isSelected ? 'text-theme-accent font-bold' : 'text-theme-muted'}`}>
+                  {h.semester.replace('Sem ','S')}
+                </span>
               </div>
             );
           })}
         </div>
-        <p className="text-xs text-theme-muted">Best: {s.sgpa_history.reduce((a,b)=>a.sgpa>b.sgpa?a:b).semester} · Lowest: {s.sgpa_history.reduce((a,b)=>a.sgpa<b.sgpa?a:b).semester}</p>
+        <p className="text-xs text-theme-muted">
+          Best: {bestRecord.semester} ({(Number(bestRecord.sgpa) || 7.0).toFixed(2)}) · 
+          Lowest: {lowestRecord.semester} ({(Number(lowestRecord.sgpa) || 7.0).toFixed(2)})
+        </p>
       </SectionCard>
 
       {/* Subject table */}
-      <SectionCard title="Subject Performance — Sem 5">
+      <SectionCard title={`Subject Performance — ${selSem}`}>
         <div className="overflow-x-auto">
           <table className="w-full text-xs">
             <thead>
               <tr className="border-b border-theme-border text-theme-muted">
-                {['Subject','Test 1','Test 2','Assignment','Practical','Internal %','Grade','Status'].map(h => (
+                {['Code', 'Subject', 'Credits', 'Faculty', 'Test 1', 'Test 2', 'Assignment', 'Practical', 'Internal %', 'Grade', 'Status'].map(h => (
                   <th key={h} className="text-left py-2 px-2 font-semibold">{h}</th>
                 ))}
               </tr>
             </thead>
             <tbody>
-              {s.subjects.map((sub, i) => (
-                <tr key={i} className="border-b border-theme-border/50 hover:bg-theme-secondary/40 transition-colors">
-                  <td className="py-2.5 px-2 font-semibold text-theme-text">{sub.name}</td>
-                  <td className="py-2.5 px-2 text-theme-muted">{sub.test1}/20</td>
-                  <td className="py-2.5 px-2 text-theme-muted">{sub.test2}/20</td>
-                  <td className="py-2.5 px-2 text-theme-muted">{sub.assignment}/10</td>
-                  <td className="py-2.5 px-2 text-theme-muted">{sub.practical}/25</td>
-                  <td className="py-2.5 px-2 font-bold text-theme-text">{sub.internal_pct}%</td>
+              {curSubjects.map((sub: any, i: number) => (
+                <tr key={sub?.code || i} className="border-b border-theme-border/50 hover:bg-theme-secondary/40 transition-colors">
+                  <td className="py-2.5 px-2 font-mono text-[11px] font-bold text-theme-accent">{sub?.code || `SUB${i+1}`}</td>
+                  <td className="py-2.5 px-2 font-semibold text-theme-text">{sub?.name || 'Subject'}</td>
+                  <td className="py-2.5 px-2 text-theme-muted">{sub?.credits || 4}</td>
+                  <td className="py-2.5 px-2 text-theme-muted text-[11px]">{sub?.faculty || 'Faculty Instructor'}</td>
+                  <td className="py-2.5 px-2 text-theme-muted">{sub?.test1 ?? 16}/20</td>
+                  <td className="py-2.5 px-2 text-theme-muted">{sub?.test2 ?? 16}/20</td>
+                  <td className="py-2.5 px-2 text-theme-muted">{sub?.assignment ?? 8}/10</td>
+                  <td className="py-2.5 px-2 text-theme-muted">{sub?.practical ?? 21}/25</td>
+                  <td className="py-2.5 px-2 font-bold text-theme-text">{sub?.internal_pct ?? 78}%</td>
                   <td className="py-2.5 px-2">
-                    <span className="px-2 py-0.5 rounded bg-theme-accent/15 text-theme-accent font-bold">{sub.grade}</span>
+                    <span className="px-2 py-0.5 rounded bg-theme-accent/15 text-theme-accent font-bold">{sub?.grade || 'A'}</span>
                     <span className="text-[9px] text-theme-muted ml-1">(provisional)</span>
                   </td>
                   <td className="py-2.5 px-2">
-                    <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${sub.status==='Safe' ? 'bg-emerald-500/15 text-emerald-400' : 'bg-amber-500/15 text-amber-400'}`}>
-                      {sub.status}
+                    <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${(sub?.status || 'Safe') === 'Safe' ? 'bg-emerald-500/15 text-emerald-400' : 'bg-amber-500/15 text-amber-400'}`}>
+                      {sub?.status || 'Safe'}
                     </span>
                   </td>
                 </tr>
@@ -1138,22 +1263,55 @@ export function StudentPerformancePage() {
       </SectionCard>
 
       {/* Assessment history */}
-      <SectionCard title="Assessment History">
+      <SectionCard title={`Assessment History — ${selSem}`}>
         <div className="space-y-2">
-          {ASSESSMENT_HISTORY.map((a, i) => (
-            <div key={i} className="flex items-center justify-between py-2 border-b border-theme-border/50">
-              <div>
-                <p className="text-xs font-semibold text-theme-text">{a.subject} — {a.type}</p>
-                <p className="text-[10px] text-theme-muted">{a.date}</p>
+          {(() => {
+            const list: any[] = [];
+            (Array.isArray(curSubjects) ? curSubjects : []).forEach((sub: any, idx: number) => {
+              if (!sub) return;
+              list.push(
+                {
+                  date: `2025-10-${String(Math.max(1, 24 - idx * 2)).padStart(2, '0')}`,
+                  subject: sub.name || 'Subject',
+                  type: 'Unit Test 2',
+                  score: sub.test2 ?? 16,
+                  max: 20,
+                  pct: Math.round(((sub.test2 ?? 16) / 20) * 100),
+                },
+                {
+                  date: `2025-10-${String(Math.max(1, 15 - idx * 2)).padStart(2, '0')}`,
+                  subject: sub.name || 'Subject',
+                  type: 'Continuous Assessment / Practical',
+                  score: sub.practical ?? 21,
+                  max: 25,
+                  pct: Math.round(((sub.practical ?? 21) / 25) * 100),
+                },
+                {
+                  date: `2025-09-${String(Math.max(1, 26 - idx * 2)).padStart(2, '0')}`,
+                  subject: sub.name || 'Subject',
+                  type: 'Mid-Term Test 1',
+                  score: sub.test1 ?? 17,
+                  max: 20,
+                  pct: Math.round(((sub.test1 ?? 17) / 20) * 100),
+                }
+              );
+            });
+
+            return list.slice(0, 8).map((a: any, i: number) => (
+              <div key={i} className="flex items-center justify-between py-2 border-b border-theme-border/50">
+                <div>
+                  <p className="text-xs font-semibold text-theme-text">{a.subject} — {a.type}</p>
+                  <p className="text-[10px] text-theme-muted">{a.date}</p>
+                </div>
+                <div className="text-right">
+                  <p className="text-sm font-bold text-theme-text">{a.score}/{a.max}</p>
+                  <span className={`text-[10px] font-bold ${a.pct>=80?'text-emerald-400':a.pct>=60?'text-amber-400':'text-red-400'}`}>
+                    {a.pct}%
+                  </span>
+                </div>
               </div>
-              <div className="text-right">
-                <p className="text-sm font-bold text-theme-text">{a.score}/{a.max}</p>
-                <span className={`text-[10px] font-bold ${a.pct>=80?'text-emerald-400':a.pct>=60?'text-amber-400':'text-red-400'}`}>
-                  {a.pct}%
-                </span>
-              </div>
-            </div>
-          ))}
+            ));
+          })()}
         </div>
       </SectionCard>
     </div>

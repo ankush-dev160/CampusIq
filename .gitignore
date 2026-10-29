@@ -35,3 +35,7 @@ Thumbs.db
 
 # TypeScript cache
 *.tsbuildinfo
+
+# OS and Temp shortcuts
+*.lnk
+backups/

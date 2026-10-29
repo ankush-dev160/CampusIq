@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Users, BookOpen, Calendar, CheckSquare, AlertTriangle, MessageSquare,
   FileSpreadsheet, User, Bell, ChevronDown, LogOut, Menu, X, Save,
-  CheckCircle2, Clock, Send, Download, Sparkles, Filter, Briefcase, ShieldCheck
+  CheckCircle2, Clock, Send, Download, Sparkles, Filter, Briefcase, ShieldCheck,
+  ArrowRight, Plus, Eye, Trash2, FolderOpen, Upload, FileText
 } from 'lucide-react';
 import {
   ResponsiveContainer, BarChart, Bar, LineChart, Line, XAxis, YAxis, Tooltip,
@@ -12,10 +13,21 @@ import {
   DEMO_FACULTY, FACULTY_STUDENTS, DEMO_PROBLEMS, DEMO_STUDENT, ATTENDANCE_CALENDAR_OCT
 } from '../data/portalData';
 import { useTheme } from '../context/ThemeContext';
+import { useCurrentUser } from '../context/CurrentUserContext';
 import { ThemeSwitcher } from '../components/common/ThemeSwitcher';
+import { FacultyAICopilot } from '../components/ai/FacultyAICopilot';
+import {
+  CourseResource,
+  getCourseResources,
+  addCourseResource,
+  deleteCourseResource,
+  downloadResourceFile,
+} from '../data/courseResources';
+import { ResourceViewerModal } from '../components/common/ResourceViewerModal';
 
 export type FacultyPage =
   | 'dashboard'
+  | 'faculty-ai'
   | 'subjects'
   | 'directory'
   | 'attendance-management'
@@ -33,6 +45,7 @@ interface FacultyPortalProps {
 
 const navItems: { id: FacultyPage; label: string; icon: React.ReactNode }[] = [
   { id: 'dashboard', label: 'Faculty Dashboard', icon: <Users className="w-5 h-5" /> },
+  { id: 'faculty-ai', label: 'Faculty AI Copilot', icon: <Sparkles className="w-5 h-5 text-amber-400" /> },
   { id: 'subjects', label: 'My Subjects', icon: <BookOpen className="w-5 h-5" /> },
   { id: 'directory', label: 'Student Directory', icon: <Users className="w-5 h-5" /> },
   { id: 'attendance-management', label: 'Attendance Management', icon: <CheckSquare className="w-5 h-5" /> },
@@ -47,8 +60,12 @@ const navItems: { id: FacultyPage; label: string; icon: React.ReactNode }[] = [
 
 export const FacultyPortal: React.FC<FacultyPortalProps> = ({ onLogout }) => {
   const { chartPalette } = useTheme();
+  const { currentFaculty } = useCurrentUser();
   const [currentPage, setCurrentPage] = useState<FacultyPage>('dashboard');
-  const [selectedFacultyIdx, setSelectedFacultyIdx] = useState(0);
+
+  // Authenticated faculty profile from session (locked to current login)
+  const faculty = currentFaculty || DEMO_FACULTY[0];
+
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [notifOpen, setNotifOpen] = useState(false);
 
@@ -69,7 +86,70 @@ export const FacultyPortal: React.FC<FacultyPortalProps> = ({ onLogout }) => {
   const [replyText, setReplyText] = useState<Record<string, string>>({});
   const [nextStepText, setNextStepText] = useState<Record<string, string>>({});
 
-  const faculty = DEMO_FACULTY[selectedFacultyIdx];
+  // Course exam resources state & synchronization
+  const [courseResources, setCourseResources] = useState<CourseResource[]>([]);
+  const [selectedResource, setSelectedResource] = useState<CourseResource | null>(null);
+  const [isViewerOpen, setIsViewerOpen] = useState(false);
+  const [isUploadModalOpen, setIsUploadModalOpen] = useState(false);
+  const [resourceSuccessMsg, setResourceSuccessMsg] = useState<string | null>(null);
+  const [resourceSubjectFilter, setResourceSubjectFilter] = useState<string>('All');
+
+  // Upload modal form fields
+  const [formTitle, setFormTitle] = useState('');
+  const [formSubject, setFormSubject] = useState('Machine Learning');
+  const [formSubjectCode, setFormSubjectCode] = useState('CS501');
+  const [formCategory, setFormCategory] = useState<'Exam Notes' | 'Question Bank' | 'Formula Sheet' | 'Syllabus Guide'>('Exam Notes');
+  const [formUnits, setFormUnits] = useState('Unit 1, Unit 2, Unit 3');
+  const [formImportance, setFormImportance] = useState<'Official Exam Pack' | 'High Yield' | 'Formula Reference' | 'Standard'>('High Yield');
+  const [formKeyTopics, setFormKeyTopics] = useState('Core concepts, Exam formulas, Model answers');
+  const [formDescription, setFormDescription] = useState('');
+
+  useEffect(() => {
+    const load = () => {
+      setCourseResources(getCourseResources());
+    };
+    load();
+    window.addEventListener('campusiq_resources_updated', load);
+    window.addEventListener('storage', load);
+    return () => {
+      window.removeEventListener('campusiq_resources_updated', load);
+      window.removeEventListener('storage', load);
+    };
+  }, []);
+
+  const handleUploadResource = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!formTitle.trim()) return;
+
+    const newRes = {
+      title: formTitle.trim(),
+      subjectCode: formSubjectCode,
+      subjectName: formSubject,
+      category: formCategory,
+      unitsCovered: formUnits.trim() || 'Units 1 to 5',
+      description: formDescription.trim() || `Official ${formCategory} provided by ${faculty.name} for ${formSubject}.`,
+      fileType: 'PDF' as const,
+      fileSize: `${(Math.random() * 2 + 1.2).toFixed(1)} MB`,
+      uploadedBy: faculty.name,
+      facultyEmail: faculty.email,
+      examImportance: formImportance,
+      keyTopics: formKeyTopics.split(',').map(t => t.trim()).filter(Boolean),
+    };
+
+    addCourseResource(newRes);
+    setResourceSuccessMsg(`Exam resource "${formTitle}" uploaded successfully! Elara AI is now trained to serve this PDF directly to students.`);
+    setTimeout(() => setResourceSuccessMsg(null), 5000);
+
+    setFormTitle('');
+    setFormDescription('');
+    setIsUploadModalOpen(false);
+  };
+
+  const handleDeleteResource = (id: string, title: string) => {
+    if (window.confirm(`Are you sure you want to delete "${title}"? Students and Elara AI will no longer have access to it.`)) {
+      deleteCourseResource(id);
+    }
+  };
 
   const handleToggleAttendance = (roll: string) => {
     setAttendanceRecords(prev => ({
@@ -189,20 +269,15 @@ export const FacultyPortal: React.FC<FacultyPortalProps> = ({ onLogout }) => {
             <Menu className="w-5 h-5" />
           </button>
 
-          {/* Switcher */}
-          <div className="flex items-center gap-2">
-            <span className="text-xs text-theme-muted hidden sm:inline">Logged in as:</span>
-            <select
-              value={selectedFacultyIdx}
-              onChange={e => setSelectedFacultyIdx(Number(e.target.value))}
-              className="bg-theme-secondary border border-theme-border text-xs font-bold text-theme-accent rounded-lg px-3 py-1.5 focus:border-theme-accent outline-none cursor-pointer"
-            >
-              {DEMO_FACULTY.map((f, idx) => (
-                <option key={f.id} value={idx} className="bg-theme-surface text-theme-text">
-                  {f.name} ({f.department})
-                </option>
-              ))}
-            </select>
+          {/* Authenticated Faculty Identity (Read-only, no profile switcher) */}
+          <div className="flex items-center gap-2.5 px-3 py-1.5 rounded-xl bg-theme-secondary/70 border border-theme-border">
+            <div className="w-7 h-7 rounded-lg bg-theme-accent/15 text-theme-accent border border-theme-accent/30 flex items-center justify-center font-bold text-xs">
+              {faculty.name.replace(/^(Dr\.|Prof\.)\s*/, '').charAt(0) || 'F'}
+            </div>
+            <div className="flex flex-col">
+              <span className="text-xs font-bold text-theme-text leading-tight">{faculty.name}</span>
+              <span className="text-[10px] text-theme-muted leading-none">{faculty.department} Department</span>
+            </div>
           </div>
 
           <div className="flex-1" />
@@ -265,6 +340,51 @@ export const FacultyPortal: React.FC<FacultyPortalProps> = ({ onLogout }) => {
                 </div>
               </div>
 
+              {/* Faculty AI Intelligence Hero Card */}
+              <div className="panel border border-amber-500/30 bg-gradient-to-r from-amber-500/10 via-theme-surface to-blue-500/10 p-5 rounded-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-sm">
+                <div className="flex items-start gap-3.5">
+                  <div className="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 border border-amber-500/30 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <Sparkles className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <h3 className="text-sm font-extrabold text-theme-text tracking-tight">
+                        Elara Faculty AI Copilot
+                      </h3>
+                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">
+                        100 Backend Records Synced
+                      </span>
+                    </div>
+                    <p className="text-xs text-theme-muted mt-0.5">
+                      Query real-time backlog lists, attendance debarment rosters, and remedial pedagogical interventions directly from the database.
+                    </p>
+                    <div className="flex flex-wrap gap-2 mt-2.5">
+                      <button
+                        onClick={() => setCurrentPage('faculty-ai')}
+                        className="text-[11px] font-semibold px-2.5 py-1 rounded-lg bg-theme-surface border border-theme-border hover:border-amber-400 text-theme-text hover:text-amber-400 transition-colors flex items-center gap-1"
+                      >
+                        <span>📋 Details of backlog students</span>
+                      </button>
+                      <button
+                        onClick={() => setCurrentPage('faculty-ai')}
+                        className="text-[11px] font-semibold px-2.5 py-1 rounded-lg bg-theme-surface border border-theme-border hover:border-amber-400 text-theme-text hover:text-amber-400 transition-colors flex items-center gap-1"
+                      >
+                        <span>⚠️ Attendance &lt; 75% notice</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  onClick={() => setCurrentPage('faculty-ai')}
+                  className="px-4 py-2.5 rounded-xl btn-primary text-xs font-bold flex items-center gap-2 flex-shrink-0 shadow-md hover:scale-[1.02] active:scale-[0.98] transition-all"
+                >
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span>Launch Faculty AI</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </button>
+              </div>
+
               {/* Trend Chart + Academic Alerts */}
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 <div className="lg:col-span-2 panel border border-theme-border p-5 space-y-4">
@@ -298,44 +418,419 @@ export const FacultyPortal: React.FC<FacultyPortalProps> = ({ onLogout }) => {
             </div>
           )}
 
-          {/* 2. MY SUBJECTS */}
+          {/* FACULTY AI COPILOT */}
+          {currentPage === 'faculty-ai' && <FacultyAICopilot />}
+
+          {/* 2. MY SUBJECTS & EXAM RESOURCE MANAGEMENT */}
           {currentPage === 'subjects' && (
-            <div className="space-y-6">
-              <div>
-                <h1 className="text-2xl font-extrabold text-theme-text">My Subjects</h1>
-                <p className="text-sm text-theme-muted mt-0.5">Assigned courses and cohort rosters for this academic session</p>
+            <div className="space-y-8">
+              {/* Success Notification */}
+              {resourceSuccessMsg && (
+                <div className="p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <CheckCircle2 className="w-4 h-4 shrink-0" />
+                    <span>{resourceSuccessMsg}</span>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setResourceSuccessMsg(null)}
+                    className="text-emerald-400 hover:text-emerald-300"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
+                </div>
+              )}
+
+              {/* Header */}
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div>
+                  <h1 className="text-2xl font-extrabold text-theme-text">My Subjects & Course Materials</h1>
+                  <p className="text-sm text-theme-muted mt-0.5">
+                    Assigned courses and exam study packs synchronized directly with Elara AI & Student Classroom
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setIsUploadModalOpen(true)}
+                  className="btn-primary text-white text-xs font-bold px-4 py-2.5 rounded-xl flex items-center gap-2 shadow-lg shadow-blue-500/20"
+                >
+                  <Plus className="w-4 h-4" />
+                  <span>Upload Exam Material / PDF</span>
+                </button>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {faculty.subjects.map(subj => (
-                  <div key={subj} className="panel border border-theme-border p-6 space-y-4">
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold text-theme-accent bg-theme-accent/15 px-2.5 py-1 rounded border border-theme-accent/30">
-                        Active Course
-                      </span>
-                      <span className="text-xs text-theme-muted">{faculty.students_count} Enrolled</span>
+              {/* Assigned Courses Grid */}
+              <div className="space-y-3">
+                <h2 className="text-sm font-bold text-theme-text uppercase tracking-wider">
+                  Assigned Teaching Cohorts
+                </h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {(faculty?.subjects || []).map(subj => (
+                    <div key={subj} className="panel border border-theme-border p-6 space-y-4">
+                      <div className="flex items-center justify-between">
+                        <span className="text-xs font-bold text-theme-accent bg-theme-accent/15 px-2.5 py-1 rounded border border-theme-accent/30">
+                          Active Course
+                        </span>
+                        <span className="text-xs text-theme-muted">{faculty?.students_count || 54} Enrolled</span>
+                      </div>
+                      <h3 className="text-lg font-bold text-theme-text">{subj}</h3>
+                      <p className="text-xs text-theme-muted">
+                        3 Lecture credits · 1 Lab practical · Department of {faculty?.department || 'Computer Science'}
+                      </p>
+                      <div className="pt-2 flex gap-3">
+                        <button
+                          onClick={() => { setSelectedSubject(subj); setCurrentPage('attendance-management'); }}
+                          className="btn-primary text-white text-xs font-bold px-4 py-2 rounded-xl"
+                        >
+                          Log Attendance
+                        </button>
+                        <button
+                          onClick={() => setCurrentPage('directory')}
+                          className="bg-theme-secondary border border-theme-border text-theme-text text-xs font-bold px-4 py-2 rounded-xl hover:border-theme-accent/50"
+                        >
+                          View Students
+                        </button>
+                      </div>
                     </div>
-                    <h3 className="text-lg font-bold text-theme-text">{subj}</h3>
-                    <p className="text-xs text-theme-muted">
-                      3 Lecture credits · 1 Lab practical · Department of {faculty.department}
-                    </p>
-                    <div className="pt-2 flex gap-3">
-                      <button
-                        onClick={() => { setSelectedSubject(subj); setCurrentPage('attendance-management'); }}
-                        className="btn-primary text-white text-xs font-bold px-4 py-2 rounded-xl"
-                      >
-                        Log Attendance
-                      </button>
-                      <button
-                        onClick={() => setCurrentPage('directory')}
-                        className="bg-theme-secondary border border-theme-border text-theme-text text-xs font-bold px-4 py-2 rounded-xl hover:border-theme-accent/50"
-                      >
-                        View Students
-                      </button>
-                    </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
+
+              {/* Published Course Materials & Exam Study Packs */}
+              <div className="space-y-4 pt-4 border-t border-theme-border">
+                <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
+                  <div>
+                    <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-[11px] font-bold mb-1">
+                      <Sparkles className="w-3 h-3" />
+                      <span>Elara AI Direct Retrieval Engine</span>
+                    </div>
+                    <h2 className="text-lg font-extrabold text-theme-text">
+                      Published Exam Study Packs & Notes
+                    </h2>
+                    <p className="text-xs text-theme-muted">
+                      When students ask Elara AI <em>"Any resources has sir provided for exam?"</em>, these PDFs are delivered immediately.
+                    </p>
+                  </div>
+
+                  {/* Filter chips */}
+                  <div className="flex items-center gap-2 overflow-x-auto pb-1">
+                    <button
+                      type="button"
+                      onClick={() => setResourceSubjectFilter('All')}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 ${
+                        resourceSubjectFilter === 'All'
+                          ? 'bg-blue-600 text-white shadow-sm'
+                          : 'bg-theme-secondary text-theme-muted hover:text-theme-text border border-theme-border'
+                      }`}
+                    >
+                      All Subjects ({courseResources.length})
+                    </button>
+                    {(faculty?.subjects || []).map(subj => {
+                      const count = courseResources.filter(r => (r?.subjectName || '').toLowerCase().includes((subj || '').toLowerCase())).length;
+                      return (
+                        <button
+                          key={subj}
+                          type="button"
+                          onClick={() => setResourceSubjectFilter(subj)}
+                          className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 ${
+                            resourceSubjectFilter === subj
+                              ? 'bg-blue-600 text-white shadow-sm'
+                              : 'bg-theme-secondary text-theme-muted hover:text-theme-text border border-theme-border'
+                          }`}
+                        >
+                          {subj} ({count})
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                {/* Resource List / Grid */}
+                {(() => {
+                  const filtered = resourceSubjectFilter === 'All'
+                    ? courseResources
+                    : courseResources.filter(r => (r?.subjectName || '').toLowerCase().includes((resourceSubjectFilter || '').toLowerCase()));
+
+                  if (filtered.length === 0) {
+                    return (
+                      <div className="panel p-10 border border-dashed border-theme-border text-center flex flex-col items-center justify-center space-y-3">
+                        <FolderOpen className="w-8 h-8 text-cyan-400" />
+                        <h3 className="text-base font-bold text-theme-text">No resources published yet</h3>
+                        <p className="text-xs text-theme-muted max-w-sm">
+                          Click "Upload Exam Material / PDF" to publish syllabus notes, question banks, or formula sheets for your students.
+                        </p>
+                        <button
+                          type="button"
+                          onClick={() => setIsUploadModalOpen(true)}
+                          className="btn-primary text-white text-xs font-bold px-4 py-2 rounded-xl"
+                        >
+                          Upload First Resource
+                        </button>
+                      </div>
+                    );
+                  }
+
+                  return (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {filtered.map(res => (
+                        <div
+                          key={res.id}
+                          className="panel border border-theme-border p-5 flex flex-col justify-between hover:border-theme-accent/40 transition-all bg-theme-elevated/40"
+                        >
+                          <div className="space-y-3">
+                            <div className="flex items-center justify-between gap-2 flex-wrap">
+                              <div className="flex items-center gap-2">
+                                <span className="text-[11px] font-bold px-2 py-0.5 rounded-md bg-blue-500/10 text-blue-400 border border-blue-500/20">
+                                  {res.category}
+                                </span>
+                                <span className="text-[11px] font-semibold px-2 py-0.5 rounded-md bg-purple-500/10 text-purple-400 border border-purple-500/20">
+                                  {res.subjectCode}
+                                </span>
+                              </div>
+                              <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                                {res.examImportance}
+                              </span>
+                            </div>
+
+                            <div>
+                              <h3 className="text-sm font-bold text-theme-text">{res.title}</h3>
+                              <p className="text-xs text-theme-muted mt-1 leading-relaxed">
+                                {res.description}
+                              </p>
+                            </div>
+
+                            <div className="space-y-1.5 pt-1">
+                              <div className="text-[11px] text-theme-muted flex items-center gap-1.5">
+                                <BookOpen className="w-3.5 h-3.5 text-cyan-400 shrink-0" />
+                                <span>Units: <strong className="text-theme-text">{Array.isArray(res.unitsCovered) ? res.unitsCovered.join(', ') : (res.unitsCovered || 'All Units')}</strong></span>
+                              </div>
+                              <div className="flex flex-wrap gap-1">
+                                {(res.keyTopics || []).slice(0, 3).map((topic, i) => (
+                                  <span
+                                    key={i}
+                                    className="text-[10px] font-medium px-2 py-0.5 rounded bg-theme-secondary text-theme-muted border border-theme-border/60"
+                                  >
+                                    #{topic}
+                                  </span>
+                                ))}
+                              </div>
+                            </div>
+
+                            <div className="flex items-center justify-between text-[11px] text-theme-muted/70 pt-2 border-t border-theme-border/40">
+                              <span className="flex items-center gap-1">
+                                <User className="w-3 h-3" /> {res.uploadedBy}
+                              </span>
+                              <span>{res.fileType || (res as any).fileFormat || 'PDF'} • {res.fileSize} • {res.downloadCount ?? 0} downloads</span>
+                            </div>
+                          </div>
+
+                          <div className="pt-4 flex items-center gap-2">
+                            <button
+                              type="button"
+                              onClick={() => {
+                                setSelectedResource(res);
+                                setIsViewerOpen(true);
+                              }}
+                              className="flex-1 bg-theme-secondary hover:bg-theme-elevated border border-theme-border text-theme-text rounded-xl py-2 px-3 text-xs font-bold inline-flex items-center justify-center gap-1.5 transition-all"
+                            >
+                              <Eye className="w-3.5 h-3.5 text-cyan-400" />
+                              <span>Preview Document</span>
+                            </button>
+
+                            <button
+                              type="button"
+                              onClick={() => downloadResourceFile(res)}
+                              className="bg-blue-600/10 hover:bg-blue-600/20 text-blue-400 border border-blue-500/20 rounded-xl py-2 px-3 text-xs font-bold inline-flex items-center gap-1.5"
+                              title="Download PDF file"
+                            >
+                              <Download className="w-3.5 h-3.5" />
+                              <span>PDF</span>
+                            </button>
+
+                            <button
+                              type="button"
+                              onClick={() => handleDeleteResource(res.id, res.title)}
+                              className="p-2 rounded-xl text-rose-400 hover:bg-rose-500/10 border border-rose-500/20 transition-colors"
+                              title="Delete Resource"
+                            >
+                              <Trash2 className="w-3.5 h-3.5" />
+                            </button>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  );
+                })()}
+              </div>
+
+              {/* Upload New Resource Modal */}
+              {isUploadModalOpen && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm animate-fadeIn">
+                  <div className="relative w-full max-w-xl bg-theme-elevated border border-theme-border rounded-2xl shadow-2xl p-6 space-y-5 max-h-[90vh] overflow-y-auto">
+                    <div className="flex items-center justify-between pb-3 border-b border-theme-border">
+                      <div className="flex items-center gap-2.5">
+                        <div className="p-2 rounded-xl bg-blue-500/10 text-blue-400 border border-blue-500/20">
+                          <Upload className="w-5 h-5" />
+                        </div>
+                        <div>
+                          <h3 className="text-base font-bold text-theme-text">Upload Exam Material / PDF</h3>
+                          <p className="text-xs text-theme-muted">
+                            Materials will be instantly indexed and served to students by Elara AI
+                          </p>
+                        </div>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => setIsUploadModalOpen(false)}
+                        className="p-1.5 rounded-lg text-theme-muted hover:text-theme-text hover:bg-theme-secondary transition-colors"
+                      >
+                        <X className="w-5 h-5" />
+                      </button>
+                    </div>
+
+                    <form onSubmit={handleUploadResource} className="space-y-4">
+                      {/* Document Title */}
+                      <div>
+                        <label className="block text-xs font-bold text-theme-text mb-1">
+                          Document / Study Pack Title *
+                        </label>
+                        <input
+                          type="text"
+                          required
+                          value={formTitle}
+                          onChange={e => setFormTitle(e.target.value)}
+                          placeholder="e.g. End-Sem Quick Revision Sheet & Formula Bank"
+                          className="w-full bg-theme-secondary border border-theme-border rounded-xl px-3.5 py-2 text-xs text-theme-text placeholder-theme-muted/50 focus:outline-none focus:border-blue-500"
+                        />
+                      </div>
+
+                      {/* Subject & Category Row */}
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div>
+                          <label className="block text-xs font-bold text-theme-text mb-1">Course / Subject *</label>
+                          <select
+                            value={formSubject}
+                            onChange={e => {
+                              const val = e.target.value;
+                              setFormSubject(val);
+                              if (val.includes('Machine')) setFormSubjectCode('CS501');
+                              else if (val.includes('Network')) setFormSubjectCode('CS502');
+                              else if (val.includes('Operating')) setFormSubjectCode('CS503');
+                              else if (val.includes('Database')) setFormSubjectCode('CS504');
+                              else setFormSubjectCode('CS505');
+                            }}
+                            className="w-full bg-theme-secondary border border-theme-border rounded-xl px-3 py-2 text-xs text-theme-text focus:outline-none focus:border-blue-500"
+                          >
+                            {(faculty?.subjects || []).map(s => (
+                              <option key={s} value={s}>{s}</option>
+                            ))}
+                            <option value="Computer Networks">Computer Networks (CS502)</option>
+                            <option value="Operating Systems">Operating Systems (CS503)</option>
+                            <option value="Database Systems">Database Systems (CS504)</option>
+                          </select>
+                        </div>
+
+                        <div>
+                          <label className="block text-xs font-bold text-theme-text mb-1">Category *</label>
+                          <select
+                            value={formCategory}
+                            onChange={e => setFormCategory(e.target.value as any)}
+                            className="w-full bg-theme-secondary border border-theme-border rounded-xl px-3 py-2 text-xs text-theme-text focus:outline-none focus:border-blue-500"
+                          >
+                            <option value="Exam Notes">Exam Notes</option>
+                            <option value="Question Bank">Question Bank</option>
+                            <option value="Formula Sheet">Formula Sheet</option>
+                            <option value="Syllabus Guide">Syllabus Guide</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      {/* Importance & Units */}
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <div>
+                          <label className="block text-xs font-bold text-theme-text mb-1">Exam Importance</label>
+                          <select
+                            value={formImportance}
+                            onChange={e => setFormImportance(e.target.value as any)}
+                            className="w-full bg-theme-secondary border border-theme-border rounded-xl px-3 py-2 text-xs text-theme-text focus:outline-none focus:border-blue-500"
+                          >
+                            <option value="Official Exam Pack">Official Exam Pack</option>
+                            <option value="High Yield">High Yield (Top Priority)</option>
+                            <option value="Formula Reference">Formula Reference</option>
+                            <option value="Standard">Standard Reference</option>
+                          </select>
+                        </div>
+
+                        <div>
+                          <label className="block text-xs font-bold text-theme-text mb-1">Units Covered</label>
+                          <input
+                            type="text"
+                            value={formUnits}
+                            onChange={e => setFormUnits(e.target.value)}
+                            placeholder="Unit 1, Unit 2, Unit 3"
+                            className="w-full bg-theme-secondary border border-theme-border rounded-xl px-3.5 py-2 text-xs text-theme-text placeholder-theme-muted/50 focus:outline-none focus:border-blue-500"
+                          />
+                        </div>
+                      </div>
+
+                      {/* Key Topics */}
+                      <div>
+                        <label className="block text-xs font-bold text-theme-text mb-1">
+                          Key Exam Topics (Comma-separated)
+                        </label>
+                        <input
+                          type="text"
+                          value={formKeyTopics}
+                          onChange={e => setFormKeyTopics(e.target.value)}
+                          placeholder="e.g. Backpropagation, SVM Kernels, AdaBoost"
+                          className="w-full bg-theme-secondary border border-theme-border rounded-xl px-3.5 py-2 text-xs text-theme-text placeholder-theme-muted/50 focus:outline-none focus:border-blue-500"
+                        />
+                      </div>
+
+                      {/* Description */}
+                      <div>
+                        <label className="block text-xs font-bold text-theme-text mb-1">
+                          Description & Student Guidance
+                        </label>
+                        <textarea
+                          rows={2}
+                          value={formDescription}
+                          onChange={e => setFormDescription(e.target.value)}
+                          placeholder="Provide exam tips, instructions or breakdown of this document..."
+                          className="w-full bg-theme-secondary border border-theme-border rounded-xl px-3.5 py-2 text-xs text-theme-text placeholder-theme-muted/50 focus:outline-none focus:border-blue-500 resize-none"
+                        />
+                      </div>
+
+                      {/* File format indicator */}
+                      <div className="p-3.5 rounded-xl border border-dashed border-theme-border bg-theme-secondary/40 text-center flex flex-col items-center justify-center gap-1.5">
+                        <FileText className="w-6 h-6 text-cyan-400" />
+                        <span className="text-xs font-bold text-theme-text">PDF Document Package Ready</span>
+                        <span className="text-[11px] text-theme-muted">
+                          File will be formatted and stored with client-side zero-latency download & Elara AI vector embeddings
+                        </span>
+                      </div>
+
+                      {/* Actions */}
+                      <div className="flex items-center justify-end gap-3 pt-2">
+                        <button
+                          type="button"
+                          onClick={() => setIsUploadModalOpen(false)}
+                          className="px-4 py-2 rounded-xl text-xs font-bold text-theme-muted hover:text-theme-text bg-theme-secondary border border-theme-border"
+                        >
+                          Cancel
+                        </button>
+                        <button
+                          type="submit"
+                          className="btn-primary text-white px-5 py-2 rounded-xl text-xs font-bold flex items-center gap-2 shadow-lg shadow-blue-500/20"
+                        >
+                          <Upload className="w-3.5 h-3.5" />
+                          <span>Publish to Elara AI & Students</span>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              )}
             </div>
           )}
 
@@ -413,7 +908,7 @@ export const FacultyPortal: React.FC<FacultyPortalProps> = ({ onLogout }) => {
                       onChange={e => setSelectedSubject(e.target.value)}
                       className="bg-theme-secondary border border-theme-border text-xs font-bold text-theme-text rounded-lg px-3 py-1.5 focus:border-theme-accent outline-none"
                     >
-                      {faculty.subjects.map(s => (
+                      {(faculty?.subjects || []).map(s => (
                         <option key={s} value={s} className="bg-theme-surface text-theme-text">{s}</option>
                       ))}
                     </select>
@@ -608,7 +1103,7 @@ export const FacultyPortal: React.FC<FacultyPortalProps> = ({ onLogout }) => {
                     </span>
                   </h1>
                   <p className="text-sm text-theme-muted mt-0.5">
-                    Read-only readiness telemetry for students enrolled in {faculty.subjects.join(' & ')}. Individual test answers are privacy-protected.
+                    Read-only readiness telemetry for students enrolled in {(faculty?.subjects || []).join(' & ')}. Individual test answers are privacy-protected.
                   </p>
                 </div>
 
@@ -823,11 +1318,11 @@ export const FacultyPortal: React.FC<FacultyPortalProps> = ({ onLogout }) => {
                   </div>
                   <div className="flex justify-between py-1 border-b border-theme-border/50">
                     <span className="text-theme-muted">Institutional Email</span>
-                    <span className="text-theme-text font-medium">{faculty.name.toLowerCase().replace(/\s+/g, '.')}@edupulse.edu</span>
+                    <span className="text-theme-text font-medium">{faculty.name.toLowerCase().replace(/\s+/g, '.')}@campusiq.edu</span>
                   </div>
                   <div className="flex justify-between py-1">
                     <span className="text-theme-muted">Assigned Courses</span>
-                    <span className="text-theme-accent font-bold">{faculty.subjects.join(', ')}</span>
+                    <span className="text-theme-accent font-bold">{(faculty?.subjects || []).join(', ')}</span>
                   </div>
                 </div>
               </div>
@@ -835,6 +1330,13 @@ export const FacultyPortal: React.FC<FacultyPortalProps> = ({ onLogout }) => {
           )}
         </main>
       </div>
+
+      {/* Interactive PDF Resource Viewer Modal */}
+      <ResourceViewerModal
+        isOpen={isViewerOpen}
+        onClose={() => setIsViewerOpen(false)}
+        resource={selectedResource}
+      />
     </div>
   );
 };

@@ -10,6 +10,7 @@ const DATA_DIR = path.resolve(__dirname, '../seed-data/json');
 const QUESTION_BANK_FILE = path.join(DATA_DIR, 'question_bank.json');
 const TEST_ATTEMPTS_FILE = path.join(DATA_DIR, 'test_attempts.json');
 const STUDENTS_FILE = path.join(DATA_DIR, 'students.json');
+const FACULTY_FILE = path.join(DATA_DIR, 'faculty.json');
 
 const PORT = process.env.PORT || 5000;
 
@@ -219,7 +220,49 @@ const server = http.createServer((req, res) => {
 
   // Health
   if (req.method === 'GET' && pathname === '/api/health') {
-    return sendJson(res, 200, { status: 'ok', service: 'EduPulse Server', timestamp: new Date().toISOString() });
+    return sendJson(res, 200, { status: 'ok', service: 'CampusIQ Server', timestamp: new Date().toISOString() });
+  }
+
+  // GET /api/students (and /api/placement/students)
+  if (req.method === 'GET' && (pathname === '/api/students' || pathname === '/api/placement/students')) {
+    const branch = urlObj.searchParams.get('branch');
+    const year = urlObj.searchParams.get('year');
+    const semester = urlObj.searchParams.get('semester');
+    const search = urlObj.searchParams.get('search');
+
+    let students = readJsonFile(STUDENTS_FILE, []);
+
+    if (branch && branch !== 'All') {
+      students = students.filter(s => s.branch && s.branch.toLowerCase() === branch.toLowerCase());
+    }
+    if (year && year !== 'All') {
+      students = students.filter(s => String(s.year) === String(year));
+    }
+    if (semester && semester !== 'All') {
+      students = students.filter(s => String(s.currentSemester) === String(semester));
+    }
+    if (search) {
+      const q = search.toLowerCase();
+      students = students.filter(s =>
+        (s.name && s.name.toLowerCase().includes(q)) ||
+        (s.rollNo && s.rollNo.toLowerCase().includes(q)) ||
+        (s.email && s.email.toLowerCase().includes(q))
+      );
+    }
+
+    return sendJson(res, 200, {
+      total: students.length,
+      students
+    });
+  }
+
+  // GET /api/faculty
+  if (req.method === 'GET' && pathname === '/api/faculty') {
+    const faculty = readJsonFile(FACULTY_FILE, []);
+    return sendJson(res, 200, {
+      total: faculty.length,
+      faculty
+    });
   }
 
   // 1. GET /api/placement/tracks
@@ -719,6 +762,6 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`✓ EduPulse Standalone Placement API Server running on http://localhost:${PORT}`);
+  console.log(`✓ CampusIQ Standalone Placement API Server running on http://localhost:${PORT}`);
   console.log(`✓ Ready for requests at http://localhost:${PORT}/api/placement`);
 });

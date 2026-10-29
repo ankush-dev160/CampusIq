@@ -127,6 +127,20 @@ export const StudentShell: React.FC<StudentShellProps> = ({
     avatarInitials: student.avatar_initials,
   };
 
+  const attPct = student?.overall_attendance ?? 82;
+  const isAttLow = attPct < 75;
+
+  const dynamicNavItems: NavItemDef<StudentPage>[] = studentNavItems.map(item => {
+    if (item.id === 'attendance') {
+      return {
+        ...item,
+        badge: isAttLow ? `${attPct}% Alert` : undefined,
+        badgeColor: isAttLow ? 'bg-red-500/15 text-red-400 border-red-500/30' : undefined,
+      };
+    }
+    return item;
+  });
+
   return (
     <div className="min-h-screen bg-theme-bg text-theme-text flex transition-colors duration-200">
       {/* ── Collapsible Glassy Sidebar (Task 1) ── */}
@@ -134,7 +148,7 @@ export const StudentShell: React.FC<StudentShellProps> = ({
         title="CampusIQ"
         portalType="STUDENT"
         user={studentUser}
-        navItems={studentNavItems}
+        navItems={dynamicNavItems}
         currentPage={currentPage}
         onNavigate={onNavigate}
         mobileOpen={sidebarOpen}

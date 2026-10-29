@@ -120,12 +120,20 @@ export const CampusAnalystModal: React.FC<CampusAnalystModalProps> = ({
               {/* Question badge */}
               <div className="flex items-center justify-between text-xs text-theme-muted border-b border-theme-border pb-2">
                 <span className="font-medium text-theme-text italic">"{resp.query}"</span>
-                <span className="text-[10px] font-mono text-theme-muted">Calculated locally</span>
+                {resp.isInvalidQuery ? (
+                  <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-rose-500/15 text-rose-500 border border-rose-500/30">
+                    Not in Campus DB
+                  </span>
+                ) : (
+                  <span className="text-[10px] font-mono text-theme-muted">Calculated locally</span>
+                )}
               </div>
 
               {/* Title & Summary */}
               <div>
-                <h4 className="text-sm font-bold text-theme-text">{resp.answerTitle}</h4>
+                <h4 className={`text-sm font-bold ${resp.isInvalidQuery ? 'text-rose-500 flex items-center gap-1.5' : 'text-theme-text'}`}>
+                  {resp.answerTitle}
+                </h4>
                 <p className="text-xs text-theme-muted mt-1 leading-relaxed">{resp.answerSummary}</p>
               </div>
 
@@ -133,25 +141,48 @@ export const CampusAnalystModal: React.FC<CampusAnalystModalProps> = ({
               {resp.metrics.length > 0 && (
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1">
                   {resp.metrics.map((m, mIdx) => (
-                    <div key={mIdx} className="panel-raised p-2.5 rounded-lg border border-theme-border">
+                    <div
+                      key={mIdx}
+                      className={`panel-raised p-2.5 rounded-lg border ${
+                        resp.isInvalidQuery ? 'border-rose-500/20 bg-rose-500/5' : 'border-theme-border'
+                      }`}
+                    >
                       <div className="text-[10px] font-semibold text-theme-muted truncate">{m.label}</div>
-                      <div className="text-base font-extrabold text-theme-text mt-0.5">{m.value}</div>
+                      <div className={`text-base font-extrabold mt-0.5 ${resp.isInvalidQuery ? 'text-rose-400' : 'text-theme-text'}`}>
+                        {m.value}
+                      </div>
                       {m.sublabel && <div className="text-[10px] text-theme-accent font-medium">{m.sublabel}</div>}
                     </div>
                   ))}
                 </div>
               )}
 
-              {/* Detailed Breakdown */}
-              <div className="space-y-1 bg-theme-secondary/50 p-3 rounded-lg border border-theme-border text-xs text-theme-muted">
-                <div className="font-semibold text-theme-text text-[11px] mb-1">Underlying Conditions & Telemetry:</div>
-                {resp.detailedBreakdown.map((item, itemIdx) => (
-                  <div key={itemIdx} className="flex items-start gap-1.5 text-[11px]">
-                    <span className="text-theme-accent font-bold">•</span>
-                    <span>{item}</span>
+              {/* Invalid Query Guidance Suggestions */}
+              {resp.isInvalidQuery && (
+                <div className="p-3 rounded-lg bg-amber-500/10 border border-amber-500/20 space-y-2">
+                  <span className="text-[11px] font-bold text-amber-400 block">
+                    Verified Campus Queries Available:
+                  </span>
+                  <div className="flex flex-wrap gap-1.5">
+                    {[
+                      'How many students need academic support?',
+                      'Which department has the highest proportion of academic risk flags?',
+                      'How many students have attendance below 75%?',
+                      'Which students have active course backlogs?',
+                      'Show top academic merit rankers',
+                      'Executive overview and institution KPIs',
+                    ].map(preset => (
+                      <button
+                        key={preset}
+                        onClick={() => handleSend(preset)}
+                        className="text-[10px] font-medium px-2 py-1 rounded bg-theme-surface border border-theme-border hover:border-amber-400 text-theme-text hover:text-amber-400 transition"
+                      >
+                        {preset}
+                      </button>
+                    ))}
                   </div>
-                ))}
-              </div>
+                </div>
+              )}
 
               {/* Related Student Links if present */}
               {resp.relatedStudentIds && resp.relatedStudentIds.length > 0 && (

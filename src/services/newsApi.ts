@@ -63,7 +63,7 @@ export const INITIAL_SAMPLE_NEWS: NewsItem[] = [
     createdAt: new Date(Date.now() - 1000 * 60 * 60 * 12).toISOString(), // 12 hours ago
     eventDate: '2026-11-20',
     venue: 'Main University Auditorium',
-    registrationLink: 'https://careers.edupulse.edu/drives/2026-tier1',
+    registrationLink: 'https://careers.campusiq.edu/drives/2026-tier1',
     audience: {
       type: 'branch',
       branches: ['CSE', 'IT', 'AIML'],
@@ -104,7 +104,7 @@ export const INITIAL_SAMPLE_NEWS: NewsItem[] = [
       role: 'admin',
     },
     createdAt: new Date(Date.now() - 1000 * 60 * 60 * 36).toISOString(), // 1.5 days ago
-    registrationLink: 'https://fees.edupulse.edu/pay',
+    registrationLink: 'https://fees.campusiq.edu/pay',
     audience: {
       type: 'all',
     },
@@ -134,7 +134,7 @@ export const INITIAL_SAMPLE_NEWS: NewsItem[] = [
 ];
 
 // In-browser read tracking state
-const readNewsStorageKey = 'edupulse_read_news_ids';
+const readNewsStorageKey = 'campusiq_read_news_ids';
 function getLocalReadIds(): Set<string> {
   try {
     const raw = localStorage.getItem(readNewsStorageKey);
@@ -183,7 +183,7 @@ export const NewsApiService = {
     page?: number;
     limit?: number;
   }): Promise<{ items: NewsItem[]; total: number; unreadCount: number }> {
-    const token = typeof localStorage !== 'undefined' ? localStorage.getItem('edupulse_token') : null;
+    const token = typeof localStorage !== 'undefined' ? localStorage.getItem('campusiq_token') : null;
     
     // Attempt backend fetch
     try {
@@ -286,7 +286,7 @@ export const NewsApiService = {
 
   async markAsRead(newsId: string): Promise<void> {
     setLocalReadId(newsId);
-    const token = typeof localStorage !== 'undefined' ? localStorage.getItem('edupulse_token') : null;
+    const token = typeof localStorage !== 'undefined' ? localStorage.getItem('campusiq_token') : null;
     try {
       await fetch(`${API_BASE}/news/${newsId}/read`, {
         method: 'POST',
@@ -302,7 +302,7 @@ export const NewsApiService = {
 
   async getUnreadCount(studentId?: string): Promise<number> {
     try {
-      const token = typeof localStorage !== 'undefined' ? localStorage.getItem('edupulse_token') : null;
+      const token = typeof localStorage !== 'undefined' ? localStorage.getItem('campusiq_token') : null;
       const res = await fetch(`${API_BASE}/news/unread-count`, {
         headers: {
           ...(token ? { Authorization: `Bearer ${token}` } : {}),
@@ -319,7 +319,7 @@ export const NewsApiService = {
   },
 
   async getFacultyManageNews(): Promise<NewsItem[]> {
-    const token = typeof localStorage !== 'undefined' ? localStorage.getItem('edupulse_token') : null;
+    const token = typeof localStorage !== 'undefined' ? localStorage.getItem('campusiq_token') : null;
     try {
       const res = await fetch(`${API_BASE}/news/manage`, {
         headers: {
@@ -336,7 +336,7 @@ export const NewsApiService = {
   },
 
   async createNews(payload: Partial<NewsItem>): Promise<NewsItem> {
-    const token = typeof localStorage !== 'undefined' ? localStorage.getItem('edupulse_token') : null;
+    const token = typeof localStorage !== 'undefined' ? localStorage.getItem('campusiq_token') : null;
     try {
       const res = await fetch(`${API_BASE}/news`, {
         method: 'POST',
@@ -377,7 +377,7 @@ export const NewsApiService = {
   },
 
   async deleteNews(id: string): Promise<void> {
-    const token = typeof localStorage !== 'undefined' ? localStorage.getItem('edupulse_token') : null;
+    const token = typeof localStorage !== 'undefined' ? localStorage.getItem('campusiq_token') : null;
     try {
       await fetch(`${API_BASE}/news/${id}`, {
         method: 'DELETE',

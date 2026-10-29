@@ -15,9 +15,14 @@ import {
   User,
   Info,
   Paperclip,
+  Download,
+  Eye,
+  Sparkles,
 } from 'lucide-react';
 import { useStudentRecord } from '../../context/CurrentUserContext';
 import { DEMO_PROBLEMS, ProblemRequest } from '../../data/portalData';
+import { CourseResource, getCourseResources, downloadResourceFile } from '../../data/courseResources';
+import { ResourceViewerModal } from '../../components/common/ResourceViewerModal';
 
 interface StudentClassroomPageProps {
   initialSubjectId?: string | null;
@@ -398,51 +403,295 @@ const SUBJECT_COURSEWORK: Record<
   ],
 };
 
-// Generic fallback coursework for any subject not in CS501-CS505
-function getSubjectCoursework(code: string, name: string) {
-  if (SUBJECT_COURSEWORK[code]) {
-    return SUBJECT_COURSEWORK[code];
-  }
-  return [
+// Extended syllabi across common and core department subjects
+const EXTENDED_COURSEWORK: Record<
+  string,
+  Array<{
+    unit: number;
+    title: string;
+    hours: number;
+    status: 'Completed' | 'In Progress' | 'Upcoming';
+    topics: string[];
+    resources: { title: string; type: string; url?: string }[];
+  }>
+> = {
+  FY101: [
     {
       unit: 1,
-      title: `Unit 1: Fundamentals of ${name}`,
-      hours: 8,
-      status: 'Completed' as const,
-      topics: ['Foundational Concepts & Principles', 'Theoretical Framework', 'Core Terminology & Standards'],
-      resources: [{ title: `${name} Unit 1 Reference Notes`, type: 'PDF' }],
+      title: 'Differential Calculus & Multivariable Functions',
+      hours: 9,
+      status: 'Completed',
+      topics: ["Rolle's Theorem & Mean Value Theorems", 'Taylor and Maclaurin Series Expansions', 'Partial Differentiation & Euler Theorem', 'Maxima and Minima of Several Variables'],
+      resources: [{ title: 'Calculus Theorems & Applied Derivations', type: 'PDF' }, { title: 'Multivariable Function Plotter', type: 'Web' }],
     },
     {
       unit: 2,
-      title: `Unit 2: Core Architectures & Analysis`,
+      title: 'Linear Algebra & Matrix Operations',
       hours: 9,
-      status: 'Completed' as const,
-      topics: ['Structural Methodologies', 'Analytical Frameworks', 'Computational Formulations'],
-      resources: [{ title: `${name} Architecture Guide`, type: 'PDF' }],
+      status: 'Completed',
+      topics: ['Matrix Rank & System of Linear Equations', 'Eigenvalues and Eigenvectors Calculation', 'Cayley-Hamilton Theorem & Matrix Inverses', 'Orthogonal Diagonalization & Quadratic Forms'],
+      resources: [{ title: 'Matrix Algebra Problem Sets & Worked Examples', type: 'PDF' }],
     },
     {
       unit: 3,
-      title: `Unit 3: Applied Systems & Methods`,
-      hours: 9,
-      status: 'In Progress' as const,
-      topics: ['Implementation Paradigms', 'Applied Problem Solving', 'Midterm Case Studies'],
-      resources: [{ title: `${name} Problem Set Manual`, type: 'PDF' }],
+      title: 'Vector Calculus & Coordinate Systems',
+      hours: 8,
+      status: 'In Progress',
+      topics: ['Gradient, Divergence and Curl Formulations', 'Line Integrals & Conservative Vector Fields', "Green's and Stokes' Theorems on Manifolds", "Gauss Divergence Theorem and Physical Applications"],
+      resources: [{ title: 'Vector Field Analysis Reference Guide', type: 'PDF' }],
     },
     {
       unit: 4,
-      title: `Unit 4: Advanced Topics`,
+      title: 'Ordinary Differential Equations',
       hours: 8,
-      status: 'Upcoming' as const,
-      topics: ['High-Performance Implementations', 'Optimization & Validation', 'Domain Specializations'],
-      resources: [{ title: `${name} Advanced Lecture Notes`, type: 'PDF' }],
+      status: 'Upcoming',
+      topics: ['First-Order Exact and Linear ODEs', 'Higher-Order Linear ODEs with Constant Coefficients', 'Cauchy-Euler Equations and Variations of Parameters', 'Applications to Mechanical Oscillations & Circuits'],
+      resources: [{ title: 'Differential Equations Solution Manual', type: 'PDF' }],
     },
     {
       unit: 5,
-      title: `Unit 5: Synthesis & Industry Applications`,
+      title: 'Applied Numerical Analysis',
+      hours: 8,
+      status: 'Upcoming',
+      topics: ['Root Finding: Bisection & Newton-Raphson Methods', 'Newton Forward & Backward Interpolation', 'Trapezoidal and Simpson Integration Rules', 'Runge-Kutta 4th Order for Initial Value Problems'],
+      resources: [{ title: 'Numerical Methods Algorithm Compendium', type: 'PDF' }],
+    },
+  ],
+  FY102: [
+    {
+      unit: 1,
+      title: 'Wave Optics & Interference',
+      hours: 8,
+      status: 'Completed',
+      topics: ["Huygens' Principle & Coherent Light Sources", "Young's Double Slit & Thin Film Interference", "Newton's Rings & Applications in Lens Testing", 'Michelson Interferometer and Precise Metrology'],
+      resources: [{ title: 'Wave Optics Laboratory Experiments Guide', type: 'PDF' }],
+    },
+    {
+      unit: 2,
+      title: 'Diffraction & Polarization',
+      hours: 8,
+      status: 'Completed',
+      topics: ['Fraunhofer Diffraction at Single & Double Slit', 'Diffraction Grating & Resolving Power Bounds', 'Brewster Law & Double Refraction in Crystals', 'Quarter-Wave and Half-Wave Retarder Plates'],
+      resources: [{ title: 'Electromagnetic Optics & Polarization Notes', type: 'PDF' }],
+    },
+    {
+      unit: 3,
+      title: 'Lasers & Fiber Optics',
+      hours: 8,
+      status: 'In Progress',
+      topics: ['Spontaneous and Stimulated Emission Kinetics', 'Population Inversion & Ruby / He-Ne Lasers', 'Optical Fiber Acceptance Angle & Numerical Aperture', 'Single-Mode vs Multi-Mode Attenuation Mechanics'],
+      resources: [{ title: 'Fiber Optic Communication Foundations', type: 'PDF' }],
+    },
+    {
+      unit: 4,
+      title: 'Quantum Mechanics & Wave Theory',
+      hours: 9,
+      status: 'Upcoming',
+      topics: ['De Broglie Hypothesis & Matter Wave Duality', 'Heisenberg Uncertainty Principle Formulations', 'Schrodinger Time-Dependent & Independent Equations', 'Particle Confined in a 1D Infinite Potential Box'],
+      resources: [{ title: 'Quantum Physics Prerequisite Primer', type: 'PDF' }],
+    },
+    {
+      unit: 5,
+      title: 'Semiconductor Physics & Modern Materials',
+      hours: 9,
+      status: 'Upcoming',
+      topics: ['Kronig-Penney Model & Energy Band Gaps', 'Intrinsic and Extrinsic Carrier Density Dynamics', 'Hall Effect and Carrier Mobility Measurement', 'Superconductivity: Meissner Effect and BCS Overview'],
+      resources: [{ title: 'Solid State Physics & Devices Compendium', type: 'PDF' }],
+    },
+  ],
+  FY103: [
+    {
+      unit: 1,
+      title: 'Problem Solving & C Fundamentals',
+      hours: 8,
+      status: 'Completed',
+      topics: ['Algorithms, Flowcharts & Computational Logic', 'Data Types, Operators & Expression Evaluation', 'Formatted Input/Output & Preprocessor Directives', 'Compilation Pipeline (Lexing, Parsing, Linking)'],
+      resources: [{ title: 'C Programming Primer & Lab Exercises', type: 'PDF' }],
+    },
+    {
+      unit: 2,
+      title: 'Control Flow, Conditionals & Loops',
+      hours: 8,
+      status: 'Completed',
+      topics: ['Decision Branching: if-else and switch-case', 'Iteration Constructs: for, while, do-while Loops', 'Break, Continue and Structured Loop Optimization', 'Nested Patterns & Numerical Series Computation'],
+      resources: [{ title: 'Control Flow Optimization Guide', type: 'PDF' }],
+    },
+    {
+      unit: 3,
+      title: 'Arrays, Strings & Modular Functions',
+      hours: 9,
+      status: 'In Progress',
+      topics: ['1D and 2D Arrays: Memory Layout & Matrix Math', 'String Manipulation & Standard Library Methods', 'Function Signatures, Scope & Pass-by-Value', 'Recursion Mechanics: Stack Frames & Termination'],
+      resources: [{ title: 'Memory Architecture & Recursion Trace', type: 'PDF' }],
+    },
+    {
+      unit: 4,
+      title: 'Pointers & Dynamic Memory Management',
+      hours: 9,
+      status: 'Upcoming',
+      topics: ['Pointer Arithmetic, Address Dereferencing & Arrays', 'Pass-by-Reference & Function Pointers in C', 'Heap Allocation: malloc, calloc, realloc and free', 'Pointer Bugs: Memory Leaks, Dangling Pointers'],
+      resources: [{ title: 'Pointers Demystified & Debugging Guide', type: 'PDF' }],
+    },
+    {
+      unit: 5,
+      title: 'Structures, Unions & File I/O',
+      hours: 8,
+      status: 'Upcoming',
+      topics: ['User-Defined Types: struct, union, and typedef', 'Nested Structures and Array of Structures', 'Sequential and Random Access File Streams (fopen)', 'Persistent Data Storage Case Studies in C'],
+      resources: [{ title: 'File Handling & Records Project Code', type: 'ZIP' }],
+    },
+  ],
+  CSE301: [
+    {
+      unit: 1,
+      title: 'Linear Data Structures: Stacks & Queues',
+      hours: 8,
+      status: 'Completed',
+      topics: ['Asymptotic Complexity: Big-O, Omega, and Theta', 'Array and Linked List Implementations', 'Stack Applications: Infix-to-Postfix & Evaluation', 'Circular Queues, Deques & Priority Queue Basics'],
+      resources: [{ title: 'Stack & Queue Formal Verification Notes', type: 'PDF' }],
+    },
+    {
+      unit: 2,
+      title: 'Linked Structures & Non-Linear Trees',
+      hours: 9,
+      status: 'Completed',
+      topics: ['Singly, Doubly, and Circular Linked Lists', 'Binary Trees: Traversal (Pre, In, Post, Level)', 'Binary Search Trees: Search, Insertion, Deletion', 'Balanced Trees: AVL Rotations and Height Bounds'],
+      resources: [{ title: 'Tree Visualizer & Rotation Proofs', type: 'Web' }],
+    },
+    {
+      unit: 3,
+      title: 'Heaps, Disjoint Sets & Graph Representations',
+      hours: 9,
+      status: 'In Progress',
+      topics: ['Binary Heaps: Min-Heap, Max-Heap & Heap Sort', 'Disjoint Set Union (DSU) & Path Compression', 'Graph Adjacency Matrices and Adjacency Lists', 'Graph Traversals: BFS, DFS and Cycle Detection'],
+      resources: [{ title: 'Graph Traversal & Heap Code Repo', type: 'PDF' }],
+    },
+    {
+      unit: 4,
+      title: 'Advanced Graph Algorithms & Shortest Paths',
+      hours: 8,
+      status: 'Upcoming',
+      topics: ["Dijkstra's Single Source Shortest Path Algorithm", 'Bellman-Ford & Negative Weight Cycle Checks', 'Minimum Spanning Trees: Kruskal and Prim', 'Floyd-Warshall All-Pairs Shortest Path Analysis'],
+      resources: [{ title: 'Shortest Path Graph Benchmark Suite', type: 'PDF' }],
+    },
+    {
+      unit: 5,
+      title: 'Hashing, Collision Resolution & Advanced Sorting',
+      hours: 8,
+      status: 'Upcoming',
+      topics: ['Hash Functions & Uniform Distribution Properties', 'Chaining vs Open Addressing (Linear, Quadratic)', 'Merge Sort and Quick Sort Pivot Strategies', 'Trie Trees and Prefix Matching Algorithms'],
+      resources: [{ title: 'Hashing & Sorting Complexity Compendium', type: 'PDF' }],
+    },
+  ],
+};
+
+function getSubjectCoursework(code: string, name: string) {
+  const norm = code.toUpperCase().replace(/\s+/g, '');
+  if (SUBJECT_COURSEWORK[norm]) return SUBJECT_COURSEWORK[norm];
+  if (EXTENDED_COURSEWORK[norm]) return EXTENDED_COURSEWORK[norm];
+
+  // Alias mappings (e.g. CSE501 -> CS501, CS301 -> CSE301)
+  const cseToCs = norm.replace(/^CSE/, 'CS');
+  if (SUBJECT_COURSEWORK[cseToCs]) return SUBJECT_COURSEWORK[cseToCs];
+  const csToCse = norm.replace(/^CS/, 'CSE');
+  if (EXTENDED_COURSEWORK[csToCse]) return EXTENDED_COURSEWORK[csToCse];
+
+  // Match by keyword in name
+  const lowerName = name.toLowerCase();
+  if (lowerName.includes('machine learning') || lowerName.includes('intelligence')) {
+    return SUBJECT_COURSEWORK.CS501;
+  }
+  if (lowerName.includes('network') || lowerName.includes('communication network')) {
+    return SUBJECT_COURSEWORK.CS502;
+  }
+  if (lowerName.includes('operating system')) {
+    return SUBJECT_COURSEWORK.CS503;
+  }
+  if (lowerName.includes('database') || lowerName.includes('dbms')) {
+    return SUBJECT_COURSEWORK.CS504;
+  }
+  if (lowerName.includes('software engineering')) {
+    return SUBJECT_COURSEWORK.CS505;
+  }
+  if (lowerName.includes('data structure')) {
+    return EXTENDED_COURSEWORK.CSE301;
+  }
+  if (lowerName.includes('mathematics i') || lowerName.includes('calculus')) {
+    return EXTENDED_COURSEWORK.FY101;
+  }
+  if (lowerName.includes('physics')) {
+    return EXTENDED_COURSEWORK.FY102;
+  }
+  if (lowerName.includes('programming') || lowerName.includes('problem solving')) {
+    return EXTENDED_COURSEWORK.FY103;
+  }
+
+  // Domain-specific tailored fallback for any other engineering subject
+  return [
+    {
+      unit: 1,
+      title: `Unit 1: Foundations & Theoretical Models of ${name}`,
+      hours: 8,
+      status: 'Completed' as const,
+      topics: [
+        `Core Principles & Foundational Architecture of ${name}`,
+        'Theoretical Specifications and Mathematical Framework',
+        'Standard Protocols, Methodologies & Historical Evolution',
+        'System Modeling and Baseline Analytical Bounds',
+      ],
+      resources: [{ title: `${name} Unit 1 Reference Lecture Notes`, type: 'PDF' }],
+    },
+    {
+      unit: 2,
+      title: `Unit 2: System Architectures & Design Patterns in ${name}`,
+      hours: 9,
+      status: 'Completed' as const,
+      topics: [
+        'Structural Components, Modules & Interconnections',
+        'Analytical Design Methodologies & Framework Verification',
+        'Parameter Sensitivity & Performance Optimization Techniques',
+        'Component Modeling and Intermediate Problem Sets',
+      ],
+      resources: [{ title: `${name} Design Patterns & Blueprints`, type: 'PDF' }],
+    },
+    {
+      unit: 3,
+      title: `Unit 3: Applied Systems, Lab Protocols & Implementations`,
+      hours: 9,
+      status: 'In Progress' as const,
+      topics: [
+        'Practical Engineering Implementation Strategies',
+        'Simulation, Empirical Verification & Benchmarking',
+        'Real-world Problem Solving & Case Study Formulations',
+        'Midterm Practical Project Deliverables & Analysis',
+      ],
+      resources: [{ title: `${name} Applied Systems & Case Manual`, type: 'PDF' }],
+    },
+    {
+      unit: 4,
+      title: `Unit 4: Advanced Specializations, Reliability & Safety`,
       hours: 8,
       status: 'Upcoming' as const,
-      topics: ['Capstone Synthesis', 'Emerging Trends', 'Evaluation Protocols'],
-      resources: [{ title: `${name} Case Studies Compendium`, type: 'PDF' }],
+      topics: [
+        'High-Performance Techniques and Domain Specialization',
+        'Fault Tolerance, Security, and Scalability Mechanisms',
+        'System Robustness & Regulatory Compliance Standards',
+        'Comparative Empirical Evaluation across Modern Standards',
+      ],
+      resources: [{ title: `${name} Advanced Lecture Notes & Slides`, type: 'PDF' }],
+    },
+    {
+      unit: 5,
+      title: `Unit 5: Industry Synthesis, Future Horizons & Capstone`,
+      hours: 8,
+      status: 'Upcoming' as const,
+      topics: [
+        'Industry 4.0 Integration & Real-World Deployments',
+        'Emerging Paradigms, Research Frontiers & AI Synergy',
+        'Capstone Synthesis, Comprehensive Project Evaluation',
+        'Final Examination Review & Industry Readiness Checklist',
+      ],
+      resources: [{ title: `${name} Capstone Case Compendium`, type: 'PDF' }],
     },
   ];
 }
@@ -452,28 +701,58 @@ export const StudentClassroomPage: React.FC<StudentClassroomPageProps> = ({
   onNavigateSubject,
 }) => {
   const student = useStudentRecord();
+  const [selectedSemester, setSelectedSemester] = useState<string>('Current');
   const [selectedSubjectCode, setSelectedSubjectCode] = useState<string | null>(initialSubjectId || null);
   const [activeTab, setActiveTab] = useState<ClassroomTab>('coursework');
   const [expandedUnit, setExpandedUnit] = useState<number | null>(3); // Default open active unit
 
-  // Forum threads state (persisted per subject in localStorage)
+  // Classroom Forum state
   const [forumThreads, setForumThreads] = useState<ProblemRequest[]>([]);
   const [newThreadTopic, setNewThreadTopic] = useState('');
   const [newThreadDescription, setNewThreadDescription] = useState('');
-  const [newThreadPriority, setNewThreadPriority] = useState<'Normal' | 'Important'>('Normal');
+  const [newThreadPriority, setNewThreadPriority] = useState<'Normal' | 'Urgent'>('Normal');
   const [replyInput, setReplyInput] = useState<Record<string, string>>({});
   const [isPostingThread, setIsPostingThread] = useState(false);
 
-  // Sync internal subject selection with prop
+  // Resource viewer state
+  const [courseResources, setCourseResources] = useState<CourseResource[]>([]);
+  const [selectedResource, setSelectedResource] = useState<CourseResource | null>(null);
+  const [isViewerOpen, setIsViewerOpen] = useState(false);
+  const [resourceCategoryFilter, setResourceCategoryFilter] = useState<string>('All');
+
+  // Sync with resources store
   useEffect(() => {
-    if (initialSubjectId !== undefined) {
+    setCourseResources(getCourseResources());
+    const handleUpdate = () => setCourseResources(getCourseResources());
+    window.addEventListener('campusiq_resources_updated', handleUpdate);
+    window.addEventListener('storage', handleUpdate);
+    return () => {
+      window.removeEventListener('campusiq_resources_updated', handleUpdate);
+      window.removeEventListener('storage', handleUpdate);
+    };
+  }, []);
+
+  // Sync prop changes
+  useEffect(() => {
+    if (initialSubjectId) {
       setSelectedSubjectCode(initialSubjectId);
     }
   }, [initialSubjectId]);
 
-  // Find selected subject object
-  const selectedSubject = student.subjects.find(s => s.code === selectedSubjectCode);
-  const selectedAttendance = student.subject_attendance.find(a => a.subject === selectedSubject?.name);
+  const sgpaHist = student?.sgpa_history?.length ? student.sgpa_history : [];
+
+  // Find selected subject across current and historical semesters
+  const allAvailableSubjects: any[] = [...(student?.subjects || [])];
+  const recordsObj = (student as any)?.semester_records || {};
+  Object.keys(recordsObj).forEach(key => {
+    const rec = recordsObj[key];
+    if (rec && Array.isArray(rec.subjects)) {
+      allAvailableSubjects.push(...rec.subjects);
+    }
+  });
+
+  const selectedSubject = allAvailableSubjects.find(s => s?.code === selectedSubjectCode) || (student?.subjects || []).find(s => s?.code === selectedSubjectCode);
+  const selectedAttendance = student?.subject_attendance?.find(a => a?.subject === selectedSubject?.name) || { pct: 85, conducted: 24, attended: 20, status: 'Safe' as const };
 
   // Load forum threads for the current subject
   useEffect(() => {
@@ -559,6 +838,10 @@ export const StudentClassroomPage: React.FC<StudentClassroomPageProps> = ({
   // VIEW 1: /classroom (Grid of Enrolled Subjects)
   // ─────────────────────────────────────────────────────────────────────────────
   if (!selectedSubjectCode || !selectedSubject) {
+    const displayedSubjects = selectedSemester === 'Current' 
+      ? student.subjects 
+      : ((student as any).semester_records?.[selectedSemester]?.subjects || student.subjects);
+
     return (
       <div className="space-y-6 animate-fade-in">
         {/* Page Banner Header */}
@@ -573,7 +856,7 @@ export const StudentClassroomPage: React.FC<StudentClassroomPageProps> = ({
                   Enrolled Subjects & Classrooms
                 </h1>
                 <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-blue-500/15 text-blue-300 border border-blue-500/30">
-                  {student.semester}
+                  {selectedSemester === 'Current' ? student.semester : selectedSemester}
                 </span>
               </div>
               <p className="text-xs sm:text-sm text-theme-muted mt-0.5">
@@ -584,15 +867,33 @@ export const StudentClassroomPage: React.FC<StudentClassroomPageProps> = ({
 
           <div className="flex items-center gap-2 self-start sm:self-auto">
             <div className="px-3.5 py-1.5 rounded-xl bg-theme-elevated border border-theme-border text-xs">
-              <span className="text-theme-muted">Total Courses: </span>
-              <strong className="text-theme-text font-bold">{student.subjects.length} Subjects</strong>
+              <span className="text-theme-muted">Showing: </span>
+              <strong className="text-theme-text font-bold">{displayedSubjects.length} Subjects</strong>
             </div>
           </div>
         </div>
 
+        {/* Curriculum Term Pills */}
+        <div className="flex items-center gap-2 flex-wrap">
+          <span className="text-xs text-theme-muted font-semibold mr-1">Curriculum Term:</span>
+          {['Current', ...sgpaHist.map(h => h.semester)].map(sem => (
+            <button
+              key={sem}
+              onClick={() => setSelectedSemester(sem)}
+              className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
+                selectedSemester === sem
+                  ? 'btn-primary shadow-sm'
+                  : 'bg-theme-secondary text-theme-muted border border-theme-border hover:text-theme-text'
+              }`}
+            >
+              {sem === 'Current' ? `${student.semester} (Current)` : sem}
+            </button>
+          ))}
+        </div>
+
         {/* Subjects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
-          {student.subjects.map(sub => {
+          {displayedSubjects.map(sub => {
             const att = student.subject_attendance.find(a => a.subject === sub.name);
             const isLowAttendance = att ? att.pct < 75 : false;
 
@@ -671,6 +972,9 @@ export const StudentClassroomPage: React.FC<StudentClassroomPageProps> = ({
   // VIEW 2: /classroom/:subjectId (6 Detailed Tabs)
   // ─────────────────────────────────────────────────────────────────────────────
   const courseworkUnits = getSubjectCoursework(selectedSubject.code, selectedSubject.name);
+  const subjectSemester = Object.entries((student as any).semester_records || {}).find(([_, rec]: any) =>
+    rec.subjects?.some((s: any) => s.code === selectedSubject.code)
+  )?.[0] || student.semester;
 
   return (
     <div className="space-y-6 animate-fade-in">
@@ -706,7 +1010,7 @@ export const StudentClassroomPage: React.FC<StudentClassroomPageProps> = ({
             <p className="text-xs sm:text-sm text-theme-muted mt-1.5 flex items-center gap-2">
               <span>Instructor: <strong className="text-theme-text">{selectedSubject.faculty}</strong></span>
               <span>•</span>
-              <span>{student.department} · {student.semester}</span>
+              <span>{student.department} · {subjectSemester}</span>
             </p>
           </div>
 
@@ -865,49 +1169,200 @@ export const StudentClassroomPage: React.FC<StudentClassroomPageProps> = ({
       )}
 
       {/* ─────────────────────────────────────────────────────────────────────────
-          TAB 2: RESOURCES (Files uploaded by faculty - Real Data / Honest State)
+          TAB 2: RESOURCES (Faculty Uploaded Exam Study Packs & Live AI Retrieval)
           ───────────────────────────────────────────────────────────────────────── */}
-      {activeTab === 'resources' && (
-        <div className="space-y-4">
-          <div className="panel p-6 border border-theme-border space-y-4">
-            <div className="flex items-center justify-between">
-              <div>
-                <h2 className="text-sm font-bold text-theme-text uppercase tracking-wider">
-                  Course Material Files & Document Store
-                </h2>
-                <p className="text-xs text-theme-muted mt-0.5">
-                  Synchronized repository for lecture slides, code repositories, and reference books
-                </p>
+      {activeTab === 'resources' && (() => {
+        const subjectFiltered = courseResources.filter(
+          r => r.subjectCode.toUpperCase() === selectedSubject.code.toUpperCase() ||
+               r.subjectName.toLowerCase().includes(selectedSubject.name.toLowerCase())
+        );
+        const displayList = subjectFiltered.length > 0 ? subjectFiltered : courseResources;
+        const categoryFiltered = resourceCategoryFilter === 'All'
+          ? displayList
+          : displayList.filter(r => r.category === resourceCategoryFilter);
+
+        const categories = ['All', 'Exam Notes', 'Question Bank', 'Formula Sheet', 'Syllabus Guide'];
+
+        return (
+          <div className="space-y-6">
+            {/* Header / Context Banner */}
+            <div className="panel p-5 border border-theme-border bg-gradient-to-r from-theme-elevated via-theme-secondary to-theme-elevated">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <div>
+                  <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-[11px] font-bold mb-1.5">
+                    <Sparkles className="w-3 h-3" />
+                    <span>Synchronized with Elara AI Voice & Chat</span>
+                  </div>
+                  <h2 className="text-lg font-bold text-theme-text">
+                    Faculty Study Packs & Exam Revision Repository
+                  </h2>
+                  <p className="text-xs text-theme-muted mt-0.5">
+                    Official PDFs, question banks, and formula sheets uploaded by <strong>{selectedSubject.faculty}</strong>. Ask Elara AI anytime to fetch these directly!
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="px-3 py-2 rounded-xl bg-theme-elevated border border-theme-border text-right">
+                    <p className="text-[10px] text-theme-muted uppercase tracking-wider font-semibold">Available for Exams</p>
+                    <p className="text-sm font-extrabold text-theme-accent">{displayList.length} Study Packs</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Category Filter Chips */}
+              <div className="flex items-center gap-2 mt-4 pt-3 border-t border-theme-border/40 overflow-x-auto pb-1">
+                <span className="text-xs font-semibold text-theme-muted shrink-0 flex items-center gap-1">
+                  <FolderOpen className="w-3.5 h-3.5" /> Category:
+                </span>
+                {categories.map(cat => {
+                  const isActive = resourceCategoryFilter === cat;
+                  const count = cat === 'All' ? displayList.length : displayList.filter(r => r.category === cat).length;
+                  return (
+                    <button
+                      key={cat}
+                      type="button"
+                      onClick={() => setResourceCategoryFilter(cat)}
+                      className={`px-3 py-1 rounded-lg text-xs font-semibold transition-all shrink-0 flex items-center gap-1.5 ${
+                        isActive
+                          ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/20'
+                          : 'bg-theme-secondary hover:bg-theme-elevated text-theme-muted hover:text-theme-text border border-theme-border'
+                      }`}
+                    >
+                      <span>{cat}</span>
+                      <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
+                        isActive ? 'bg-white/20 text-white' : 'bg-theme-elevated text-theme-muted'
+                      }`}>
+                        {count}
+                      </span>
+                    </button>
+                  );
+                })}
               </div>
             </div>
 
-            {/* Honest Empty State & Backend Requirement Notice */}
-            <div className="p-8 rounded-2xl border border-dashed border-theme-border text-center flex flex-col items-center justify-center space-y-3">
-              <div className="p-3.5 rounded-2xl bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
-                <FolderOpen className="w-8 h-8" />
-              </div>
-              <div className="max-w-md">
-                <h3 className="text-base font-bold text-theme-text">No External Course Files Uploaded Yet</h3>
-                <p className="text-xs text-theme-muted mt-1 leading-relaxed">
-                  Faculty member <strong>{selectedSubject.faculty}</strong> has not published binary downloads or slides to the cloud repository for this course yet.
+            {/* Resources Grid */}
+            {categoryFiltered.length === 0 ? (
+              <div className="panel p-10 border border-dashed border-theme-border text-center flex flex-col items-center justify-center space-y-3">
+                <div className="p-3.5 rounded-2xl bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+                  <FolderOpen className="w-8 h-8" />
+                </div>
+                <h3 className="text-base font-bold text-theme-text">No materials in this category</h3>
+                <p className="text-xs text-theme-muted max-w-sm">
+                  Try selecting 'All' or check back soon when faculty uploads new resources.
                 </p>
+                <button
+                  type="button"
+                  onClick={() => setResourceCategoryFilter('All')}
+                  className="btn-primary px-3 py-1.5 rounded-xl text-xs font-bold"
+                >
+                  View All Resources
+                </button>
               </div>
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {categoryFiltered.map(res => (
+                  <div
+                    key={res.id}
+                    className="panel border border-theme-border p-5 flex flex-col justify-between hover:border-theme-accent/40 transition-all group bg-theme-elevated/40"
+                  >
+                    <div className="space-y-3">
+                      {/* Top Badges */}
+                      <div className="flex items-center justify-between gap-2 flex-wrap">
+                        <div className="flex items-center gap-2">
+                          <span className="text-[11px] font-bold px-2 py-0.5 rounded-md bg-blue-500/10 text-blue-400 border border-blue-500/20">
+                            {res.category}
+                          </span>
+                          <span className="text-[11px] font-semibold px-2 py-0.5 rounded-md bg-purple-500/10 text-purple-400 border border-purple-500/20">
+                            {res.subjectCode}
+                          </span>
+                        </div>
+                        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                          {res.examImportance}
+                        </span>
+                      </div>
 
-              {/* Informational API requirement badge */}
-              <div className="mt-2 inline-flex items-center gap-2 p-3 rounded-xl bg-theme-elevated border border-theme-border text-left max-w-lg text-xs text-theme-muted">
-                <Info className="w-4 h-4 text-cyan-400 shrink-0" />
-                <span>
-                  <strong>Backend Integration Contract:</strong> Files are delivered via{' '}
-                  <code className="text-cyan-400 bg-theme-secondary px-1.5 py-0.5 rounded font-mono text-[11px]">
-                    GET /api/v1/courses/{selectedSubject.code}/resources
-                  </code>{' '}
-                  or Supabase Storage bucket <code className="text-blue-300 bg-theme-secondary px-1.5 py-0.5 rounded font-mono text-[11px]">course-materials</code>.
-                </span>
+                      {/* Title & Desc */}
+                      <div>
+                        <h3 className="text-sm font-bold text-theme-text group-hover:text-theme-accent transition-colors">
+                          {res.title}
+                        </h3>
+                        <p className="text-xs text-theme-muted mt-1 leading-relaxed">
+                          {res.description}
+                        </p>
+                      </div>
+
+                      {/* Units & High-Yield Topics */}
+                      <div className="space-y-1.5 pt-1">
+                        <div className="text-[11px] text-theme-muted flex items-center gap-1.5">
+                          <BookOpen className="w-3.5 h-3.5 text-cyan-400 shrink-0" />
+                          <span>Curriculum Coverage: <strong className="text-theme-text">{Array.isArray(res.unitsCovered) ? res.unitsCovered.join(', ') : (res.unitsCovered || 'All Units')}</strong></span>
+                        </div>
+                        <div className="flex flex-wrap gap-1">
+                          {(res.keyTopics || []).slice(0, 3).map((topic, i) => (
+                            <span
+                              key={i}
+                              className="text-[10px] font-medium px-2 py-0.5 rounded bg-theme-secondary text-theme-muted border border-theme-border/60"
+                            >
+                              #{topic}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+
+                      {/* Upload metadata */}
+                      <div className="flex items-center justify-between text-[11px] text-theme-muted/70 pt-2 border-t border-theme-border/40">
+                        <span className="flex items-center gap-1">
+                          <User className="w-3 h-3" /> {res.uploadedBy || 'Faculty'}
+                        </span>
+                        <span>{res.fileType || res.fileFormat || 'PDF'} • {res.fileSize || '2.4 MB'} • {res.uploadedDate || (res as any).uploadDate || 'Oct 2025'}</span>
+                      </div>
+                    </div>
+
+                    {/* Action Buttons */}
+                    <div className="pt-4 flex items-center gap-2">
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setSelectedResource(res);
+                          setIsViewerOpen(true);
+                        }}
+                        className="flex-1 bg-theme-secondary hover:bg-theme-elevated border border-theme-border hover:border-theme-accent/40 text-theme-text rounded-xl py-2 px-3 text-xs font-bold inline-flex items-center justify-center gap-1.5 transition-all"
+                      >
+                        <Eye className="w-3.5 h-3.5 text-cyan-400" />
+                        <span>Preview Document</span>
+                      </button>
+
+                      <button
+                        type="button"
+                        onClick={() => downloadResourceFile(res)}
+                        className="btn-primary rounded-xl py-2 px-3.5 text-xs font-bold inline-flex items-center gap-1.5 shrink-0"
+                        title="Download official PDF Study Pack"
+                      >
+                        <Download className="w-3.5 h-3.5" />
+                        <span>PDF</span>
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* AI Assistant Tip Banner */}
+            <div className="p-4 rounded-2xl bg-cyan-500/5 border border-cyan-500/20 flex items-start gap-3">
+              <div className="p-2 rounded-xl bg-cyan-500/10 text-cyan-400 shrink-0 mt-0.5">
+                <Sparkles className="w-4 h-4" />
+              </div>
+              <div className="space-y-1">
+                <h4 className="text-xs font-bold text-theme-text">Pro-Tip: Access Faculty Study Packs via Elara AI</h4>
+                <p className="text-[11px] text-theme-muted leading-relaxed">
+                  Whenever you open your <strong>Elara AI Assistant</strong> or <strong>AI Progress Tracker</strong>, you can say:
+                  <span className="text-cyan-400 font-semibold italic"> "Any resources has sir provided for exam?"</span> or
+                  <span className="text-cyan-400 font-semibold italic"> "Show {selectedSubject.code} revision sheet"</span>. Elara will instantly fetch the PDF with one-click download and interactive document viewer!
+                </p>
               </div>
             </div>
           </div>
-        </div>
-      )}
+        );
+      })()}
 
       {/* ─────────────────────────────────────────────────────────────────────────
           TAB 3: ASSIGNMENTS (Instructions, deadlines, status, marks & feedback)
@@ -1414,6 +1869,13 @@ export const StudentClassroomPage: React.FC<StudentClassroomPageProps> = ({
           )}
         </div>
       )}
+
+      {/* Interactive PDF Resource Viewer Modal */}
+      <ResourceViewerModal
+        isOpen={isViewerOpen}
+        onClose={() => setIsViewerOpen(false)}
+        resource={selectedResource}
+      />
     </div>
   );
 };

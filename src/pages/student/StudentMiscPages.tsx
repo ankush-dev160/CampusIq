@@ -3,18 +3,20 @@ import {
   MessageSquare, Send, CheckCircle2, Clock, AlertCircle,
   User, Shield, Mail, Phone, MapPin, Camera, Moon, Sun, Lock, Sparkles
 } from 'lucide-react';
-import { DEMO_PROBLEMS } from '../../data/portalData';
+import { DEMO_PROBLEMS, DEMO_STUDENT } from '../../data/portalData';
 import { useStudentRecord } from '../../context/CurrentUserContext';
 import { useTheme } from '../../context/ThemeContext';
 
 // ─── 1. MY PROBLEM REQUESTS PAGE ──────────────────────────────────────────────
 
 export function StudentMyProblemPage() {
-  const student = useStudentRecord();
+  const studentRecord = useStudentRecord();
+  const student = studentRecord || DEMO_STUDENT;
+  const subjects = student.subjects?.length ? student.subjects : DEMO_STUDENT.subjects;
   const [requests, setRequests] = useState(DEMO_PROBLEMS);
-  const [subject, setSubject] = useState(student.subjects[0]?.name || 'Machine Learning');
+  const [subject, setSubject] = useState(subjects[0]?.name || 'Machine Learning');
   const [topic, setTopic] = useState('');
-  const [faculty, setFaculty] = useState(student.subjects[0]?.faculty || 'Dr. Priya Menon');
+  const [faculty, setFaculty] = useState(subjects[0]?.faculty || 'Dr. Priya Menon');
   const [description, setDescription] = useState('');
   const [priority, setPriority] = useState<'Normal' | 'Important'>('Normal');
   const [submittedAlert, setSubmittedAlert] = useState<string | null>(null);
@@ -22,7 +24,7 @@ export function StudentMyProblemPage() {
   // Sync faculty when subject changes
   const handleSubjectChange = (newSub: string) => {
     setSubject(newSub);
-    const match = student.subjects.find(s => s.name === newSub);
+    const match = (subjects || []).find((s: any) => s.name === newSub);
     if (match) setFaculty(match.faculty);
   };
 
@@ -83,7 +85,7 @@ export function StudentMyProblemPage() {
                 onChange={e => handleSubjectChange(e.target.value)}
                 className="w-full bg-theme-secondary border border-theme-border rounded-lg px-3 py-2 text-xs text-theme-text focus:border-theme-accent outline-none"
               >
-                {student.subjects.map(s => (
+                {(subjects || []).map(s => (
                   <option key={s.name} value={s.name} className="bg-theme-surface text-theme-text">
                     {s.name} ({s.faculty})
                   </option>
@@ -226,7 +228,8 @@ export function StudentMyProblemPage() {
 // ─── 2. STUDENT PROFILE & SETTINGS ────────────────────────────────────────────
 
 export function StudentProfilePage() {
-  const s = useStudentRecord();
+  const sRecord = useStudentRecord();
+  const s = sRecord || DEMO_STUDENT;
 
   return (
     <div className="space-y-6 max-w-4xl">
@@ -263,19 +266,19 @@ export function StudentProfilePage() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4">
             <div className="panel-raised p-3 rounded-xl border border-theme-border">
               <span className="text-[10px] text-theme-muted uppercase font-semibold">Cumulative CGPA</span>
-              <div className="text-lg font-bold text-blue-400 mt-0.5">{s.cgpa.toFixed(2)}</div>
+              <div className="text-lg font-bold text-blue-400 mt-0.5">{(Number(s?.cgpa) || 7.5).toFixed(2)}</div>
             </div>
             <div className="panel-raised p-3 rounded-xl border border-theme-border">
               <span className="text-[10px] text-theme-muted uppercase font-semibold">Overall Attendance</span>
-              <div className="text-lg font-bold text-emerald-400 mt-0.5">{s.overall_attendance}%</div>
+              <div className="text-lg font-bold text-emerald-400 mt-0.5">{s?.overall_attendance ?? 82}%</div>
             </div>
             <div className="panel-raised p-3 rounded-xl border border-theme-border">
               <span className="text-[10px] text-theme-muted uppercase font-semibold">Success Score</span>
-              <div className="text-lg font-bold text-cyan-400 mt-0.5">{s.success_score}/100</div>
+              <div className="text-lg font-bold text-cyan-400 mt-0.5">{s?.success_score ?? 85}/100</div>
             </div>
             <div className="panel-raised p-3 rounded-xl border border-theme-border">
               <span className="text-[10px] text-theme-muted uppercase font-semibold">Active Backlogs</span>
-              <div className="text-lg font-bold text-theme-text mt-0.5">{s.backlogs}</div>
+              <div className="text-lg font-bold text-theme-text mt-0.5">{s?.backlogs ?? 0}</div>
             </div>
           </div>
         </div>
@@ -288,23 +291,23 @@ export function StudentProfilePage() {
           <div className="space-y-2 text-xs">
             <div className="flex justify-between py-1.5 border-b border-theme-border">
               <span className="text-theme-muted">Institutional Email</span>
-              <span className="text-theme-text font-medium">{s.email}</span>
+              <span className="text-theme-text font-medium">{s?.email || 'student@campusiq.edu'}</span>
             </div>
             <div className="flex justify-between py-1.5 border-b border-theme-border">
               <span className="text-theme-muted">Contact Number</span>
-              <span className="text-theme-text font-medium">{s.phone}</span>
+              <span className="text-theme-text font-medium">{s?.phone || '+91 98765 43210'}</span>
             </div>
             <div className="flex justify-between py-1.5 border-b border-theme-border">
               <span className="text-theme-muted">Date of Birth</span>
-              <span className="text-theme-text font-medium">{s.dob}</span>
+              <span className="text-theme-text font-medium">{s?.dob || '2004-05-15'}</span>
             </div>
             <div className="flex justify-between py-1.5 border-b border-theme-border">
               <span className="text-theme-muted">Parent / Guardian</span>
-              <span className="text-theme-text font-medium">{s.guardian}</span>
+              <span className="text-theme-text font-medium">{s?.guardian || 'Guardian'}</span>
             </div>
             <div className="flex justify-between py-1.5">
               <span className="text-theme-muted">Permanent Address</span>
-              <span className="text-theme-text font-medium">{s.address}</span>
+              <span className="text-theme-text font-medium">{s?.address || 'Campus Hostel Block B'}</span>
             </div>
           </div>
         </div>
@@ -312,14 +315,14 @@ export function StudentProfilePage() {
         <div className="panel p-5 space-y-3">
           <h3 className="text-sm font-bold text-theme-text">Current Semester Enrolled Subjects</h3>
           <div className="space-y-2 text-xs">
-            {s.subjects.map(sub => (
+            {(Array.isArray(s?.subjects) && s.subjects.length > 0 ? s.subjects : DEMO_STUDENT.subjects).map(sub => (
               <div key={sub.code} className="flex items-center justify-between p-2.5 rounded-lg bg-theme-secondary border border-theme-border">
                 <div>
                   <span className="font-bold text-theme-text">{sub.code}: {sub.name}</span>
                   <p className="text-[10px] text-theme-muted">{sub.faculty}</p>
                 </div>
                 <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-blue-500/15 text-blue-400 border border-blue-500/30">
-                  {sub.internal_pct}% int
+                  {sub.internal_pct ?? 78}% int
                 </span>
               </div>
             ))}

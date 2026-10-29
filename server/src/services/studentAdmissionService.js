@@ -228,7 +228,7 @@ export function admitStudent(input, createdBy = { id: 'ADM-SYS-01', role: 'admin
     id: `NTF-${Date.now().toString().slice(-5)}`,
     userId: rollNo,
     type: 'welcome',
-    title: 'Welcome to EduPulse Campus ERP',
+    title: 'Welcome to CampusIQ Campus ERP',
     message: `Welcome, ${name}! Your roll number is ${rollNo}. Please explore your enrolled subjects and update your password on first login.`,
     isRead: false,
     createdAt: new Date().toISOString().split('T')[0],

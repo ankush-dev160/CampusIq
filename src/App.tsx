@@ -187,6 +187,27 @@ const getInitialStudentRouteState = (): {
       const tab = placeMatch[1] as PlacementTab;
       return { page: 'placement', subjectId: null, placementTab: tab };
     }
+    if (path === '/performance' || path === '/performance/') {
+      return { page: 'performance', subjectId: null, placementTab: 'overview' };
+    }
+    if (path === '/attendance' || path === '/attendance/') {
+      return { page: 'attendance', subjectId: null, placementTab: 'overview' };
+    }
+    if (path === '/analytics' || path === '/analytics/') {
+      return { page: 'analytics', subjectId: null, placementTab: 'overview' };
+    }
+    if (path === '/ai-progress' || path === '/ai-progress/') {
+      return { page: 'ai-progress', subjectId: null, placementTab: 'overview' };
+    }
+    if (path === '/my-problem' || path === '/my-problem/') {
+      return { page: 'my-problem', subjectId: null, placementTab: 'overview' };
+    }
+    if (path === '/profile' || path === '/profile/') {
+      return { page: 'profile', subjectId: null, placementTab: 'overview' };
+    }
+    if (path === '/settings' || path === '/settings/') {
+      return { page: 'settings', subjectId: null, placementTab: 'overview' };
+    }
   }
   return { page: 'dashboard', subjectId: null, placementTab: 'overview' };
 };
@@ -211,20 +232,11 @@ const StudentPortalContent: React.FC<{ onLogout: () => void }> = ({ onLogout }) 
 
   const handleNavigate = (page: StudentPage) => {
     setStudentPage(page);
-    if (page === 'classroom') {
-      setSelectedSubjectId(null);
-      if (typeof window !== 'undefined' && window.location.pathname !== '/classroom') {
-        window.history.pushState(null, '', '/classroom');
-      }
-    } else if (page === 'placement') {
-      setSelectedSubjectId(null);
-      if (typeof window !== 'undefined' && !window.location.pathname.startsWith('/placement')) {
-        window.history.pushState(null, '', '/placement');
-      }
-    } else {
-      setSelectedSubjectId(null);
-      if (typeof window !== 'undefined' && (window.location.pathname.startsWith('/classroom') || window.location.pathname.startsWith('/placement'))) {
-        window.history.pushState(null, '', '/');
+    setSelectedSubjectId(null);
+    if (typeof window !== 'undefined') {
+      const targetPath = page === 'dashboard' ? '/' : `/${page}`;
+      if (window.location.pathname !== targetPath) {
+        window.history.pushState(null, '', targetPath);
       }
     }
   };
@@ -300,10 +312,6 @@ const MainAppRouter: React.FC = () => {
     setActiveRole('login');
   };
 
-  const handleRoleLogin = async (role: PortalRole, email: string) => {
-    await login(role, email);
-  };
-
   if (isLoading) {
     return (
       <div className="min-h-screen bg-theme-bg flex items-center justify-center text-theme-accent">
@@ -320,22 +328,11 @@ const MainAppRouter: React.FC = () => {
       {activeRole === 'landing' && (
         <LandingPage
           onGoToLogin={handleOpenLogin}
-          onEnterPortalDirect={role =>
-            handleRoleLogin(
-              role,
-              role === 'faculty'
-                ? 'priya.menon@edupulse.edu'
-                : role === 'admin'
-                ? 'dean.analytics@edupulse.edu'
-                : 'ganesh.sharma22@edupulse.edu'
-            )
-          }
         />
       )}
 
       {activeRole === 'login' && (
         <LoginPage
-          onSelectRole={(role, email) => handleRoleLogin(role, email)}
           onBackToHome={() => {
             if (typeof window !== 'undefined') {
               window.history.pushState(null, '', '/');

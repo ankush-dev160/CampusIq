@@ -43,14 +43,14 @@ function generateSyntheticStudents(): UnifiedStudent[] {
   for (let i = 1; i <= TOTAL_RECORDS; i++) {
     const dept = DEPARTMENTS[(i - 1) % DEPARTMENTS.length];
     const prefix = DEPT_PREFIX[dept];
-    const student_id = `EP-${prefix}-${String(i).padStart(3, '0')}`;
+    const student_id = `CIQ-${prefix}-${String(i).padStart(3, '0')}`;
     const firstName = FIRST_NAMES[(i * 7) % FIRST_NAMES.length];
     const lastName = LAST_NAMES[(i * 11) % LAST_NAMES.length];
     const name = `${firstName} ${lastName}`;
     const yearIdx = (i - 1) % YEARS.length;
     const academic_year = YEARS[yearIdx];
     const semester = SEMESTERS[yearIdx * 2 + (i % 2)];
-    const email = `${firstName.toLowerCase()}.${lastName.toLowerCase()}${i}@edupulse.edu`;
+    const email = `${firstName.toLowerCase()}.${lastName.toLowerCase()}${i}@campusiq.edu`;
 
     // Define archetypes across the cohort
     // Archetype 1: Incomplete Data (approx 10 students: ~8%)
@@ -287,9 +287,9 @@ function generateSyntheticStudents(): UnifiedStudent[] {
 }
 
 export const GANESH_STUDENT: UnifiedStudent = {
-  student_id: 'EP-CS-022',
+  student_id: 'CIQ-CS-022',
   name: 'Ganesh Sharma',
-  email: 'ganesh.sharma22@edupulse.edu',
+  email: 'ganesh.sharma22@campusiq.edu',
   department: 'Computer Science',
   academic_year: '3rd Year',
   semester: 'Sem 5',

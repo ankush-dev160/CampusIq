@@ -14,7 +14,8 @@ import { useStudentRecord } from '../../context/CurrentUserContext';
 import { useTheme } from '../../context/ThemeContext';
 
 export function StudentAttendancePage() {
-  const s = useStudentRecord();
+  const sRecord = useStudentRecord();
+  const s = sRecord || DEMO_STUDENT;
   const { chartPalette } = useTheme();
   const [selectedSubject, setSelectedSubject] = useState('All');
   const [targetAttendance, setTargetAttendance] = useState<number>(75);
@@ -24,11 +25,16 @@ export function StudentAttendancePage() {
   const months = ['September 2025', 'October 2025', 'November 2025'];
   const calMonth = months[currentMonthIndex];
 
+  const classesAttended = s?.classes_attended ?? DEMO_STUDENT.classes_attended;
+  const classesConducted = s?.classes_conducted ?? DEMO_STUDENT.classes_conducted;
+  const subAttendanceList = s?.subject_attendance?.length ? s.subject_attendance : DEMO_STUDENT.subject_attendance;
+  const overallAtt = s?.overall_attendance ?? (s as any)?.attendance?.overall_attendance ?? 82;
+
   // Projection math
   const targetPct = targetAttendance / 100;
   let classesNeeded = 0;
-  if (targetPct < 1 && targetPct > (s.classes_attended / s.classes_conducted)) {
-    classesNeeded = Math.ceil(((targetPct * s.classes_conducted) - s.classes_attended) / (1 - targetPct));
+  if (targetPct < 1 && classesConducted > 0 && targetPct > (classesAttended / classesConducted)) {
+    classesNeeded = Math.ceil(((targetPct * classesConducted) - classesAttended) / (1 - targetPct));
     if (classesNeeded < 0) classesNeeded = 0;
   }
 
@@ -48,8 +54,8 @@ export function StudentAttendancePage() {
   };
 
   const filteredSubjectAttendance = selectedSubject === 'All' 
-    ? s.subject_attendance 
-    : s.subject_attendance.filter(sub => sub.subject === selectedSubject);
+    ? subAttendanceList 
+    : subAttendanceList.filter(sub => sub.subject === selectedSubject);
 
   return (
     <div className="space-y-6">
@@ -62,37 +68,57 @@ export function StudentAttendancePage() {
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="panel p-5 rounded-xl border border-theme-border">
           <span className="text-[11px] font-semibold text-theme-muted uppercase tracking-wider">Overall Attendance</span>
-          <div className="text-2xl font-extrabold text-theme-accent mt-1">{s.overall_attendance}%</div>
+          <div className="text-2xl font-extrabold text-theme-accent mt-1">{overallAtt}%</div>
           <span className="text-xs text-theme-muted">Threshold: 75% required</span>
         </div>
         <div className="panel p-5 rounded-xl border border-theme-border">
           <span className="text-[11px] font-semibold text-theme-muted uppercase tracking-wider">Classes Attended</span>
-          <div className="text-2xl font-extrabold text-emerald-400 mt-1">{s.classes_attended}</div>
-          <span className="text-xs text-theme-muted">Across 5 subjects</span>
+          <div className="text-2xl font-extrabold text-emerald-400 mt-1">{classesAttended}</div>
+          <span className="text-xs text-theme-muted">Across {subAttendanceList.length} subjects</span>
         </div>
         <div className="panel p-5 rounded-xl border border-theme-border">
           <span className="text-[11px] font-semibold text-theme-muted uppercase tracking-wider">Classes Conducted</span>
-          <div className="text-2xl font-extrabold text-theme-text mt-1">{s.classes_conducted}</div>
+          <div className="text-2xl font-extrabold text-theme-text mt-1">{classesConducted}</div>
           <span className="text-xs text-theme-muted">Semester to date</span>
         </div>
         <div className="panel p-5 rounded-xl border border-theme-border">
           <span className="text-[11px] font-semibold text-theme-muted uppercase tracking-wider">Classes Missed</span>
-          <div className="text-2xl font-extrabold text-red-400 mt-1">{s.classes_conducted - s.classes_attended}</div>
-          <span className="text-xs text-theme-muted">26 absences total</span>
+          <div className="text-2xl font-extrabold text-red-400 mt-1">{Math.max(0, classesConducted - classesAttended)}</div>
+          <span className="text-xs text-theme-muted">{Math.max(0, classesConducted - classesAttended)} absences total</span>
         </div>
       </div>
 
       {/* Low attendance warning box if any subject < 75 */}
-      <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/30 flex items-start gap-3">
-        <AlertTriangle className="w-5 h-5 text-red-400 shrink-0 mt-0.5" />
-        <div className="flex-1">
-          <h4 className="text-sm font-bold text-red-400">Action Required: Low Attendance Subjects</h4>
-          <p className="text-xs text-theme-muted mt-1 leading-relaxed">
-            You are below the mandatory 75% threshold in <strong className="text-red-400">Computer Networks (71%)</strong> and <strong className="text-red-400">Software Engineering (71%)</strong>.
-            You must attend approximately <strong>4 consecutive classes</strong> in each subject without absence to restore safe standing.
-          </p>
+      {subAttendanceList.some(sub => sub.pct < 75) ? (
+        <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/30 flex items-start gap-3">
+          <AlertTriangle className="w-5 h-5 text-red-400 shrink-0 mt-0.5" />
+          <div className="flex-1">
+            <h4 className="text-sm font-bold text-red-400">Action Required: Low Attendance Subjects</h4>
+            <p className="text-xs text-theme-muted mt-1 leading-relaxed">
+              You are below the mandatory 75% threshold in{' '}
+              {subAttendanceList
+                .filter(sub => sub.pct < 75)
+                .map((sub, idx, arr) => (
+                  <span key={sub.subject}>
+                    <strong className="text-red-400">{sub.subject} ({sub.pct}%)</strong>
+                    {idx < arr.length - 1 ? ', ' : ''}
+                  </span>
+                ))}.
+              You must attend scheduled lectures without absence to restore safe standing.
+            </p>
+          </div>
         </div>
-      </div>
+      ) : (
+        <div className="p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-start gap-3">
+          <CheckCircle className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
+          <div className="flex-1">
+            <h4 className="text-sm font-bold text-emerald-400">Safe Attendance Standing</h4>
+            <p className="text-xs text-theme-muted mt-1 leading-relaxed">
+              All of your enrolled subjects are currently above the mandatory 75% attendance threshold. Keep up the consistent presence!
+            </p>
+          </div>
+        </div>
+      )}
 
       {/* Subject-wise Table + Subject Filter */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -277,17 +303,33 @@ export function StudentAttendancePage() {
             <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded bg-theme-secondary border border-theme-border" /> Holiday</span>
           </div>
 
-          {selectedDate && DAY_LECTURES[selectedDate] && (
-            <div className="panel-raised p-3.5 rounded-xl border border-theme-border space-y-1.5">
-              <span className="text-xs font-bold text-theme-accent block mb-1">Lectures on {selectedDate}:</span>
-              {DAY_LECTURES[selectedDate].map((lec, idx) => (
-                <div key={idx} className="flex justify-between text-xs py-0.5">
-                  <span className="text-theme-text">{lec.time} · {lec.subject} ({lec.faculty})</span>
-                  <span className={`font-bold ${lec.status === 'Present' ? 'text-emerald-400' : 'text-red-400'}`}>{lec.status}</span>
-                </div>
-              ))}
-            </div>
-          )}
+          {selectedDate && (() => {
+            const status = ATTENDANCE_CALENDAR_OCT[selectedDate];
+            if (!status || status === 'holiday') return null;
+            const timeSlots = ['9:00–10:00', '10:00–11:00', '11:15–12:15'];
+            const dayLectures = (s.subjects || []).slice(0, 3).map((sub, idx) => ({
+              time: timeSlots[idx] || '9:00–10:00',
+              subject: sub.name,
+              faculty: sub.faculty,
+              status: status === 'absent'
+                ? ('Absent' as const)
+                : status === 'partial' && idx === 2
+                ? ('Absent' as const)
+                : ('Present' as const),
+            }));
+
+            return (
+              <div className="panel-raised p-3.5 rounded-xl border border-theme-border space-y-1.5">
+                <span className="text-xs font-bold text-theme-accent block mb-1">Lectures on {selectedDate}:</span>
+                {dayLectures.map((lec, idx) => (
+                  <div key={idx} className="flex justify-between text-xs py-0.5">
+                    <span className="text-theme-text">{lec.time} · {lec.subject} ({lec.faculty})</span>
+                    <span className={`font-bold ${lec.status === 'Present' ? 'text-emerald-400' : 'text-red-400'}`}>{lec.status}</span>
+                  </div>
+                ))}
+              </div>
+            );
+          })()}
         </div>
       </div>
     </div>

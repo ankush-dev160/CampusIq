@@ -1,5 +1,5 @@
 /**
- * Firebase & Firestore Database Integration for EduPulse AI
+ * Firebase & Firestore Database Integration for CampusIQ
  *
  * Configured for project: "details-of-student"
  * Includes Cloud Firestore, Realtime Database, and Analytics.

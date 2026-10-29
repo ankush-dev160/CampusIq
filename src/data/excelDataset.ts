@@ -31,7 +31,14 @@ export function mapExcelRowsToUnifiedStudents(rows: ExcelStudentRow[]): UnifiedS
     const student_id = String(r['Student ID'] || `STU${String(index + 1).padStart(3, '0')}`).trim();
     const name = String(r['Full Name'] || 'Unknown Student').trim();
     const email = String(r['Email'] || `${student_id.toLowerCase()}@example.com`).trim();
-    const department = (r['Course'] ? String(r['Course']).trim() : 'General Studies') as Department;
+    const rawCourse = r['Course'] ? String(r['Course']).trim() : 'Computer Science';
+    const department: Department =
+      rawCourse === 'Computer Science' || rawCourse.includes('CSE') || rawCourse.includes('Computer') ? 'Computer Science' :
+      rawCourse === 'Information Technology' || rawCourse.includes('IT') ? 'Information Technology' :
+      rawCourse === 'Electronics & Comm.' || rawCourse.includes('ECE') || rawCourse.includes('Electronics') ? 'Electronics & Comm.' :
+      rawCourse === 'Mechanical Eng.' || rawCourse.includes('ME') || rawCourse.includes('Mechanical') ? 'Mechanical Eng.' :
+      rawCourse === 'Civil Eng.' || rawCourse.includes('CE') || rawCourse.includes('Civil') ? 'Civil Eng.' :
+      (rawCourse as Department);
 
     // Academic Year
     const rawYear = Number(r['Year of Study']);

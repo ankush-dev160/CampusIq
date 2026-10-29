@@ -1,5 +1,5 @@
 /**
- * Firebase Client Integration for EduPulse AI
+ * Firebase Client Integration for CampusIQ
  * Configured for project: "details-of-student"
  *
  * Features:

@@ -21,20 +21,19 @@ import { useCurrentUser } from '../context/CurrentUserContext';
 import { ThemeSwitcher } from '../components/common/ThemeSwitcher';
 
 interface LoginPageProps {
-  onSelectRole: (role: PortalRole, email: string) => void;
+  onSelectRole?: (role: PortalRole, email: string) => void;
   onBackToHome?: () => void;
   initialRole?: PortalRole;
 }
 
 export const LoginPage: React.FC<LoginPageProps> = ({
-  onSelectRole,
   onBackToHome,
   initialRole,
 }) => {
   const { login, isBackendConnected } = useCurrentUser();
   const [selectedRoleCard, setSelectedRoleCard] = useState<PortalRole>(initialRole || 'student');
-  const [email, setEmail] = useState('ganesh.sharma22@edupulse.edu');
-  const [password, setPassword] = useState('demo-password-2025');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [rememberMe, setRememberMe] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
@@ -44,16 +43,8 @@ export const LoginPage: React.FC<LoginPageProps> = ({
   const handleRoleCardSelect = (role: PortalRole) => {
     setSelectedRoleCard(role);
     setErrorMessage(null);
-    if (role === 'student') {
-      setEmail('ganesh.sharma22@edupulse.edu');
-      setPassword('student-demo-pass');
-    } else if (role === 'faculty') {
-      setEmail('priya.menon@edupulse.edu');
-      setPassword('faculty-demo-pass');
-    } else if (role === 'admin') {
-      setEmail('dean.analytics@edupulse.edu');
-      setPassword('admin-demo-pass');
-    }
+    setEmail('');
+    setPassword('');
   };
 
   const handleSignInSubmit = async (e: React.FormEvent) => {
@@ -62,11 +53,13 @@ export const LoginPage: React.FC<LoginPageProps> = ({
 
     // Basic inline validation
     if (!email.trim()) {
-      setErrorMessage('Please enter your institutional email address.');
-      return;
-    }
-    if (!email.includes('@')) {
-      setErrorMessage('Please enter a valid academic email address.');
+      setErrorMessage(
+        selectedRoleCard === 'student'
+          ? 'Please enter a student name, roll number, or institutional email.'
+          : selectedRoleCard === 'faculty'
+          ? 'Please enter a faculty name or institutional email.'
+          : 'Please enter your administrator institutional email.'
+      );
       return;
     }
     if (!password.trim()) {
@@ -90,7 +83,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({
       icon: <GraduationCap className="w-5 h-5 text-blue-400" />,
       badge: 'Learner Access',
       description: 'Track your progress, attendance, and academic goals with explainable success breakdowns.',
-      demoAccount: 'ganesh.sharma22@edupulse.edu',
+      demoAccount: 'ganesh.sharma22@campusiq.edu',
     },
     {
       id: 'faculty' as PortalRole,
@@ -98,7 +91,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({
       icon: <Users className="w-5 h-5 text-cyan-400" />,
       badge: 'Academic Staff',
       description: 'Understand student performance, mark class attendance, and provide timely interventions.',
-      demoAccount: 'priya.menon@edupulse.edu',
+      demoAccount: 'priya.menon@campusiq.edu',
     },
     {
       id: 'admin' as PortalRole,
@@ -106,7 +99,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({
       icon: <Shield className="w-5 h-5 text-emerald-400" />,
       badge: 'Campus Leadership',
       description: 'Explore institutional analytics, student intelligence, cohort segments, and CSV imports.',
-      demoAccount: 'dean.analytics@edupulse.edu',
+      demoAccount: 'dean.analytics@campusiq.edu',
     },
   ];
 
@@ -183,7 +176,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({
                 <span>Campus Authentication</span>
               </div>
               <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-theme-text">
-                Welcome to EduPulse
+                Welcome to CampusIQ
               </h1>
               <p className="text-xs sm:text-sm text-theme-muted">
                 Sign in to turn campus insights into explainable student success.
@@ -244,16 +237,35 @@ export const LoginPage: React.FC<LoginPageProps> = ({
             {/* Sign In Form */}
             <form onSubmit={handleSignInSubmit} className="space-y-4">
               <div>
-                <label className="text-xs font-semibold text-theme-text block mb-1.5">
-                  Academic Email Address
+                <label className="text-xs font-semibold text-theme-text mb-1.5 flex items-center justify-between">
+                  <span>
+                    {selectedRoleCard === 'student'
+                      ? 'Student Name, Roll No, or Email'
+                      : selectedRoleCard === 'faculty'
+                      ? 'Faculty Name or Institutional Email'
+                      : 'Administrator Institutional Email'}
+                  </span>
+                  <span className="text-[10px] text-theme-muted font-normal">
+                    {selectedRoleCard === 'student'
+                      ? '100 Students in Database'
+                      : selectedRoleCard === 'faculty'
+                      ? '10 Faculty Available'
+                      : ''}
+                  </span>
                 </label>
                 <div className="relative">
                   <Mail className="w-4 h-4 text-theme-muted absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" />
                   <input
-                    type="email"
+                    type="text"
                     value={email}
                     onChange={e => setEmail(e.target.value)}
-                    placeholder="e.g. ganesh.sharma22@edupulse.edu"
+                    placeholder={
+                      selectedRoleCard === 'student'
+                        ? 'e.g. Ankush Sonkar, Aryan Gupta, 2023CSE001, or email'
+                        : selectedRoleCard === 'faculty'
+                        ? 'e.g. Dr. Priya Menon, Prof. Harish Verma, or email'
+                        : 'dean.analytics@campusiq.edu'
+                    }
                     className="w-full bg-theme-secondary border border-theme-border rounded-xl pl-10 pr-4 py-2.5 text-xs text-theme-text placeholder-theme-muted focus:outline-none focus:border-theme-accent focus:ring-1 focus:ring-theme-accent/30 transition"
                   />
                 </div>
@@ -328,41 +340,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({
               </button>
             </form>
 
-            {/* Divider */}
-            <div className="relative my-6 text-center">
-              <div className="absolute inset-0 flex items-center">
-                <div className="w-full border-t border-theme-border" />
-              </div>
-              <span className="relative px-3 bg-theme-surface text-[10px] uppercase tracking-wider text-theme-muted font-bold">
-                Or Continue Directly Via One-Click Role
-              </span>
-            </div>
 
-            {/* Direct Instant Role Cards */}
-            <div className="space-y-2">
-              <div className="text-[11px] font-bold text-theme-muted uppercase tracking-wider">
-                Continue to Your Portal
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
-                {roles.map(r => (
-                  <button
-                    key={r.id}
-                    onClick={() => onSelectRole(r.id, r.demoAccount)}
-                    className="group p-3 rounded-xl border border-theme-border bg-theme-surface hover:bg-theme-secondary hover:border-theme-accent/50 transition-all text-left flex flex-col justify-between"
-                  >
-                    <div className="flex items-center gap-2 mb-1">
-                      {r.icon}
-                      <span className="text-xs font-bold text-theme-text group-hover:text-theme-accent transition">
-                        {r.title}
-                      </span>
-                    </div>
-                    <p className="text-[10px] text-theme-muted line-clamp-2 leading-relaxed">
-                      {r.description}
-                    </p>
-                  </button>
-                ))}
-              </div>
-            </div>
           </div>
 
           {/* Collapsible Demo Access Credentials Box */}
@@ -391,19 +369,19 @@ export const LoginPage: React.FC<LoginPageProps> = ({
             {showDemoHelp && (
               <div className="pt-2 border-t border-theme-border grid grid-cols-1 sm:grid-cols-3 gap-2 text-[11px]">
                 <div className="p-2.5 rounded-lg bg-theme-secondary border border-theme-border">
-                  <div className="font-bold text-theme-text">Student Demo</div>
-                  <div className="text-theme-muted truncate">ganesh.sharma22@edupulse.edu</div>
-                  <div className="text-[10px] text-theme-accent mt-0.5">Role: CS 3rd Year</div>
+                  <div className="font-bold text-theme-text">Students (100 Available)</div>
+                  <div className="text-theme-muted truncate">Enter ANY student name (e.g. Ankush Sonkar, Aryan Gupta, Yash Sharma)</div>
+                  <div className="text-[10px] text-theme-accent mt-0.5">Loads their exact semester & subjects</div>
                 </div>
                 <div className="p-2.5 rounded-lg bg-theme-secondary border border-theme-border">
-                  <div className="font-bold text-theme-text">Faculty Demo</div>
-                  <div className="text-theme-muted truncate">priya.menon@edupulse.edu</div>
-                  <div className="text-[10px] text-theme-accent mt-0.5">Role: Course Coordinator</div>
+                  <div className="font-bold text-theme-text">Faculty (10 Available)</div>
+                  <div className="text-theme-muted truncate">Enter Dr. Priya Menon, Prof. Harish Verma, etc.</div>
+                  <div className="text-[10px] text-theme-accent mt-0.5">Faculty course coordinator cockpit</div>
                 </div>
                 <div className="p-2.5 rounded-lg bg-theme-secondary border border-theme-border">
-                  <div className="font-bold text-theme-text">Admin Demo</div>
-                  <div className="text-theme-muted truncate">dean.analytics@edupulse.edu</div>
-                  <div className="text-[10px] text-theme-accent mt-0.5">Role: College Executive</div>
+                  <div className="font-bold text-theme-text">Administrator</div>
+                  <div className="text-theme-muted truncate">dean.analytics@campusiq.edu</div>
+                  <div className="text-[10px] text-theme-accent mt-0.5">Institutional analytics & student roster</div>
                 </div>
               </div>
             )}
