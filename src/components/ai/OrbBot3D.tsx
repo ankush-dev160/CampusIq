@@ -388,7 +388,7 @@ export function OrbBot3D({ onNavigate }: OrbBot3DProps) {
 
   const containerRef = useRef<HTMLDivElement>(null);
   const chatBottomRef = useRef<HTMLDivElement>(null);
-  const streamIntervalRef = useRef<NodeJS.Timeout | null>(null);
+  const streamIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   // Cleanup active streaming interval on unmount
   useEffect(() => {

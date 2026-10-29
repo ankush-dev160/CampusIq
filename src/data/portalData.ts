@@ -59,12 +59,12 @@ export const DEMO_STUDENT = {
 
   // Current semester subjects
   subjects: [
-    { code: 'CS501', name: 'Machine Learning', faculty: 'Dr. Priya Menon', credits: 4, test1: 18, test2: 19, assignment: 9, practical: 24, internal_pct: 82, grade: 'A', status: 'Safe' as const },
-    { code: 'CS502', name: 'Computer Networks', faculty: 'Prof. Suresh Kumar', credits: 4, test1: 16, test2: 17, assignment: 8, practical: 22, internal_pct: 78, grade: 'B+', status: 'Safe' as const },
-    { code: 'CS503', name: 'Operating Systems', faculty: 'Dr. Anita Bose', credits: 4, test1: 20, test2: 19, assignment: 10, practical: 25, internal_pct: 86, grade: 'A', status: 'Safe' as const },
-    { code: 'CS504', name: 'Database Systems', faculty: 'Dr. Priya Menon', credits: 4, test1: 17, test2: 18, assignment: 9, practical: 23, internal_pct: 80, grade: 'A', status: 'Safe' as const },
-    { code: 'CS505', name: 'Software Engineering', faculty: 'Prof. Suresh Kumar', credits: 3, test1: 16, test2: 17, assignment: 8, practical: 21, internal_pct: 78, grade: 'B+', status: 'Safe' as const },
-  ],
+    { code: 'CS501', name: 'Machine Learning', faculty: 'Dr. Priya Menon', credits: 4, test1: 18, test2: 19, assignment: 9, practical: 24, internal_pct: 82, grade: 'A', status: 'Safe' },
+    { code: 'CS502', name: 'Computer Networks', faculty: 'Prof. Suresh Kumar', credits: 4, test1: 16, test2: 17, assignment: 8, practical: 22, internal_pct: 78, grade: 'B+', status: 'Safe' },
+    { code: 'CS503', name: 'Operating Systems', faculty: 'Dr. Anita Bose', credits: 4, test1: 20, test2: 19, assignment: 10, practical: 25, internal_pct: 86, grade: 'A', status: 'Safe' },
+    { code: 'CS504', name: 'Database Systems', faculty: 'Dr. Priya Menon', credits: 4, test1: 17, test2: 18, assignment: 9, practical: 23, internal_pct: 80, grade: 'A', status: 'Safe' },
+    { code: 'CS505', name: 'Software Engineering', faculty: 'Prof. Suresh Kumar', credits: 3, test1: 16, test2: 17, assignment: 8, practical: 21, internal_pct: 78, grade: 'B+', status: 'Safe' },
+  ] as SemesterSubject[],
 
   // Comprehensive semester-by-semester records
   semester_records: {

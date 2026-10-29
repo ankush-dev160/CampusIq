@@ -285,7 +285,7 @@ export function adaptUnifiedStudentToPortal(student: UnifiedStudent): PortalStud
   );
 
   // Build authentic semester records from Sem 1 up to currentSemNum
-  const sgpa_history: Array<{ semester: string; sgpa: number; credits?: number; attendance?: number }> = [];
+  const sgpa_history: Array<{ semester: string; sgpa: number; credits: number; attendance: number }> = [];
   const semester_records: Record<string, SemesterRecord> = {};
 
   for (let sNum = 1; sNum <= currentSemNum; sNum++) {

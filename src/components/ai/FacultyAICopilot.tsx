@@ -54,7 +54,7 @@ export function FacultyAICopilot() {
   ]);
 
   const chatBottomRef = useRef<HTMLDivElement>(null);
-  const streamIntervalRef = useRef<NodeJS.Timeout | null>(null);
+  const streamIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   // Fetch latest students from backend API on mount
   useEffect(() => {

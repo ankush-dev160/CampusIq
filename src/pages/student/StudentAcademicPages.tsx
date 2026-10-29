@@ -831,7 +831,7 @@ export function StudentDashboardPage({ onNavigate }: StudentDashboardProps) {
             ) : (
               <div className="lg:w-80 flex-shrink-0 p-3.5 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex flex-col justify-between">
                 <div className="flex items-start gap-2.5">
-                  <CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
                   <div className="text-[11px] text-emerald-300 leading-relaxed">
                     <strong className="text-emerald-400 font-bold block mb-0.5">Attendance Safe Standing</strong>
                     All enrolled subjects are currently above the mandatory 75% attendance cutoff. Good consistency!

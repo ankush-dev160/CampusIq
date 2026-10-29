@@ -62,7 +62,7 @@ export function queryCampusAnalyst(
     return {
       query,
       answerTitle: `Student Profile Record: ${matchedStudent.name} (${matchedStudent.student_id})`,
-      answerSummary: `${matchedStudent.name} is enrolled in ${matchedStudent.department}, Year ${matchedStudent.year}. Success Score: ${success.final_score ?? 'N/A'}/100. Academic Risk: ${acad.risk_level}. Placement Risk: ${place.risk_level}.`,
+      answerSummary: `${matchedStudent.name} is enrolled in ${matchedStudent.department}, ${matchedStudent.academic_year}. Success Score: ${success.final_score ?? 'N/A'}/100. Academic Risk: ${acad.risk_level}. Placement Risk: ${place.risk_level}.`,
       metrics: [
         { label: 'CGPA', value: typeof cgpa === 'number' ? cgpa.toFixed(2) : cgpa },
         { label: 'Attendance', value: typeof att === 'number' ? `${att}%` : att },
@@ -70,9 +70,9 @@ export function queryCampusAnalyst(
         { label: 'Success Score', value: `${success.final_score ?? 'N/A'}/100` },
       ],
       detailedBreakdown: [
-        `Academic Standing: ${acad.risk_level} Risk (Triggers: ${acad.triggers.join(', ') || 'None - Clean track'}).`,
-        `Placement Standing: ${place.risk_level} Risk (Triggers: ${place.triggers.join(', ') || 'Ready for campus drives'}).`,
-        `Continuous Assessments: Internal test average ${matchedStudent.academic.continuous_assessment_average ?? 'N/A'}%.`,
+        `Academic Standing: ${acad.risk_level} Risk (Triggers: ${(acad.evidence_summary?.length ? acad.evidence_summary.join(', ') : acad.triggered_rules?.map(r => r.rule_name).join(', ')) || 'None - Clean track'}).`,
+        `Placement Standing: ${place.risk_level} Risk (Triggers: ${(place.evidence_summary?.length ? place.evidence_summary.join(', ') : place.triggered_rules?.map(r => r.rule_name).join(', ')) || 'Ready for campus drives'}).`,
+        `Continuous Assessments: Internal marks average ${matchedStudent.academic.internal_marks ?? 'N/A'}%.`,
       ],
       suggestedAction: 'Click student record to open individual diagnostic drawer.',
       relatedStudentIds: [matchedStudent.student_id],
